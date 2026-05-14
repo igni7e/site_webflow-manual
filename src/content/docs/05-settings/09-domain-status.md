@@ -14,22 +14,22 @@ sidebar:
 
 ## 1. なぜ確認が必要なのか？
 
-独自ドメインは **DNS（ドメイン管理）会社** と **Webflow（ホスティング）** の間で連携設定されています。以下のような状況では設定が崩れることがあります：
+独自ドメインは <strong>DNS（ドメイン管理）会社</strong> と <strong>Webflow（ホスティング）</strong> の間で連携設定されています。以下のような状況では設定が崩れることがあります：
 
 - DNS 管理会社を引っ越した
 - ドメインの更新（年次更新）を忘れた
 - DNS の設定値が誤って変更された
 - SSL 証明書の自動更新に失敗した
 
-これらが発生すると **サイトが表示されなくなる** または **「保護されていない通信」警告** が出ます。
+これらが発生すると <strong>サイトが表示されなくなる</strong> または <strong>「保護されていない通信」警告</strong> が出ます。
 
 ## 2. 接続状態の確認手順
 
-1. Webflow にログイン → 対象サイトの **Project Settings** を開く
-2. 左メニューから **「Publishing」** タブを選択
-3. **「Production」** セクションを確認
-4. 接続済みドメインの右側に **緑のチェックマーク（Connected）** が表示されているか確認
-5. **「SSL」** ステータスが **「Active（有効）」** になっているか確認
+1. Webflow にログイン → 対象サイトの <strong>Project Settings</strong> を開く
+2. 左メニューから <strong>「Publishing」</strong> タブを選択
+3. <strong>「Production」</strong> セクションを確認
+4. 接続済みドメインの右側に <strong>緑のチェックマーク（Connected）</strong> が表示されているか確認
+5. <strong>「SSL」</strong> ステータスが <strong>「Active（有効）」</strong> になっているか確認
 
 ### 状態の見方
 
@@ -37,22 +37,22 @@ sidebar:
 |---|---|---|
 | 正常: Connected + SSL Active | 正常 | 何もしなくてOK |
 | 注意: Connected + SSL Pending | 接続OK、SSL発行待ち | 数時間後に再確認 |
-| 問題あり: Issues / Disconnected | DNS設定に問題 | 制作担当者にご連絡 |
+| 問題あり: Issues / Disconnected | DNS設定に問題 | [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から連絡 |
 
 ## 3. ドメインの有効期限を確認する
 
-Webflow 上では **ドメインの有効期限は確認できません**。ドメイン管理会社（お名前.com、ムームードメイン、Google Domains など）にログインして確認します。
+Webflow 上では <strong>ドメインの有効期限は確認できません</strong>。ドメイン管理会社（お名前.com、ムームードメイン、Google Domains など）にログインして確認します。
 
-> **ヒント**: **ドメインの有効期限切れ** は最も多い「サイトが急に見れなくなる」原因です。**自動更新の設定** を有効にしておきましょう。
+> <strong>ヒント</strong>: <strong>ドメインの有効期限切れ</strong> は最も多い「サイトが急に見れなくなる」原因です。<strong>自動更新の設定</strong> を有効にしておきましょう。
 
 ## 4. SSL 証明書の確認
 
-ブラウザで自社サイトを開き、URL バーに **鍵マーク** が表示されているか確認します。
+ブラウザで自社サイトを開き、URL バーに <strong>鍵マーク</strong> が表示されているか確認します。
 
 - 鍵マーク表示 → SSL 正常
 - 警告マーク表示 → SSL に問題あり（証明書期限切れなど）
 
-警告が出ている場合は **すぐに制作担当者にご連絡** ください。
+警告が出ている場合は <strong>すぐに [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご連絡</strong> ください。
 
 ## 5. 主要ブラウザでの表示確認
 
@@ -63,20 +63,32 @@ Webflow 上では **ドメインの有効期限は確認できません**。ド�
 - Microsoft Edge
 - Firefox
 
-特に **iPhone の Safari** で確認すると、SSL に問題がある場合に明確な警告が出ます。
+特に <strong>iPhone の Safari</strong> で確認すると、SSL に問題がある場合に明確な警告が出ます。
 
 ## 6. よくある質問 (Q&A)
 
-Q. 「Connected」なのにサイトが表示されません。
-A. ブラウザのキャッシュ、または DNS 反映の遅延の可能性があります。**スーパーリロード** と **時間を置いた再確認** を試してください。それでも復旧しない場合は制作担当者にご連絡を。
+<details>
+<summary>「Connected」なのにサイトが表示されません。</summary>
 
-Q. SSL の更新は自分でやる必要がありますか？
-A. Webflow がホスティングしている場合は **自動更新** されます。手動操作は不要です。
+ブラウザのキャッシュ、または DNS 反映の遅延の可能性があります。<strong>スーパーリロード</strong> と <strong>時間を置いた再確認</strong> を試してください。それでも復旧しない場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご連絡ください。
 
-Q. ドメインの「DNS設定」を変更したいです。
-A. **絶対に自分で操作しないでください**。誤った設定でサイトが見れなくなります。**必ず制作担当者にご相談** ください。
+</details>
+
+<details>
+<summary>SSL の更新は自分でやる必要がありますか？</summary>
+
+Webflow がホスティングしている場合は <strong>自動更新</strong> されます。手動操作は不要です。
+
+</details>
+
+<details>
+<summary>ドメインの「DNS設定」を変更したいです。</summary>
+
+<strong>絶対に自分で操作しないでください</strong>。誤った設定でサイトが見れなくなります。<strong>必ず [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご相談</strong> ください。
+
+</details>
 
 ---
 
-**次のステップ:**
+<strong>次のステップ:</strong>
 検索エンジンへの表示制御（sitemap・noindex）について学びましょう → 「検索エンジンの表示制御（sitemap・noindex）」

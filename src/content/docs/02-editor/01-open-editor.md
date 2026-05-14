@@ -8,7 +8,7 @@ sidebar:
 
 > 旧マニュアル番号: [No.9](/02-editor/01-open-editor/)
 
-ここからは、実際のサイト更新作業で最もよく使う **Content editor roleでの開き方** について解説します。
+ここからは、実際のサイト更新作業で最もよく使う <strong>Content editor roleでの開き方</strong> について解説します。
 
 従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。現在は、Webflowの中でContent editor roleとしてcanvasを開き、デザインを触らずにコンテンツだけを更新する流れが推奨されています。
 
@@ -18,32 +18,32 @@ sidebar:
 
 ログイン後の最初の画面である「Dashboard」から対象サイトを開く、最も基本的な方法です。
 
-1.  **Webflowにログイン:**
+1.  <strong>Webflowにログイン:</strong>
     「[No.3](/01-getting-started/03-first-login/)」で解説した手順で、まずはWebflowにログインします。
 
-2.  **ダッシュボードでサイトを選択:**
+2.  <strong>ダッシュボードでサイトを選択:</strong>
     ログインすると、編集権限のあるサイトが一覧表示された「ダッシュボード」が開きます。目的のサイトのサムネイル画像の上に、マウスカーソルを合わせます。
 
-3.  **「Open in Webflow」または案内された編集用ボタンをクリック:**
+3.  <strong>「Open in Webflow」または案内された編集用ボタンをクリック:</strong>
     カーソルを合わせると表示されるメニューの中から、制作担当者から案内された編集用ボタンをクリックします。Content editor roleが付与されている場合、デザイン編集ではなくコンテンツ編集に必要な範囲でWebflowを開けます。
 
     ![ダッシュボードからWebflowを開く](../../../assets/captures/editor-button.svg)
     *※画像はイメージです。*
 
-4.  **Webflowのcanvasでサイトが開く:**
+4.  <strong>Webflowのcanvasでサイトが開く:</strong>
     サイトの見た目を確認しながら、編集可能なテキスト、画像、リンク、CMSコンテンツを更新できます。
 
 ## 2. 方法2：`?update` で直接開く
 
 毎回Dashboardを経由せず、公開サイトの該当ページから直接Content editor roleの編集画面へ入る方法です。
 
-1.  **専用URLにアクセス:**
+1.  <strong>専用URLにアクセス:</strong>
     お使いのブラウザで、編集したいページのURL末尾に `?update` を付けます。
 
-    **例:**
+    <strong>例:</strong>
     `https://www.example.com/service/?update`
 
-2.  **ログイン:**
+2.  <strong>ログイン:</strong>
     まだログインしていない場合は、ログイン画面が表示されます。メールアドレスとパスワードを入力してログインしてください。
     すでにログイン済みの場合は、直接Webflowの編集画面が開きます。
 
@@ -58,5 +58,5 @@ Content editor roleで開けている場合、編集可能なテキスト、画�
 
 ---
 
-**次のステップ:**
+<strong>次のステップ:</strong>
 無事にWebflowを開くことができましたね。次はいよいよ、Content editor roleで「[No.10](/02-editor/02-edit-text/) サイトの文字を書き換える方法」を実践してみましょう。

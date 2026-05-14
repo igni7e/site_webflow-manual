@@ -7,9 +7,9 @@ sidebar:
 
 # Webflow更新作業の全体像
 
-このページは、Webflowで作られたWebサイトを更新する前に読む入口です。2026年現在、Webflowの日常更新は **Content editor role** を使い、Webflowのcanvas上で文章・画像・リンク・CMS記事を更新する流れが基本です。
+このページは、Webflowで作られたWebサイトを更新する前に読む入口です。2026年現在、Webflowの日常更新は <strong>Content editor role</strong> を使い、Webflowのcanvas上で文章・画像・リンク・CMS記事を更新する流れが基本です。
 
-従来の **Legacy Editor** は2026年8月4日から利用できなくなる予定です。公開版のこのマニュアルでは、古いEditor専用画面ではなく、Content editor roleを前提に説明します。
+従来の <strong>Legacy Editor</strong> は2026年8月4日から利用できなくなる予定です。公開版のこのマニュアルでは、古いEditor専用画面ではなく、Content editor roleを前提に説明します。
 
 ## 作業の流れ
 
@@ -55,9 +55,9 @@ Webflowの画面は英語で表示されることがあります。初めての�
 
 ## Content editor roleとDesignerの違い
 
-**Content editor role** は、完成済みのサイト上で文章・画像・リンク・CMS記事などを更新するための権限です。デザインやレイアウトを壊さずにコンテンツを更新できるよう、編集範囲が制限されています。
+<strong>Content editor role</strong> は、完成済みのサイト上で文章・画像・リンク・CMS記事などを更新するための権限です。デザインやレイアウトを壊さずにコンテンツを更新できるよう、編集範囲が制限されています。
 
-**Designer** は、レイアウト・スタイル・構造・多言語設定などを編集できる画面です。便利ですが、誤操作の影響が大きいため、必要な場合だけ使います。
+<strong>Designer</strong> は、レイアウト・スタイル・構造・多言語設定などを編集できる画面です。便利ですが、誤操作の影響が大きいため、必要な場合だけ使います。
 
 ## 公開前チェック
 

@@ -8,17 +8,17 @@ sidebar:
 
 > 旧マニュアル番号: なし
 
-Webflowの管理画面は英語で表示されることがあります。英語のままでも作業できますが、初めての方はボタン名や説明文で迷いやすいため、IGNITEでは **Webflow 日本語化 Chrome拡張機能** の利用をおすすめします。
+Webflowの管理画面は英語で表示されることがあります。英語のままでも作業できますが、初めての方はボタン名や説明文で迷いやすいため、IGNITEでは <strong>Webflow 日本語化 Chrome拡張機能</strong> の利用をおすすめします。
 
 このページでは、IGNITEが提供しているChrome拡張機能と、Chrome標準の翻訳機能の使い分けを説明します。
 
 ## まずおすすめ: Webflow 日本語化 Chrome拡張機能
 
-Webflowを継続的に使う担当者には、IGNITE提供のChrome拡張機能 **Webflow 日本語化** の利用がおすすめです。
+Webflowを継続的に使う担当者には、IGNITE提供のChrome拡張機能 <strong>Webflow 日本語化</strong> の利用がおすすめです。
 
 - [Webflow 日本語化 - Chrome Web Store](https://chromewebstore.google.com/detail/webflow-%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%8C%96/efenpjcceehojemnphkinocffloghhon)
 
-この拡張機能は、Webflowの管理画面UIを日本語に近づけるためのChrome拡張機能です。Chrome Web Store上では、発行元は **IGNITE Co., Ltd.** と表示されています。
+この拡張機能は、Webflowの管理画面UIを日本語に近づけるためのChrome拡張機能です。Chrome Web Store上では、発行元は <strong>IGNITE Co., Ltd.</strong> と表示されています。
 
 主に次の画面で使えます。
 
@@ -28,7 +28,7 @@ Webflowを継続的に使う担当者には、IGNITE提供のChrome拡張機能 
 - Site access
 - その他のWebflow管理画面
 
-> **ヒント**: Chromeのページ翻訳は画面全体を機械翻訳します。一方、Webflow 日本語化拡張機能はWebflow管理画面向けの翻訳辞書を使うため、日常的にWebflowを操作する場合はこちらの方が使いやすいです。
+> <strong>ヒント</strong>: Chromeのページ翻訳は画面全体を機械翻訳します。一方、Webflow 日本語化拡張機能はWebflow管理画面向けの翻訳辞書を使うため、日常的にWebflowを操作する場合はこちらの方が使いやすいです。
 
 ## インストール手順
 

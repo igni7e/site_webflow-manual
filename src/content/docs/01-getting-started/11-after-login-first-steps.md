@@ -8,7 +8,7 @@ sidebar:
 
 > 旧マニュアル番号: なし
 
-Webflowにログインした直後は、Dashboardにサイトのサムネイルや複数のボタンが表示されます。初めての方は、まず **Content editor roleでWebflowを開く** ことだけ覚えておけば大丈夫です。
+Webflowにログインした直後は、Dashboardにサイトのサムネイルや複数のボタンが表示されます。初めての方は、まず <strong>Content editor roleでWebflowを開く</strong> ことだけ覚えておけば大丈夫です。
 
 ## 最初に押すもの
 
@@ -34,8 +34,8 @@ Webflowにログインした直後は、Dashboardにサイトのサムネイル�
 
 ## 迷った時の判断
 
-- 文章・画像・リンクの更新なら **Content editor role**。
-- ブログ・お知らせなら **CMS** または **Collections**。
+- 文章・画像・リンクの更新なら <strong>Content editor role</strong>。
+- ブログ・お知らせなら <strong>CMS</strong> または <strong>Collections</strong>。
 - デザインやレイアウトの変更なら、作業前にIGNITEへ確認。
 - 公開に関わるボタンを押す前に、変更内容を確認。
 

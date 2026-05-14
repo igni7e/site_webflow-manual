@@ -16,7 +16,7 @@ sidebar:
 
 Webサイト制作会社は、お客様が更新する可能性のある箇所（お知らせ、ブログ、施工実績、事業内容の文章など）を、Content editor roleで安全に編集できるように設計しています。
 
-つまり、**お客様が「更新したいな」と思うであろう箇所のほとんどは、すでにContent editor roleで触れるように準備されている**のです。
+つまり、<strong>お客様が「更新したいな」と思うであろう箇所のほとんどは、すでにContent editor roleで触れるように準備されている</strong>のです。
 
 デザインの根幹に関わる部分（サイトの全体的なレイアウト、色、フォントの種類、ボタンのデザインなど）は、意図せず変更してブランドイメージを損なうことがないよう、Designerの領域で管理されています。これは、サイトの品質と統一感を保つための重要な仕組みです。
 
@@ -41,11 +41,11 @@ Designerのような構造編集を避けながら、目的の作業（文章の
 
 ## 4. まとめ
 
-- **日常の更新作業は、Content editor roleで進めます。**
-- **Content editor roleは「安全」「直感的」「スピーディー」に更新できる安心設計です。**
-- **Designerは必要な時だけ開き、まずはContent editor roleでの更新に慣れていきましょう。**
+- <strong>日常の更新作業は、Content editor roleで進めます。</strong>
+- <strong>Content editor roleは「安全」「直感的」「スピーディー」に更新できる安心設計です。</strong>
+- <strong>Designerは必要な時だけ開き、まずはContent editor roleでの更新に慣れていきましょう。</strong>
 
 ---
 
-**次のステップ:**
+<strong>次のステップ:</strong>
 ここからはいよいよ、具体的な更新作業の方法に入っていきます。まずは基本の「[No.9](/02-editor/01-open-editor/) 【基本】Content editor roleでWebflowを開く方法」からスタートです。

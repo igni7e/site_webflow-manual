@@ -23,7 +23,7 @@ Webflowの英語UIが不安な場合は、IGNITE提供の [Webflow 日本語化 
 | CMS | 記事やお知らせの管理機能 | ブログ、ニュース、導入事例などを追加する |
 | Site settings | サイト設定 | SEO、フォーム、ドメインなどを確認する |
 
-通常の更新では、まず **Dashboard** から対象サイトを選び、**Content editor role** でWebflowを開きます。**Designer** は影響範囲が大きいため、必要な時だけ開きます。
+通常の更新では、まず <strong>Dashboard</strong> から対象サイトを選び、<strong>Content editor role</strong> でWebflowを開きます。<strong>Designer</strong> は影響範囲が大きいため、必要な時だけ開きます。
 
 ## よく押すボタン
 
@@ -53,17 +53,17 @@ Webflowの英語UIが不安な場合は、IGNITE提供の [Webflow 日本語化 
 
 次の言葉が出たら、すぐに押さずに内容を確認してください。
 
-- **Publish**: 公開サイトに反映される操作です。
-- **Delete**: 削除操作です。元に戻せない場合があります。
-- **Archive**: 表示対象から外れる場合があります。
-- **Designer**: サイト構造やデザインを触れる画面です。
-- **Custom domain**: 本番公開用のドメインです。
+- <strong>Publish</strong>: 公開サイトに反映される操作です。
+- <strong>Delete</strong>: 削除操作です。元に戻せない場合があります。
+- <strong>Archive</strong>: 表示対象から外れる場合があります。
+- <strong>Designer</strong>: サイト構造やデザインを触れる画面です。
+- <strong>Custom domain</strong>: 本番公開用のドメインです。
 
 ## Webflow Universityでの考え方
 
-Webflowの最新ドキュメントでは、従来のLegacy Editorではなく **Content editor role** による編集が中心になっています。Content editor roleは、Designerのようにレイアウトやスタイルを変更せず、canvas上で文章・画像・CMSコンテンツを更新するための役割です。
+Webflowの最新ドキュメントでは、従来のLegacy Editorではなく <strong>Content editor role</strong> による編集が中心になっています。Content editor roleは、Designerのようにレイアウトやスタイルを変更せず、canvas上で文章・画像・CMSコンテンツを更新するための役割です。
 
-CMSは、記事やお知らせなどを **Collection** に保存し、1件ずつ **Collection item** として管理する仕組みです。ブログやニュースの更新では、この考え方を覚えておくと画面の意味が分かりやすくなります。
+CMSは、記事やお知らせなどを <strong>Collection</strong> に保存し、1件ずつ <strong>Collection item</strong> として管理する仕組みです。ブログやニュースの更新では、この考え方を覚えておくと画面の意味が分かりやすくなります。
 
 ## 次に進む
 

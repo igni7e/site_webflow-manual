@@ -18,21 +18,21 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 
 | 権限 | できること | 想定ユーザー |
 |---|---|---|
-| **Content editor** | テキスト、画像、リンク、CMS itemを更新 | クライアントの運用担当者 |
-| **Marketer** | コンポーネントを使ったページ作成やコンテンツ更新 | マーケティング担当者 |
-| **Reviewer** | 閲覧、コメント、レビュー | 承認担当者 |
-| **Designer** | レイアウト、スタイル、構造の編集 | 制作会社・上級担当者 |
-| **Site manager** | サイト設定、権限、公開、契約に近い管理 | 管理者 |
+| <strong>Content editor</strong> | テキスト、画像、リンク、CMS itemを更新 | クライアントの運用担当者 |
+| <strong>Marketer</strong> | コンポーネントを使ったページ作成やコンテンツ更新 | マーケティング担当者 |
+| <strong>Reviewer</strong> | 閲覧、コメント、レビュー | 承認担当者 |
+| <strong>Designer</strong> | レイアウト、スタイル、構造の編集 | 制作会社・上級担当者 |
+| <strong>Site manager</strong> | サイト設定、権限、公開、契約に近い管理 | 管理者 |
 
-> **ヒント**: 通常のクライアント運用は **Content editor** が基本です。ページ制作まで任せる場合は Marketer、確認だけなら Reviewer を検討します。DesignerやSite managerは影響範囲が大きいため、必要な人だけに限定します。
+> <strong>ヒント</strong>: 通常のクライアント運用は <strong>Content editor</strong> が基本です。ページ制作まで任せる場合は Marketer、確認だけなら Reviewer を検討します。DesignerやSite managerは影響範囲が大きいため、必要な人だけに限定します。
 
 ## 2. Content editorを招待する手順
 
 1. Webflowにログインし、WorkspaceのTeam settingsまたは対象サイトのSite accessを開きます。
-2. **Invite member** または **Invite client** を選びます。
+2. <strong>Invite member</strong> または <strong>Invite client</strong> を選びます。
 3. 招待相手のメールアドレスを入力します。
-4. SeatとSite roleで **Content editor** を選びます。
-5. 必要に応じて **Can publish** をオンまたはオフにします。
+4. SeatとSite roleで <strong>Content editor</strong> を選びます。
+5. 必要に応じて <strong>Can publish</strong> をオンまたはオフにします。
 6. 内容を確認して招待を送信します。
 
 招待された相手には Webflow から招待メールが届きます。受信側の操作は「招待メールを確認しよう」と同じ流れです。
@@ -44,7 +44,7 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 3. Site role、Site access、Can publishを見直します。
 4. 不要なメンバーはRemoveします。
 
-退職者など、サイト編集権限を持たせるべきでないメンバーは **必ず削除** しましょう。
+退職者など、サイト編集権限を持たせるべきでないメンバーは <strong>必ず削除</strong> しましょう。
 
 ## 4. Seatと人数の考え方
 
@@ -54,29 +54,41 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 - Limited seatは、Content editorやMarketerなど限定的な役割を付与するSeatです。
 - 招待できる人数や料金はWorkspace planによって変わります。
 
-> **ヒント**: 人数上限や料金は変更されるため、招待前にWebflow公式の最新プランとWorkspace設定を確認してください。
+> <strong>ヒント</strong>: 人数上限や料金は変更されるため、招待前にWebflow公式の最新プランとWorkspace設定を確認してください。
 
 ## 5. 招待時のベストプラクティス
 
-- **個人の業務メールアドレス** を使う（共有メールは避ける）
-- **退職時は速やかに削除**
-- **本当に必要なメンバーのみ** に絞る
-- 通常更新は **Content editor** を基本にする
-- 公開権限が不要な人は **Can publishをオフ** にする
+- <strong>個人の業務メールアドレス</strong> を使う（共有メールは避ける）
+- <strong>退職時は速やかに削除</strong>
+- <strong>本当に必要なメンバーのみ</strong> に絞る
+- 通常更新は <strong>Content editor</strong> を基本にする
+- 公開権限が不要な人は <strong>Can publishをオフ</strong> にする
 - DesignerやSite managerは必要な人だけに限定する
 
 ## 6. よくある質問 (Q&A)
 
-Q. 招待メールが相手に届きません。
-A. 迷惑メールフォルダを確認してもらってください。それでも届かない場合は、Team settingsまたはSite accessから再送してください。
+<details>
+<summary>招待メールが相手に届きません。</summary>
 
-Q. 招待した相手のメールアドレスを変更したいです。
-A. 一度 **Remove して、新しいアドレスで再招待** してください。直接の変更機能はありません。
+迷惑メールフォルダを確認してもらってください。それでも届かない場合は、Team settingsまたはSite accessから再送してください。
 
-Q. 制作会社（IGNITE）の担当者は Designer 権限を持っていますか？
-A. サイトのメンテナンス・改修作業のために、必要に応じてDesignerまたは管理権限を保持します。運用担当者には、作業範囲に応じてContent editor、Marketer、ReviewerなどのSite roleを割り当てます。
+</details>
+
+<details>
+<summary>招待した相手のメールアドレスを変更したいです。</summary>
+
+一度 <strong>Remove して、新しいアドレスで再招待</strong> してください。直接の変更機能はありません。
+
+</details>
+
+<details>
+<summary>制作会社（IGNITE）の担当者は Designer 権限を持っていますか？</summary>
+
+サイトのメンテナンス・改修作業のために、必要に応じてDesignerまたは管理権限を保持します。運用担当者には、作業範囲に応じてContent editor、Marketer、ReviewerなどのSite roleを割り当てます。
+
+</details>
 
 ---
 
-**次のステップ:**
+<strong>次のステップ:</strong>
 独自ドメインがちゃんと接続されているか確認する方法を学びましょう → 「独自ドメインの接続状態を確認する」
