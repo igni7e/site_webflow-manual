@@ -43,8 +43,6 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 1. Webflow にログイン → 対象サイトの <strong>Project Settings</strong> を開く
 2. 左メニューから <strong>「Publishing」</strong> タブを選択
-
-![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
 *実画面例: Publishingでは、公開先ドメインや公開状態を確認します。ドメインやSSLの状態を見る時の入口です。*
 
 3. <strong>「Production」</strong> セクションを確認

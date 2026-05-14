@@ -45,8 +45,6 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 ## 2. Content editorを招待する手順
 
 1. Webflowにログインし、WorkspaceのTeam settingsまたは対象サイトのSite accessを開きます。
-
-   ![Webflow Site access画面](../../../assets/captures/webflow-booost-site-access.png)
    *実画面例: Site accessでは、サイトに入れるメンバーや権限を確認します。*
 
 2. <strong>Invite member</strong> または <strong>Invite client</strong> を選びます。

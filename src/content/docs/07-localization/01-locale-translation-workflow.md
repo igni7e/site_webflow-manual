@@ -26,8 +26,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 # Locale翻訳の基本手順
 
 Locale翻訳では、最初に「どの言語を編集しているか」を確認することが最も重要です。別のLocaleを選んだまま編集すると、意図しない言語の内容を変更してしまうことがあります。
-
-![Webflow DesignerでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: Locale翻訳では、ページの見た目だけでなく、現在選択しているLocaleも確認します。*
 
 ## 作業の流れ

@@ -26,8 +26,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 # 静的ページをLocaleごとに翻訳する
 
 トップページ、会社概要、サービスページのような固定ページは、対象Localeに切り替えてからページ上のテキストや画像を修正します。
-
-![Webflow DesignerでBooostトップページを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: 固定ページ翻訳では、見出し、本文、ボタン、ナビゲーションの文言を順番に確認します。*
 
 ## 作業手順

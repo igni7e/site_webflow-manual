@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: [No.4](/01-getting-started/04-bookmark-login/)
 
 Webサイトの更新作業を行うたびに、ログインページのURLを探したり入力したりするのは少し面倒です。そこで、お使いのブラウザの「ブックマーク（お気に入り）」機能を使って、ワンクリックでアクセスできるように設定しておくことを強くお勧めします。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: ブックマーク後も、ログインしたらDashboardから対象サイトを開きます。*
 
 ---

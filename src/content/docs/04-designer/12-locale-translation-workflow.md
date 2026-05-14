@@ -27,8 +27,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 Locale機能は重要度が高いため、Designer章の中の1ページではなく、独立した「E. Locale翻訳」セクションとして整理しました。
 
 以下のページから確認してください。
-
-![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: Locale翻訳はDesigner上で確認することがありますが、詳しい手順はEセクションで確認してください。*
 
 - [Locale翻訳の全体像](/07-localization/00-localization-overview/)

@@ -26,8 +26,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 新規追加（標準スコープ補完）
 
 「お問い合わせフォームから送信されたはずなのに、通知メールが届かない」というトラブルはよく発生します。多くの場合、<strong>迷惑メール判定</strong> か <strong>SPF/DKIM 認証の設定</strong> が原因です。
-
-![Webflow Forms画面](../../../assets/captures/webflow-booost-forms.png)
 *実画面例: 通知メールの確認は、対象サイトのForms画面から始めます。*
 
 ---

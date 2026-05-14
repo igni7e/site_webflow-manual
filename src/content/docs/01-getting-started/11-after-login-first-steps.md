@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: なし
 
 Webflowにログインした直後は、Dashboardにサイトのサムネイルや複数のボタンが表示されます。初めての方は、まず <strong>Content editor roleでWebflowを開く</strong> ことだけ覚えておけば大丈夫です。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: ログイン直後のDashboardでは、対象サイトのカードと開くボタンを確認します。*
 
 ## 最初に押すもの

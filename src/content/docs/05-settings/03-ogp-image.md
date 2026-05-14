@@ -45,8 +45,6 @@ OGPは、WebページがSNSでシェアされた時に、どのように表示�
 ## 2. OGP画像を設定する場所
 
 OGP画像の設定場所は、ページのSEO設定と同じ場所にあります。
-
-![Webflow SEO設定画面](../../../assets/captures/webflow-booost-seo.png)
 *実画面例: SEOやSNS表示に関わる設定を確認する入口です。OGP画像はページ設定またはCMS itemのOpen Graph Settingsで確認します。*
 
 ### 静的ページ（トップページ、会社概要など）の場合

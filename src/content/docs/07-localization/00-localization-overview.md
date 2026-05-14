@@ -27,8 +27,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 Webflowの <strong>Localization</strong> は、1つのWebflowサイトの中で複数言語・複数地域向けのページを管理する機能です。IGNITEで多言語サイトを制作している場合、英語ページや日本語ページは、この <strong>Locale</strong> 機能を使って翻訳・修正していることがあります。
 
 このセクションでは、「Localeはどう追加するのか」「翻訳はどこから入れるのか」「CMS記事はどう翻訳するのか」「公開サイトへどう反映するのか」「SEOや言語切り替えは何を確認するのか」を順番に説明します。
-
-![Webflow DesignerでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: Booostのような多言語サイトでは、表示中の言語や公開状態を確認しながら翻訳を扱います。*
 
 > <strong>注意</strong>: Locale設定、公開設定、URL構造、SEOに関わる作業は影響範囲が大きいです。既存サイトで新しい言語を追加したい場合や、公開中の言語URLを変えたい場合は、自己判断で進めずIGNITEへ相談してください。

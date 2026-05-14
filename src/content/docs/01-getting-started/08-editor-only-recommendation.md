@@ -25,8 +25,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 > 旧マニュアル番号: [No.8](/01-getting-started/08-editor-only-recommendation/)
 
 前のマニュアルでContent editor roleとDesignerの大きな違いについて学びました。このページでは、なぜ日常更新はContent editor roleで十分なのか、そしてContent editor roleを使うことのメリットを整理します。
-
-![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: Designerでは見た目だけでなく構造にも触れます。文章や画像の通常更新だけなら、Content editor roleを優先してください。*
 
 ---

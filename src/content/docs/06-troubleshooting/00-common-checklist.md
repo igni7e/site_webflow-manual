@@ -24,8 +24,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 # トラブル時にまず確認するチェックリスト
 
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
-
-![Webflow Site settingsの全体画面](../../../assets/captures/webflow-booost-general.png)
 *実画面例: 問題が起きた時は、Site settingsでForms、Publishing、Backupsなどの関連画面を確認します。*
 
 ## 英語画面で何を押せばよいか分からない

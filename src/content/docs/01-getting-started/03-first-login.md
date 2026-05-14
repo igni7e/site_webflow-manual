@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: [No.3](/01-getting-started/03-first-login/)
 
 アカウント作成とパスワード設定が完了したら、いよいよWebサイトの編集画面にログインします。ここでは、作成したアカウント情報を使って、Webflowにログインする手順を解説します。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: ログイン直後は、まずDashboardで対象サイト名を確認します。*
 
 ---

@@ -27,8 +27,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 Content editor roleは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための役割です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
 従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。
-
-![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: 実際のサイト画面を見ながら、対象の文章・画像・リンクを確認して更新します。*
 
 ## 作業全体の流れ

@@ -25,8 +25,6 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 # Locale翻訳を公開サイトに反映する方法
 
 Localeの翻訳は、DesignerやCMS上で編集しただけでは公開サイトに反映されません。対象Localeの公開設定とPublish対象を確認し、公開後に実際のURLで表示を確認します。
-
-![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
 *実画面例: 翻訳を公開サイトに反映する時は、Publish対象と公開後URLを確認します。*
 
 ## 反映前に確認すること

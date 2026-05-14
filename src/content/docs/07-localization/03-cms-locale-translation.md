@@ -27,8 +27,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 # CMS記事をLocaleごとに翻訳する
 
 ブログやお知らせは、CMS itemごとに翻訳します。Primary localeの内容がSecondary localeへ継承されることがありますが、Secondary locale側で上書きしたフィールドは独立して管理される場合があります。
-
-![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: CMS翻訳後は、記事詳細ページと一覧ページの両方で表示を確認します。*
 
 ## 作業手順

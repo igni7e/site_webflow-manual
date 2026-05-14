@@ -27,8 +27,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 Webflowの管理画面は英語で表示されることがあります。英語のままでも作業できますが、初めての方はボタン名や説明文で迷いやすいため、IGNITEでは <strong>Webflow 日本語化 Chrome拡張機能</strong> の利用をおすすめします。
 
 このページでは、IGNITEが提供しているChrome拡張機能と、Chrome標準の翻訳機能の使い分けを説明します。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: Webflowの英語メニューが分かりにくい場合は、DashboardやSite settingsの画面で翻訳補助を使うと確認しやすくなります。*
 
 ## まずおすすめ: Webflow 日本語化 Chrome拡張機能

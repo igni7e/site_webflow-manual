@@ -69,8 +69,6 @@ Webflow は <strong>sitemap.xml を自動生成</strong> します。確認す�
 サイトリニューアル中など、<strong>サイト全体を検索結果から外したい時</strong>：
 
 1. Project Settings → <strong>「SEO」</strong> タブを開く
-
-![Webflow SEO画面](../../../assets/captures/webflow-booost-seo.png)
 *実画面例: サイト全体の検索エンジン関連設定は、Site settingsのSEOから確認します。*
 
 2. <strong>「Disable Webflow subdomain indexing」</strong> をON
@@ -86,8 +84,6 @@ URLの末尾に `/robots.txt` を付けて確認できます：
 - 例: `https://example.com/robots.txt`
 
 カスタマイズが必要な場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から依頼してください。クライアント側での編集は推奨されません。
-
-![Webflow Custom code画面](../../../assets/captures/webflow-booost-custom-code.png)
 *実画面例: Custom codeは専門的な設定です。SEOタグや計測タグに関係することがあるため、通常は制作担当者に依頼してください。*
 
 ## 5. よくある「noindex」を使う場面

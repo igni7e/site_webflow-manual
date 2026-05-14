@@ -41,8 +41,6 @@ Google検索結果に表示される「ページの説明文（Meta Description�
 ## 2. ページの説明文を設定する場所
 
 「[No.47](/05-settings/01-seo-title/)」で解説した「ページのタイトル」と同様に、各ページのSEO関連設定は、サイト設定（Site Settings）またはページ設定（Page Settings）から行います。CMSアイテム（ブログ記事など）の場合は、CMSの編集画面から設定します。
-
-![Webflow SEO画面](../../../assets/captures/webflow-booost-seo.png)
 *実画面例: SEO関連の設定は、サイト全体の設定とページごとの設定があります。Meta Descriptionを変更する時は対象ページを間違えないようにします。*
 
 ### 静的ページ（トップページ、会社概要など）の場合

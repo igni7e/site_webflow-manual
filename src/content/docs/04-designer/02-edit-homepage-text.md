@@ -27,8 +27,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 <strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 通常、サイトの主要な文章はContent editor roleで編集できるように作られていますが、ごく稀に、CMSではない静的なページ（トップページや会社概要ページなど）の一部が、Content editor roleでは編集できない設定になっている場合があります。ここでは、そういった文章をデザイナーモードで修正する方法を解説します。
-
-![Webflow DesignerでBooostトップページを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: トップページの見出しや本文を確認し、変更対象のテキストだけを触ります。*
 
 ---

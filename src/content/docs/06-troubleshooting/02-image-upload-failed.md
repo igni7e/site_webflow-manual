@@ -25,8 +25,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 > 旧マニュアル番号: [No.54](/06-troubleshooting/02-image-upload-failed/)
 
 Webflowで画像をアップロードしようとした際に、エラーが表示されたり、いつまで経ってもアップロードが終わらなかったりすることがあります。ここでは、画像アップロードがうまくいかない主な原因と、それぞれの対処法を解説します。
-
-![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
 *実画面例: 画像トラブルでは、アップロード後に公開ページで粗さや見切れがないかも確認します。*
 
 ---

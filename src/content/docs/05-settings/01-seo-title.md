@@ -42,8 +42,6 @@ Webサイトの集客において、GoogleやYahoo!などの検索エンジン�
 ## 2. ページタイトルを設定する場所
 
 各ページのSEO関連設定は、デザイナーモードではなく、<strong>サイト設定（Site Settings）</strong>または<strong>ページ設定（Page Settings）</strong>から行います。CMSアイテム（ブログ記事など）の場合は、CMSの編集画面から設定します。
-
-![Webflow SEO設定画面](../../../assets/captures/webflow-booost-seo.png)
 *実画面例: Site settingsのSEO画面です。ページ単位のTitle Tagは、DesignerのPage SettingsやCMS item側で設定します。*
 
 ### 静的ページ（トップページ、会社概要など）の場合

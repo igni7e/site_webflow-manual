@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: [No.5](/01-getting-started/05-reset-password/)
 
 「パスワードを忘れてしまってログインできない！」そんな時でも、ご自身で簡単にパスワードを再設定（リセット）することができます。慌てずにこの手順に従って操作してください。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: パスワード再設定後にログインできると、Dashboardで対象サイトを確認できます。*
 
 ---

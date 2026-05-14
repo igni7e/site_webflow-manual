@@ -30,8 +30,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 新しいLocaleを追加すると、URL、公開範囲、言語切り替え、SEOに影響します。既存サイトで新しい言語を増やす場合は、自己判断で進めず、IGNITEまたは管理者に確認してから作業してください。
 
 > <strong>注意</strong>: Webflowでは最初に作成したLocaleがPrimary localeになります。あとからSecondary localeをPrimary localeへ変更することはできません。
-
-![Webflow Site settingsの全体画面](../../../assets/captures/webflow-booost-general.png)
 *実画面例: 新しいLocale追加はサイト全体に影響するため、事前にSite settingsや公開状態を確認します。*
 
 ## 追加前に決めること

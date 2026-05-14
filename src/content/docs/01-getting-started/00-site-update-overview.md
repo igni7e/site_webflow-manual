@@ -26,8 +26,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 このページは、Webflowで作られたWebサイトを更新する前に読む入口です。2026年現在、Webflowの日常更新は <strong>Content editor role</strong> を使い、Webflowのcanvas上で文章・画像・リンク・CMS記事を更新する流れが基本です。
 
 従来の <strong>Legacy Editor</strong> は2026年8月4日から利用できなくなる予定です。公開版のこのマニュアルでは、古いEditor専用画面ではなく、Content editor roleを前提に説明します。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: Webflowにログインすると、編集権限のあるサイトがDashboardに表示されます。まず対象サイトを間違えないことが重要です。*
 
 ## 作業の流れ

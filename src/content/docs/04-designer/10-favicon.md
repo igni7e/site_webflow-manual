@@ -25,8 +25,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 > 新規追加（標準スコープ補完）
 
 ブラウザのタブやブックマーク一覧に表示される <strong>小さなアイコン</strong> を「ファビコン（Favicon）」と呼びます。ブランディングの基本要素です。
-
-![Webflow General設定画面](../../../assets/captures/webflow-booost-general.png)
 *実画面例: faviconやサイト名などの基本設定は、Site settingsのGeneral周辺で確認することがあります。*
 
 ---

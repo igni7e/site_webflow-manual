@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: [No.2](/01-getting-started/02-create-account/)
 
 Webflowからの招待メールを確認したら、次はいよいよご自身の編集者アカウントを作成し、パスワードを設定します。この作業は初回のみ必要です。
-
-![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: アカウント作成後は、Dashboard上で参加しているWorkspaceと対象サイトを確認します。*
 
 ---

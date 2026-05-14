@@ -43,8 +43,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 
 3.  <strong>サイト設定画面を開く:</strong>
     クリックすると、そのサイトの概要や設定を行う画面が表示されます。左側のメニューの中から<strong>「Forms」</strong>（フォームのアイコン）をクリックします。
-
-    ![Webflow Forms画面](../../../assets/captures/webflow-booost-forms.png)
     *実画面例: 通知メール設定は、対象サイトのFormsから確認します。*
 
 4.  <strong>通知設定を変更したいフォームを選択:</strong>

@@ -25,8 +25,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 > 旧マニュアル番号: [No.53](/06-troubleshooting/01-cache-not-reflecting/)
 
 Webflowでサイトを更新し、「Publish」ボタンを押して公開したはずなのに、実際のサイトを見ても変更が反映されていない…という経験は、Webサイトの運用で非常によくある現象です。これは「キャッシュ」が原因である可能性が非常に高いです。
-
-![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
 *実画面例: 変更が反映されない時は、Publish対象のドメインや公開状態も確認します。*
 
 ---

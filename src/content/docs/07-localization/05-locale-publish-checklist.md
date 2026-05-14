@@ -26,8 +26,6 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 # Locale公開前チェックリスト
 
 Locale翻訳は、本文だけでなくURL、SEO、CMS、言語切り替えにも影響します。Publish前にこのチェックリストで確認してください。
-
-![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
 *実画面例: Locale公開前は、公開対象のドメインや公開状態を確認してからPublishします。*
 
 ## 作業前

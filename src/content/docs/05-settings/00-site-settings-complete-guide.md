@@ -26,15 +26,11 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 # フォーム回答・CSV・プラン変更の確認ガイド
 
 この章では、サイト運用でよく使う設定・確認作業をまとめます。特にお問い合わせフォームの回答確認、CSVダウンロード、公開前のプラン変更は、運用開始後によく必要になります。
-
-![Webflow Site settingsの全体画面](../../../assets/captures/webflow-booost-general.png)
 *実画面例: Site settingsでは、左側メニューからForms、SEO、Publishing、Backups、Plansなどを切り替えます。*
 
 ## フォーム回答を確認する
 
 Webflowのフォームに送信された内容は、サイト設定やフォーム関連メニューから確認できます。フォームが複数ある場合は、フォーム名を確認して対象を間違えないようにしてください。
-
-![Webflow Forms画面](../../../assets/captures/webflow-booost-forms.png)
 *実画面例: Formsでは、フォーム送信履歴や通知設定の確認に進みます。*
 
 詳しい手順は [No.50 お問い合わせフォームから連絡が来たか確認する方法](/05-settings/04-form-submissions/) を確認してください。
@@ -66,8 +62,6 @@ ExcelでCSVを直接開くと、日本語が文字化けすることがありま
 ## 公開前にプランを確認する
 
 Webflowサイトを独自ドメインで公開したり、CMSを使ったりする場合は、有料プランが必要になることがあります。プラン変更は料金が発生する作業のため、実行前に社内確認を済ませてください。
-
-![Webflow Plans画面](../../../assets/captures/webflow-booost-plans.png)
 *実画面例: Plansでは、現在のプランやアップグレード候補を確認します。料金に関わるため、実行前に社内確認が必要です。*
 
 一般的な流れ:
@@ -82,15 +76,11 @@ Webflowサイトを独自ドメインで公開したり、CMSを使ったりす�
 ## SEO・SNS表示も確認する
 
 公開前後には、検索結果やSNS共有で表示されるタイトル、説明文、OGP画像も確認します。
-
-![Webflow SEO画面](../../../assets/captures/webflow-booost-seo.png)
 *実画面例: SEO関連のサイト設定を確認する画面です。ページ単位のSEO設定とは別に、サイト全体の設定も確認できます。*
 
 ## 外部連携やカスタムコードは触らない
 
 Apps & IntegrationsやCustom codeは、計測タグ、外部ツール連携、フォーム連携などに関係することがあります。設定を変えると広告計測や問い合わせ通知に影響する可能性があるため、通常は制作担当者に依頼してください。
-
-![Webflow Apps & Integrations画面](../../../assets/captures/webflow-booost-integrations.png)
 *実画面例: 外部サービスとの連携を確認する画面です。連携解除や追加は影響が大きいため、自己判断で変更しないでください。*
 
 - [No.47 SEOタイトルを変更する](/05-settings/01-seo-title/)

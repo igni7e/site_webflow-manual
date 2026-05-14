@@ -38,8 +38,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 ## このマニュアルについて
 
 このマニュアルは、Webflow で構築されたサイトを <strong>非エンジニアのクライアント担当者</strong> が安全に更新できるよう、IGNITE が制作・公開している手順書です。基本操作からトラブル解決、Locale翻訳まで全 7 カテゴリで網羅しています。
-
-![Webflow Dashboardのサイト一覧](../../assets/captures/webflow-dashboard-sites.png)
 *実画面例: このマニュアルでは、Webflow Dashboardから対象サイトを開き、必要な画面へ進む流れを説明します。*
 
 ## 提供元と責任範囲
