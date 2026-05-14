@@ -10,7 +10,6 @@ sidebar:
 このページには、撮影後に以下のキャプチャーを入れてください。
 - E-19: `src/assets/captures/manual/e-19-publish-modal-locale.png`。Publish modalでLocale / domain確認。公開対象を間違えない構図
 - E-21: `src/assets/captures/manual/e-21-public-locale-switcher.png`。公開サイト上の言語切り替えUI。Japanese / Englishなど切替UIが見える
-- E-22: `src/assets/captures/manual/e-22-mobile-locale-check.png`。スマホ幅で翻訳ページを確認。見出し、CTA、ナビゲーションが崩れていない
 
 Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
 :::

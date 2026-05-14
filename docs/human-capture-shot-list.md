@@ -108,14 +108,4 @@
 
 ## 差し替え方針
 
-現在入っている汎用画像は、上記の専用キャプチャーに順次差し替えてください。
-
-| 現在の仮画像 | 差し替え先の例 |
-| --- | --- |
-| `webflow-dashboard-sites.png` | A-01、A-02 |
-| `webflow-booost-designer.png` | B-02〜B-06、C-07、D-01〜D-05、E-01〜E-06 |
-| `webflow-booost-general.png` | A-03、F-04、G-04 |
-| `webflow-booost-forms.png` | F-02、F-03 |
-| `webflow-booost-seo.png` | F-01、E-05 |
-| `webflow-booost-publishing.png` | F-05、E-06 |
-| `webflow-booost-backups.png` | G-01、G-02 |
+現在の本文には画像を表示しません。各ページのコールアウトを見ながら、撮影後に必要な画像だけを追加してください。

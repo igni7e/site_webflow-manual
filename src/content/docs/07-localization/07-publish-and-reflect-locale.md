@@ -78,7 +78,6 @@ Primary localeにはSubdirectoryが付かない構成もあります。サイト
 | E-19 | Publish modal | 公開対象のドメインとLocaleを確認している状態を撮影 |
 | E-20 | 公開後のLocale URL | `/en` など実際のLocale URLを開き、ブラウザのURL欄も含めて撮影 |
 | E-21 | Locale switcher | 公開サイト上で言語切り替えメニューを開いた状態を撮影 |
-| E-22 | スマートフォン表示 | 翻訳後の見出し、CTA、ナビゲーションが崩れていない状態を撮影 |
 
 ## 困った場合
 
