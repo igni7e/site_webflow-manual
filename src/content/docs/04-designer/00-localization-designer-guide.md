@@ -1,13 +1,34 @@
 ---
-title: Designerと多言語サイト修正ガイド
-description: Webflow Designerで多言語サイトや自動翻訳を修正するときの流れと注意点をまとめます。
+title: DesignerでLocale関連画面を触る前の注意
+description: Webflow DesignerでLocale関連画面を触る前に確認する注意点と、Eセクションへの案内をまとめます。
 sidebar:
   order: 0
 ---
 
-# Designerと多言語サイト修正ガイド
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-01-designer-opened.png` を入れてください。
+撮影対象: D-01「DesignerでBooostトップページを開いた状態」。左パネル、キャンバス、右パネル、上部バーが見える
 
-Designerは、Webflowサイトのデザイン、レイアウト、構造、多言語設定まで編集できる強力な画面です。Editorより自由度が高い一方で、誤操作の影響も大きいため、通常の文章・画像更新では使わず、必要な場合だけ使ってください。
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Locale確認]
+翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
+:::
+<!-- body-callout:end -->
+
+
+# DesignerでLocale関連画面を触る前の注意
+
+Designerは、Webflowサイトのデザイン、レイアウト、構造、Locale設定まで編集できる強力な画面です。Editorより自由度が高い一方で、誤操作の影響も大きいため、通常の文章・画像更新では使わず、必要な場合だけ使ってください。
+
+Locale翻訳の実作業は、独立した [E. Locale翻訳](/07-localization/00-localization-overview/) セクションで説明します。このページでは、Designer側でLocale関連画面を触る前の注意点だけ確認します。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: Locale関連の修正もDesigner上で確認することがあります。現在のLocaleと公開対象を確認してから作業します。*
 
 ## Designerを使う前の注意
 
@@ -19,35 +40,22 @@ Designerは、Webflowサイトのデザイン、レイアウト、構造、多�
 
 Designerの基本的な注意点は [No.38 Designerを開く時の注意点](/04-designer/01-designer-warning/) を先に確認してください。
 
-## 多言語修正の流れ
+## Locale関連作業の入口
 
 1. Webflowにログインし、対象サイトをDesignerで開きます。
-2. 画面上部のLocale selectorで修正したい言語を選びます。
-3. 静的テキストまたはCMSアイテムを開きます。
-4. 必要に応じて機械翻訳を実行します。
-5. 翻訳内容を人の目で確認し、自然な表現に直します。
-6. レイアウト崩れがないか確認します。
-7. 対象ドメインを選んでPublishします。
+2. 画面上部のLocale selectorで、今どのLocaleを見ているか確認します。
+3. Localeを追加するのか、既存翻訳を直すのか、CMS記事を翻訳するのかを決めます。
+4. 詳しい手順は [E. Locale翻訳](/07-localization/00-localization-overview/) に移動して確認します。
 
-Locale機能で翻訳を追加・修正する詳しい流れは、新しい [G. Locale翻訳](/07-localization/00-localization-overview/) セクションを確認してください。
+Locale機能で翻訳を追加・修正する詳しい流れは、[E. Locale翻訳](/07-localization/00-localization-overview/) セクションを確認してください。
 
-## 静的ページを翻訳・修正する
+## Designer側で特に注意すること
 
-ページ上の固定テキストを修正する場合は、対象Localeに切り替えてから該当テキストを編集します。機械翻訳は便利ですが、言い回し、固有名詞、専門用語が不自然になることがあるため、必ず確認してください。
-
-## CMS記事を翻訳・修正する
-
-ブログやお知らせなどのCMSアイテムは、CMSパネルから対象アイテムを開きます。Webflow LocalizationではCMSアイテムのフィールド単位で翻訳できる場合があります。`Translate all fields` を使う場合も、タイトル、本文、概要、画像alt、SEO項目を確認してください。
-
-## 翻訳後の確認項目
-
-- 意味が原文とずれていない
-- ブランド名や商品名が勝手に翻訳されていない
-- 専門用語の訳語が統一されている
-- ボタンの文字がはみ出していない
-- スマートフォン表示で改行が不自然になっていない
-- CMS一覧ページと詳細ページの両方で表示を確認した
-- 対象LocaleのURLで公開確認した
+- 今選んでいるLocaleを確認してから編集する
+- Primary localeとSecondary localeを混同しない
+- 新しいLocale追加やSubdirectory変更は自己判断で進めない
+- Translate実行前に、既に手動修正済みの翻訳がないか確認する
+- Publish前に対象Localeと公開ドメインを確認する
 
 ## よくあるトラブル
 
@@ -104,4 +112,4 @@ Designerはサイト構造や見た目に影響するため、変更範囲を決
 
 ## 次に進む
 
-Designerを開く場合は、先に [No.38 Designerを開く時の注意点](/04-designer/01-designer-warning/) を読んでから進んでください。
+Designerを開く場合は、先に [No.38 Designerを開く時の注意点](/04-designer/01-designer-warning/) を読んでから進んでください。Locale翻訳の具体的な操作は [E. Locale翻訳](/07-localization/00-localization-overview/) に進んでください。

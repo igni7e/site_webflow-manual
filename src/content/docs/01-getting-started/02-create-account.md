@@ -6,9 +6,28 @@ sidebar:
   label: "招待メールからアカウントを作成し、パスワードを設定する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-05-create-account-screen.png` を入れてください。
+撮影対象: A-05「招待リンク後のアカウント作成画面」。Full name、Password、Create accountが分かる状態。入力前の空欄で撮る
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::note[個人情報の取り扱い]
+フォーム送信内容や通知先メールアドレスには個人情報が含まれることがあります。画面共有やキャプチャーを送る時は、氏名、メールアドレス、問い合わせ本文が必要以上に写らないようにしてください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.2](/01-getting-started/02-create-account/)
 
 Webflowからの招待メールを確認したら、次はいよいよご自身の編集者アカウントを作成し、パスワードを設定します。この作業は初回のみ必要です。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: アカウント作成後は、Dashboard上で参加しているWorkspaceと対象サイトを確認します。*
 
 ---
 

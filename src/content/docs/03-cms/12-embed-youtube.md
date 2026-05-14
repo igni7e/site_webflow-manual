@@ -6,6 +6,22 @@ sidebar:
   label: "本文にYouTube動画を埋め込む方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-15-youtube-embed-url.png` を入れてください。
+撮影対象: C-15「YouTube埋め込みURL入力」。YouTube URLを貼る場所が分かる。実動画URLは公開OKのもの
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.28](/03-cms/12-embed-youtube/)
 
 商品紹介、サービスの解説、イベントのダイジェストなど、動画コンテンツは文章や画像だけでは伝えきれない多くの情報を伝えることができます。リッチテキストエディターを使えば、YouTubeなどにアップロードされた動画を、専門知識なしで簡単に記事内に埋め込むことができます。
@@ -25,8 +41,9 @@ sidebar:
 3.  <strong>URLをコピー:</strong>
     表示された共有ウィンドウにある「コピー」ボタンをクリックします。これで、この動画のURL（例: `https://youtu.be/xxxxxxxx`）がクリップボードにコピーされます。
 
-    ![YouTube共有URLコピー](../../../assets/captures/you-tube-share.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「YouTube共有URLコピー」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 ## 2. 動画を埋め込む手順
 

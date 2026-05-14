@@ -6,9 +6,28 @@ sidebar:
   label: "推奨ログインページをブックマーク（お気に入り）に登録しよう"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-07-bookmark-login-url.png` を入れてください。
+撮影対象: A-07「ブラウザでログインURLをブックマークする画面」。アドレスバーとブックマーク追加の流れが分かる状態。公開サイトURLは問題なければ表示
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[最初に見る場所]
+迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.4](/01-getting-started/04-bookmark-login/)
 
 Webサイトの更新作業を行うたびに、ログインページのURLを探したり入力したりするのは少し面倒です。そこで、お使いのブラウザの「ブックマーク（お気に入り）」機能を使って、ワンクリックでアクセスできるように設定しておくことを強くお勧めします。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: ブックマーク後も、ログインしたらDashboardから対象サイトを開きます。*
 
 ---
 

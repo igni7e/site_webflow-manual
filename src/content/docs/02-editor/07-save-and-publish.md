@@ -6,6 +6,22 @@ sidebar:
   label: "忘れずに！変更を保存してサイトに反映させる方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/b-09-publish-button-editor.png` を入れてください。
+撮影対象: B-09「Editor / Content editorのPublishボタン」。Publishボタン、保存状態、公開対象が分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[公開前チェック]
+Publishする前に、公開先ドメイン、変更したページ、スマートフォン表示、リンク先を確認します。公開後は一般の閲覧者に見えるため、少しでも不安があればスクリーンショットを撮って確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.15](/02-editor/07-save-and-publish/)
 
 <strong>このマニュアルは、エディターでの作業において最も重要な手順の一つです。</strong>
@@ -28,8 +44,9 @@ sidebar:
 2.  <strong>青い「Publish」ボタンをクリック:</strong>
     ツールバーの右側にある、青い<strong>「Publish」</strong>ボタンをクリックします。
 
-    ![Publishボタン](../../../assets/captures/publish-button.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「Publishボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 3.  <strong>公開内容と公開先の確認:</strong>
     公開前に、変更内容、公開対象のページ、公開先ドメインを確認します。本番ドメインに公開してよいか不安な場合は、制作担当者または管理者へ確認してください。

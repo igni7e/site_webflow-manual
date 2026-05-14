@@ -6,9 +6,28 @@ sidebar:
   label: "「スマホで見た時だけ表示が崩れています」どう伝えればいい？"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/g-03-mobile-broken-example.png` を入れてください。
+撮影対象: G-03「スマホ幅で表示崩れが分かる例」。端末幅と崩れ箇所が分かる。再現用のURLも控える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[問い合わせ前の準備]
+トラブル時は、対象URL、起きている現象、試した操作、スクリーンショットをまとめておくと原因確認が早くなります。保守契約済みの場合はGoogle Chatまたは担当者へ共有してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.55](/06-troubleshooting/03-mobile-display-broken/)
 
 Webサイトは、パソコンだけでなく、スマートフォンやタブレットなど様々なデバイスで閲覧されます。Webflowで制作されたサイトは、基本的にどのデバイスでも最適に表示されるように「レスポンシブデザイン」が採用されていますが、稀に特定のデバイスで表示が崩れることがあります。このような状況を制作会社に正確に伝えるためのポイントを解説します。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: 表示崩れを相談する時は、該当ページのURLと画面キャプチャーを一緒に送ると伝わりやすくなります。*
 
 ---
 

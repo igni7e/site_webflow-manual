@@ -5,11 +5,31 @@ sidebar:
   order: 0
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- B-01: `src/assets/captures/manual/b-01-open-content-editor.png`。Content editor roleで対象サイトを開く入口。Dashboardから編集画面へ入るボタンが分かる状態
+- B-02: `src/assets/captures/manual/b-02-editor-canvas-opened.png`。Content editorでサイトを開いた直後。上部バー、ページ画面、編集可能な雰囲気が分かる状態
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 # Content Editor入門：テキスト・画像・リンクを安全に更新する
 
 Content editor roleは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための役割です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
 従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: 実際のサイト画面を見ながら、対象の文章・画像・リンクを確認して更新します。*
 
 ## 作業全体の流れ
 

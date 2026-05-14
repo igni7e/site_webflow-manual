@@ -6,9 +6,28 @@ sidebar:
   label: "ページ内アンカーリンク"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/b-12-anchor-link-target-section.png` を入れてください。
+撮影対象: B-12「ページ内アンカーリンクの対象セクション」。セクションIDまたはリンク先見出しが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 長いページの中で、目次から各セクションへジャンプさせたい時や、CTA ボタンから「お問い合わせフォーム」までスクロールさせたい時に使うのが <strong>アンカーリンク</strong> です。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: アンカーリンクは、ページ内の見出しやセクション位置を確認しながら設定します。*
 
 ---
 

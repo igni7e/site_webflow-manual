@@ -6,11 +6,30 @@ sidebar:
   label: "英語画面を日本語で読む"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-09-chrome-translate-webflow.png` を入れてください。
+撮影対象: A-09「Chrome翻訳またはIGNITE拡張機能でWebflow画面を日本語化している画面」。拡張機能・翻訳メニュー・Webflow画面が同時に分かる状態
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[最初に見る場所]
+迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: なし
 
 Webflowの管理画面は英語で表示されることがあります。英語のままでも作業できますが、初めての方はボタン名や説明文で迷いやすいため、IGNITEでは <strong>Webflow 日本語化 Chrome拡張機能</strong> の利用をおすすめします。
 
 このページでは、IGNITEが提供しているChrome拡張機能と、Chrome標準の翻訳機能の使い分けを説明します。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: Webflowの英語メニューが分かりにくい場合は、DashboardやSite settingsの画面で翻訳補助を使うと確認しやすくなります。*
 
 ## まずおすすめ: Webflow 日本語化 Chrome拡張機能
 

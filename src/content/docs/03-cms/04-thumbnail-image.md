@@ -6,6 +6,22 @@ sidebar:
   label: "記事の「アイキャッチ画像（サムネイル）」を設定する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-07-thumbnail-field.png` を入れてください。
+撮影対象: C-07「サムネイル画像欄」。Thumbnail / Main image、Uploadが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.20](/03-cms/04-thumbnail-image/)
 
 「アイキャッチ画像」とは、ブログの一覧ページやSNSでシェアされた際に表示される、その記事の「顔」となる画像のことです。サムネイル画像とも呼ばれます。魅力的的なアイキャッチ画像は、記事のクリック率を大きく向上させる重要な要素です。
@@ -23,8 +39,9 @@ sidebar:
 
 CMSの入力フォームの中に、画像を設定するための専用フィールドがあります。通常、「<strong>Thumbnail Image</strong>」「<strong>Main Image</strong>」「<strong>アイキャッチ画像</strong>」といった名前が付いています。
 
-![アイキャッチ画像設定欄](../../../assets/captures/thumbnail-field.svg)
-*※画像はイメージです。*
+:::note[キャプチャー差し込み位置]
+ここには「アイキャッチ画像設定欄」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+:::
 
 「Click to upload an image」や、雲のマークが表示されているエリアが目印です。
 

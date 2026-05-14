@@ -2,12 +2,33 @@
 title: "静的ページをLocaleごとに翻訳する"
 description: "トップページや会社概要など、固定ページのテキスト・画像・リンクをLocaleごとに翻訳する方法を説明します。"
 sidebar:
-  order: 2
+  order: 3
 ---
+
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- E-10: `src/assets/captures/manual/e-10-static-text-selected.png`。固定ページのテキスト要素選択。翻訳対象テキストと選択状態が分かる
+- E-11: `src/assets/captures/manual/e-11-machine-translate-action.png`。機械翻訳操作。Translateボタンや候補が分かる
+- E-12: `src/assets/captures/manual/e-12-translated-static-page-check.png`。翻訳後の固定ページ表示確認。ボタンや見出しがはみ出していない
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Locale確認]
+翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
+:::
+<!-- body-callout:end -->
+
 
 # 静的ページをLocaleごとに翻訳する
 
 トップページ、会社概要、サービスページのような固定ページは、対象Localeに切り替えてからページ上のテキストや画像を修正します。
+
+![Webflow DesignerでBooostトップページを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: 固定ページ翻訳では、見出し、本文、ボタン、ナビゲーションの文言を順番に確認します。*
 
 ## 作業手順
 
@@ -18,6 +39,8 @@ sidebar:
 5. 見出し、本文、ボタン、リンクを確認します。
 6. 画像やaltテキストもLocaleに合っているか確認します。
 7. PC表示とスマートフォン表示を確認します。
+
+> <strong>キャプチャー指示</strong>: このページには、E-10「テキスト要素を選択」、E-11「機械翻訳の操作」、E-12「翻訳後の表示確認」を入れてください。見出し、本文、ボタンの3種類が見えるページをBOOSTサイトから選ぶと、初心者にも違いが伝わりやすくなります。
 
 ## 確認する場所
 
@@ -51,4 +74,3 @@ sidebar:
 ## 次に進む
 
 ブログやお知らせを翻訳する場合は [CMS記事をLocaleごとに翻訳する](/07-localization/03-cms-locale-translation/) を確認してください。
-

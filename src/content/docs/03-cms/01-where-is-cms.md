@@ -6,6 +6,23 @@ sidebar:
   label: "「お知らせ」や「ブログ」はどこで管理してるの？"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- C-01: `src/assets/captures/manual/c-01-cms-collections-entry.png`。Collections / CMS入口。左メニューやCollectionsタブが分かる
+- C-02: `src/assets/captures/manual/c-02-collection-list.png`。CMS Collection一覧。Blog、News、お知らせなど対象Collectionが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.17](/03-cms/01-where-is-cms/)
 
 Webサイトで頻繁に更新される「お知らせ」「ブログ」「導入事例」「よくある質問」といったコンテンツは、これまでのページ編集とは少し違う、特別な管理画面で一元管理されています。この仕組みを「CMS（コンテンツ・マネジメント・システム）」と呼びます。
@@ -59,8 +76,9 @@ CMSで記事を追加すると、記事詳細ページだけでなく、一覧�
 2.  <strong>画面下部ツールバーの「Collections」をクリック:</strong>
     画面下部の黒いツールバーの中に、<strong>「Collections」</strong>というタブがあります。これは「情報の集まり」を意味し、CMS機能のことを指します。この「Collections」タブをクリックしてください。
 
-    ![Collectionsタブ](../../../assets/captures/collections-tab.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「Collectionsタブ」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 3.  <strong>CMSアイテムの一覧（コレクションリスト）が表示される:</strong>
     クリックすると、画面の左側に、このサイトで管理されているCMSの一覧（例: `お知らせ`, `ブログ記事`, `導入事例`など）が表示されます。

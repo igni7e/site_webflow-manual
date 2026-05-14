@@ -2,12 +2,32 @@
 title: "LocaleごとのSEO・OGP確認"
 description: "翻訳ページのPage title、Meta description、Slug、OGP画像などをLocaleごとに確認する方法を説明します。"
 sidebar:
-  order: 4
+  order: 5
 ---
+
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- E-17: `src/assets/captures/manual/e-17-page-seo-locale.png`。LocaleごとのPage title / Meta description。対象LocaleのSEO欄が分かる
+- E-18: `src/assets/captures/manual/e-18-ogp-locale-settings.png`。LocaleごとのOGP設定。OGP title、description、imageが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[反映タイミングの目安]
+Webflow上で保存しても、Google検索結果やSNSのプレビューはすぐに変わらないことがあります。Webflowの公開確認と、検索エンジンやSNS側の反映確認は分けて考えると混乱しにくくなります。
+:::
+<!-- body-callout:end -->
+
 
 # LocaleごとのSEO・OGP確認
 
 翻訳ページでは、本文だけでなくSEO項目もLocaleごとに確認します。本文が自然でも、SEO項目がPrimary localeのままだと、検索結果やSNS共有で不自然に見えます。
+
+![Webflow SEO画面](../../../assets/captures/webflow-booost-seo.png)
+*実画面例: LocaleごとのSEOやOGPは、対象ページ・対象Localeを間違えずに確認します。*
 
 ## 確認する項目
 
@@ -20,6 +40,8 @@ sidebar:
 | Open Graph description | SNS向けの説明文になっているか |
 | OGP画像 | 言語・地域に合った画像か |
 | Image alt | 画像の説明が対象言語で入っているか |
+
+> <strong>キャプチャー指示</strong>: このページには、E-17「Page settingsのSEO欄」とE-18「OGP設定」を入れてください。Page title、Meta description、OGP title、OGP imageが1枚の中で読めるように、必要なら画面を縦長で撮影します。
 
 ## SEO翻訳で気をつけること
 
@@ -37,5 +59,4 @@ SlugはURLに影響します。公開済みページのSlugを変更すると、
 
 ## 次に進む
 
-公開前の最終確認には [Locale公開前チェックリスト](/07-localization/05-locale-publish-checklist/) を使ってください。
-
+翻訳を公開サイトへ反映する流れは [Locale翻訳を公開サイトに反映する方法](/07-localization/07-publish-and-reflect-locale/) を確認してください。公開前の最終確認には [Locale公開前チェックリスト](/07-localization/05-locale-publish-checklist/) を使ってください。

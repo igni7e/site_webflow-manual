@@ -6,6 +6,23 @@ sidebar:
   label: "エディターで画像を差し替える方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- B-07: `src/assets/captures/manual/b-07-image-replace-hover.png`。画像にカーソルを合わせて編集アイコンが出た状態。対象画像だけを選んでいることが分かる
+- B-08: `src/assets/captures/manual/b-08-image-upload-dialog.png`。画像アップロード・Replace画面。Upload、Replace、Choose imageが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.13](/02-editor/05-replace-image/)
 
 Webサイトの印象を大きく左右する「画像」。Content editor roleを使えば、専門知識がなくても既存の画像を新しいものに差し替えることができます。
@@ -30,8 +47,9 @@ Webサイトの印象を大きく左右する「画像」。Content editor role�
 3.  <strong>青い枠と画像アイコンを確認:</strong>
     編集可能な画像の場合、画像の周りに<strong>青い点線の枠</strong>が表示され、右上に<strong>写真のアイコン</strong>が現れます。これが「この画像は変更できますよ」という合図です。
 
-    ![画像編集の合図](../../../assets/captures/image-edit-icon.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「画像編集の合図」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 4.  <strong>画像アイコンをクリック:</strong>
     右上に表示された写真のアイコンをクリックします。

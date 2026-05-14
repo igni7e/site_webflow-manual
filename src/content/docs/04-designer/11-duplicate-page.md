@@ -6,9 +6,28 @@ sidebar:
   label: "ページの複製"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-11-duplicate-page-menu.png` を入れてください。
+撮影対象: D-11「Pagesパネルでページ複製メニュー」。Duplicate、ページ名、設定メニューが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Designer操作の注意]
+Designerはサイト全体の見た目や構造を変更できる画面です。小さな変更でも他のページに影響することがあるため、変更前後の画面を見比べながら慎重に進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「キャンペーンページの第2弾を作りたい」「サービスページに似た新しいページが欲しい」といった時、既存ページを <strong>複製</strong> することで、デザインを一から作らなくて済みます。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: ページ複製後は、複製元の文章やリンクが残っていないか、実際の画面で確認します。*
 
 ---
 

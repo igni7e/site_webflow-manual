@@ -6,6 +6,23 @@ sidebar:
   label: "「お問い合わせフォーム」から連絡が来たか確認する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- F-05: `src/assets/captures/manual/f-05-forms-list.png`。Site settings > Forms一覧。フォーム名、Submissions入口が分かる
+- F-06: `src/assets/captures/manual/f-06-form-submissions-list.png`。Form submissions一覧。個人情報は隠す。日時とフォーム名だけ分かればよい
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::note[個人情報の取り扱い]
+フォーム送信内容や通知先メールアドレスには個人情報が含まれることがあります。画面共有やキャプチャーを送る時は、氏名、メールアドレス、問い合わせ本文が必要以上に写らないようにしてください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.50](/05-settings/04-form-submissions/)
 
 Webサイトに設置された「お問い合わせフォーム」は、お客様からの連絡を受け付ける重要な窓口です。フォームから送信された内容は、通常、指定されたメールアドレスに通知されるだけでなく、Webflowの管理画面内にも記録として残ります。ここでは、Webflow上でフォームの送信履歴を確認する方法を解説します。
@@ -33,8 +50,12 @@ Webサイトに設置された「お問い合わせフォーム」は、お客�
 3.  <strong>サイト設定画面を開く:</strong>
     クリックすると、そのサイトの概要や設定を行う画面が表示されます。左側のメニューの中から<strong>「Forms」</strong>（フォームのアイコン）をクリックします。
 
-    ![フォームメニュー](../../../assets/captures/forms-menu.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「フォームメニュー」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
+
+    ![Webflow Forms画面の実例](../../../assets/captures/webflow-booost-forms.png)
+    *実画面例: 左側メニューでFormsを選ぶと、フォーム関連の設定や送信履歴の確認に進めます。*
 
 4.  <strong>フォーム送信履歴の一覧表示:</strong>
     「Forms」をクリックすると、そのサイトに設置されているフォームの一覧と、それぞれのフォームからの送信履歴（Submissions）が表示されます。

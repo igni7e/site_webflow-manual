@@ -6,11 +6,30 @@ sidebar:
   label: "デザイナーモードで「トップページの文章」を変える方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-02-edit-homepage-text.png` を入れてください。
+撮影対象: D-02「トップページ見出しテキストを選択している状態」。変更対象テキストだけを選んでいる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.39](/04-designer/02-edit-homepage-text/)
 
 <strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 通常、サイトの主要な文章はContent editor roleで編集できるように作られていますが、ごく稀に、CMSではない静的なページ（トップページや会社概要ページなど）の一部が、Content editor roleでは編集できない設定になっている場合があります。ここでは、そういった文章をデザイナーモードで修正する方法を解説します。
+
+![Webflow DesignerでBooostトップページを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: トップページの見出しや本文を確認し、変更対象のテキストだけを触ります。*
 
 ---
 

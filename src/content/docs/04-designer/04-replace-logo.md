@@ -6,11 +6,30 @@ sidebar:
   label: "デザイナーモードで「ロゴ画像」を差し替える方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-04-logo-selected.png` を入れてください。
+撮影対象: D-04「ロゴ画像を選択している状態」。ロゴ、選択枠、右パネルが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.41](/04-designer/04-replace-logo/)
 
 <strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 会社やサービスのロゴが新しくなった際に、サイトのヘッダー（上部）などに表示されているロゴ画像を差し替える方法です。画像を変更する操作は、テキストの修正よりも少し手順が複雑になります。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: ロゴはヘッダーなど共通パーツに入っていることが多いため、差し替え後は複数ページで確認します。*
 
 ---
 

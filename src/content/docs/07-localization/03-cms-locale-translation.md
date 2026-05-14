@@ -2,12 +2,34 @@
 title: "CMS記事をLocaleごとに翻訳する"
 description: "ブログ、お知らせ、導入事例などのCMS itemをLocaleごとに翻訳・確認する方法を説明します。"
 sidebar:
-  order: 3
+  order: 4
 ---
+
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- E-13: `src/assets/captures/manual/e-13-cms-collection-locale.png`。CMS Collection一覧とLocale切り替え。Collectionと対象Localeが同時に分かる
+- E-14: `src/assets/captures/manual/e-14-cms-item-locale-fields.png`。CMS item内のLocaleフィールド。Title、Body、SEOなどが見える
+- E-15: `src/assets/captures/manual/e-15-translate-all-fields.png`。Translate all fields操作。複数フィールド翻訳の入口
+- E-16: `src/assets/captures/manual/e-16-rich-text-locale-body.png`。Locale版Rich Text本文。翻訳済み本文、見出し、画像が分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Locale確認]
+翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
+:::
+<!-- body-callout:end -->
+
 
 # CMS記事をLocaleごとに翻訳する
 
 ブログやお知らせは、CMS itemごとに翻訳します。Primary localeの内容がSecondary localeへ継承されることがありますが、Secondary locale側で上書きしたフィールドは独立して管理される場合があります。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: CMS翻訳後は、記事詳細ページと一覧ページの両方で表示を確認します。*
 
 ## 作業手順
 
@@ -18,6 +40,8 @@ sidebar:
 5. 必要に応じて `Translate all fields` などの翻訳機能を使います。
 6. 翻訳後、本文の改行、見出し、画像、リンクを確認します。
 7. 対象LocaleでPublishされているか確認します。
+
+> <strong>キャプチャー指示</strong>: このページには、E-13「CMS Collection一覧」、E-14「CMS itemのLocale切り替え」、E-15「Translate all fields」、E-16「Rich Text本文」を入れてください。未公開記事や実名情報が映らないように、撮影用の記事または公開済みサンプル記事を使います。
 
 ## CMSで確認する項目
 
@@ -52,4 +76,3 @@ Primary localeを更新すると、Secondary localeにも内容が反映され�
 ## 次に進む
 
 検索結果やSNS共有の表示も確認する場合は [LocaleごとのSEO・OGP確認](/07-localization/04-localized-seo-ogp/) を確認してください。
-

@@ -6,9 +6,28 @@ sidebar:
   label: "ファビコンを変更する"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-10-favicon-settings.png` を入れてください。
+撮影対象: D-10「Favicon設定画面」。Favicon、Webclip、Uploadが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[反映タイミングの目安]
+Webflow上で保存しても、Google検索結果やSNSのプレビューはすぐに変わらないことがあります。Webflowの公開確認と、検索エンジンやSNS側の反映確認は分けて考えると混乱しにくくなります。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 ブラウザのタブやブックマーク一覧に表示される <strong>小さなアイコン</strong> を「ファビコン（Favicon）」と呼びます。ブランディングの基本要素です。
+
+![Webflow General設定画面](../../../assets/captures/webflow-booost-general.png)
+*実画面例: faviconやサイト名などの基本設定は、Site settingsのGeneral周辺で確認することがあります。*
 
 ---
 

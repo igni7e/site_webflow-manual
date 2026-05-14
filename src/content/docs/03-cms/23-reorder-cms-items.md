@@ -6,9 +6,28 @@ sidebar:
   label: "CMSアイテムの並び替え"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-26-cms-sort-settings.png` を入れてください。
+撮影対象: C-26「CMS一覧の並び順設定または公開ページの並び」。並び順の根拠が分かる画面
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「特定のお知らせを一覧の一番上に固定したい」「ブログ記事の表示順を変えたい」といった時に使うのが <strong>並び替え</strong> の機能です。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: CMSの並び順を確認する時は、一覧ページで記事カードの順番を見ます。*
 
 ---
 

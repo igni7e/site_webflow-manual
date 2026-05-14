@@ -6,6 +6,24 @@ sidebar:
   label: "新しい「お知らせ（ブログ記事）」を追加する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- C-03: `src/assets/captures/manual/c-03-collection-items-list.png`。対象Collectionの記事一覧。既存記事一覧、検索欄、New itemが見える
+- C-04: `src/assets/captures/manual/c-04-new-item-button.png`。New itemを押す直前。新規追加ボタンを明確にする
+- C-05: `src/assets/captures/manual/c-05-new-cms-item-form.png`。新規CMS itemの入力フォーム。Name、Slug、Save、Publishなど全体が分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.18](/03-cms/02-create-new-post/)
 
 CMSの管理画面にアクセスできるようになったら、次はいよいよ新しい記事を追加してみましょう。ここでは例として「お知らせ」を新規作成する手順を解説しますが、「ブログ記事」や「導入事例」など、他のCMSコンテンツでも基本的な流れは同じです。
@@ -42,8 +60,9 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
 2.  <strong>「New」ボタンをクリック:</strong>
     画面の右上を見てください。<strong>「+ New [コレクション名]」</strong>（例: `+ New Announcement`）という青いボタンがあります。これが新規追加ボタンです。このボタンをクリックします。
 
-    ![新規追加ボタン](../../../assets/captures/new-item-button.svg)
-    *※画像はイメージです。コレクション名はサイトによって異なります。*
+    :::note[キャプチャー差し込み位置]
+    ここには「新規追加ボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 <details>
 <summary>キャプチャー指示: Collection一覧からNewボタンを押す直前の画面</summary>

@@ -6,6 +6,22 @@ sidebar:
   label: "SNSでシェアされた時の画像（OGP画像）を変更する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/f-04-open-graph-settings.png` を入れてください。
+撮影対象: F-04「Page settings / CMS itemのOpen Graph Settings」。OGP image、title、descriptionが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[反映タイミングの目安]
+Webflow上で保存しても、Google検索結果やSNSのプレビューはすぐに変わらないことがあります。Webflowの公開確認と、検索エンジンやSNS側の反映確認は分けて考えると混乱しにくくなります。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.49](/05-settings/03-ogp-image/)
 
 FacebookやX (Twitter) などのSNSでWebサイトのURLがシェアされた際、自動的に表示される画像やタイトル、説明文は、その投稿がクリックされるかどうかを大きく左右します。これらは「OGP（Open Graph Protocol）」と呼ばれる設定によって制御されています。
@@ -22,12 +38,16 @@ OGPは、WebページがSNSでシェアされた時に、どのように表示�
 
 これらを適切に設定することで、SNSでの拡散効果を高めることができます。
 
-![OGP表示例](../../../assets/captures/ogp-example.svg)
-*※画像はイメージです。*
+:::note[キャプチャー差し込み位置]
+ここには「OGP表示例」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+:::
 
 ## 2. OGP画像を設定する場所
 
 OGP画像の設定場所は、ページのSEO設定と同じ場所にあります。
+
+![Webflow SEO設定画面](../../../assets/captures/webflow-booost-seo.png)
+*実画面例: SEOやSNS表示に関わる設定を確認する入口です。OGP画像はページ設定またはCMS itemのOpen Graph Settingsで確認します。*
 
 ### 静的ページ（トップページ、会社概要など）の場合
 

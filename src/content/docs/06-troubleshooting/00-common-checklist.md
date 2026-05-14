@@ -5,9 +5,28 @@ sidebar:
   order: 0
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/g-01-publish-status-check.png` を入れてください。
+撮影対象: G-01「Publishing画面で公開状態を確認」。反映されない時の確認用。対象ドメインが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[問い合わせ前の準備]
+トラブル時は、対象URL、起きている現象、試した操作、スクリーンショットをまとめておくと原因確認が早くなります。保守契約済みの場合はGoogle Chatまたは担当者へ共有してください。
+:::
+<!-- body-callout:end -->
+
+
 # トラブル時にまず確認するチェックリスト
 
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
+
+![Webflow Site settingsの全体画面](../../../assets/captures/webflow-booost-general.png)
+*実画面例: 問題が起きた時は、Site settingsでForms、Publishing、Backupsなどの関連画面を確認します。*
 
 ## 英語画面で何を押せばよいか分からない
 

@@ -6,11 +6,30 @@ sidebar:
   label: "Webflow基本用語の早見表"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-10-webflow-ui-terms.png` を入れてください。
+撮影対象: A-10「Dashboard上でDashboard、Designer、Publishなど英語UIが見える状態」。用語表と対応しやすいよう、英語UIが読み取れる状態
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[最初に見る場所]
+迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: なし
 
 Webflowでは、画面名やボタン名が英語で表示されることがあります。このページでは、初心者が最初に覚えておくと迷いにくい用語をまとめます。
 
 Webflowの英語UIが不安な場合は、IGNITE提供の [Webflow 日本語化 Chrome拡張機能](https://chromewebstore.google.com/detail/webflow-%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%8C%96/efenpjcceehojemnphkinocffloghhon) を使うと、DashboardやDesignerなどの管理画面を日本語で確認しやすくなります。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: Dashboard、Designer、Site settingsなどの英語UIを見ながら、用語の意味を確認します。*
 
 ## 画面の名前
 

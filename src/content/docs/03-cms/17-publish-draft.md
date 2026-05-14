@@ -6,6 +6,22 @@ sidebar:
   label: "下書きした記事を「公開」する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-20-publish-cms-item.png` を入れてください。
+撮影対象: C-20「CMS itemをPublishする操作」。Publishボタンと公開状態が見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[公開前チェック]
+Publishする前に、公開先ドメイン、変更したページ、スマートフォン表示、リンク先を確認します。公開後は一般の閲覧者に見えるため、少しでも不安があればスクリーンショットを撮って確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.33](/03-cms/17-publish-draft/)
 
 「下書き（Draft）」として保存しておいた記事が完成し、いよいよサイトに公開する準備が整いました。このマニュアルでは、下書き記事を本番のサイトに反映させるための「公開」手順を解説します。
@@ -35,8 +51,9 @@ sidebar:
 5.  <strong>「Publish」ボタンをクリック:</strong>
     編集パネルの右下にある、青い<strong>「Publish」</strong>（公開する）ボタンをクリックします。
 
-    ![公開ボタン](../../../assets/captures/publish-from-draft.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「公開ボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 6.  <strong>公開の確認:</strong>
     クリックすると、「`Publish 1 item`」のような確認メッセージが表示されます。問題がなければ、もう一度「<strong>Publish now</strong>」ボタンをクリックします。

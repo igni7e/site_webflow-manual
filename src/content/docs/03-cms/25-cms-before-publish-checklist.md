@@ -6,9 +6,28 @@ sidebar:
   label: "CMS公開前チェック"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-28-cms-before-publish-preview.png` を入れてください。
+撮影対象: C-28「CMS記事の公開前プレビュー」。詳細ページと一覧ページの確認に使える画面
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[公開前チェック]
+Publishする前に、公開先ドメイン、変更したページ、スマートフォン表示、リンク先を確認します。公開後は一般の閲覧者に見えるため、少しでも不安があればスクリーンショットを撮って確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: なし
 
 CMSの記事やお知らせは、本文だけでなくTitle、Slug、サムネイル、カテゴリー、公開状態なども確認が必要です。公開前にこのページの項目を上から順番に確認してください。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: CMS記事の公開前は、詳細ページと一覧ページの両方で見え方を確認します。*
 
 ## 基本情報
 

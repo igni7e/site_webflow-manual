@@ -6,11 +6,30 @@ sidebar:
   label: "デザイナーモードで「会社の住所」などを修正する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-03-footer-address-text.png` を入れてください。
+撮影対象: D-03「フッターや会社情報の住所テキスト」。住所・電話番号など複数箇所確認が必要と分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Designer操作の注意]
+Designerはサイト全体の見た目や構造を変更できる画面です。小さな変更でも他のページに影響することがあるため、変更前後の画面を見比べながら慎重に進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.40](/04-designer/03-edit-address/)
 
 <strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 Webサイトのフッター（最下部）などに記載されている会社の住所、電話番号、設立年月日といった情報は、通常、頻繁に変更されるものではないため、エディターではなくデザイナーでのみ編集可能になっていることがあります。ここでは、これらの情報を修正する方法を解説します。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: 住所や電話番号の修正では、ヘッダー、フッター、問い合わせ導線など複数箇所を確認します。*
 
 ---
 

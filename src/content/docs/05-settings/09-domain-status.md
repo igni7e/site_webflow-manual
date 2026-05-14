@@ -6,6 +6,22 @@ sidebar:
   label: "独自ドメイン接続の確認"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/f-11-publishing-domain-status.png` を入れてください。
+撮影対象: F-11「PublishingのProduction domain / SSL状態」。Connected、SSL、Production domainが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[公開前チェック]
+Publishする前に、公開先ドメイン、変更したページ、スマートフォン表示、リンク先を確認します。公開後は一般の閲覧者に見えるため、少しでも不安があればスクリーンショットを撮って確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「`example.com` のような独自ドメインで自社サイトを公開している」場合、その接続状態と SSL 証明書（鍵マーク）が正しく機能しているかを定期的に確認しておきましょう。
@@ -27,6 +43,10 @@ sidebar:
 
 1. Webflow にログイン → 対象サイトの <strong>Project Settings</strong> を開く
 2. 左メニューから <strong>「Publishing」</strong> タブを選択
+
+![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
+*実画面例: Publishingでは、公開先ドメインや公開状態を確認します。ドメインやSSLの状態を見る時の入口です。*
+
 3. <strong>「Production」</strong> セクションを確認
 4. 接続済みドメインの右側に <strong>緑のチェックマーク（Connected）</strong> が表示されているか確認
 5. <strong>「SSL」</strong> ステータスが <strong>「Active（有効）」</strong> になっているか確認

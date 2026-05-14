@@ -6,9 +6,28 @@ sidebar:
   label: "フォーム項目の追加・削除"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/f-09-form-fields-designer.png` を入れてください。
+撮影対象: F-09「Designerでフォーム要素を選択」。入力項目、フォーム設定、Submitボタンが見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[作業前に止まるポイント]
+削除、復元、非公開、公開設定、Designer操作は影響が大きい作業です。実行ボタンを押す前に、対象ページ名、対象アイテム、公開先をもう一度確認してください。迷う場合は作業を止めて担当者へ共有します。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「お問い合わせフォームに『業種』を追加したい」「『FAX番号』はもう不要なので削除したい」といった、フォーム自体の編集について解説します。
+
+![Webflow Forms画面](../../../assets/captures/webflow-booost-forms.png)
+*実画面例: フォーム項目の変更前に、Forms画面で現在のフォーム構成と送信履歴を確認します。*
 
 ---
 

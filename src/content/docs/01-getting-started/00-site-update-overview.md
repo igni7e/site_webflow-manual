@@ -5,11 +5,30 @@ sidebar:
   order: 0
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-01-dashboard-site-list.png` を入れてください。
+撮影対象: A-01「Webflow Dashboardのサイト一覧」。対象サイトカード、Workspace名、サイト名が分かる状態。個人名は写っても問題ない範囲に調整
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[最初に見る場所]
+迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 # Webflow更新作業の全体像
 
 このページは、Webflowで作られたWebサイトを更新する前に読む入口です。2026年現在、Webflowの日常更新は <strong>Content editor role</strong> を使い、Webflowのcanvas上で文章・画像・リンク・CMS記事を更新する流れが基本です。
 
 従来の <strong>Legacy Editor</strong> は2026年8月4日から利用できなくなる予定です。公開版のこのマニュアルでは、古いEditor専用画面ではなく、Content editor roleを前提に説明します。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: Webflowにログインすると、編集権限のあるサイトがDashboardに表示されます。まず対象サイトを間違えないことが重要です。*
 
 ## 作業の流れ
 

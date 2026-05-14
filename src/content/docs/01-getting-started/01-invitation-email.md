@@ -6,6 +6,22 @@ sidebar:
   label: "Webflowからの招待メールを確認しよう"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-04-webflow-invitation-email.png` を入れてください。
+撮影対象: A-04「Webflow招待メールの見本」。`Accept Invitation` が分かること。実メールアドレスや個人名は隠す
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::note[個人情報の取り扱い]
+フォーム送信内容や通知先メールアドレスには個人情報が含まれることがあります。画面共有やキャプチャーを送る時は、氏名、メールアドレス、問い合わせ本文が必要以上に写らないようにしてください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.1](/01-getting-started/01-invitation-email/)
 
 Webサイトの更新作業を始めるにあたり、最初に行うのがWebflowからの招待メールの確認とアカウント設定です。このマニュアルでは、その最初のステップである「招待メールの確認方法」について詳しく解説します。
@@ -17,6 +33,9 @@ Webサイトの更新作業を始めるにあたり、最初に行うのがWebfl
 お客様がご自身のWebサイトを安全に更新できるように、管理者または制作会社がお客様用のWebflowアカウントを招待します。通常の更新担当者には、文章・画像・CMS記事を更新できる <strong>Content editor</strong> などのSite roleが割り当てられます。
 
 この招待メールは、そのアカウントを有効にするための「招待状」です。メール内のリンクをクリックしてアカウント設定を完了することで、初めてサイトの編集画面にログインできるようになります。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: 招待を承認してログインできるようになると、Dashboardで対象サイトを確認できるようになります。*
 
 ## 2. 招待メールの見本
 

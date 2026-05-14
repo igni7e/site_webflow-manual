@@ -6,9 +6,28 @@ sidebar:
   label: "「変更を保存したのに、サイトに反映されません！」なぜ？（キャッシュ解説）"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/g-01-publish-status-check.png` を入れてください。
+撮影対象: G-01「Publishing画面で公開状態を確認」。反映されない時の確認用。対象ドメインが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[問い合わせ前の準備]
+トラブル時は、対象URL、起きている現象、試した操作、スクリーンショットをまとめておくと原因確認が早くなります。保守契約済みの場合はGoogle Chatまたは担当者へ共有してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.53](/06-troubleshooting/01-cache-not-reflecting/)
 
 Webflowでサイトを更新し、「Publish」ボタンを押して公開したはずなのに、実際のサイトを見ても変更が反映されていない…という経験は、Webサイトの運用で非常によくある現象です。これは「キャッシュ」が原因である可能性が非常に高いです。
+
+![Webflow Publishing画面](../../../assets/captures/webflow-booost-publishing.png)
+*実画面例: 変更が反映されない時は、Publish対象のドメインや公開状態も確認します。*
 
 ---
 

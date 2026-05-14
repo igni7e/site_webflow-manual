@@ -19,9 +19,28 @@ hero:
       variant: secondary
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-01-dashboard-site-list.png` を入れてください。
+撮影対象: A-01「Webflow Dashboardのサイト一覧」。マニュアル入口として対象サイトカードとDashboard全体が分かる状態
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[読み進め方]
+初めて触る場合は、最初から順番に読むよりも「やりたい作業」に近い章を開き、作業前チェックと公開前チェックだけ先に確認すると迷いにくくなります。
+:::
+<!-- body-callout:end -->
+
+
 ## このマニュアルについて
 
 このマニュアルは、Webflow で構築されたサイトを <strong>非エンジニアのクライアント担当者</strong> が安全に更新できるよう、IGNITE が制作・公開している手順書です。基本操作からトラブル解決、Locale翻訳まで全 7 カテゴリで網羅しています。
+
+![Webflow Dashboardのサイト一覧](../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: このマニュアルでは、Webflow Dashboardから対象サイトを開き、必要な画面へ進む流れを説明します。*
 
 ## 提供元と責任範囲
 
@@ -38,10 +57,10 @@ hero:
 - [B. Content Editor: テキスト・画像・リンクを安全に更新する](/02-editor/00-editor-complete-guide/)
 - [C. CMS更新: ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
 - [D. デザイナー: 多言語サイトと自動翻訳の修正ガイド](/04-designer/00-localization-designer-guide/)
-- [E. 便利な設定: フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
-- [F. トラブル解決: まず確認するチェックリスト](/06-troubleshooting/00-common-checklist/)
-- [F. トラブル解決: 自分で直すより任せたい時の保守・補修依頼](/06-troubleshooting/07-maintenance-request/)
-- [G. Locale翻訳: Webflow Localizationの全体像](/07-localization/00-localization-overview/)
+- [E. Locale翻訳: Webflow Localizationの全体像](/07-localization/00-localization-overview/)
+- [F. 便利な設定: フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
+- [G. トラブル解決: まず確認するチェックリスト](/06-troubleshooting/00-common-checklist/)
+- [G. トラブル解決: 自分で直すより任せたい時の保守・補修依頼](/06-troubleshooting/07-maintenance-request/)
 
 ## 細かい手順を探す
 
@@ -50,7 +69,7 @@ hero:
 - 普段の文字・画像・リンク更新は [Content editor roleでWebflowを開く手順](/02-editor/01-open-editor/) を使います。
 - ブログやお知らせの投稿は [CMS更新](/03-cms/01-where-is-cms/) を確認してください。
 - Designerモードはサイト全体を壊す可能性があるため、先に [Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
-- WebflowのLocale機能で翻訳を追加・修正する場合は [Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
+- WebflowのLocale機能で翻訳を追加・修正する場合は [E. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
 
 ## 困ったときは
 

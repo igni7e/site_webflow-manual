@@ -5,9 +5,28 @@ sidebar:
   order: 0
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-01-cms-collections-entry.png` を入れてください。
+撮影対象: C-01「Collections / CMS入口」。左メニューやCollectionsタブが分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 # ブログ記事を新規投稿する完全ガイド
 
 ブログ、お知らせ、導入事例など、同じ形式の記事を追加していく機能は <strong>CMS</strong> で管理します。CMSは「Content Management System」の略で、記事のタイトル、本文、画像、カテゴリー、公開日などを入力して管理する仕組みです。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: CMSで更新した記事は、公開後に実際のページや一覧で表示を確認します。*
 
 ## 作業全体の流れ
 

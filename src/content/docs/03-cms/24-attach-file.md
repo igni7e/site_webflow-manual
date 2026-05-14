@@ -6,9 +6,28 @@ sidebar:
   label: "本文にファイルを添付"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-27-asset-file-upload.png` を入れてください。
+撮影対象: C-27「PDFなどファイルをAssetへアップロード」。Upload、ファイル名、Copy linkが分かる。実資料名は公開OKのもの
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[下書きで確認]
+CMS記事は、いきなり公開せず下書き状態でタイトル、本文、画像、リンク、公開日を確認します。特に一覧ページと詳細ページの両方で見え方を確認すると安心です。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「会社案内のPDFをダウンロードできるようにしたい」「セミナー資料を本文からリンクしたい」といった時に使うのが <strong>ファイル添付（リンク）</strong> です。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: 資料リンクを入れる場合は、公開ページでリンク導線が自然に見えるか確認します。*
 
 ---
 

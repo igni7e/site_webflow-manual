@@ -6,11 +6,30 @@ sidebar:
   label: "お守り操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/d-08-undo-redo-buttons.png` を入れてください。
+撮影対象: D-08「Designer左上のUndo / Redo付近」。Undo / Redo、またはショートカット説明に使える構図
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Designer操作の注意]
+Designerはサイト全体の見た目や構造を変更できる画面です。小さな変更でも他のページに影響することがあるため、変更前後の画面を見比べながら慎重に進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.45](/04-designer/08-undo-ctrl-z/)
 
 <strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 デザイナーモードでの作業は、常に危険と隣り合わせです。「間違って要素を消してしまった！」「数値を変更したらレイアウトが崩れた！」そんな青ざめるような事態は、誰にでも起こり得ます。しかし、慌てる必要はありません。ほとんどのPCアプリケーションと同じように、Webflowにも強力な「元に戻す」機能が備わっています。
+
+![Webflow Designerでサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: Designerで誤操作した場合は、慌てて追加操作をせず、まずUndoで戻せるか確認します。*
 
 ---
 

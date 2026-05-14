@@ -6,6 +6,23 @@ sidebar:
   label: "検索エンジンの表示制御"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- F-02: `src/assets/captures/manual/f-02-seo-settings-overview.png`。Site settings > SEO。SEO設定の入口が分かる
+- F-13: `src/assets/captures/manual/f-13-custom-code-warning.png`。Custom code画面。触るべきでない専門設定として使う。コード内容は隠す
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[作業前に止まるポイント]
+削除、復元、非公開、公開設定、Designer操作は影響が大きい作業です。実行ボタンを押す前に、対象ページ名、対象アイテム、公開先をもう一度確認してください。迷う場合は作業を止めて担当者へ共有します。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 「特定のページは Google の検索結果に出したくない」「サイト全体のページ一覧を Google に正しく伝えたい」といった、検索エンジンとの付き合い方の基本設定です。
@@ -52,6 +69,10 @@ Webflow は <strong>sitemap.xml を自動生成</strong> します。確認す�
 サイトリニューアル中など、<strong>サイト全体を検索結果から外したい時</strong>：
 
 1. Project Settings → <strong>「SEO」</strong> タブを開く
+
+![Webflow SEO画面](../../../assets/captures/webflow-booost-seo.png)
+*実画面例: サイト全体の検索エンジン関連設定は、Site settingsのSEOから確認します。*
+
 2. <strong>「Disable Webflow subdomain indexing」</strong> をON
 3. <strong>Publish</strong>
 
@@ -65,6 +86,9 @@ URLの末尾に `/robots.txt` を付けて確認できます：
 - 例: `https://example.com/robots.txt`
 
 カスタマイズが必要な場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から依頼してください。クライアント側での編集は推奨されません。
+
+![Webflow Custom code画面](../../../assets/captures/webflow-booost-custom-code.png)
+*実画面例: Custom codeは専門的な設定です。SEOタグや計測タグに関係することがあるため、通常は制作担当者に依頼してください。*
 
 ## 5. よくある「noindex」を使う場面
 

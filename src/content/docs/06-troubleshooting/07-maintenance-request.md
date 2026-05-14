@@ -6,9 +6,28 @@ sidebar:
   label: "任せたい時の保守・補修依頼"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/g-08-maintenance-request-screenshot-example.png` を入れてください。
+撮影対象: G-08「相談時に送る画面キャプチャー例」。URL、困っている箇所、画面全体が分かる
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[問い合わせ前の準備]
+トラブル時は、対象URL、起きている現象、試した操作、スクリーンショットをまとめておくと原因確認が早くなります。保守契約済みの場合はGoogle Chatまたは担当者へ共有してください。
+:::
+<!-- body-callout:end -->
+
+
 このマニュアルは、Webflowサイトを自社で安全に更新できるようにするための手順書です。ただし、すべてを自社で対応する必要はありません。
 
 「画面を触るのが不安」「表示崩れが怖い」「本業が忙しく、更新に時間をかけたくない」という場合は、IGNITEへ保守・補修を依頼できます。
+
+![Webflow Site settingsの全体画面](../../../assets/captures/webflow-booost-general.png)
+*実画面例: 保守依頼では、どの画面で困っているかが分かるキャプチャーを一緒に送ると対応が早くなります。*
 
 > <strong>保守契約済みの方</strong>: すでにIGNITEと保守契約を結んでいる場合は、問い合わせフォームではなく、通常の保守連絡としてGoogle Chat、または担当者へ直接ご連絡ください。
 

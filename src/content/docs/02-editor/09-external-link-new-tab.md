@@ -6,9 +6,28 @@ sidebar:
   label: "外部リンクを新しいタブで開く"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/b-11-external-link-new-tab.png` を入れてください。
+撮影対象: B-11「外部リンクを新規タブで開く設定」。外部URLとNew tab設定が見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 新規追加（標準スコープ補完）
 
 自社サイト外のページ（パートナー企業、SNS、外部記事など）にリンクを貼る際は、<strong>新しいタブで開く設定</strong> にしておくのがおすすめです。これにより、訪問者が自社サイトから離脱せずに済みます。
+
+![WebflowでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: ボタンやナビゲーションのリンクを確認する時は、実際のページ上で対象リンクを見つけてから設定します。*
 
 ---
 

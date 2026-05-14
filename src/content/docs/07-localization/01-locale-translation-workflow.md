@@ -5,9 +5,30 @@ sidebar:
   order: 1
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に以下のキャプチャーを入れてください。
+- E-01: `src/assets/captures/manual/e-01-locale-selector-topbar.png`。Designer上部のLocale selector。現在のLocaleが一目で分かる
+- E-08: `src/assets/captures/manual/e-08-select-secondary-locale.png`。Secondary localeを選ぶ直前。Locale selectorを開いた状態
+- E-09: `src/assets/captures/manual/e-09-secondary-locale-canvas.png`。Secondary localeのキャンバス。対象Locale選択後のページ表示
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[Locale確認]
+翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
+:::
+<!-- body-callout:end -->
+
+
 # Locale翻訳の基本手順
 
 Locale翻訳では、最初に「どの言語を編集しているか」を確認することが最も重要です。別のLocaleを選んだまま編集すると、意図しない言語の内容を変更してしまうことがあります。
+
+![Webflow DesignerでBooostサイトを開いた画面](../../../assets/captures/webflow-booost-designer.png)
+*実画面例: Locale翻訳では、ページの見た目だけでなく、現在選択しているLocaleも確認します。*
 
 ## 作業の流れ
 
@@ -20,6 +41,8 @@ Locale翻訳では、最初に「どの言語を編集しているか」を確�
 7. PC表示とスマートフォン表示を確認します。
 8. 必要なLocaleとドメインを選んでPublishします。
 9. 公開後、実際のLocale URLで確認します。
+
+> <strong>キャプチャー指示</strong>: このページには、E-08「Locale selectorを開いた状態」とE-09「Secondary localeのキャンバス」を入れてください。どちらもBOOSTサイトで、編集対象のLocaleが一目で分かるように上部バーを含めて撮影します。
 
 ## 翻訳前に確認すること
 
@@ -54,5 +77,4 @@ Locale翻訳では、最初に「どの言語を編集しているか」を確�
 
 ## 次に進む
 
-固定ページを翻訳する場合は [静的ページをLocaleごとに翻訳する](/07-localization/02-static-page-translation/) を確認してください。
-
+まだ対象Localeが用意されていない場合は [新しいLocaleを追加する時の流れ](/07-localization/06-add-new-locale/) を確認してください。固定ページを翻訳する場合は [静的ページをLocaleごとに翻訳する](/07-localization/02-static-page-translation/) を確認してください。

@@ -6,6 +6,22 @@ sidebar:
   label: "エディターでリンク先のURLを変更する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/b-06-link-settings-panel.png` を入れてください。
+撮影対象: B-06「文章やボタンのリンク設定画面」。URL入力欄、Open in new tab設定が見える
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[編集の基本]
+Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.14](/02-editor/06-edit-link-url/)
 
 一度設定したリンクでも、リンク先のページURLが変更になったり、別のページに誘導したくなったりすることがあります。エディターでは、既存のリンク情報を簡単に確認し、修正することができます。
@@ -39,8 +55,9 @@ sidebar:
 5.  <strong>設定パネルで「Link Settings」を開く:</strong>
     クリックすると、その要素に関する設定パネルが開きます。その中から「<strong>Link Settings</strong>」という項目を探し、クリックします。
 
-    ![リンク設定を開く](../../../assets/captures/link-settings-panel.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「リンク設定を開く」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 6.  <strong>既存のURLを修正:</strong>
     「Link Settings」の中に、現在設定されているURLが表示されています。このURLを新しいものに書き換えるか、新しいURLを貼り付けます。

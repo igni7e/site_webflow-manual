@@ -6,6 +6,22 @@ sidebar:
   label: "不要になった記事を完全に「削除」する方法"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/c-24-delete-item-warning.png` を入れてください。
+撮影対象: C-24「Delete前の警告画面」。削除が不可逆だと分かる。実削除はしない
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::caution[作業前に止まるポイント]
+削除、復元、非公開、公開設定、Designer操作は影響が大きい作業です。実行ボタンを押す前に、対象ページ名、対象アイテム、公開先をもう一度確認してください。迷う場合は作業を止めて担当者へ共有します。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: [No.37](/03-cms/21-delete-post/)
 
 <strong>この操作は、一度実行すると元に戻すことができません。実行する前には、本当に削除して良いか、細心の注意を払ってください。</strong>
@@ -31,8 +47,9 @@ sidebar:
 3.  <strong>上部の「Delete」ボタンをクリック:</strong>
     記事を選択すると、一覧の上部にメニューが表示されます。この中から<strong>「Delete」</strong>（削除）ボタンをクリックします。
 
-    ![削除ボタン](../../../assets/captures/delete-button.svg)
-    *※画像はイメージです。*
+    :::note[キャプチャー差し込み位置]
+    ここには「削除ボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
+    :::
 
 4.  <strong>【最終確認】警告メッセージで再度「Delete」をクリック:</strong>
     「`Are you sure you want to delete 1 item? This action cannot be undone.`」（本当に1個のアイテムを削除しますか？この操作は元に戻せません。）という、非常に強い警告メッセージが表示されます。

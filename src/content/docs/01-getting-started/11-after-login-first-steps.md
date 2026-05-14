@@ -6,9 +6,28 @@ sidebar:
   label: "ログイン直後の最初の操作"
 ---
 
+<!-- capture-callout:start -->
+:::note[キャプチャー指示]
+このページには、撮影後に `src/assets/captures/manual/a-02-site-card-hover-actions.png` を入れてください。
+撮影対象: A-02「対象サイトカードにカーソルを合わせ、開くボタンが出た状態」。`Open in Webflow`、設定メニュー、Designerなどの違いが分かる状態
+
+Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
+:::
+<!-- capture-callout:end -->
+
+<!-- body-callout:start -->
+:::tip[最初に見る場所]
+迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
+:::
+<!-- body-callout:end -->
+
+
 > 旧マニュアル番号: なし
 
 Webflowにログインした直後は、Dashboardにサイトのサムネイルや複数のボタンが表示されます。初めての方は、まず <strong>Content editor roleでWebflowを開く</strong> ことだけ覚えておけば大丈夫です。
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/webflow-dashboard-sites.png)
+*実画面例: ログイン直後のDashboardでは、対象サイトのカードと開くボタンを確認します。*
 
 ## 最初に押すもの
 

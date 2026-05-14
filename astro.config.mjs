@@ -71,9 +71,9 @@ window.addEventListener('beforeunload', saveSidebarScroll);
         { label: 'B. Content Editor', autogenerate: { directory: '02-editor' } },
         { label: 'C. CMS更新', autogenerate: { directory: '03-cms' } },
         { label: 'D. デザイナー', autogenerate: { directory: '04-designer' } },
-        { label: 'E. 便利な設定', autogenerate: { directory: '05-settings' } },
-        { label: 'F. トラブル解決', autogenerate: { directory: '06-troubleshooting' } },
-        { label: 'G. Locale翻訳', autogenerate: { directory: '07-localization' } },
+        { label: 'E. Locale翻訳', autogenerate: { directory: '07-localization' } },
+        { label: 'F. 便利な設定', autogenerate: { directory: '05-settings' } },
+        { label: 'G. トラブル解決', autogenerate: { directory: '06-troubleshooting' } },
       ],
       social: {
         github: 'https://github.com/igni7e/site_webflow-manual',
