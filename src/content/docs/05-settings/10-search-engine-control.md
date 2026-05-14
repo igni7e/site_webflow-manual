@@ -55,7 +55,7 @@ Webflow は **sitemap.xml を自動生成** します。確認するには：
 2. **「Disable Webflow subdomain indexing」** をON
 3. **Publish**
 
-> ⚠️ サイト全体の noindex は **解除を忘れると検索結果に永遠に出ません**。リニューアル後の解除を必ず確認してください。
+> **注意**: サイト全体の noindex は **解除を忘れると検索結果に永遠に出ません**。リニューアル後の解除を必ず確認してください。
 
 ## 4. robots.txt について
 

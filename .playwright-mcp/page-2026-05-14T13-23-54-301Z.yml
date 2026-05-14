@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Webflow更新マニュアル" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: Webflow更新マニュアル
+        - button "検索" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - generic [ref=e14]: 検索
+          - generic [ref=e15]:
+            - generic [ref=e16]: ⌘
+            - generic [ref=e17]: K
+        - generic [ref=e18]:
+          - link "GitHub" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/igni7e/site_webflow-manual
+            - generic [ref=e21]: GitHub
+            - img [ref=e22]
+          - generic [ref=e25]:
+            - generic [ref=e26]: テーマの選択
+            - img
+            - combobox "テーマの選択" [ref=e27] [cursor=pointer]:
+              - option "ダーク"
+              - option "ライト"
+              - option "自動" [selected]
+            - img
+    - navigation "メイン":
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - group [ref=e33]:
+            - generic "A. はじめの一歩" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: A. はじめの一歩
+              - img [ref=e36]
+            - list [ref=e38]:
+              - listitem [ref=e39]:
+                - link "Webflow更新作業の全体像" [ref=e40] [cursor=pointer]:
+                  - /url: /01-getting-started/00-site-update-overview/
+              - listitem [ref=e41]:
+                - link "Webflowからの招待メールを確認しよう" [ref=e42] [cursor=pointer]:
+                  - /url: /01-getting-started/01-invitation-email/
+              - listitem [ref=e43]:
+                - link "招待メールからアカウントを作成し、パスワードを設定する方法" [ref=e44] [cursor=pointer]:
+                  - /url: /01-getting-started/02-create-account/
+              - listitem [ref=e45]:
+                - link "作成したアカウントで初めてサイトにログインする方法" [ref=e46] [cursor=pointer]:
+                  - /url: /01-getting-started/03-first-login/
+              - listitem [ref=e47]:
+                - link "推奨ログインページをブックマーク（お気に入り）に登録しよう" [ref=e48] [cursor=pointer]:
+                  - /url: /01-getting-started/04-bookmark-login/
+              - listitem [ref=e49]:
+                - link "パスワードを忘れた時の再設定方法" [ref=e50] [cursor=pointer]:
+                  - /url: /01-getting-started/05-reset-password/
+              - listitem [ref=e51]:
+                - link "管理画面（ダッシュボード）の基本的な見方" [ref=e52] [cursor=pointer]:
+                  - /url: /01-getting-started/06-dashboard-overview/
+              - listitem [ref=e53]:
+                - link "超重要「エディター」と「デザイナー」の違いって何？" [ref=e54] [cursor=pointer]:
+                  - /url: /01-getting-started/07-editor-vs-designer/
+              - listitem [ref=e55]:
+                - link "普段の更新は「エディター」だけでOKです！" [ref=e56] [cursor=pointer]:
+                  - /url: /01-getting-started/08-editor-only-recommendation/
+        - listitem [ref=e57]:
+          - group [ref=e58]:
+            - generic "B. エディター" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: B. エディター
+              - img [ref=e61]
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Editor入門：テキスト・画像・リンクを安全に更新する" [ref=e65] [cursor=pointer]:
+                  - /url: /02-editor/00-editor-complete-guide/
+              - listitem [ref=e66]:
+                - link "基本エディターモードの開き方" [ref=e67] [cursor=pointer]:
+                  - /url: /02-editor/01-open-editor/
+              - listitem [ref=e68]:
+                - link "エディターでサイトの文字を書き換える方法" [ref=e69] [cursor=pointer]:
+                  - /url: /02-editor/02-edit-text/
+              - listitem [ref=e70]:
+                - link "エディターで文章の一部を太字にする方法" [ref=e71] [cursor=pointer]:
+                  - /url: /02-editor/03-bold-text/
+              - listitem [ref=e72]:
+                - link "エディターで文章にリンクを設定する方法" [ref=e73] [cursor=pointer]:
+                  - /url: /02-editor/04-add-link/
+              - listitem [ref=e74]:
+                - link "エディターで画像を差し替える方法" [ref=e75] [cursor=pointer]:
+                  - /url: /02-editor/05-replace-image/
+              - listitem [ref=e76]:
+                - link "エディターでリンク先のURLを変更する方法" [ref=e77] [cursor=pointer]:
+                  - /url: /02-editor/06-edit-link-url/
+              - listitem [ref=e78]:
+                - link "忘れずに！変更を保存してサイトに反映させる方法" [ref=e79] [cursor=pointer]:
+                  - /url: /02-editor/07-save-and-publish/
+              - listitem [ref=e80]:
+                - link "安心変更をやめて、保存せずに終了する方法" [ref=e81] [cursor=pointer]:
+                  - /url: /02-editor/08-discard-changes/
+              - listitem [ref=e82]:
+                - link "外部リンクを新しいタブで開く" [ref=e83] [cursor=pointer]:
+                  - /url: /02-editor/09-external-link-new-tab/
+              - listitem [ref=e84]:
+                - link "ページ内アンカーリンク" [ref=e85] [cursor=pointer]:
+                  - /url: /02-editor/10-anchor-link/
+        - listitem [ref=e86]:
+          - group [ref=e87]:
+            - generic "C. CMS更新" [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: C. CMS更新
+              - img [ref=e90]
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - link "ブログ記事を新規投稿する完全ガイド" [ref=e94] [cursor=pointer]:
+                  - /url: /03-cms/00-blog-post-complete-guide/
+              - listitem [ref=e95]:
+                - link "「お知らせ」や「ブログ」はどこで管理してるの？" [ref=e96] [cursor=pointer]:
+                  - /url: /03-cms/01-where-is-cms/
+              - listitem [ref=e97]:
+                - link "新しい「お知らせ（ブログ記事）」を追加する方法" [ref=e98] [cursor=pointer]:
+                  - /url: /03-cms/02-create-new-post/
+              - listitem [ref=e99]:
+                - link "記事の「タイトル」を入力する" [ref=e100] [cursor=pointer]:
+                  - /url: /03-cms/03-post-title/
+              - listitem [ref=e101]:
+                - link "記事の「アイキャッチ画像（サムネイル）」を設定する方法" [ref=e102] [cursor=pointer]:
+                  - /url: /03-cms/04-thumbnail-image/
+              - listitem [ref=e103]:
+                - link "記事の「カテゴリー」を選択する方法" [ref=e104] [cursor=pointer]:
+                  - /url: /03-cms/05-post-category/
+              - listitem [ref=e105]:
+                - link "記事の「本文」を書き込む" [ref=e106] [cursor=pointer]:
+                  - /url: /03-cms/06-write-body/
+              - listitem [ref=e107]:
+                - link "本文の文字を太字にする・斜体にする" [ref=e108] [cursor=pointer]:
+                  - /url: /03-cms/07-bold-italic-body/
+              - listitem [ref=e109]:
+                - link "本文に見出し（大・中・小）を付ける方法" [ref=e110] [cursor=pointer]:
+                  - /url: /03-cms/08-headings/
+              - listitem [ref=e111]:
+                - link "本文を箇条書き（リスト）にする方法" [ref=e112] [cursor=pointer]:
+                  - /url: /03-cms/09-bullet-list/
+              - listitem [ref=e113]:
+                - link "本文に「写真（画像）」を入れる方法" [ref=e114] [cursor=pointer]:
+                  - /url: /03-cms/10-insert-image/
+              - listitem [ref=e115]:
+                - link "本文に入れた写真のサイズを変更する方法" [ref=e116] [cursor=pointer]:
+                  - /url: /03-cms/11-resize-image/
+              - listitem [ref=e117]:
+                - link "本文にYouTube動画を埋め込む方法" [ref=e118] [cursor=pointer]:
+                  - /url: /03-cms/12-embed-youtube/
+              - listitem [ref=e119]:
+                - link "本文の文章にリンクを貼る方法" [ref=e120] [cursor=pointer]:
+                  - /url: /03-cms/13-body-link/
+              - listitem [ref=e121]:
+                - link "記事の「公開日」を設定する方法" [ref=e122] [cursor=pointer]:
+                  - /url: /03-cms/14-publish-date/
+              - listitem [ref=e123]:
+                - link "便利未来の日時で「公開を予約」する方法" [ref=e124] [cursor=pointer]:
+                  - /url: /03-cms/15-schedule-publish/
+              - listitem [ref=e125]:
+                - link "書いた記事を「下書き」で保存する方法" [ref=e126] [cursor=pointer]:
+                  - /url: /03-cms/16-save-as-draft/
+              - listitem [ref=e127]:
+                - link "下書きした記事を「公開」する方法" [ref=e128] [cursor=pointer]:
+                  - /url: /03-cms/17-publish-draft/
+              - listitem [ref=e129]:
+                - link "一度公開した記事を「修正」する方法" [ref=e130] [cursor=pointer]:
+                  - /url: /03-cms/18-edit-published/
+              - listitem [ref=e131]:
+                - link "公開中の記事を「非公開（下書き）」に戻す方法" [ref=e132] [cursor=pointer]:
+                  - /url: /03-cms/19-unpublish/
+              - listitem [ref=e133]:
+                - link "不要になった記事を「アーカイブ（保管）」する方法" [ref=e134] [cursor=pointer]:
+                  - /url: /03-cms/20-archive-post/
+              - listitem [ref=e135]:
+                - link "不要になった記事を完全に「削除」する方法" [ref=e136] [cursor=pointer]:
+                  - /url: /03-cms/21-delete-post/
+              - listitem [ref=e137]:
+                - link "画像にalt属性を入力" [ref=e138] [cursor=pointer]:
+                  - /url: /03-cms/22-image-alt/
+              - listitem [ref=e139]:
+                - link "CMSアイテムの並び替え" [ref=e140] [cursor=pointer]:
+                  - /url: /03-cms/23-reorder-cms-items/
+              - listitem [ref=e141]:
+                - link "本文にファイルを添付" [ref=e142] [cursor=pointer]:
+                  - /url: /03-cms/24-attach-file/
+        - listitem [ref=e143]:
+          - group [ref=e144]:
+            - generic "D. デザイナー" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: D. デザイナー
+              - img [ref=e147]
+            - list [ref=e149]:
+              - listitem [ref=e150]:
+                - link "Designerと多言語サイト修正ガイド" [ref=e151] [cursor=pointer]:
+                  - /url: /04-designer/00-localization-designer-guide/
+              - listitem [ref=e152]:
+                - link "触る前に見て！デザイナーモードを開く時の注意点" [ref=e153] [cursor=pointer]:
+                  - /url: /04-designer/01-designer-warning/
+              - listitem [ref=e154]:
+                - link "デザイナーモードで「トップページの文章」を変える方法" [ref=e155] [cursor=pointer]:
+                  - /url: /04-designer/02-edit-homepage-text/
+              - listitem [ref=e156]:
+                - link "デザイナーモードで「会社の住所」などを修正する方法" [ref=e157] [cursor=pointer]:
+                  - /url: /04-designer/03-edit-address/
+              - listitem [ref=e158]:
+                - link "デザイナーモードで「ロゴ画像」を差し替える方法" [ref=e159] [cursor=pointer]:
+                  - /url: /04-designer/04-replace-logo/
+              - listitem [ref=e160]:
+                - link "サイトで使う画像をアップロードする場所（アセットパネル）" [ref=e161] [cursor=pointer]:
+                  - /url: /04-designer/05-asset-panel/
+              - listitem [ref=e162]:
+                - link "不要になった画像をサーバーから削除する方法" [ref=e163] [cursor=pointer]:
+                  - /url: /04-designer/06-delete-asset/
+              - listitem [ref=e164]:
+                - link "最重要変更をサイトに反映させる「Publish」ボタンの押し方" [ref=e165] [cursor=pointer]:
+                  - /url: /04-designer/07-publish-button/
+              - listitem [ref=e166]:
+                - link "お守り操作を間違えた！一つ前に戻す方法 (Ctrl+Z)" [ref=e167] [cursor=pointer]:
+                  - /url: /04-designer/08-undo-ctrl-z/
+              - listitem [ref=e168]:
+                - link "デザインが崩れたかも？変更を保存せずに終了する方法" [ref=e169] [cursor=pointer]:
+                  - /url: /04-designer/09-discard-designer-changes/
+              - listitem [ref=e170]:
+                - link "ファビコンを変更する" [ref=e171] [cursor=pointer]:
+                  - /url: /04-designer/10-favicon/
+              - listitem [ref=e172]:
+                - link "ページの複製" [ref=e173] [cursor=pointer]:
+                  - /url: /04-designer/11-duplicate-page/
+        - listitem [ref=e174]:
+          - group [ref=e175]:
+            - generic "E. 便利な設定" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]: E. 便利な設定
+              - img [ref=e178]
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - link "フォーム回答・CSV・プラン変更の確認ガイド" [ref=e182] [cursor=pointer]:
+                  - /url: /05-settings/00-site-settings-complete-guide/
+              - listitem [ref=e183]:
+                - link "Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)" [ref=e184] [cursor=pointer]:
+                  - /url: /05-settings/01-seo-title/
+              - listitem [ref=e185]:
+                - link "Google検索結果に出る「ページの説明文」を変更する方法 (SEO)" [ref=e186] [cursor=pointer]:
+                  - /url: /05-settings/02-seo-description/
+              - listitem [ref=e187]:
+                - link "SNSでシェアされた時の画像（OGP画像）を変更する方法" [ref=e188] [cursor=pointer]:
+                  - /url: /05-settings/03-ogp-image/
+              - listitem [ref=e189]:
+                - link "「お問い合わせフォーム」から連絡が来たか確認する方法" [ref=e190] [cursor=pointer]:
+                  - /url: /05-settings/04-form-submissions/
+              - listitem [ref=e191]:
+                - link "お問い合わせがあった時の通知メールアドレスを変更する方法" [ref=e192] [cursor=pointer]:
+                  - /url: /05-settings/05-form-notification-email/
+              - listitem [ref=e193]:
+                - link "お問い合わせデータをまとめてダウンロードする方法 (CSV)" [ref=e194] [cursor=pointer]:
+                  - /url: /05-settings/06-form-csv-download/
+              - listitem [ref=e195]:
+                - link "フォーム項目の追加・削除" [ref=e196] [cursor=pointer]:
+                  - /url: /05-settings/07-form-fields/
+              - listitem [ref=e197]:
+                - link "共同編集者を招待する" [ref=e198] [cursor=pointer]:
+                  - /url: /05-settings/08-invite-collaborator/
+              - listitem [ref=e199]:
+                - link "独自ドメイン接続の確認" [ref=e200] [cursor=pointer]:
+                  - /url: /05-settings/09-domain-status/
+              - listitem [ref=e201]:
+                - link "検索エンジンの表示制御" [ref=e202] [cursor=pointer]:
+                  - /url: /05-settings/10-search-engine-control/
+        - listitem [ref=e203]:
+          - group [ref=e204]:
+            - generic "F. トラブル解決" [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]: F. トラブル解決
+              - img [ref=e207]
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - link "トラブル時にまず確認するチェックリスト" [ref=e211] [cursor=pointer]:
+                  - /url: /06-troubleshooting/00-common-checklist/
+              - listitem [ref=e212]:
+                - link "「変更を保存したのに、サイトに反映されません！」なぜ？（キャッシュ解説）" [ref=e213] [cursor=pointer]:
+                  - /url: /06-troubleshooting/01-cache-not-reflecting/
+              - listitem [ref=e214]:
+                - link "「画像がアップロードできません！」原因と対処法" [ref=e215] [cursor=pointer]:
+                  - /url: /06-troubleshooting/02-image-upload-failed/
+              - listitem [ref=e216]:
+                - link "「スマホで見た時だけ表示が崩れています」どう伝えればいい？" [ref=e217] [cursor=pointer]:
+                  - /url: /06-troubleshooting/03-mobile-display-broken/
+              - listitem [ref=e218]:
+                - link "「サイトが”404 Not Found”と表示されます」どういう意味？" [ref=e219] [cursor=pointer]:
+                  - /url: /06-troubleshooting/04-404-not-found/
+              - listitem [ref=e220]:
+                - link "サイトのバックアップを確認・復元する方法" [ref=e221] [cursor=pointer]:
+                  - /url: /06-troubleshooting/05-backup-restore/
+              - listitem [ref=e222]:
+                - link "問い合わせメールが届かない" [ref=e223] [cursor=pointer]:
+                  - /url: /06-troubleshooting/06-email-not-arriving/
+    - generic [ref=e225]:
+      - complementary [ref=e226]:
+        - navigation "目次" [ref=e231]:
+          - heading "目次" [level=2] [ref=e232]
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "概要" [ref=e235] [cursor=pointer]:
+                - /url: "#_top"
+            - listitem [ref=e236]:
+              - link "1. アカウント作成とパスワード設定の流れ" [ref=e237] [cursor=pointer]:
+                - /url: "#1-アカウント作成とパスワード設定の流れ"
+            - listitem [ref=e238]:
+              - link "2. 設定手順の詳細" [ref=e239] [cursor=pointer]:
+                - /url: "#2-設定手順の詳細"
+            - listitem [ref=e240]:
+              - link "3. パスワード設定時の注意点" [ref=e241] [cursor=pointer]:
+                - /url: "#3-パスワード設定時の注意点"
+      - main [ref=e243]:
+        - heading "招待メールからアカウントを作成し、パスワードを設定する方法" [level=1] [ref=e246]
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - blockquote [ref=e250]:
+              - paragraph [ref=e251]:
+                - text: "旧マニュアル番号:"
+                - link "No.2" [ref=e252] [cursor=pointer]:
+                  - /url: /01-getting-started/02-create-account/
+            - paragraph [ref=e253]: Webflowからの招待メールを確認したら、次はいよいよご自身の編集者アカウントを作成し、パスワードを設定します。この作業は初回のみ必要です。
+            - separator [ref=e254]
+            - heading "1. アカウント作成とパスワード設定の流れ" [level=2] [ref=e255]
+            - paragraph [ref=e256]:
+              - text: 「
+              - link "No.1" [ref=e257] [cursor=pointer]:
+                - /url: /01-getting-started/01-invitation-email/
+              - text: 」で確認した招待メール内の「Accept Invitation」ボタンをクリックすると、Webflowのアカウント作成ページがブラウザで開きます。ここからの手順は以下の通りです。
+            - list [ref=e258]:
+              - listitem [ref=e259]: 氏名（フルネーム）の入力
+              - listitem [ref=e260]: パスワードの設定
+              - listitem [ref=e261]: 利用規約への同意
+              - listitem [ref=e262]: アカウント作成完了
+            - heading "2. 設定手順の詳細" [level=2] [ref=e263]
+            - list [ref=e264]:
+              - listitem [ref=e265]:
+                - paragraph [ref=e266]: "アカウント作成ページを開く: 招待メールの「Accept Invitation」ボタンをクリックすると、以下のような画面が開きます。"
+              - listitem [ref=e267]:
+                - paragraph [ref=e268]: "情報を入力する:"
+                - list [ref=e269]:
+                  - listitem [ref=e270]:
+                    - text: "Full name: あなたのお名前をフルネームで入力してください（例:"
+                    - code [ref=e271]: 山田 太郎
+                    - text: ）。この名前はサイトの編集履歴などに表示されます。
+                  - listitem [ref=e272]: "Password: ログイン時に使用するパスワードを入力します。セキュリティのため、推測されにくい複雑なもの（英大文字、小文字、数字、記号を組み合わせた8文字以上推奨）を設定してください。"
+                  - listitem [ref=e273]: "Confirm password: 確認のため、上記と同じパスワードをもう一度入力します。"
+              - listitem [ref=e274]:
+                - paragraph [ref=e275]:
+                  - text: "利用規約に同意する:"
+                  - code [ref=e276]: I agree to the Webflow Terms of Service...
+                  - text: のチェックボックスをクリックして、チェックを入れます。
+              - listitem [ref=e277]:
+                - paragraph [ref=e278]: "アカウントを作成する: 入力内容に間違いがないことを確認し、青い「Create account」ボタンをクリックします。"
+              - listitem [ref=e279]:
+                - paragraph [ref=e280]: "アカウント作成完了: 「You’re all set!」のようなメッセージが表示されれば、アカウント作成は成功です。自動的にWebサイトの編集画面（エディターモード）に移動します。"
+            - heading "3. パスワード設定時の注意点" [level=2] [ref=e281]
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - text: パスワードは忘れないように管理してください。 もし忘れてしまった場合は、「
+                - link "No.5" [ref=e284] [cursor=pointer]:
+                  - /url: /01-getting-started/05-reset-password/
+                - text: パスワードを忘れた時の再設定方法」を参考に再設定が可能ですが、セキュリティの観点からも厳重な管理をお願いします。
+              - listitem [ref=e285]: 他のサービスと同じパスワードの使い回しは避けてください。 万が一、他のサービスからパスワードが漏洩した場合に、Webサイトも不正アクセスの被害に遭うリスクが高まります。
+            - separator [ref=e286]
+            - paragraph [ref=e287]:
+              - text: "次のステップ: アカウント作成が完了し、サイトの編集画面に初めてログインできました。次は「"
+              - link "No.3" [ref=e288] [cursor=pointer]:
+                - /url: /01-getting-started/03-first-login/
+              - text: 作成したアカウントで初めてサイトにログインする方法」で、一度ログアウトしてから再度ログインする流れを確認しましょう。
+          - generic [ref=e289]:
+            - paragraph [ref=e291]:
+              - text: "最終更新日:"
+              - time [ref=e292]: 2026/04/30
+            - generic [ref=e293]:
+              - link "前へ Webflowからの招待メールを確認しよう" [ref=e294] [cursor=pointer]:
+                - /url: /01-getting-started/01-invitation-email/
+                - img [ref=e295]
+                - generic [ref=e297]:
+                  - text: 前へ
+                  - text: Webflowからの招待メールを確認しよう
+              - link "次へ 作成したアカウントで初めてサイトにログインする方法" [ref=e298] [cursor=pointer]:
+                - /url: /01-getting-started/03-first-login/
+                - img [ref=e299]
+                - generic [ref=e301]:
+                  - text: 次へ
+                  - text: 作成したアカウントで初めてサイトにログインする方法
+  - generic [ref=e304]:
+    - button "Menu" [ref=e305]:
+      - img [ref=e307]
+      - generic: Menu
+    - button "Inspect" [ref=e311]:
+      - img [ref=e313]
+      - generic: Inspect
+    - button "Audit" [ref=e315]:
+      - img [ref=e317]
+      - generic: Audit
+    - button "Settings" [ref=e320]:
+      - img [ref=e322]
+      - generic: Settings

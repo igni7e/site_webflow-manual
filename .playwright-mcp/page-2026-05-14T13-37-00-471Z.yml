@@ -1,0 +1,469 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Webflow更新マニュアル" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: Webflow更新マニュアル
+        - button "検索" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - generic [ref=e14]: 検索
+          - generic [ref=e15]:
+            - generic [ref=e16]: ⌘
+            - generic [ref=e17]: K
+        - generic [ref=e18]:
+          - link "GitHub" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/igni7e/site_webflow-manual
+            - generic [ref=e21]: GitHub
+            - img [ref=e22]
+          - generic [ref=e25]:
+            - generic [ref=e26]: テーマの選択
+            - img
+            - combobox "テーマの選択" [ref=e27] [cursor=pointer]:
+              - option "ダーク"
+              - option "ライト"
+              - option "自動" [selected]
+            - img
+    - navigation "メイン":
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - group [ref=e33]:
+            - generic "A. はじめの一歩" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: A. はじめの一歩
+              - img [ref=e36]
+            - list [ref=e38]:
+              - listitem [ref=e39]:
+                - link "Webflow更新作業の全体像" [ref=e40] [cursor=pointer]:
+                  - /url: /01-getting-started/00-site-update-overview/
+              - listitem [ref=e41]:
+                - link "Webflowからの招待メールを確認しよう" [ref=e42] [cursor=pointer]:
+                  - /url: /01-getting-started/01-invitation-email/
+              - listitem [ref=e43]:
+                - link "招待メールからアカウントを作成し、パスワードを設定する方法" [ref=e44] [cursor=pointer]:
+                  - /url: /01-getting-started/02-create-account/
+              - listitem [ref=e45]:
+                - link "作成したアカウントで初めてサイトにログインする方法" [ref=e46] [cursor=pointer]:
+                  - /url: /01-getting-started/03-first-login/
+              - listitem [ref=e47]:
+                - link "推奨ログインページをブックマーク（お気に入り）に登録しよう" [ref=e48] [cursor=pointer]:
+                  - /url: /01-getting-started/04-bookmark-login/
+              - listitem [ref=e49]:
+                - link "パスワードを忘れた時の再設定方法" [ref=e50] [cursor=pointer]:
+                  - /url: /01-getting-started/05-reset-password/
+              - listitem [ref=e51]:
+                - link "管理画面（ダッシュボード）の基本的な見方" [ref=e52] [cursor=pointer]:
+                  - /url: /01-getting-started/06-dashboard-overview/
+              - listitem [ref=e53]:
+                - link "超重要「エディター」と「デザイナー」の違いって何？" [ref=e54] [cursor=pointer]:
+                  - /url: /01-getting-started/07-editor-vs-designer/
+              - listitem [ref=e55]:
+                - link "普段の更新は「エディター」だけでOKです！" [ref=e56] [cursor=pointer]:
+                  - /url: /01-getting-started/08-editor-only-recommendation/
+              - listitem [ref=e57]:
+                - link "Chrome翻訳で英語画面を読む" [ref=e58] [cursor=pointer]:
+                  - /url: /01-getting-started/09-chrome-translate-webflow/
+              - listitem [ref=e59]:
+                - link "Webflow基本用語の早見表" [ref=e60] [cursor=pointer]:
+                  - /url: /01-getting-started/10-webflow-ui-glossary/
+              - listitem [ref=e61]:
+                - link "ログイン直後の最初の操作" [ref=e62] [cursor=pointer]:
+                  - /url: /01-getting-started/11-after-login-first-steps/
+        - listitem [ref=e63]:
+          - group [ref=e64]:
+            - generic "B. エディター" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: B. エディター
+              - img [ref=e67]
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - link "Editor入門：テキスト・画像・リンクを安全に更新する" [ref=e71] [cursor=pointer]:
+                  - /url: /02-editor/00-editor-complete-guide/
+              - listitem [ref=e72]:
+                - link "基本エディターモードの開き方" [ref=e73] [cursor=pointer]:
+                  - /url: /02-editor/01-open-editor/
+              - listitem [ref=e74]:
+                - link "エディターでサイトの文字を書き換える方法" [ref=e75] [cursor=pointer]:
+                  - /url: /02-editor/02-edit-text/
+              - listitem [ref=e76]:
+                - link "エディターで文章の一部を太字にする方法" [ref=e77] [cursor=pointer]:
+                  - /url: /02-editor/03-bold-text/
+              - listitem [ref=e78]:
+                - link "エディターで文章にリンクを設定する方法" [ref=e79] [cursor=pointer]:
+                  - /url: /02-editor/04-add-link/
+              - listitem [ref=e80]:
+                - link "エディターで画像を差し替える方法" [ref=e81] [cursor=pointer]:
+                  - /url: /02-editor/05-replace-image/
+              - listitem [ref=e82]:
+                - link "エディターでリンク先のURLを変更する方法" [ref=e83] [cursor=pointer]:
+                  - /url: /02-editor/06-edit-link-url/
+              - listitem [ref=e84]:
+                - link "忘れずに！変更を保存してサイトに反映させる方法" [ref=e85] [cursor=pointer]:
+                  - /url: /02-editor/07-save-and-publish/
+              - listitem [ref=e86]:
+                - link "安心変更をやめて、保存せずに終了する方法" [ref=e87] [cursor=pointer]:
+                  - /url: /02-editor/08-discard-changes/
+              - listitem [ref=e88]:
+                - link "外部リンクを新しいタブで開く" [ref=e89] [cursor=pointer]:
+                  - /url: /02-editor/09-external-link-new-tab/
+              - listitem [ref=e90]:
+                - link "ページ内アンカーリンク" [ref=e91] [cursor=pointer]:
+                  - /url: /02-editor/10-anchor-link/
+              - listitem [ref=e92]:
+                - link "Editor公開前チェック" [ref=e93] [cursor=pointer]:
+                  - /url: /02-editor/11-before-publish-checklist/
+        - listitem [ref=e94]:
+          - group [ref=e95]:
+            - generic "C. CMS更新" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: C. CMS更新
+              - img [ref=e98]
+            - list [ref=e100]:
+              - listitem [ref=e101]:
+                - link "ブログ記事を新規投稿する完全ガイド" [ref=e102] [cursor=pointer]:
+                  - /url: /03-cms/00-blog-post-complete-guide/
+              - listitem [ref=e103]:
+                - link "「お知らせ」や「ブログ」はどこで管理してるの？" [ref=e104] [cursor=pointer]:
+                  - /url: /03-cms/01-where-is-cms/
+              - listitem [ref=e105]:
+                - link "新しい「お知らせ（ブログ記事）」を追加する方法" [ref=e106] [cursor=pointer]:
+                  - /url: /03-cms/02-create-new-post/
+              - listitem [ref=e107]:
+                - link "記事の「タイトル」を入力する" [ref=e108] [cursor=pointer]:
+                  - /url: /03-cms/03-post-title/
+              - listitem [ref=e109]:
+                - link "記事の「アイキャッチ画像（サムネイル）」を設定する方法" [ref=e110] [cursor=pointer]:
+                  - /url: /03-cms/04-thumbnail-image/
+              - listitem [ref=e111]:
+                - link "記事の「カテゴリー」を選択する方法" [ref=e112] [cursor=pointer]:
+                  - /url: /03-cms/05-post-category/
+              - listitem [ref=e113]:
+                - link "記事の「本文」を書き込む" [ref=e114] [cursor=pointer]:
+                  - /url: /03-cms/06-write-body/
+              - listitem [ref=e115]:
+                - link "本文の文字を太字にする・斜体にする" [ref=e116] [cursor=pointer]:
+                  - /url: /03-cms/07-bold-italic-body/
+              - listitem [ref=e117]:
+                - link "本文に見出し（大・中・小）を付ける方法" [ref=e118] [cursor=pointer]:
+                  - /url: /03-cms/08-headings/
+              - listitem [ref=e119]:
+                - link "本文を箇条書き（リスト）にする方法" [ref=e120] [cursor=pointer]:
+                  - /url: /03-cms/09-bullet-list/
+              - listitem [ref=e121]:
+                - link "本文に「写真（画像）」を入れる方法" [ref=e122] [cursor=pointer]:
+                  - /url: /03-cms/10-insert-image/
+              - listitem [ref=e123]:
+                - link "本文に入れた写真のサイズを変更する方法" [ref=e124] [cursor=pointer]:
+                  - /url: /03-cms/11-resize-image/
+              - listitem [ref=e125]:
+                - link "本文にYouTube動画を埋め込む方法" [ref=e126] [cursor=pointer]:
+                  - /url: /03-cms/12-embed-youtube/
+              - listitem [ref=e127]:
+                - link "本文の文章にリンクを貼る方法" [ref=e128] [cursor=pointer]:
+                  - /url: /03-cms/13-body-link/
+              - listitem [ref=e129]:
+                - link "記事の「公開日」を設定する方法" [ref=e130] [cursor=pointer]:
+                  - /url: /03-cms/14-publish-date/
+              - listitem [ref=e131]:
+                - link "便利未来の日時で「公開を予約」する方法" [ref=e132] [cursor=pointer]:
+                  - /url: /03-cms/15-schedule-publish/
+              - listitem [ref=e133]:
+                - link "書いた記事を「下書き」で保存する方法" [ref=e134] [cursor=pointer]:
+                  - /url: /03-cms/16-save-as-draft/
+              - listitem [ref=e135]:
+                - link "下書きした記事を「公開」する方法" [ref=e136] [cursor=pointer]:
+                  - /url: /03-cms/17-publish-draft/
+              - listitem [ref=e137]:
+                - link "一度公開した記事を「修正」する方法" [ref=e138] [cursor=pointer]:
+                  - /url: /03-cms/18-edit-published/
+              - listitem [ref=e139]:
+                - link "公開中の記事を「非公開（下書き）」に戻す方法" [ref=e140] [cursor=pointer]:
+                  - /url: /03-cms/19-unpublish/
+              - listitem [ref=e141]:
+                - link "不要になった記事を「アーカイブ（保管）」する方法" [ref=e142] [cursor=pointer]:
+                  - /url: /03-cms/20-archive-post/
+              - listitem [ref=e143]:
+                - link "不要になった記事を完全に「削除」する方法" [ref=e144] [cursor=pointer]:
+                  - /url: /03-cms/21-delete-post/
+              - listitem [ref=e145]:
+                - link "画像にalt属性を入力" [ref=e146] [cursor=pointer]:
+                  - /url: /03-cms/22-image-alt/
+              - listitem [ref=e147]:
+                - link "CMSアイテムの並び替え" [ref=e148] [cursor=pointer]:
+                  - /url: /03-cms/23-reorder-cms-items/
+              - listitem [ref=e149]:
+                - link "本文にファイルを添付" [ref=e150] [cursor=pointer]:
+                  - /url: /03-cms/24-attach-file/
+              - listitem [ref=e151]:
+                - link "CMS公開前チェック" [ref=e152] [cursor=pointer]:
+                  - /url: /03-cms/25-cms-before-publish-checklist/
+        - listitem [ref=e153]:
+          - group [ref=e154]:
+            - generic "D. デザイナー" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: D. デザイナー
+              - img [ref=e157]
+            - list [ref=e159]:
+              - listitem [ref=e160]:
+                - link "Designerと多言語サイト修正ガイド" [ref=e161] [cursor=pointer]:
+                  - /url: /04-designer/00-localization-designer-guide/
+              - listitem [ref=e162]:
+                - link "触る前に見て！デザイナーモードを開く時の注意点" [ref=e163] [cursor=pointer]:
+                  - /url: /04-designer/01-designer-warning/
+              - listitem [ref=e164]:
+                - link "デザイナーモードで「トップページの文章」を変える方法" [ref=e165] [cursor=pointer]:
+                  - /url: /04-designer/02-edit-homepage-text/
+              - listitem [ref=e166]:
+                - link "デザイナーモードで「会社の住所」などを修正する方法" [ref=e167] [cursor=pointer]:
+                  - /url: /04-designer/03-edit-address/
+              - listitem [ref=e168]:
+                - link "デザイナーモードで「ロゴ画像」を差し替える方法" [ref=e169] [cursor=pointer]:
+                  - /url: /04-designer/04-replace-logo/
+              - listitem [ref=e170]:
+                - link "サイトで使う画像をアップロードする場所（アセットパネル）" [ref=e171] [cursor=pointer]:
+                  - /url: /04-designer/05-asset-panel/
+              - listitem [ref=e172]:
+                - link "不要になった画像をサーバーから削除する方法" [ref=e173] [cursor=pointer]:
+                  - /url: /04-designer/06-delete-asset/
+              - listitem [ref=e174]:
+                - link "最重要変更をサイトに反映させる「Publish」ボタンの押し方" [ref=e175] [cursor=pointer]:
+                  - /url: /04-designer/07-publish-button/
+              - listitem [ref=e176]:
+                - link "お守り操作を間違えた！一つ前に戻す方法 (Ctrl+Z)" [ref=e177] [cursor=pointer]:
+                  - /url: /04-designer/08-undo-ctrl-z/
+              - listitem [ref=e178]:
+                - link "デザインが崩れたかも？変更を保存せずに終了する方法" [ref=e179] [cursor=pointer]:
+                  - /url: /04-designer/09-discard-designer-changes/
+              - listitem [ref=e180]:
+                - link "ファビコンを変更する" [ref=e181] [cursor=pointer]:
+                  - /url: /04-designer/10-favicon/
+              - listitem [ref=e182]:
+                - link "ページの複製" [ref=e183] [cursor=pointer]:
+                  - /url: /04-designer/11-duplicate-page/
+        - listitem [ref=e184]:
+          - group [ref=e185]:
+            - generic "E. 便利な設定" [ref=e186] [cursor=pointer]:
+              - generic [ref=e187]: E. 便利な設定
+              - img [ref=e188]
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - link "フォーム回答・CSV・プラン変更の確認ガイド" [ref=e192] [cursor=pointer]:
+                  - /url: /05-settings/00-site-settings-complete-guide/
+              - listitem [ref=e193]:
+                - link "Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)" [ref=e194] [cursor=pointer]:
+                  - /url: /05-settings/01-seo-title/
+              - listitem [ref=e195]:
+                - link "Google検索結果に出る「ページの説明文」を変更する方法 (SEO)" [ref=e196] [cursor=pointer]:
+                  - /url: /05-settings/02-seo-description/
+              - listitem [ref=e197]:
+                - link "SNSでシェアされた時の画像（OGP画像）を変更する方法" [ref=e198] [cursor=pointer]:
+                  - /url: /05-settings/03-ogp-image/
+              - listitem [ref=e199]:
+                - link "「お問い合わせフォーム」から連絡が来たか確認する方法" [ref=e200] [cursor=pointer]:
+                  - /url: /05-settings/04-form-submissions/
+              - listitem [ref=e201]:
+                - link "お問い合わせがあった時の通知メールアドレスを変更する方法" [ref=e202] [cursor=pointer]:
+                  - /url: /05-settings/05-form-notification-email/
+              - listitem [ref=e203]:
+                - link "お問い合わせデータをまとめてダウンロードする方法 (CSV)" [ref=e204] [cursor=pointer]:
+                  - /url: /05-settings/06-form-csv-download/
+              - listitem [ref=e205]:
+                - link "フォーム項目の追加・削除" [ref=e206] [cursor=pointer]:
+                  - /url: /05-settings/07-form-fields/
+              - listitem [ref=e207]:
+                - link "共同編集者を招待する" [ref=e208] [cursor=pointer]:
+                  - /url: /05-settings/08-invite-collaborator/
+              - listitem [ref=e209]:
+                - link "独自ドメイン接続の確認" [ref=e210] [cursor=pointer]:
+                  - /url: /05-settings/09-domain-status/
+              - listitem [ref=e211]:
+                - link "検索エンジンの表示制御" [ref=e212] [cursor=pointer]:
+                  - /url: /05-settings/10-search-engine-control/
+        - listitem [ref=e213]:
+          - group [ref=e214]:
+            - generic "F. トラブル解決" [ref=e215] [cursor=pointer]:
+              - generic [ref=e216]: F. トラブル解決
+              - img [ref=e217]
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - link "トラブル時にまず確認するチェックリスト" [ref=e221] [cursor=pointer]:
+                  - /url: /06-troubleshooting/00-common-checklist/
+              - listitem [ref=e222]:
+                - link "「変更を保存したのに、サイトに反映されません！」なぜ？（キャッシュ解説）" [ref=e223] [cursor=pointer]:
+                  - /url: /06-troubleshooting/01-cache-not-reflecting/
+              - listitem [ref=e224]:
+                - link "「画像がアップロードできません！」原因と対処法" [ref=e225] [cursor=pointer]:
+                  - /url: /06-troubleshooting/02-image-upload-failed/
+              - listitem [ref=e226]:
+                - link "「スマホで見た時だけ表示が崩れています」どう伝えればいい？" [ref=e227] [cursor=pointer]:
+                  - /url: /06-troubleshooting/03-mobile-display-broken/
+              - listitem [ref=e228]:
+                - link "「サイトが”404 Not Found”と表示されます」どういう意味？" [ref=e229] [cursor=pointer]:
+                  - /url: /06-troubleshooting/04-404-not-found/
+              - listitem [ref=e230]:
+                - link "サイトのバックアップを確認・復元する方法" [ref=e231] [cursor=pointer]:
+                  - /url: /06-troubleshooting/05-backup-restore/
+              - listitem [ref=e232]:
+                - link "問い合わせメールが届かない" [ref=e233] [cursor=pointer]:
+                  - /url: /06-troubleshooting/06-email-not-arriving/
+    - generic [ref=e235]:
+      - complementary [ref=e236]:
+        - navigation "目次" [ref=e241]:
+          - heading "目次" [level=2] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "概要" [ref=e245] [cursor=pointer]:
+                - /url: "#_top"
+            - listitem [ref=e246]:
+              - link "できること" [ref=e247] [cursor=pointer]:
+                - /url: "#できること"
+            - listitem [ref=e248]:
+              - link "ページ全体を日本語に翻訳する" [ref=e249] [cursor=pointer]:
+                - /url: "#ページ全体を日本語に翻訳する"
+            - listitem [ref=e250]:
+              - link "翻訳アイコンが出ない時" [ref=e251] [cursor=pointer]:
+                - /url: "#翻訳アイコンが出ない時"
+            - listitem [ref=e252]:
+              - link "翻訳したまま作業する時の注意点" [ref=e253] [cursor=pointer]:
+                - /url: "#翻訳したまま作業する時の注意点"
+            - listitem [ref=e254]:
+              - link "IGNITE推奨の使い方" [ref=e255] [cursor=pointer]:
+                - /url: "#ignite推奨の使い方"
+            - listitem [ref=e256]:
+              - link "参考" [ref=e257] [cursor=pointer]:
+                - /url: "#参考"
+            - listitem [ref=e258]:
+              - link "次に進む" [ref=e259] [cursor=pointer]:
+                - /url: "#次に進む"
+      - main [ref=e261]:
+        - heading "Chrome翻訳でWebflowの英語画面を日本語で確認する" [level=1] [ref=e264]
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - blockquote [ref=e268]:
+              - paragraph [ref=e269]: "旧マニュアル番号: なし"
+            - paragraph [ref=e270]:
+              - text: Webflowの管理画面は英語で表示されることがあります。英語のままでも作業できますが、初めての方はボタン名や説明文で迷いやすいため、IGNITEでは
+              - strong [ref=e271]: Google Chromeの翻訳機能
+              - text: を補助的に使うことをおすすめします。
+            - paragraph [ref=e272]: このページでは、Webflowの画面をChromeで日本語表示に近づける方法と、翻訳したまま作業する時の注意点を説明します。
+            - heading "できること" [level=2] [ref=e273]
+            - paragraph [ref=e274]: Chromeの翻訳機能を使うと、Webflowの英語表示を日本語に翻訳して確認できます。
+            - paragraph [ref=e275]: たとえば、次のような英語が日本語で読みやすくなります。
+            - table [ref=e276]:
+              - rowgroup [ref=e277]:
+                - row "英語表示 意味" [ref=e278]:
+                  - columnheader "英語表示" [ref=e279]
+                  - columnheader "意味" [ref=e280]
+              - rowgroup [ref=e281]:
+                - row "Dashboard サイト一覧の管理画面" [ref=e282]:
+                  - cell "Dashboard" [ref=e283]
+                  - cell "サイト一覧の管理画面" [ref=e284]
+                - row "Editor 文章・画像・リンクなどを更新する画面" [ref=e285]:
+                  - cell "Editor" [ref=e286]
+                  - cell "文章・画像・リンクなどを更新する画面" [ref=e287]
+                - row "Designer サイトの構造やデザインを編集する画面" [ref=e288]:
+                  - cell "Designer" [ref=e289]
+                  - cell "サイトの構造やデザインを編集する画面" [ref=e290]
+                - row "Publish 変更を公開する" [ref=e291]:
+                  - cell "Publish" [ref=e292]
+                  - cell "変更を公開する" [ref=e293]
+                - row "Save as Draft 下書きとして保存する" [ref=e294]:
+                  - cell "Save as Draft" [ref=e295]
+                  - cell "下書きとして保存する" [ref=e296]
+                - row "Collection ブログやお知らせなどをまとめる箱" [ref=e297]:
+                  - cell "Collection" [ref=e298]
+                  - cell "ブログやお知らせなどをまとめる箱" [ref=e299]
+            - heading "ページ全体を日本語に翻訳する" [level=2] [ref=e300]
+            - list [ref=e301]:
+              - listitem [ref=e302]: Google ChromeでWebflowを開きます。
+              - listitem [ref=e303]: アドレスバー右側に表示される翻訳アイコンをクリックします。
+              - listitem [ref=e304]: 翻訳先の言語で「日本語」を選びます。
+              - listitem [ref=e305]: 画面全体の英語表示が日本語に変わったことを確認します。
+            - paragraph [ref=e306]: 翻訳アイコンが出ない場合は、ページ内の何もない場所を右クリックし、表示されるメニューから「日本語に翻訳」を選びます。
+            - heading "翻訳アイコンが出ない時" [level=2] [ref=e307]
+            - paragraph [ref=e308]: Chromeの設定で翻訳機能がオフになっている可能性があります。
+            - list [ref=e309]:
+              - listitem [ref=e310]: Chrome右上のメニューを開きます。
+              - listitem [ref=e311]: 「設定」を開きます。
+              - listitem [ref=e312]: 「言語」を開きます。
+              - listitem [ref=e313]: 「Google 翻訳を使用する」をオンにします。
+              - listitem [ref=e314]: 必要に応じて、翻訳先の言語を日本語にします。
+            - heading "翻訳したまま作業する時の注意点" [level=2] [ref=e315]
+            - paragraph [ref=e316]: Chrome翻訳は便利ですが、Webflowのボタン名や項目名が実際と少し違う日本語になることがあります。
+            - paragraph [ref=e317]: 特に次の言葉は、英語名も一緒に覚えておくと安全です。
+            - table [ref=e318]:
+              - rowgroup [ref=e319]:
+                - row "翻訳後に見える言葉 実際に覚える英語 注意点" [ref=e320]:
+                  - columnheader "翻訳後に見える言葉" [ref=e321]
+                  - columnheader "実際に覚える英語" [ref=e322]
+                  - columnheader "注意点" [ref=e323]
+              - rowgroup [ref=e324]:
+                - row "公開、発行 Publish 押すと公開サイトに反映されます" [ref=e325]:
+                  - cell "公開、発行" [ref=e326]
+                  - cell "Publish" [ref=e327]
+                  - cell "押すと公開サイトに反映されます" [ref=e328]
+                - row "デザイナー Designer 通常更新では基本的に開きません" [ref=e329]:
+                  - cell "デザイナー" [ref=e330]
+                  - cell "Designer" [ref=e331]
+                  - cell "通常更新では基本的に開きません" [ref=e332]
+                - row "コレクション Collection ブログ・お知らせなどの投稿管理です" [ref=e333]:
+                  - cell "コレクション" [ref=e334]
+                  - cell "Collection" [ref=e335]
+                  - cell "ブログ・お知らせなどの投稿管理です" [ref=e336]
+                - row "下書き Draft まだ公開されていない状態です" [ref=e337]:
+                  - cell "下書き" [ref=e338]
+                  - cell "Draft" [ref=e339]
+                  - cell "まだ公開されていない状態です" [ref=e340]
+                - row "スラッグ Slug URLの末尾です。公開前に確認します" [ref=e341]:
+                  - cell "スラッグ" [ref=e342]
+                  - cell "Slug" [ref=e343]
+                  - cell "URLの末尾です。公開前に確認します" [ref=e344]
+            - heading "IGNITE推奨の使い方" [level=2] [ref=e345]
+            - list [ref=e346]:
+              - listitem [ref=e347]: 初回ログイン時はChrome翻訳をオンにして、画面全体の意味をつかむ。
+              - listitem [ref=e348]: 実際に押すボタンは、翻訳後の日本語だけでなく英語名も確認する。
+              - listitem [ref=e349]:
+                - code [ref=e350]: Publish
+                - text: 、
+                - code [ref=e351]: Designer
+                - text: 、
+                - code [ref=e352]: Delete
+                - text: 、
+                - code [ref=e353]: Archive
+                - text: など影響が大きいボタンは、押す前に一度止まる。
+              - listitem [ref=e354]: 迷った時はスクリーンショットを撮って、IGNITEの制作担当者へ確認する。
+            - heading "参考" [level=2] [ref=e355]
+            - list [ref=e356]:
+              - listitem [ref=e357]:
+                - link "ページを翻訳する、Chrome の言語を変更する - Google Chrome ヘルプ" [ref=e358] [cursor=pointer]:
+                  - /url: https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=ja-JP
+            - heading "次に進む" [level=2] [ref=e359]
+            - paragraph [ref=e360]:
+              - text: Webflowの英語UIでよく出る単語は
+              - link "Webflow基本用語の早見表" [ref=e361] [cursor=pointer]:
+                - /url: /01-getting-started/10-webflow-ui-glossary/
+              - text: で確認できます。
+          - generic [ref=e363]:
+            - link "前へ 普段の更新は「エディター」だけでOKです！" [ref=e364] [cursor=pointer]:
+              - /url: /01-getting-started/08-editor-only-recommendation/
+              - img [ref=e365]
+              - generic [ref=e367]:
+                - text: 前へ
+                - text: 普段の更新は「エディター」だけでOKです！
+            - link "次へ Webflow基本用語の早見表" [ref=e368] [cursor=pointer]:
+              - /url: /01-getting-started/10-webflow-ui-glossary/
+              - img [ref=e369]
+              - generic [ref=e371]:
+                - text: 次へ
+                - text: Webflow基本用語の早見表
+  - generic [ref=e374]:
+    - button "Menu" [ref=e375]:
+      - img [ref=e377]
+      - generic: Menu
+    - button "Inspect" [ref=e381]:
+      - img [ref=e383]
+      - generic: Inspect
+    - button "Audit" [ref=e385]:
+      - img [ref=e387]
+      - generic: Audit
+    - button "Settings" [ref=e390]:
+      - img [ref=e392]
+      - generic: Settings

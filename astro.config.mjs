@@ -5,16 +5,15 @@ export default defineConfig({
   site: 'https://webflow-manual.ignitejp.com',
   integrations: [
     starlight({
-      title: 'Webflow更新マニュアル',
-      description: 'クライアント向けWebflowサイト更新マニュアル（IGNITE提供）',
-      defaultLocale: 'ja',
+      title: 'IGNITE Webflow更新マニュアル',
+      description: 'IGNITE提供の公開版Webflowサイト更新マニュアル',
       locales: {
-        ja: { label: '日本語', lang: 'ja' },
+        root: { label: '日本語', lang: 'ja' },
       },
       customCss: ['./src/styles/custom.css'],
       sidebar: [
         { label: 'A. はじめの一歩', autogenerate: { directory: '01-getting-started' } },
-        { label: 'B. エディター', autogenerate: { directory: '02-editor' } },
+        { label: 'B. Content Editor', autogenerate: { directory: '02-editor' } },
         { label: 'C. CMS更新', autogenerate: { directory: '03-cms' } },
         { label: 'D. デザイナー', autogenerate: { directory: '04-designer' } },
         { label: 'E. 便利な設定', autogenerate: { directory: '05-settings' } },

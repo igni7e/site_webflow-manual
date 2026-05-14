@@ -6,7 +6,7 @@ sidebar:
   label: "SNSでシェアされた時の画像（OGP画像）を変更する方法"
 ---
 
-> 旧マニュアル番号: No.49
+> 旧マニュアル番号: [No.49](/05-settings/03-ogp-image/)
 
 FacebookやX (Twitter) などのSNSでWebサイトのURLがシェアされた際、自動的に表示される画像やタイトル、説明文は、その投稿がクリックされるかどうかを大きく左右します。これらは「OGP（Open Graph Protocol）」と呼ばれる設定によって制御されています。
 
@@ -22,7 +22,7 @@ OGPは、WebページがSNSでシェアされた時に、どのように表示�
 
 これらを適切に設定することで、SNSでの拡散効果を高めることができます。
 
-![OGP表示例](https://uploads-ssl.webflow.com/xxxxxxxx/xxxxxxxx_OGPExample.png)  
+![OGP表示例](../../../assets/captures/ogp-example.svg)
 *※画像はイメージです。*
 
 ## 2. OGP画像を設定する場所
@@ -77,4 +77,4 @@ URLを入力して「Debug」または「Preview card」をクリックすると
 ---
 
 **次のステップ:**
-SNSでの見栄えもバッチリですね。次は、Webサイトの重要な機能の一つである「お問い合わせフォーム」に関する「No.50 「お問い合わせフォーム」から連絡が来たか確認する方法」です。
+SNSでの見栄えもバッチリですね。次は、Webサイトの重要な機能の一つである「お問い合わせフォーム」に関する「[No.50](/05-settings/04-form-submissions/) 「お問い合わせフォーム」から連絡が来たか確認する方法」です。

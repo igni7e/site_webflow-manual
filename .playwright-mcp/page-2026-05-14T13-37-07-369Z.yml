@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Webflow更新マニュアル" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: Webflow更新マニュアル
+        - button "検索" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - generic [ref=e14]: 検索
+          - generic [ref=e15]:
+            - generic [ref=e16]: ⌘
+            - generic [ref=e17]: K
+        - generic [ref=e18]:
+          - link "GitHub" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/igni7e/site_webflow-manual
+            - generic [ref=e21]: GitHub
+            - img [ref=e22]
+          - generic [ref=e25]:
+            - generic [ref=e26]: テーマの選択
+            - img
+            - combobox "テーマの選択" [ref=e27] [cursor=pointer]:
+              - option "ダーク"
+              - option "ライト"
+              - option "自動" [selected]
+            - img
+    - main [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Webflow更新マニュアル" [level=1] [ref=e37]
+            - generic [ref=e38]: Webflowサイトの更新作業を、迷わず・安全に・自分のペースで。
+          - generic [ref=e39]:
+            - link "はじめての方はこちら" [ref=e40] [cursor=pointer]:
+              - /url: /01-getting-started/00-site-update-overview/
+              - text: はじめての方はこちら
+              - img [ref=e41]
+            - link "Editor入門" [ref=e43] [cursor=pointer]:
+              - /url: /02-editor/00-editor-complete-guide/
+              - text: Editor入門
+              - img [ref=e44]
+        - generic [ref=e46]:
+          - heading "このマニュアルについて" [level=2] [ref=e47]
+          - paragraph [ref=e48]:
+            - text: このマニュアルは、Webflow で構築されたサイトを
+            - strong [ref=e49]: 非エンジニアのクライアント担当者
+            - text: が安全に更新できるよう、IGNITE が制作しました。基本操作からトラブル解決まで全 6 カテゴリで網羅しています。
+          - heading "まず読むページ" [level=2] [ref=e50]
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - 'link "A. はじめの一歩: 更新作業の全体像" [ref=e53] [cursor=pointer]':
+                - /url: /01-getting-started/00-site-update-overview/
+            - listitem [ref=e54]:
+              - 'link "B. 英語画面が不安な方へ: Chrome翻訳でWebflowを読む" [ref=e55] [cursor=pointer]':
+                - /url: /01-getting-started/09-chrome-translate-webflow/
+            - listitem [ref=e56]:
+              - link "C. Webflow基本用語の早見表" [ref=e57] [cursor=pointer]:
+                - /url: /01-getting-started/10-webflow-ui-glossary/
+            - listitem [ref=e58]:
+              - 'link "D. Editor入門: テキスト・画像・リンクを安全に更新する" [ref=e59] [cursor=pointer]':
+                - /url: /02-editor/00-editor-complete-guide/
+            - listitem [ref=e60]:
+              - 'link "E. CMS更新: ブログ記事を新規投稿する完全ガイド" [ref=e61] [cursor=pointer]':
+                - /url: /03-cms/00-blog-post-complete-guide/
+            - listitem [ref=e62]:
+              - 'link "F. Designer: 多言語サイトと自動翻訳の修正ガイド" [ref=e63] [cursor=pointer]':
+                - /url: /04-designer/00-localization-designer-guide/
+            - listitem [ref=e64]:
+              - 'link "G. 便利な設定: フォーム回答・CSV・プラン変更" [ref=e65] [cursor=pointer]':
+                - /url: /05-settings/00-site-settings-complete-guide/
+            - listitem [ref=e66]:
+              - 'link "H. トラブル解決: まず確認するチェックリスト" [ref=e67] [cursor=pointer]':
+                - /url: /06-troubleshooting/00-common-checklist/
+          - heading "細かい手順を探す" [level=2] [ref=e68]
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - text: Webflowへの招待、ログイン、ダッシュボードは
+              - link "はじめの一歩" [ref=e71] [cursor=pointer]:
+                - /url: /01-getting-started/01-invitation-email/
+              - text: から順番に確認できます。
+            - listitem [ref=e72]:
+              - text: Webflowの英語UIが不安な場合は
+              - link "Chrome翻訳で英語画面を読む" [ref=e73] [cursor=pointer]:
+                - /url: /01-getting-started/09-chrome-translate-webflow/
+              - text: と
+              - link "Webflow基本用語の早見表" [ref=e74] [cursor=pointer]:
+                - /url: /01-getting-started/10-webflow-ui-glossary/
+              - text: を先に確認してください。
+            - listitem [ref=e75]:
+              - text: 普段の文字・画像・リンク更新は
+              - link "Editorモード" [ref=e76] [cursor=pointer]:
+                - /url: /02-editor/01-open-editor/
+              - text: を使います。
+            - listitem [ref=e77]:
+              - text: ブログやお知らせの投稿は
+              - link "CMS更新" [ref=e78] [cursor=pointer]:
+                - /url: /03-cms/01-where-is-cms/
+              - text: を確認してください。
+            - listitem [ref=e79]:
+              - text: Designerモードはサイト全体を壊す可能性があるため、先に
+              - link "Designerの注意点" [ref=e80] [cursor=pointer]:
+                - /url: /04-designer/01-designer-warning/
+              - text: を読んでください。
+          - heading "困ったときは" [level=2] [ref=e81]
+          - paragraph [ref=e82]: 各章末の「よくある質問」セクションを確認しても解決しない場合は、IGNITE のサイト制作担当者までご連絡ください。
+          - blockquote [ref=e83]:
+            - paragraph [ref=e84]:
+              - strong [ref=e85]: ヒント
+              - text: ": 何か変更を加える前に、ブラウザで"
+              - strong [ref=e86]: 新しいタブ
+              - text: にサイトを開いておくと、変更前後を見比べやすいです。
+        - paragraph [ref=e89]:
+          - text: "最終更新日:"
+          - time [ref=e90]: 2026/04/30
+  - generic [ref=e93]:
+    - button "Menu" [ref=e94]:
+      - img [ref=e96]
+      - generic: Menu
+    - button "Inspect" [ref=e100]:
+      - img [ref=e102]
+      - generic: Inspect
+    - button "Audit" [ref=e104]:
+      - img [ref=e106]
+      - generic: Audit
+    - button "Settings" [ref=e109]:
+      - img [ref=e111]
+      - generic: Settings

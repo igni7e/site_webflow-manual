@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">アセットパネルアイコン</title>
+  <desc id="desc">Webflow manual capture placeholder. Replace this SVG with the real screenshot.</desc>
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <rect x="56" y="56" width="1168" height="608" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="56" y="56" width="1168" height="72" rx="18" fill="#111827"/>
+  <circle cx="100" cy="92" r="10" fill="#ef4444"/>
+  <circle cx="132" cy="92" r="10" fill="#f59e0b"/>
+  <circle cx="164" cy="92" r="10" fill="#10b981"/>
+  <text x="96" y="226" fill="#0f172a" font-family="Arial, sans-serif" font-size="42" font-weight="700">アセットパネルアイコン</text>
+  <text x="96" y="290" fill="#475569" font-family="Arial, sans-serif" font-size="26">実際のWebflow画面キャプチャに差し替えてください</text>
+  <rect x="96" y="344" width="520" height="44" rx="8" fill="#e2e8f0"/>
+  <rect x="96" y="416" width="760" height="44" rx="8" fill="#e2e8f0"/>
+  <rect x="96" y="488" width="620" height="44" rx="8" fill="#e2e8f0"/>
+  <rect x="912" y="344" width="216" height="144" rx="14" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+  <text x="936" y="424" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="28" font-weight="700">Capture</text>
+  <text x="96" y="604" fill="#64748b" font-family="Arial, sans-serif" font-size="20">assets-panel-icon</text>
+</svg>

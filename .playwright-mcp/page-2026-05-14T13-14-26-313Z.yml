@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Webflow更新マニュアル" [ref=e7] [cursor=pointer]:
+          - /url: /ja
+          - generic [ref=e8]: Webflow更新マニュアル
+        - button "検索" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - generic [ref=e14]: 検索
+          - generic [ref=e15]:
+            - generic [ref=e16]: ⌘
+            - generic [ref=e17]: K
+        - generic [ref=e18]:
+          - link "GitHub" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/igni7e/site_webflow-manual
+            - generic [ref=e21]: GitHub
+            - img [ref=e22]
+          - generic [ref=e25]:
+            - generic [ref=e26]: テーマの選択
+            - img
+            - combobox "テーマの選択" [ref=e27] [cursor=pointer]:
+              - option "ダーク"
+              - option "ライト"
+              - option "自動" [selected]
+            - img
+    - main [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Webflow更新マニュアル" [level=1] [ref=e37]
+            - generic [ref=e38]: Webflowサイトの更新作業を、迷わず・安全に・自分のペースで。
+          - generic [ref=e39]:
+            - link "はじめての方はこちら" [ref=e40] [cursor=pointer]:
+              - /url: /01-getting-started/01-invitation-email/
+              - text: はじめての方はこちら
+              - img [ref=e41]
+            - link "GitHub" [ref=e43] [cursor=pointer]:
+              - /url: https://github.com/igni7e/site_webflow-manual
+              - text: GitHub
+              - img [ref=e44]
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: "import { Card, CardGrid } from ‘@astrojs/starlight/components’;"
+          - heading "このマニュアルについて" [level=2] [ref=e49]
+          - paragraph [ref=e50]:
+            - text: このマニュアルは、Webflow で構築されたサイトを
+            - strong [ref=e51]: 非エンジニアのクライアント担当者
+            - text: が安全に更新できるよう、IGNITE が制作しました。基本操作からトラブル解決まで全 6 カテゴリで網羅しています。
+          - generic [ref=e52]: Webflow への招待〜ログイン〜画面構成。最初に見るカテゴリです。 日常の更新で使う「エディターモード」の操作方法。 お知らせ・ブログ記事の追加・編集・公開・アーカイブ。 レイアウト調整が必要な時に使う「デザイナーモード」（要注意）。 SEO、お問い合わせフォーム、独自ドメインなど運用に必要な設定。 「反映されない」「アップロードできない」等のよくある問題への対処法。
+          - heading "困ったときは" [level=2] [ref=e53]
+          - paragraph [ref=e54]: 各章末の「よくある質問」セクションを確認しても解決しない場合は、IGNITE のサイト制作担当者までご連絡ください。
+          - blockquote [ref=e55]:
+            - paragraph [ref=e56]:
+              - text: 💡
+              - strong [ref=e57]: ヒント
+              - text: ": 何か変更を加える前に、ブラウザで"
+              - strong [ref=e58]: 新しいタブ
+              - text: にサイトを開いておくと、変更前後を見比べやすいです。
+        - paragraph [ref=e61]:
+          - text: "最終更新日:"
+          - time [ref=e62]: 2026/04/30
