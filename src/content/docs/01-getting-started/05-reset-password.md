@@ -6,14 +6,6 @@ sidebar:
   label: "パスワードを忘れた時の再設定方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-06-login-screen.png` を入れてください。
-撮影対象: A-06「Webflowログイン画面」。Email、Password、Log in、Forgot passwordの位置が分かる状態
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[最初に見る場所]
@@ -21,8 +13,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.5](/01-getting-started/05-reset-password/)
 
 「パスワードを忘れてしまってログインできない！」そんな時でも、ご自身で簡単にパスワードを再設定（リセット）することができます。慌てずにこの手順に従って操作してください。
 *実画面例: パスワード再設定後にログインできると、Dashboardで対象サイトを確認できます。*
@@ -73,4 +63,4 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 ---
 
 次のステップ:
-これでログインに関する手順は一通りマスターしました。次は、ログイン後の画面である「[No.6](/01-getting-started/06-dashboard-overview/) 管理画面（ダッシュボード）の基本的な見方」について学んでいきましょう。
+これでログインに関する手順は一通りマスターしました。次は、ログイン後の画面である「[管理画面（ダッシュボード）の基本的な見方](/01-getting-started/06-dashboard-overview/)」について学んでいきましょう。

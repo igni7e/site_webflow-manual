@@ -6,15 +6,6 @@ sidebar:
   label: "お問い合わせがあった時の通知メールアドレスを変更する方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-05: `src/assets/captures/manual/f-05-forms-list.png`。Site settings > Forms一覧。フォーム名、Submissions入口が分かる
-- F-07: `src/assets/captures/manual/f-07-email-notification-settings.png`。Email notifications欄。通知先メール欄。実メールアドレスは隠す
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::note[個人情報の取り扱い]
@@ -22,8 +13,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.51](/05-settings/05-form-notification-email/)
 
 お問い合わせフォームからメッセージが送信された際に、通知を受け取るメールアドレスを変更したい場合があります。担当者が変わったり、複数の部署で通知を受け取りたい場合などにこの設定を行います。
 
@@ -51,9 +40,7 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 5.  <strong>「Email notifications」セクションを探す:</strong>
     フォームの詳細設定画面が開きます。画面を下にスクロールしていくと、「<strong>Email notifications</strong>」というセクションがあります。ここに、現在通知が送られているメールアドレスが表示されています。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「通知メール設定」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
+    ![Form通知メール設定](../../../assets/captures/manual/f-03-email-notification-settings.png)
 
 6.  <strong>メールアドレスを編集:</strong>
     -   既存のメールアドレスを削除したい場合は、そのメールアドレスの右側にある「×」アイコンをクリックします。
@@ -70,4 +57,4 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 ---
 
 <strong>次のステップ:</strong>
-通知メールアドレスの変更はこれで完了です。次は、フォームから送信されたデータをまとめて管理したい場合に便利な「[No.52](/05-settings/06-form-csv-download/) お問い合わせデータをまとめてダウンロードする方法 (CSV)」です。
+通知メールアドレスの変更はこれで完了です。次は、フォームから送信されたデータをまとめて管理したい場合に便利な「[お問い合わせデータをまとめてダウンロードする方法 (CSV)](/05-settings/06-form-csv-download/)」です。

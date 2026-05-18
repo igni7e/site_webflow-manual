@@ -17,6 +17,12 @@
   color: var(--sl-color-accent);
 }
 
+/* マニュアル内の画面キャプチャを背景から見分けやすくする */
+.sl-markdown-content img {
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
 /* 見出しの強調 */
 .sl-markdown-content h1,
 .sl-markdown-content h2 {

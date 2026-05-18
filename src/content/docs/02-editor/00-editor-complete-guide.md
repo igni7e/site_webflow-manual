@@ -5,15 +5,6 @@ sidebar:
   order: 0
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- B-01: `src/assets/captures/manual/b-01-open-content-editor.png`。Content editor roleで対象サイトを開く入口。Dashboardから編集画面へ入るボタンが分かる状態
-- B-02: `src/assets/captures/manual/b-02-editor-canvas-opened.png`。Content editorでサイトを開いた直後。上部バー、ページ画面、編集可能な雰囲気が分かる状態
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -22,12 +13,15 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 <!-- body-callout:end -->
 
 
+![Dashboard上の編集入口](../../../assets/captures/manual/a-02-site-card-actions.png)
+
+
 # Content Editor入門：テキスト・画像・リンクを安全に更新する
 
 Content editor roleは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための役割です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
-従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。
-*実画面例: 実際のサイト画面を見ながら、対象の文章・画像・リンクを確認して更新します。*
+従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。Dashboardに「Open Editor (Legacy)」が表示される場合だけ、旧バージョンの入口ページを確認してください。
+*実画面例: Dashboardでは、通常の編集入口と旧Legacy Editorの入口を見分けてから作業に入ります。*
 
 ## 作業全体の流れ
 
@@ -38,38 +32,12 @@ Content editor roleは、Webflowサイトの見た目を確認しながら、文
 5. 変更内容を確認します。
 6. 問題がなければPublishします。
 
-## 画像差し込み枠
-
-この章は、実際の画面キャプチャーが多いほど初心者に伝わりやすくなります。後でBOOSTのWebflow画面を使って、以下の位置に画像を差し込んでください。実際の顧客名、メールアドレス、非公開URL、フォーム送信内容は写さないでください。
-
-| No. | 対象ページ | 撮影する画面 | 強調する箇所 |
-| --- | --- | --- | --- |
-| B-01 | Content Editor入門 | Dashboardで対象サイトのカードが見えている状態 | サイトカード、Editorまたは編集入口 |
-| B-02 | Content Editor入門 | 対象サイトを開いた直後の画面 | 画面上部のバー、編集可能エリア |
-| B-03 | Content Editor入門 | 編集できるテキストにカーソルを合わせた状態 | 青い枠、編集アイコン |
-| B-04 | Content Editor入門 | テキストをクリックして編集状態になった画面 | 入力カーソル、編集対象の文章 |
-| B-05 | Content Editor入門 | 画像にカーソルを合わせた状態 | 画像編集アイコン、選択中の画像 |
-| B-06 | Content Editor入門 | 画像アップロードまたは選択画面 | Upload、Replace、Choose Imageのボタン |
-| B-07 | Content Editor入門 | ボタンやテキストリンクを選択した状態 | リンク設定アイコン、対象リンク |
-| B-08 | Content Editor入門 | リンクURLの入力欄が開いた状態 | URL欄、新しいタブ設定 |
-| B-09 | Content Editor入門 | Publish前にページ全体を確認している状態 | 修正済みのテキスト、画像、リンク |
-| B-10 | Content Editor入門 | Publishボタンまたは公開確認画面 | Publish、公開対象ドメイン |
-| B-11 | Content Editorを開く | `?update` 付きURLで編集画面を開いた状態 | URL末尾の `?update`、ログイン後の編集画面 |
-| B-12 | Content Editorを開く | 編集権限がない、または編集アイコンが出ない例 | Editor入口が出ない状態、確認すべき場所 |
-| B-13 | テキスト編集 | 短い見出しを編集している画面 | 変更前後が分かる見出し |
-| B-14 | テキスト編集 | 長い本文を編集している画面 | 改行位置、貼り付け後の本文 |
-| B-15 | 太字設定 | テキスト選択後にツールバーが出ている画面 | Boldボタン、選択範囲 |
-| B-16 | リンク設定 | 外部リンクを入力している画面 | URL欄、Open in new tab |
-| B-17 | 画像差し替え | 差し替え前の画像と編集アイコン | 対象画像だけを選ぶこと |
-| B-18 | 画像差し替え | 差し替え後の表示確認画面 | 画像の縦横比、切れ、ぼやけ |
-| B-19 | 破棄・戻す | 保存せず閉じる、または変更破棄の確認画面 | Discard、Cancelなどの選択肢 |
-| B-20 | 公開前チェック | 公開サイトを別タブで確認している画面 | 公開URL、変更後の表示 |
 
 ## Webflowを開く
 
 WebflowにログインしてDashboardから対象サイトを開く方法と、サイトURLの末尾に `?update` を付けて直接開く方法があります。サイトごとに権限や案内URLが異なる場合があるため、初回は制作担当者から共有された方法を優先してください。
 
-詳しい手順は [No.9 Content editor roleでWebflowを開く方法](/02-editor/01-open-editor/) を確認してください。
+最新版の詳しい手順は [B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/) を確認してください。旧Legacy Editorの入口が表示される場合は [B-1. Content Editor（旧バージョン）でWebflowを開く方法](/02-editor/01-open-legacy-editor/) を確認してください。
 
 ## テキストを編集する
 
@@ -78,7 +46,7 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 3. 文章を直接入力・削除します。
 4. 長い文章は、先にGoogle Docsやメモ帳で作ってから貼り付けると安全です。
 
-詳しい手順は [No.10 サイトの文字を書き換える方法](/02-editor/02-edit-text/) を確認してください。
+詳しい手順は [サイトの文字を書き換える方法](/02-editor/03-edit-text/) を確認してください。
 
 ## 画像を差し替える
 
@@ -93,7 +61,7 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 
 ボタンや文章リンクのリンク先を変更する場合は、リンク設定画面でURLを確認します。外部サイトへ飛ばすリンクは、必要に応じて新しいタブで開く設定にします。
 
-リンク作成は [No.12 文章にリンクを設定する方法](/02-editor/04-add-link/)、リンク先変更は [No.14 リンク先URLを変更する方法](/02-editor/06-edit-link-url/) を確認してください。
+リンク作成は [文章にリンクを設定する方法](/02-editor/05-add-link/)、リンク先変更は [リンク先URLを変更する方法](/02-editor/07-edit-link-url/) を確認してください。
 
 ## Publish前に確認する
 
@@ -104,13 +72,13 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 - スマートフォン表示で文字や画像が崩れていない
 - 変更してはいけない共通パーツを触っていない
 
-詳しい確認項目は [Editor公開前チェックリスト](/02-editor/11-before-publish-checklist/) を使ってください。
+詳しい確認項目は [Editor公開前チェックリスト](/02-editor/12-before-publish-checklist/) を使ってください。
 
 ## Publishする
 
 編集内容は、Publishするまで一般の閲覧者には反映されません。内容を確認したら、Publish権限がある担当者が公開します。公開後は実際のWebサイトを開き、変更が反映されているか確認してください。
 
-詳しい手順は [No.15 変更を保存してサイトに反映させる方法](/02-editor/07-save-and-publish/) を確認してください。
+詳しい手順は [変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) を確認してください。
 
 ## よくあるつまずき
 
@@ -167,4 +135,4 @@ Content editor roleは、完成済みページのコンテンツ更新に向い�
 
 ## 次に進む
 
-具体的な操作を順番に確認する場合は [No.9 Content editor roleでWebflowを開く方法](/02-editor/01-open-editor/) から進んでください。
+具体的な操作を順番に確認する場合は [B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/) から進んでください。

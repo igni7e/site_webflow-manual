@@ -6,20 +6,14 @@ sidebar:
   label: "共同編集者を招待する"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/f-10-site-access-members.png` を入れてください。
-撮影対象: F-10「Site access / メンバー権限画面」。氏名・メールは隠す。RoleとCan publishが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[設定変更の注意]
 Site settingsはサイト全体に影響する項目が多い画面です。SEO、フォーム、ドメイン、権限まわりは、変更前に現在の状態を控えてから作業します。
 :::
 <!-- body-callout:end -->
+
+![Site access / メンバー権限](../../../assets/captures/manual/f-04-members-and-roles.png)
 
 
 > 新規追加（標準スコープ補完）

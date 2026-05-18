@@ -6,21 +6,14 @@ sidebar:
   label: "問い合わせメールが届かない"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-07: `src/assets/captures/manual/f-07-email-notification-settings.png`。Email notifications欄。通知先メール欄。実メールアドレスは隠す
-- G-07: `src/assets/captures/manual/g-07-forms-email-troubleshooting.png`。Forms通知設定とSubmissions確認。送信記録あり・通知先確認の流れが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::note[個人情報の取り扱い]
 フォーム送信内容や通知先メールアドレスには個人情報が含まれることがあります。画面共有やキャプチャーを送る時は、氏名、メールアドレス、問い合わせ本文が必要以上に写らないようにしてください。
 :::
 <!-- body-callout:end -->
+
+![Form通知メール設定](../../../assets/captures/manual/f-03-email-notification-settings.png)
 
 
 > 新規追加（標準スコープ補完）

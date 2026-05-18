@@ -22,14 +22,14 @@ sidebar:
 | カテゴリ | 掲載ページ | 撮影対象 | 現在の画像 | 状態 |
 |---|---|---|---|---|
 | A. はじめの一歩 | `src/content/docs/01-getting-started/06-dashboard-overview.md` | ダッシュボードからEditorを開く | ![ダッシュボードからEditorを開く](../src/assets/captures/editor-button.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/01-open-editor.md` | ダッシュボードからEditorを開く | ![ダッシュボードからEditorを開く](../src/assets/captures/editor-button.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/01-open-editor.md` | エディターモードのツールバー | ![エディターモードのツールバー](../src/assets/captures/editor-toolbar.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/02-edit-text.md` | テキスト編集の合図 | ![テキスト編集の合図](../src/assets/captures/text-edit-icon.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/03-bold-text.md` | 太字設定メニュー | ![太字設定メニュー](../src/assets/captures/bold-menu.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/04-add-link.md` | リンク設定画面 | ![リンク設定画面](../src/assets/captures/link-setting.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/05-replace-image.md` | 画像編集の合図 | ![画像編集の合図](../src/assets/captures/image-edit-icon.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/06-edit-link-url.md` | リンク設定を開く | ![リンク設定を開く](../src/assets/captures/link-settings-panel.svg) | 未撮影 |
-| B. エディター | `src/content/docs/02-editor/07-save-and-publish.md` | Publishボタン | ![Publishボタン](../src/assets/captures/publish-button.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/01-open-legacy-editor.md` | Content Editor（旧バージョン）を開く入口 | ![ダッシュボードからEditorを開く](../src/assets/captures/editor-button.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/02-open-content-editor.md` | Content Editor（最新版）を開いた画面 | ![エディターモードのツールバー](../src/assets/captures/editor-toolbar.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/03-edit-text.md` | テキスト編集の合図 | ![テキスト編集の合図](../src/assets/captures/text-edit-icon.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/04-bold-text.md` | 太字設定メニュー | ![太字設定メニュー](../src/assets/captures/bold-menu.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/05-add-link.md` | リンク設定画面 | ![リンク設定画面](../src/assets/captures/link-setting.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/06-replace-image.md` | 画像編集の合図 | ![画像編集の合図](../src/assets/captures/image-edit-icon.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/07-edit-link-url.md` | リンク設定を開く | ![リンク設定を開く](../src/assets/captures/link-settings-panel.svg) | 未撮影 |
+| B. エディター | `src/content/docs/02-editor/08-save-and-publish.md` | Publishボタン | ![Publishボタン](../src/assets/captures/publish-button.svg) | 未撮影 |
 | C. CMS更新 | `src/content/docs/03-cms/01-where-is-cms.md` | Collectionsタブ | ![Collectionsタブ](../src/assets/captures/collections-tab.svg) | 未撮影 |
 | C. CMS更新 | `src/content/docs/03-cms/02-create-new-post.md` | 新規追加ボタン | ![新規追加ボタン](../src/assets/captures/new-item-button.svg) | 未撮影 |
 | C. CMS更新 | `src/content/docs/03-cms/03-post-title.md` | タイトル入力欄 | ![タイトル入力欄](../src/assets/captures/title-field.svg) | 未撮影 |

@@ -2,18 +2,10 @@
 title: "ページ内アンカーリンクの貼り方"
 description: "クライアント向けWebflow更新マニュアル：ページ内の特定の見出しへジャンプするリンクを作る方法"
 sidebar:
-  order: 10
+  order: 11
   label: "ページ内アンカーリンク"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/b-12-anchor-link-target-section.png` を入れてください。
-撮影対象: B-12「ページ内アンカーリンクの対象セクション」。セクションIDまたはリンク先見出しが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]

@@ -6,14 +6,6 @@ sidebar:
   label: "普段の更新はContent editor role"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-08-content-editor-vs-designer-entry.png` を入れてください。
-撮影対象: A-08「サイトカード上でContent editor入口とDesigner入口が分かる状態」。通常更新で押すもの、押さないものを比較できる構図
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -21,8 +13,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.8](/01-getting-started/08-editor-only-recommendation/)
 
 前のマニュアルでContent editor roleとDesignerの大きな違いについて学びました。このページでは、なぜ日常更新はContent editor roleで十分なのか、そしてContent editor roleを使うことのメリットを整理します。
 *実画面例: Designerでは見た目だけでなく構造にも触れます。文章や画像の通常更新だけなら、Content editor roleを優先してください。*
@@ -54,7 +44,7 @@ Designerのような構造編集を避けながら、目的の作業（文章の
 ## 3. 「もしも」の時もご安心を
 
 「更新したけど、やっぱり元に戻したい」
-そんな時は、公開前であれば変更を取り消せる場合があります。公開後に大きく戻したい場合は、サイトのバックアップから復元する機能（[No.57](/06-troubleshooting/05-backup-restore/)参照）もあります。
+そんな時は、公開前であれば変更を取り消せる場合があります。公開後に大きく戻したい場合は、サイトのバックアップから復元する機能（[サイトのバックアップを確認・復元する方法](/06-troubleshooting/05-backup-restore/)参照）もあります。
 
 ## 4. まとめ
 
@@ -65,4 +55,4 @@ Designerのような構造編集を避けながら、目的の作業（文章の
 ---
 
 <strong>次のステップ:</strong>
-ここからはいよいよ、具体的な更新作業の方法に入っていきます。まずは基本の「[No.9](/02-editor/01-open-editor/) 【基本】Content editor roleでWebflowを開く方法」からスタートです。
+ここからはいよいよ、具体的な更新作業の方法に入っていきます。まずは基本の「[B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/)」からスタートです。

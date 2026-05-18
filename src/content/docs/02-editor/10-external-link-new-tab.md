@@ -2,24 +2,18 @@
 title: "外部リンクを新しいタブで開くように設定する方法"
 description: "クライアント向けWebflow更新マニュアル：リンクを別タブで開く設定（target=_blank）"
 sidebar:
-  order: 9
+  order: 10
   label: "外部リンクを新しいタブで開く"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/b-11-external-link-new-tab.png` を入れてください。
-撮影対象: B-11「外部リンクを新規タブで開く設定」。外部URLとNew tab設定が見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
 Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
 :::
 <!-- body-callout:end -->
+
+![リンク設定画面](../../../assets/captures/manual/b-04-link-settings-panel.png)
 
 
 > 新規追加（標準スコープ補完）

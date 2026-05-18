@@ -5,14 +5,6 @@ sidebar:
   order: 0
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/g-01-publish-status-check.png` を入れてください。
-撮影対象: G-01「Publishing画面で公開状態を確認」。反映されない時の確認用。対象ドメインが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[問い合わせ前の準備]
@@ -47,7 +39,7 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - 別ブラウザやスマートフォン回線で確認したか
 - CMS記事の場合、記事自体がPublishedになっているか
 
-詳しくは [No.53 変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) を確認してください。
+詳しくは [変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) を確認してください。
 
 ## 画像がアップロードできない
 
@@ -59,7 +51,7 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - 通信が不安定ではないか
 - Webflow側で一時的なエラーが出ていないか
 
-詳しくは [No.54 画像アップロードの原因と対処法](/06-troubleshooting/02-image-upload-failed/) を確認してください。
+詳しくは [画像アップロードの原因と対処法](/06-troubleshooting/02-image-upload-failed/) を確認してください。
 
 ## スマートフォンだけ崩れている
 
@@ -71,7 +63,7 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - 直前に変更した文章や画像が長すぎないか
 - スクリーンショットを撮ったか
 
-詳しくは [No.55 スマホ表示崩れの伝え方](/06-troubleshooting/03-mobile-display-broken/) を確認してください。
+詳しくは [スマホ表示崩れの伝え方](/06-troubleshooting/03-mobile-display-broken/) を確認してください。
 
 ## 404 Not Foundが表示される
 
@@ -82,7 +74,7 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - Slugを変更していないか
 - 公開前の下書きURLを見ていないか
 
-詳しくは [No.56 404 Not Foundの意味](/06-troubleshooting/04-404-not-found/) を確認してください。
+詳しくは [404 Not Foundの意味](/06-troubleshooting/04-404-not-found/) を確認してください。
 
 ## メールが届かない
 
@@ -234,4 +226,4 @@ Publishした: はい / いいえ / 不明
 
 ## 次に進む
 
-変更が反映されない場合は [No.53 変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) から確認してください。
+変更が反映されない場合は [変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) から確認してください。

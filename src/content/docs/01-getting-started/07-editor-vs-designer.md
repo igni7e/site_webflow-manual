@@ -6,14 +6,6 @@ sidebar:
   label: "Content editor roleとDesigner"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-08-content-editor-vs-designer-entry.png` を入れてください。
-撮影対象: A-08「サイトカード上でContent editor入口とDesigner入口が分かる状態」。通常更新で押すもの、押さないものを比較できる構図
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -21,8 +13,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.7](/01-getting-started/07-editor-vs-designer/)
 
 Webflowでは、ユーザーごとにSite roleが割り当てられ、できる作業範囲が変わります。通常の更新で使う <strong>Content editor role</strong> と、制作・改修で使う <strong>Designer</strong> の違いを理解することは、安全かつ効率的にサイトを更新するために非常に重要です。
 *実画面例: Designerは実際のサイトを見ながら構造やデザインまで触れる画面です。通常更新では必要な時だけ使います。*
@@ -79,4 +69,4 @@ Content editor roleは、家の「内装」を変更する役割に似ていま�
 ---
 
 <strong>次のステップ:</strong>
-これで2つの役割の違いが明確になりましたね。次からは、いよいよ実際の更新作業の中心となるContent editor roleでの使い方を学んでいきます。まずは「[No.8](/01-getting-started/08-editor-only-recommendation/) 普段の更新はContent editor roleでOKです」で、その安心感について再確認しましょう。
+これで2つの役割の違いが明確になりましたね。次からは、いよいよ実際の更新作業の中心となるContent editor roleでの使い方を学んでいきます。まずは「[普段の更新はContent editor roleでOKです](/01-getting-started/08-editor-only-recommendation/)」で、その安心感について再確認しましょう。

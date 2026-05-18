@@ -6,14 +6,6 @@ sidebar:
   label: "最重要変更をサイトに反映させる「Publish」ボタンの押し方"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-07-designer-publish-modal.png` を入れてください。
-撮影対象: D-07「DesignerのPublishモーダル」。公開対象ドメイン、Publish to selected domainsが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[公開前チェック]
@@ -22,9 +14,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 <!-- body-callout:end -->
 
 
-> 旧マニュアル番号: [No.44](/04-designer/07-publish-button/)
-
-<strong>このマニュアルは、デザイナーモードでの作業において、[No.15](/02-editor/07-save-and-publish/)と並んで最も重要な手順です。</strong>
+<strong>このマニュアルは、デザイナーモードでの作業において、[変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/)と並んで最も重要な手順です。</strong>
 
 デザイナーモードでテキストや画像をどれだけ変更しても、この「公開（Publish）」作業を完了しない限り、その変更は一般のサイト訪問者には一切見えません。すべてのデザイナーモードでの作業の締めくくりとなる、必須の操作です。
 
@@ -39,9 +29,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 1.  <strong>デザイナーモードの右上にある「Publish」ボタンを探す:</strong>
     デザイナーモードの画面、右上の青いボタン群の中に、<strong>「Publish」</strong>という一番目立つボタンがあります。これをクリックします。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「デザイナーPublishボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
+    ![DesignerのPublishモーダル](../../../assets/captures/manual/d-04-designer-publish-modal.png)
     *実画面例: 実際のサイトを開いた状態です。Publish前には、変更したページと表示内容を確認します。*
 
 2.  <strong>公開先ドメインの確認:</strong>
@@ -65,9 +53,9 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 可能であれば、いきなり本番ドメインだけで確認せず、テスト用ドメインやWebflow側のプレビューで表示を確認してから本番公開してください。多言語サイトの場合は、JapaneseとEnglishなど、変更したLocaleの公開状態も確認します。
 
-もし変更が反映されていないように見える場合は、「[No.53](/06-troubleshooting/01-cache-not-reflecting/)」で解説する「キャッシュ」が原因の可能性があります。ブラウザのスーパーリロード（`Ctrl+F5` / `Cmd+Shift+R`）を試してみてください。
+もし変更が反映されていないように見える場合は、[「変更を保存したのに、サイトに反映されません！」なぜ？（キャッシュ解説）](/06-troubleshooting/01-cache-not-reflecting/)で解説する「キャッシュ」が原因の可能性があります。ブラウザのスーパーリロード（`Ctrl+F5` / `Cmd+Shift+R`）を試してみてください。
 
 ---
 
 <strong>次のステップ:</strong>
-デザイナーモードでの公開作業、お疲れ様でした。次は、万が一の時のためのお守りとなる、「[No.45](/04-designer/08-undo-ctrl-z/) 【お守り】操作を間違えた！一つ前に戻す方法 (Ctrl+Z)」です。
+デザイナーモードでの公開作業、お疲れ様でした。次は、万が一の時のためのお守りとなる、「[操作を間違えた！一つ前に戻す方法 (Ctrl+Z)](/04-designer/08-undo-ctrl-z/)」です。

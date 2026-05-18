@@ -6,14 +6,6 @@ sidebar:
   label: "「画像がアップロードできません！」原因と対処法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/g-02-image-upload-error-example.png` を入れてください。
-撮影対象: G-02「画像アップロードエラーまたは失敗直後」。エラー文が読める。実ファイル名は問題なければ表示
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -21,8 +13,8 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 :::
 <!-- body-callout:end -->
 
+![エラー例](../../../assets/captures/manual/g-03-error-examples.png)
 
-> 旧マニュアル番号: [No.54](/06-troubleshooting/02-image-upload-failed/)
 
 Webflowで画像をアップロードしようとした際に、エラーが表示されたり、いつまで経ってもアップロードが終わらなかったりすることがあります。ここでは、画像アップロードがうまくいかない主な原因と、それぞれの対処法を解説します。
 *実画面例: 画像トラブルでは、アップロード後に公開ページで粗さや見切れがないかも確認します。*
@@ -86,4 +78,4 @@ Webflowが対応していない特殊な画像ファイル形式（例: TIFF, RA
 ---
 
 <strong>次のステップ:</strong>
-画像トラブルはこれで解決ですね。次は、サイトの表示崩れに関する「[No.55](/06-troubleshooting/03-mobile-display-broken/) 「スマホで見た時だけ表示が崩れています」どう伝えればいい？」です。
+画像トラブルはこれで解決ですね。次は、サイトの表示崩れに関する[「スマホで見た時だけ表示が崩れています」どう伝えればいい？](/06-troubleshooting/03-mobile-display-broken/)です。

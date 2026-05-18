@@ -5,22 +5,14 @@ sidebar:
   order: 0
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-01: `src/assets/captures/manual/f-01-site-settings-general.png`。Site settings > General。左メニューと基本設定が見える。請求情報は写さない
-- F-12: `src/assets/captures/manual/f-12-plans-current-plan.png`。Plans画面。現在プラン・アップグレード候補。料金や請求情報は隠す
-- F-14: `src/assets/captures/manual/f-14-apps-integrations-overview.png`。Apps & Integrations画面。外部連携画面。実連携先で機密があれば隠す
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::note[個人情報の取り扱い]
 フォーム送信内容や通知先メールアドレスには個人情報が含まれることがあります。画面共有やキャプチャーを送る時は、氏名、メールアドレス、問い合わせ本文が必要以上に写らないようにしてください。
 :::
 <!-- body-callout:end -->
+
+![Site settingsの左メニュー](../../../assets/captures/manual/a-03-site-settings-left-menu.png)
 
 
 # フォーム回答・CSV・プラン変更の確認ガイド
@@ -33,7 +25,7 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 Webflowのフォームに送信された内容は、サイト設定やフォーム関連メニューから確認できます。フォームが複数ある場合は、フォーム名を確認して対象を間違えないようにしてください。
 *実画面例: Formsでは、フォーム送信履歴や通知設定の確認に進みます。*
 
-詳しい手順は [No.50 お問い合わせフォームから連絡が来たか確認する方法](/05-settings/04-form-submissions/) を確認してください。
+詳しい手順は [お問い合わせフォームから連絡が来たか確認する方法](/05-settings/04-form-submissions/) を確認してください。
 
 ## CSVでダウンロードする
 
@@ -47,7 +39,7 @@ Webflowのフォームに送信された内容は、サイト設定やフォー�
 4. ダウンロードしたCSVを開き、文字化けや欠損がないか確認します。
 5. ファイル名に日付を入れて保管します。
 
-詳しい手順は [No.52 お問い合わせデータをCSVでダウンロードする方法](/05-settings/06-form-csv-download/) を確認してください。
+詳しい手順は [お問い合わせデータをCSVでダウンロードする方法](/05-settings/06-form-csv-download/) を確認してください。
 
 ## CSVを開くと文字化けする場合
 
@@ -57,7 +49,7 @@ ExcelでCSVを直接開くと、日本語が文字化けすることがありま
 
 フォーム送信に気づけるよう、通知先メールアドレスが正しいか確認してください。担当者変更があった場合は、フォーム通知先も忘れずに更新します。
 
-詳しい手順は [No.51 通知メールアドレスを変更する方法](/05-settings/05-form-notification-email/) を確認してください。
+詳しい手順は [通知メールアドレスを変更する方法](/05-settings/05-form-notification-email/) を確認してください。
 
 ## 公開前にプランを確認する
 
@@ -83,9 +75,9 @@ Webflowサイトを独自ドメインで公開したり、CMSを使ったりす�
 Apps & IntegrationsやCustom codeは、計測タグ、外部ツール連携、フォーム連携などに関係することがあります。設定を変えると広告計測や問い合わせ通知に影響する可能性があるため、通常は制作担当者に依頼してください。
 *実画面例: 外部サービスとの連携を確認する画面です。連携解除や追加は影響が大きいため、自己判断で変更しないでください。*
 
-- [No.47 SEOタイトルを変更する](/05-settings/01-seo-title/)
-- [No.48 SEO説明文を変更する](/05-settings/02-seo-description/)
-- [No.49 OGP画像を変更する](/05-settings/03-ogp-image/)
+- [SEOタイトルを変更する](/05-settings/01-seo-title/)
+- [SEO説明文を変更する](/05-settings/02-seo-description/)
+- [OGP画像を変更する](/05-settings/03-ogp-image/)
 
 ## 理解度チェック
 
@@ -133,4 +125,4 @@ CSVはフォーム回答を表形式で扱うためのファイルです。集�
 
 ## 次に進む
 
-フォーム回答を確認したい場合は [No.50 お問い合わせフォームの確認](/05-settings/04-form-submissions/) へ進んでください。CSVが必要な場合は [No.52 CSVダウンロード](/05-settings/06-form-csv-download/) を確認してください。
+フォーム回答を確認したい場合は [お問い合わせフォームの確認](/05-settings/04-form-submissions/) へ進んでください。CSVが必要な場合は [CSVダウンロード](/05-settings/06-form-csv-download/) を確認してください。

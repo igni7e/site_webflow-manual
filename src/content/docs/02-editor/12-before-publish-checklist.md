@@ -2,18 +2,10 @@
 title: "Editor公開前チェックリスト"
 description: "Webflow Editorで文章・画像・リンクを更新した後、Publish前に確認する項目を初心者向けにまとめます。"
 sidebar:
-  order: 11
+  order: 12
   label: "Editor公開前チェック"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/b-13-before-publish-preview.png` を入れてください。
-撮影対象: B-13「Publish前にページ全体を確認している状態」。変更済みテキスト、画像、リンク導線が見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[公開前チェック]
@@ -21,8 +13,8 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 :::
 <!-- body-callout:end -->
 
+![EditorのPublish操作](../../../assets/captures/manual/b-06-publish-button-editor.png)
 
-> 旧マニュアル番号: なし
 
 Webflowでは、変更を保存しただけでは公開サイトに反映されない場合があります。公開する前に、以下のチェックリストで内容を確認してください。
 *実画面例: Publish前は、公開したいページの見た目とリンク先を画面上で確認します。*
@@ -67,8 +59,8 @@ Publishした後は、公開サイトを新しいタブで開いて確認しま�
 - スマートフォンでも表示が崩れていない
 - リンクをクリックしてもエラーにならない
 
-反映されない場合は [No.53 変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) を確認してください。
+反映されない場合は [変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) を確認してください。
 
 ## 次に進む
 
-Publishの具体的な手順は [No.15 変更を保存してサイトに反映させる方法](/02-editor/07-save-and-publish/) を確認してください。
+Publishの具体的な手順は [変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) を確認してください。

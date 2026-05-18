@@ -1,0 +1,31 @@
+---
+const gtmId = import.meta.env.PUBLIC_GTM_ID || 'GTM-PGPXHQBZ';
+---
+
+<noscript
+	><iframe
+		src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+		height="0"
+		width="0"
+		style="display:none;visibility:hidden"></iframe></noscript
+>
+<a href="#_top">{Astro.locals.t('skipLink.label')}</a>
+
+<style>
+	a {
+		clip: rect(0, 0, 0, 0);
+		position: fixed;
+		top: 0.75rem;
+		inset-inline-start: 0.75rem;
+	}
+	a:focus {
+		clip: unset;
+		z-index: var(--sl-z-index-skiplink);
+		display: block;
+		padding: 0.5rem 1rem;
+		text-decoration: none;
+		color: var(--sl-color-text-invert);
+		background-color: var(--sl-color-text-accent);
+		box-shadow: var(--sl-shadow-lg);
+	}
+</style>

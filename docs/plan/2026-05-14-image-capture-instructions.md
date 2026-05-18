@@ -113,17 +113,18 @@ AIがキャプチャーを撮る場合は、各ページで以下の順番を守
 
 | ページ | 入れる画像 | 強調箇所 | 保存名案 |
 | --- | --- | --- | --- |
-| `01-open-editor.md` | DashboardからContent editor roleで開く流れ | Open in Webflow、編集画面のツールバー | `02-01-open-editor-flow.png` |
-| `02-edit-text.md` | 編集可能なテキストにカーソルを合わせた状態 | 青枠、編集アイコン、テキスト入力位置 | `02-02-edit-text-target.png` |
-| `03-bold-text.md` | テキスト選択後の装飾メニュー | Bold、Italic、リンクメニュー | `02-03-bold-menu.png` |
-| `04-add-link.md` | 文章リンクのURL入力欄 | URL欄、Open in new tab | `02-04-add-link-panel.png` |
-| `05-replace-image.md` | 画像にカーソルを合わせて編集アイコンが出た状態 | 画像編集アイコン、アップロード入口 | `02-05-replace-image-icon.png` |
-| `06-edit-link-url.md` | 既存リンクの設定パネル | 現在のURL、変更後URL、保存操作 | `02-06-edit-link-url.png` |
-| `07-save-and-publish.md` | Publish前後の画面 | Publishボタン、公開先、完了メッセージ | `02-07-publish-flow.png` |
-| `08-discard-changes.md` | 変更破棄や戻る操作の画面 | 破棄ボタン、戻る導線 | `02-08-discard-changes.png` |
-| `09-external-link-new-tab.md` | 外部リンクの新規タブ設定 | Open in new tabのオン状態 | `02-09-open-new-tab.png` |
-| `10-anchor-link.md` | アンカーリンク入力例 | `#contact` の入力欄、対象ボタン | `02-10-anchor-link.png` |
-| `11-before-publish-checklist.md` | 公開前チェックを行う公開サイトのプレビュー | PC表示、スマートフォン表示、リンク確認 | `02-11-before-publish-check.png` |
+| `01-open-legacy-editor.md` | Dashboardから旧Content Editorを開く流れ | Open Editor (Legacy)、旧版の入口 | `02-01-open-legacy-editor-flow.png` |
+| `02-open-content-editor.md` | 最新版Content Editorでサイトを開く流れ | Open in Webflow、編集画面のツールバー | `02-02-open-content-editor-flow.png` |
+| `03-edit-text.md` | 編集可能なテキストにカーソルを合わせた状態 | 青枠、編集アイコン、テキスト入力位置 | `02-03-edit-text-target.png` |
+| `04-bold-text.md` | テキスト選択後の装飾メニュー | Bold、Italic、リンクメニュー | `02-04-bold-menu.png` |
+| `05-add-link.md` | 文章リンクのURL入力欄 | URL欄、Open in new tab | `02-05-add-link-panel.png` |
+| `06-replace-image.md` | 画像にカーソルを合わせて編集アイコンが出た状態 | 画像編集アイコン、アップロード入口 | `02-06-replace-image-icon.png` |
+| `07-edit-link-url.md` | 既存リンクの設定パネル | 現在のURL、変更後URL、保存操作 | `02-07-edit-link-url.png` |
+| `08-save-and-publish.md` | Publish前後の画面 | Publishボタン、公開先、完了メッセージ | `02-08-publish-flow.png` |
+| `09-discard-changes.md` | 変更破棄や戻る操作の画面 | 破棄ボタン、戻る導線 | `02-09-discard-changes.png` |
+| `10-external-link-new-tab.md` | 外部リンクの新規タブ設定 | Open in new tabのオン状態 | `02-10-open-new-tab.png` |
+| `11-anchor-link.md` | アンカーリンク入力例 | `#contact` の入力欄、対象ボタン | `02-11-anchor-link.png` |
+| `12-before-publish-checklist.md` | 公開前チェックを行う公開サイトのプレビュー | PC表示、スマートフォン表示、リンク確認 | `02-12-before-publish-check.png` |
 
 ## 03 CMS
 
@@ -250,11 +251,12 @@ AIがキャプチャーを撮る場合は、各ページで以下の順番を守
 
 1. `01-11-after-login-first-steps.png`
 2. `01-06-dashboard-site-card.png`
-3. `02-01-open-editor-flow.png`
-4. `02-02-edit-text-target.png`
-5. `02-05-replace-image-icon.png`
-6. `02-07-publish-flow.png`
-7. `03-01-collections-panel.png`
+3. `02-01-open-legacy-editor-flow.png`
+4. `02-02-open-content-editor-flow.png`
+5. `02-03-edit-text-target.png`
+6. `02-06-replace-image-icon.png`
+7. `02-08-publish-flow.png`
+8. `03-01-collections-panel.png`
 8. `03-03-title-slug-fields.png`
 9. `03-06-rich-text-body.png`
 10. `05-04-form-submissions.png`

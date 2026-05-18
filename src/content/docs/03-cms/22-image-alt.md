@@ -6,14 +6,6 @@ sidebar:
   label: "画像にalt属性を入力"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/c-25-image-alt-field.png` を入れてください。
-撮影対象: C-25「画像alt入力欄」。altテキスト欄と対象画像が分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[下書きで確認]

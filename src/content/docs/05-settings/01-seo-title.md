@@ -6,15 +6,6 @@ sidebar:
   label: "Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-02: `src/assets/captures/manual/f-02-seo-settings-overview.png`。Site settings > SEO。SEO設定の入口が分かる
-- F-03: `src/assets/captures/manual/f-03-page-seo-settings.png`。DesignerのPage settings > SEO。Title tag、Meta description入力欄が見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[反映タイミングの目安]
@@ -22,8 +13,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.47](/05-settings/01-seo-title/)
 
 Webサイトの集客において、GoogleやYahoo!などの検索エンジンからの流入は非常に重要です。その検索結果に表示される「ページのタイトル（Title Tag）」は、ユーザーがクリックするかどうかを決める最も重要な要素の一つです。ここでは、各ページのタイトルを最適化する方法を解説します。
 
@@ -35,9 +24,7 @@ Webサイトの集客において、GoogleやYahoo!などの検索エンジン�
 -   <strong>ブラウザのタブ:</strong> Webページを開いている時に、ブラウザのタブに表示されるテキストのことです。
 -   <strong>SEOの最重要項目:</strong> 検索エンジンは、このタイトルタグを「このページが何について書かれているか」を理解するための最重要の手がかりとして利用します。
 
-:::note[キャプチャー差し込み位置]
-ここには「検索結果のページタイトル」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-:::
+![SEO / OGP設定](../../../assets/captures/manual/f-01-seo-and-ogp-settings.png)
 
 ## 2. ページタイトルを設定する場所
 
@@ -76,4 +63,4 @@ Webサイトの集客において、GoogleやYahoo!などの検索エンジン�
 ---
 
 <strong>次のステップ:</strong>
-タイトルとセットで重要な、「[No.48](/05-settings/02-seo-description/) Google検索結果に出る「ページの説明文」を変更する方法 (SEO)」に進みましょう。
+タイトルとセットで重要な、「[Google検索結果に出る「ページの説明文」を変更する方法 (SEO)](/05-settings/02-seo-description/)」を変更する方法 (SEO)」に進みましょう。

@@ -6,14 +6,6 @@ sidebar:
   label: "SNSでシェアされた時の画像（OGP画像）を変更する方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/f-04-open-graph-settings.png` を入れてください。
-撮影対象: F-04「Page settings / CMS itemのOpen Graph Settings」。OGP image、title、descriptionが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[反映タイミングの目安]
@@ -21,8 +13,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.49](/05-settings/03-ogp-image/)
 
 FacebookやX (Twitter) などのSNSでWebサイトのURLがシェアされた際、自動的に表示される画像やタイトル、説明文は、その投稿がクリックされるかどうかを大きく左右します。これらは「OGP（Open Graph Protocol）」と呼ばれる設定によって制御されています。
 
@@ -37,10 +27,6 @@ OGPは、WebページがSNSでシェアされた時に、どのように表示�
 -   <strong>OGP説明文 (og:description):</strong> 投稿に表示されるページの説明文。
 
 これらを適切に設定することで、SNSでの拡散効果を高めることができます。
-
-:::note[キャプチャー差し込み位置]
-ここには「OGP表示例」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-:::
 
 ## 2. OGP画像を設定する場所
 
@@ -95,4 +81,4 @@ URLを入力して「Debug」または「Preview card」をクリックすると
 ---
 
 <strong>次のステップ:</strong>
-SNSでの見栄えもバッチリですね。次は、Webサイトの重要な機能の一つである「お問い合わせフォーム」に関する「[No.50](/05-settings/04-form-submissions/) 「お問い合わせフォーム」から連絡が来たか確認する方法」です。
+SNSでの見栄えもバッチリですね。次は、Webサイトの重要な機能の一つである「お問い合わせフォーム」に関する[「お問い合わせフォーム」から連絡が来たか確認する方法](/05-settings/04-form-submissions/)です。

@@ -5,20 +5,14 @@ sidebar:
   order: 0
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-01-designer-opened.png` を入れてください。
-撮影対象: D-01「DesignerでBooostトップページを開いた状態」。左パネル、キャンバス、右パネル、上部バーが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Locale確認]
 翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
 :::
 <!-- body-callout:end -->
+
+![Designerを開いた状態](../../../assets/captures/manual/d-01-designer-opened.png)
 
 
 # DesignerでLocale関連画面を触る前の注意
@@ -36,7 +30,7 @@ Locale翻訳の実作業は、独立した [E. Locale翻訳](/07-localization/00
 - Publish前にPreviewで確認する
 - 不安な場合は、作業前に [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から確認する
 
-Designerの基本的な注意点は [No.38 Designerを開く時の注意点](/04-designer/01-designer-warning/) を先に確認してください。
+Designerの基本的な注意点は [Designerを開く時の注意点](/04-designer/01-designer-warning/) を先に確認してください。
 
 ## Locale関連作業の入口
 
@@ -110,4 +104,4 @@ Designerはサイト構造や見た目に影響するため、変更範囲を決
 
 ## 次に進む
 
-Designerを開く場合は、先に [No.38 Designerを開く時の注意点](/04-designer/01-designer-warning/) を読んでから進んでください。Locale翻訳の具体的な操作は [E. Locale翻訳](/07-localization/00-localization-overview/) に進んでください。
+Designerを開く場合は、先に [Designerを開く時の注意点](/04-designer/01-designer-warning/) を読んでから進んでください。Locale翻訳の具体的な操作は [E. Locale翻訳](/07-localization/00-localization-overview/) に進んでください。

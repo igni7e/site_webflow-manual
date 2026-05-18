@@ -1,17 +1,111 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const siteUrl = 'https://webflow-manual.ignitejp.com';
+const gtmId = process.env.PUBLIC_GTM_ID || 'GTM-PGPXHQBZ';
+const googleSiteVerification = process.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+
 export default defineConfig({
-  site: 'https://webflow-manual.ignitejp.com',
+  site: siteUrl,
   integrations: [
     starlight({
       title: 'IGNITE Webflow更新マニュアル',
-      description: 'IGNITE提供の公開版Webflowサイト更新マニュアル',
+      description: 'Webflowの更新方法、Content Editor、CMS投稿、SEO設定、フォーム確認、Localizationを日本語で解説する公開版Webflowマニュアル。',
       locales: {
         root: { label: '日本語', lang: 'ja' },
       },
       customCss: ['./src/styles/custom.css'],
+      components: {
+        SkipLink: './src/components/GtmSkipLink.astro',
+      },
       head: [
+        ...(googleSiteVerification
+          ? [
+              {
+                tag: 'meta',
+                attrs: {
+                  name: 'google-site-verification',
+                  content: googleSiteVerification,
+                },
+              },
+            ]
+          : []),
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'robots',
+            content: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'keywords',
+            content:
+              'Webflow 更新方法, Webflow 使い方, Webflow CMS 更新, Webflow Editor, Webflow Content Editor, Webflow 日本語 マニュアル, Webflow SEO設定, Webflow フォーム確認, Webflow Localization',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:site_name',
+            content: 'IGNITE Webflow更新マニュアル',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:type',
+            content: 'website',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:card',
+            content: 'summary_large_image',
+          },
+        },
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          content: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'IGNITE Webflow更新マニュアル',
+            alternateName: ['Webflow更新マニュアル', 'Webflow日本語マニュアル'],
+            url: siteUrl,
+            inLanguage: 'ja',
+            description:
+              'Webflowの更新方法、Content Editor、CMS投稿、SEO設定、フォーム確認、Localizationを日本語で解説する公開版Webflowマニュアル。',
+            publisher: {
+              '@type': 'Organization',
+              name: 'IGNITE',
+              url: 'https://igni7e.jp/',
+            },
+            about: [
+              'Webflow 更新方法',
+              'Webflow CMS 更新',
+              'Webflow Content Editor',
+              'Webflow SEO設定',
+              'Webflow Localization',
+            ],
+          }),
+        },
+        ...(gtmId
+          ? [
+              {
+                tag: 'script',
+                content: `
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${gtmId}');
+`,
+              },
+            ]
+          : []),
         {
           tag: 'script',
           attrs: { type: 'module' },

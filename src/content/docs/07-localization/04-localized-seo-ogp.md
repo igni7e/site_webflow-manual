@@ -5,21 +5,14 @@ sidebar:
   order: 5
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- E-17: `src/assets/captures/manual/e-17-page-seo-locale.png`。LocaleごとのPage title / Meta description。対象LocaleのSEO欄が分かる
-- E-18: `src/assets/captures/manual/e-18-ogp-locale-settings.png`。LocaleごとのOGP設定。OGP title、description、imageが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[反映タイミングの目安]
 Webflow上で保存しても、Google検索結果やSNSのプレビューはすぐに変わらないことがあります。Webflowの公開確認と、検索エンジンやSNS側の反映確認は分けて考えると混乱しにくくなります。
 :::
 <!-- body-callout:end -->
+
+![LocaleごとのSEO / OGP設定](../../../assets/captures/manual/e-05-localized-seo-ogp.png)
 
 
 # LocaleごとのSEO・OGP確認
@@ -39,7 +32,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 | OGP画像 | 言語・地域に合った画像か |
 | Image alt | 画像の説明が対象言語で入っているか |
 
-> <strong>キャプチャー指示</strong>: このページには、E-17「Page settingsのSEO欄」とE-18「OGP設定」を入れてください。Page title、Meta description、OGP title、OGP imageが1枚の中で読めるように、必要なら画面を縦長で撮影します。
 
 ## SEO翻訳で気をつけること
 

@@ -2,18 +2,10 @@
 title: "【忘れずに！】変更を保存してサイトに反映させる方法"
 description: "クライアント向けWebflow更新マニュアル：忘れずに！変更を保存してサイトに反映させる方法"
 sidebar:
-  order: 7
+  order: 8
   label: "忘れずに！変更を保存してサイトに反映させる方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/b-09-publish-button-editor.png` を入れてください。
-撮影対象: B-09「Editor / Content editorのPublishボタン」。Publishボタン、保存状態、公開対象が分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[公開前チェック]
@@ -21,8 +13,6 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.15](/02-editor/07-save-and-publish/)
 
 <strong>このマニュアルは、エディターでの作業において最も重要な手順の一つです。</strong>
 
@@ -44,9 +34,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 2.  <strong>青い「Publish」ボタンをクリック:</strong>
     ツールバーの右側にある、青い<strong>「Publish」</strong>ボタンをクリックします。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「Publishボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
+    ![EditorのPublish操作](../../../assets/captures/manual/b-06-publish-button-editor.png)
 
 3.  <strong>公開内容と公開先の確認:</strong>
     公開前に、変更内容、公開対象のページ、公開先ドメインを確認します。本番ドメインに公開してよいか不安な場合は、制作担当者または管理者へ確認してください。
@@ -64,7 +52,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 公開が完了したら、実際にあなたのWebサイトにアクセスして、変更が正しく反映されているかをご自身の目でも確認しましょう。
 
-もし変更が反映されていないように見える場合は、「[No.53](/06-troubleshooting/01-cache-not-reflecting/)」で解説する「キャッシュ」、公開先ドメインの選択、CMS itemの公開状態、Can publish権限を確認してください。
+もし変更が反映されていないように見える場合は、[「変更を保存したのに、サイトに反映されません！」なぜ？（キャッシュ解説）](/06-troubleshooting/01-cache-not-reflecting/)で解説する「キャッシュ」、公開先ドメインの選択、CMS itemの公開状態、Can publish権限を確認してください。
 
 ## 4. Legacy Editorから公開する場合の注意
 
@@ -75,4 +63,4 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 ---
 
 <strong>次のステップ:</strong>
-公開方法をマスターすれば、基本的な更新は一人で完結できます。次は、安心して作業するためのお守りとして、「[No.16](/02-editor/08-discard-changes/) 【安心】変更をやめて、保存せずに終了する方法」を覚えておきましょう。
+公開方法をマスターすれば、基本的な更新は一人で完結できます。次は、安心して作業するためのお守りとして、「[変更をやめて、保存せずに終了する方法](/02-editor/09-discard-changes/)」を覚えておきましょう。

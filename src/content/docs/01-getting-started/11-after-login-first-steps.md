@@ -6,14 +6,6 @@ sidebar:
   label: "ログイン直後の最初の操作"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-02-site-card-hover-actions.png` を入れてください。
-撮影対象: A-02「対象サイトカードにカーソルを合わせ、開くボタンが出た状態」。`Open in Webflow`、設定メニュー、Designerなどの違いが分かる状態
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[最初に見る場所]
@@ -21,8 +13,8 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
+![対象サイトカードの操作メニュー](../../../assets/captures/manual/a-02-site-card-actions.png)
 
-> 旧マニュアル番号: なし
 
 Webflowにログインした直後は、Dashboardにサイトのサムネイルや複数のボタンが表示されます。初めての方は、まず <strong>Content editor roleでWebflowを開く</strong> ことだけ覚えておけば大丈夫です。
 *実画面例: ログイン直後のDashboardでは、対象サイトのカードと開くボタンを確認します。*
@@ -69,4 +61,4 @@ Dashboardは、Webflow内のサイト一覧です。複数のWorkspaceに参加�
 
 ## 次に進む
 
-実際の画面構成は [No.6 管理画面（ダッシュボード）の基本的な見方](/01-getting-started/06-dashboard-overview/) で確認できます。Webflowを開いた後は [Content Editor入門](/02-editor/00-editor-complete-guide/) に進んでください。
+実際の画面構成は [管理画面（ダッシュボード）の基本的な見方](/01-getting-started/06-dashboard-overview/) で確認できます。Webflowを開いた後は [Content Editor入門](/02-editor/00-editor-complete-guide/) に進んでください。

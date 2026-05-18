@@ -5,22 +5,14 @@ sidebar:
   order: 3
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- E-10: `src/assets/captures/manual/e-10-static-text-selected.png`。固定ページのテキスト要素選択。翻訳対象テキストと選択状態が分かる
-- E-11: `src/assets/captures/manual/e-11-machine-translate-action.png`。機械翻訳操作。Translateボタンや候補が分かる
-- E-12: `src/assets/captures/manual/e-12-translated-static-page-check.png`。翻訳後の固定ページ表示確認。ボタンや見出しがはみ出していない
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Locale確認]
 翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
 :::
 <!-- body-callout:end -->
+
+![固定ページの翻訳操作](../../../assets/captures/manual/e-03-static-page-translation.png)
 
 
 # 静的ページをLocaleごとに翻訳する
@@ -38,7 +30,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 6. 画像やaltテキストもLocaleに合っているか確認します。
 7. PC表示とスマートフォン表示を確認します。
 
-> <strong>キャプチャー指示</strong>: このページには、E-10「テキスト要素を選択」、E-11「機械翻訳の操作」、E-12「翻訳後の表示確認」を入れてください。見出し、本文、ボタンの3種類が見えるページをBOOSTサイトから選ぶと、初心者にも違いが伝わりやすくなります。
 
 ## 確認する場所
 

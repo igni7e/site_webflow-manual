@@ -6,16 +6,6 @@ sidebar:
   label: "新しい「お知らせ（ブログ記事）」を追加する方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- C-03: `src/assets/captures/manual/c-03-collection-items-list.png`。対象Collectionの記事一覧。既存記事一覧、検索欄、New itemが見える
-- C-04: `src/assets/captures/manual/c-04-new-item-button.png`。New itemを押す直前。新規追加ボタンを明確にする
-- C-05: `src/assets/captures/manual/c-05-new-cms-item-form.png`。新規CMS itemの入力フォーム。Name、Slug、Save、Publishなど全体が分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[下書きで確認]
@@ -23,8 +13,6 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.18](/03-cms/02-create-new-post/)
 
 CMSの管理画面にアクセスできるようになったら、次はいよいよ新しい記事を追加してみましょう。ここでは例として「お知らせ」を新規作成する手順を解説しますが、「ブログ記事」や「導入事例」など、他のCMSコンテンツでも基本的な流れは同じです。
 
@@ -55,58 +43,34 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
 ## 3. 操作手順の詳細
 
 1.  <strong>CMS管理画面を開く:</strong>
-    「[No.17](/03-cms/01-where-is-cms/)」の手順に従って、WebflowのCMSまたはCollectionsから追加したいコンテンツ（例: `お知らせ`）を選択します。すると、そのコンテンツの記事一覧画面が表示されます。
+    [「お知らせ」や「ブログ」はどこで管理してるの？](/03-cms/01-where-is-cms/)の手順に従って、WebflowのCMSまたはCollectionsから追加したいコンテンツ（例: `お知らせ`）を選択します。すると、そのコンテンツの記事一覧画面が表示されます。
 
 2.  <strong>「New」ボタンをクリック:</strong>
     画面の右上を見てください。<strong>「+ New [コレクション名]」</strong>（例: `+ New Announcement`）という青いボタンがあります。これが新規追加ボタンです。このボタンをクリックします。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「新規追加ボタン」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
+    ![記事一覧画面](../../../assets/captures/manual/c-02-collection-items-list.png)
 
-<details>
-<summary>キャプチャー指示: Collection一覧からNewボタンを押す直前の画面</summary>
+    ![新規CMS item入力フォーム](../../../assets/captures/manual/c-03-new-cms-item-form.png)
 
-- 保存名: `03-02-new-cms-item-button.png`
-- 差し込み位置: 手順2の画像を実キャプチャーに差し替える
-- 撮影画面: CMSまたはCollectionsで対象Collectionの記事一覧を開いた状態
-- 事前状態: デモ用Collection名は `News` または `Blog` にする
-- 強調箇所: 左側のCollection名、右上の `New` ボタン、既存記事一覧
-- 隠す情報: 実在の記事タイトル、公開前記事、顧客名、担当者名
-- 撮影後チェック: 読者が「どの一覧画面でNewを押すか」を迷わないこと
-
-</details>
 
 3.  <strong>記事の入力フォームが開く:</strong>
     クリックすると、新しい記事の情報を入力するための専用フォーム（編集パネル）が画面右側に表示されます。ここには、「タイトル」「公開日」「本文」など、あらかじめ制作会社が設定した項目が並んでいます。
 
-<details>
-<summary>キャプチャー指示: 新規CMS itemの入力フォームが開いた画面</summary>
-
-- 保存名: `03-02-new-cms-item-form.png`
-- 差し込み位置: 手順3の直後
-- 撮影画面: `New` を押して新規記事フォームが開いた状態
-- 事前状態: 入力前の空フォームを表示する。可能ならTitle、Slug、Main image、Bodyが見える位置で撮る
-- 強調箇所: 入力フォーム全体、必須項目、保存・公開ボタン
-- 隠す情報: 既存記事名、顧客固有のCollection名、社内メモ
-- 撮影後チェック: 記事はページ上で直接書くのではなく、フォーム項目を埋めるものだと分かること
-
-</details>
 
 4.  <strong>各項目を埋めていく:</strong>
     このフォームの上から順に、必要な情報を入力したり、設定したりしていきます。
     具体的な入力方法については、次のマニュアルから一つずつ詳しく解説します。
-    -   [No.19 記事の「タイトル」を入力する](/03-cms/03-post-title/)
-    -   [No.20 記事の「アイキャッチ画像」を設定する方法](/03-cms/04-thumbnail-image/)
-    -   [No.21 記事の「カテゴリー」を選択する方法](/03-cms/05-post-category/)
-    -   [No.22 記事の「本文」を書き込む](/03-cms/06-write-body/)
+    -   [記事の「タイトル」を入力する](/03-cms/03-post-title/)
+    -   [記事の「アイキャッチ画像」を設定する方法](/03-cms/04-thumbnail-image/)
+    -   [記事の「カテゴリー」を選択する方法](/03-cms/05-post-category/)
+    -   [記事の「本文」を書き込む](/03-cms/06-write-body/)
     など。
 
 5.  <strong>記事を保存または公開する:</strong>
     すべての項目を入力し終えたら、最後にこの記事をどうするかを決めます。
-    -   <strong>すぐに公開したい場合:</strong> 「Publish」ボタンをクリックします。（→ [No.33 下書きした記事を公開する方法](/03-cms/17-publish-draft/)）
-    -   <strong>一旦下書きとして保存したい場合:</strong> 「Save as Draft」ボタンをクリックします。（→ [No.32 下書きで保存する方法](/03-cms/16-save-as-draft/)）
-    -   <strong>未来の日時で公開を予約したい場合:</strong> 公開日時を設定して「Schedule」ボタンをクリックします。（→ [No.31 未来の日時で公開を予約する方法](/03-cms/15-schedule-publish/)）
+    -   <strong>すぐに公開したい場合:</strong> 「Publish」ボタンをクリックします。（→ [下書きした記事を公開する方法](/03-cms/17-publish-draft/)）
+    -   <strong>一旦下書きとして保存したい場合:</strong> 「Save as Draft」ボタンをクリックします。（→ [下書きで保存する方法](/03-cms/16-save-as-draft/)）
+    -   <strong>未来の日時で公開を予約したい場合:</strong> 公開日時を設定して「Schedule」ボタンをクリックします。（→ [未来の日時で公開を予約する方法](/03-cms/15-schedule-publish/)）
 
 ## 4. 保存方法の選び方
 
@@ -137,4 +101,4 @@ CMS記事は、1つの記事ページだけでなく複数の場所に表示さ�
 ---
 
 <strong>次のステップ:</strong>
-記事の入力フォームを開くところまでできました。次からは、各入力項目の詳細な設定方法を見ていきましょう。まずは最も基本の「[No.19](/03-cms/03-post-title/) 記事の「タイトル」を入力する」です。
+記事の入力フォームを開くところまでできました。次からは、各入力項目の詳細な設定方法を見ていきましょう。まずは最も基本の「[記事の「タイトル」を入力する](/03-cms/03-post-title/)」を入力する」です。

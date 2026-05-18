@@ -5,20 +5,14 @@ sidebar:
   order: 0
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-01-dashboard-site-list.png` を入れてください。
-撮影対象: A-01「Webflow Dashboardのサイト一覧」。対象サイトカード、Workspace名、サイト名が分かる状態。個人名は写っても問題ない範囲に調整
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[最初に見る場所]
 迷った時は、まずDashboardで対象サイト名を確認します。似た名前のサイトやテスト環境がある場合は、編集前に正しいサイトか確認してから進めます。
 :::
 <!-- body-callout:end -->
+
+![Webflow Dashboardのサイト一覧](../../../assets/captures/manual/a-01-dashboard-site-list.png)
 
 
 # Webflow更新作業の全体像
@@ -61,8 +55,8 @@ Webflowの画面は英語で表示されることがあります。初めての�
 
 | やりたいこと | 読むページ |
 | --- | --- |
-| 招待メールから始めたい | [No.1 招待メールを確認する](/01-getting-started/01-invitation-email/) |
-| アカウントを作成したい | [No.2 アカウントを作成する](/01-getting-started/02-create-account/) |
+| 招待メールから始めたい | [招待メールを確認する](/01-getting-started/01-invitation-email/) |
+| アカウントを作成したい | [アカウントを作成する](/01-getting-started/02-create-account/) |
 | ログイン直後に何を押すか知りたい | [ログイン直後に押すもの・押さないもの](/01-getting-started/11-after-login-first-steps/) |
 | 英語画面を日本語で確認したい | [Chrome翻訳で英語画面を読む](/01-getting-started/09-chrome-translate-webflow/) |
 | 文字・画像・リンクを更新したい | [Content Editor入門](/02-editor/00-editor-complete-guide/) |
@@ -131,4 +125,4 @@ Content editor roleは、完成済みのサイト上で安全にコンテンツ�
 
 ## 次に進む
 
-招待メールから始める場合は [No.1 招待メールを確認する](/01-getting-started/01-invitation-email/) に進んでください。すでにログインできる場合は [ログイン直後に押すもの・押さないもの](/01-getting-started/11-after-login-first-steps/) または [Content Editor入門](/02-editor/00-editor-complete-guide/) から始めて問題ありません。
+招待メールから始める場合は [招待メールを確認する](/01-getting-started/01-invitation-email/) に進んでください。すでにログインできる場合は [ログイン直後に押すもの・押さないもの](/01-getting-started/11-after-login-first-steps/) または [Content Editor入門](/02-editor/00-editor-complete-guide/) から始めて問題ありません。

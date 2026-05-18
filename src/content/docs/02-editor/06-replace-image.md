@@ -2,19 +2,10 @@
 title: "エディターで画像を差し替える方法"
 description: "クライアント向けWebflow更新マニュアル：エディターで画像を差し替える方法"
 sidebar:
-  order: 5
+  order: 6
   label: "エディターで画像を差し替える方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- B-07: `src/assets/captures/manual/b-07-image-replace-hover.png`。画像にカーソルを合わせて編集アイコンが出た状態。対象画像だけを選んでいることが分かる
-- B-08: `src/assets/captures/manual/b-08-image-upload-dialog.png`。画像アップロード・Replace画面。Upload、Replace、Choose imageが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -22,8 +13,6 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.13](/02-editor/05-replace-image/)
 
 Webサイトの印象を大きく左右する「画像」。Content editor roleを使えば、専門知識がなくても既存の画像を新しいものに差し替えることができます。
 
@@ -47,9 +36,7 @@ Webサイトの印象を大きく左右する「画像」。Content editor role�
 3.  <strong>青い枠と画像アイコンを確認:</strong>
     編集可能な画像の場合、画像の周りに<strong>青い点線の枠</strong>が表示され、右上に<strong>写真のアイコン</strong>が現れます。これが「この画像は変更できますよ」という合図です。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「画像編集の合図」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
+    ![画像差し替え操作](../../../assets/captures/manual/b-05-image-replace.png)
 
 4.  <strong>画像アイコンをクリック:</strong>
     右上に表示された写真のアイコンをクリックします。
@@ -70,7 +57,7 @@ Webサイトの印象を大きく左右する「画像」。Content editor role�
 
 - <strong>画像サイズ（ファイルサイズ）:</strong>
   Webサイトで使用する画像は、ファイルサイズが大きすぎるとページの表示速度が遅くなる原因になります。アップロードする前に、適切なサイズに圧縮しておくことをお勧めします。（目安：1枚あたり500KB以下）
-  「[No.54](/06-troubleshooting/02-image-upload-failed/) 「画像がアップロードできません！」原因と対処法」もご参照ください。
+  画像がうまくアップロードできない場合は、[「画像がアップロードできません！」原因と対処法](/06-troubleshooting/02-image-upload-failed/)もご参照ください。
 
 - <strong>画像の縦横比:</strong>
   元の画像の縦横比と大きく異なる画像をアップロードすると、デザインによっては画像が歪んだり、意図しない形で切り取られたりする場合があります。できるだけ元の画像の縦横比に近い画像を用意すると、キレイに差し替えることができます。
@@ -80,9 +67,9 @@ Webサイトの印象を大きく左右する「画像」。Content editor role�
 
 ## 4. 【重要】変更の公開
 
-画像の差し替えが終わったら、忘れずに「[No.15](/02-editor/07-save-and-publish/)」の手順で変更を<strong>公開（Publish）</strong>してください。
+画像の差し替えが終わったら、忘れずに[変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/)の手順で変更を<strong>公開（Publish）</strong>してください。
 
 ---
 
 <strong>次のステップ:</strong>
-画像の差し替えができると、サイトの印象をガラッと変えられますね。次は、設定済みのリンク先を変更したい場合の「[No.14](/02-editor/06-edit-link-url/) エディターでリンク先のURLを変更する方法」です。
+画像の差し替えができると、サイトの印象をガラッと変えられますね。次は、設定済みのリンク先を変更したい場合の「[エディターでリンク先のURLを変更する方法](/02-editor/07-edit-link-url/)」です。

@@ -6,22 +6,12 @@ sidebar:
   label: "検索エンジンの表示制御"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-02: `src/assets/captures/manual/f-02-seo-settings-overview.png`。Site settings > SEO。SEO設定の入口が分かる
-- F-13: `src/assets/captures/manual/f-13-custom-code-warning.png`。Custom code画面。触るべきでない専門設定として使う。コード内容は隠す
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[作業前に止まるポイント]
 削除、復元、非公開、公開設定、Designer操作は影響が大きい作業です。実行ボタンを押す前に、対象ページ名、対象アイテム、公開先をもう一度確認してください。迷う場合は作業を止めて担当者へ共有します。
 :::
 <!-- body-callout:end -->
-
 
 > 新規追加（標準スコープ補完）
 

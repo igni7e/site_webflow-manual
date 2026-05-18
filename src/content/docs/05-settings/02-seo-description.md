@@ -6,15 +6,6 @@ sidebar:
   label: "Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- F-02: `src/assets/captures/manual/f-02-seo-settings-overview.png`。Site settings > SEO。SEO設定の入口が分かる
-- F-03: `src/assets/captures/manual/f-03-page-seo-settings.png`。DesignerのPage settings > SEO。Title tag、Meta description入力欄が見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[反映タイミングの目安]
@@ -22,8 +13,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.48](/05-settings/02-seo-description/)
 
 Google検索結果に表示される「ページの説明文（Meta Description）」は、ページのタイトルに次いで、ユーザーがそのページをクリックするかどうかを判断する重要な要素です。ここでは、この説明文を最適化する方法を解説します。
 
@@ -34,13 +23,11 @@ Google検索結果に表示される「ページの説明文（Meta Description�
 -   検索結果のスニペット: Googleなどで検索した時に、ページのタイトルの下に表示される、そのページの内容を要約した短い文章のことです。
 -   クリック率に影響: 検索順位には直接影響しないと言われていますが、ユーザーが「このページは自分の求めている情報があるか」を判断する材料となり、クリック率（CTR）に大きく影響します。
 
-:::note[キャプチャー差し込み位置]
-ここには「検索結果のページ説明文」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-:::
+![SEO / OGP設定](../../../assets/captures/manual/f-01-seo-and-ogp-settings.png)
 
 ## 2. ページの説明文を設定する場所
 
-「[No.47](/05-settings/01-seo-title/)」で解説した「ページのタイトル」と同様に、各ページのSEO関連設定は、サイト設定（Site Settings）またはページ設定（Page Settings）から行います。CMSアイテム（ブログ記事など）の場合は、CMSの編集画面から設定します。
+[Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)](/05-settings/01-seo-title/)で解説した「ページのタイトル」と同様に、各ページのSEO関連設定は、サイト設定（Site Settings）またはページ設定（Page Settings）から行います。CMSアイテム（ブログ記事など）の場合は、CMSの編集画面から設定します。
 *実画面例: SEO関連の設定は、サイト全体の設定とページごとの設定があります。Meta Descriptionを変更する時は対象ページを間違えないようにします。*
 
 ### 静的ページ（トップページ、会社概要など）の場合
@@ -75,4 +62,4 @@ Google検索結果に表示される「ページの説明文（Meta Description�
 ---
 
 次のステップ:
-SEO対策の基本はこれでバッチリですね。次は、SNSでの見栄えを良くするための「[No.49](/05-settings/03-ogp-image/) SNSでシェアされた時の画像（OGP画像）を変更する方法」です。
+SEO対策の基本はこれでバッチリですね。次は、SNSでの見栄えを良くするための「[SNSでシェアされた時の画像（OGP画像）を変更する方法](/05-settings/03-ogp-image/)」です。

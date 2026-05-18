@@ -6,14 +6,6 @@ sidebar:
   label: "デザイナーモードで「トップページの文章」を変える方法"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-02-edit-homepage-text.png` を入れてください。
-撮影対象: D-02「トップページ見出しテキストを選択している状態」。変更対象テキストだけを選んでいる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
@@ -21,10 +13,10 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 :::
 <!-- body-callout:end -->
 
+![Designerでテキストを選択](../../../assets/captures/manual/d-02-edit-page-text.png)
 
-> 旧マニュアル番号: [No.39](/04-designer/02-edit-homepage-text/)
 
-<strong>【注意】この操作は「デザイナーモード」で行います。[No.38](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
+<strong>【注意】この操作は「デザイナーモード」で行います。[デザイナーモードを開く時の注意点](/04-designer/01-designer-warning/)の注意点を必ず読んでから、自己責任の上で実行してください。</strong>
 
 通常、サイトの主要な文章はContent editor roleで編集できるように作られていますが、ごく稀に、CMSではない静的なページ（トップページや会社概要ページなど）の一部が、Content editor roleでは編集できない設定になっている場合があります。ここでは、そういった文章をデザイナーモードで修正する方法を解説します。
 *実画面例: トップページの見出しや本文を確認し、変更対象のテキストだけを触ります。*
@@ -38,7 +30,7 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 ## 2. 操作手順
 
 1.  <strong>デザイナーモードを開く:</strong>
-    「[No.38](/04-designer/01-designer-warning/)」の手順で、デザイナーモードを開きます。
+    [デザイナーモードを開く時の注意点](/04-designer/01-designer-warning/)の手順で、デザイナーモードを開きます。
 
 2.  <strong>プレビュー画面で修正したいページを表示:</strong>
     画面上部にあるページ選択のドロップダウンメニューから、修正したいページ（例: `Home`）を選択し、プレビュー画面に表示させます。
@@ -71,9 +63,9 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 ## 4. 【最重要】変更を公開する
 
 このままデザイナーモードを閉じても、変更はサイトに反映されません。
-必ず「[No.44](/04-designer/07-publish-button/)」で解説する手順に従って、<strong>「Publish」</strong>（公開）作業を行ってください。
+必ず[変更をサイトに反映させる「Publish」ボタンの押し方](/04-designer/07-publish-button/)で解説する手順に従って、<strong>「Publish」</strong>（公開）作業を行ってください。
 
 ---
 
 <strong>次のステップ:</strong>
-文章の修正はできましたか？次は、同じように静的なページに含まれることが多い「[No.40](/04-designer/03-edit-address/) デザイナーモードで「会社の住所」などを修正する方法」です。基本的には同じ操作になります。
+文章の修正はできましたか？次は、同じように静的なページに含まれることが多い「[デザイナーモードで「会社の住所」などを修正する方法](/04-designer/03-edit-address/)」などを修正する方法」です。基本的には同じ操作になります。

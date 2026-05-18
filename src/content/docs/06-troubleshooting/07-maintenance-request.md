@@ -6,14 +6,6 @@ sidebar:
   label: "任せたい時の保守・補修依頼"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/g-08-maintenance-request-screenshot-example.png` を入れてください。
-撮影対象: G-08「相談時に送る画面キャプチャー例」。URL、困っている箇所、画面全体が分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[問い合わせ前の準備]

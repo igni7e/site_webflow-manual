@@ -6,14 +6,6 @@ sidebar:
   label: "Webflowからの招待メールを確認しよう"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-04-webflow-invitation-email.png` を入れてください。
-撮影対象: A-04「Webflow招待メールの見本」。`Accept Invitation` が分かること。実メールアドレスや個人名は隠す
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::note[個人情報の取り扱い]
@@ -21,8 +13,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.1](/01-getting-started/01-invitation-email/)
 
 Webサイトの更新作業を始めるにあたり、最初に行うのがWebflowからの招待メールの確認とアカウント設定です。このマニュアルでは、その最初のステップである「招待メールの確認方法」について詳しく解説します。
 
@@ -101,4 +91,4 @@ The Webflow Team
 ---
 
 次のステップ:
-このメールの確認が終わったら、次は「[No.2](/01-getting-started/02-create-account/) 招待メールからアカウントを作成し、パスワードを設定する方法」に進みます。
+このメールの確認が終わったら、次は「[招待メールからアカウントを作成し、パスワードを設定する方法](/01-getting-started/02-create-account/)」に進みます。

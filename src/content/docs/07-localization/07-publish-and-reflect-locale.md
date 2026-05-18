@@ -5,15 +5,6 @@ sidebar:
   order: 6
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- E-19: `src/assets/captures/manual/e-19-publish-modal-locale.png`。Publish modalでLocale / domain確認。公開対象を間違えない構図
-- E-20: `src/assets/captures/manual/e-20-published-locale-url.png`。公開後の `/en` などLocale URL。ブラウザURLと翻訳ページが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[公開前チェック]
@@ -69,15 +60,6 @@ Primary localeにはSubdirectoryが付かない構成もあります。サイト
 | CMS記事だけ出ない | CMS itemのLocale、公開状態、一覧ページの条件 |
 | SEOだけ原文のまま | Page settings、CMS SEO fields、OGP fields |
 
-## キャプチャー指示
-
-このページには、以下の画像を入れてください。
-
-| ID | 撮影する画面 | 撮影指示 |
-| --- | --- | --- |
-| E-19 | Publish modal | 公開対象のドメインとLocaleを確認している状態を撮影 |
-| E-20 | 公開後のLocale URL | `/en` など実際のLocale URLを開き、ブラウザのURL欄も含めて撮影 |
-| E-21 | Locale switcher | 公開サイト上で言語切り替えメニューを開いた状態を撮影 |
 
 ## 困った場合
 

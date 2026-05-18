@@ -6,14 +6,6 @@ sidebar:
   label: "ファビコンを変更する"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-10-favicon-settings.png` を入れてください。
-撮影対象: D-10「Favicon設定画面」。Favicon、Webclip、Uploadが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[反映タイミングの目安]

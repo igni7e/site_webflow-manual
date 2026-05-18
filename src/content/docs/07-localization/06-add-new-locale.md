@@ -5,24 +5,14 @@ sidebar:
   order: 2
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- E-03: `src/assets/captures/manual/e-03-locales-list.png`。Locale一覧。Display name、Subdirectory、Publishing statusが見える
-- E-04: `src/assets/captures/manual/e-04-add-locale-entry.png`。Add localeの入口。Add localeボタンまたは入力入口が見える
-- E-05: `src/assets/captures/manual/e-05-language-country-fields.png`。Language / Country入力。確定前の状態で撮る。実変更はしない
-- E-06: `src/assets/captures/manual/e-06-locale-subdirectory.png`。Subdirectory入力欄。`/en` などURLに関わる項目が見える
-- E-07: `src/assets/captures/manual/e-07-locale-publishing-status.png`。Publishing status。公開オン・オフが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Locale確認]
 翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
 :::
 <!-- body-callout:end -->
+
+![Localization設定画面](../../../assets/captures/manual/e-02-localization-settings.png)
 
 
 # 新しいLocaleを追加する時の流れ
@@ -79,17 +69,6 @@ Secondary localeは、追加しただけでは公開準備が完了したとは�
 | Off | 翻訳作業中、確認中、まだ公開したくない時 |
 | On | 公開してよい状態になり、Locale switcherにも出したい時 |
 
-## キャプチャー指示
-
-このページには、以下の画像を入れてください。
-
-| ID | 撮影する画面 | 撮影指示 |
-| --- | --- | --- |
-| E-03 | Locale一覧 | Primary localeとSecondary localeの違いが分かるように、一覧全体を撮影 |
-| E-04 | Add localeの入口 | 追加ボタンまたは入力欄が見える状態で撮影 |
-| E-05 | Language / Country入力 | LanguageとCountryを選ぶ画面を撮影。確定前の状態で止める |
-| E-06 | Subdirectory入力 | `/en` などのURL項目が見える状態で撮影 |
-| E-07 | Publishing status | 公開オン・オフの切り替えが分かる状態で撮影 |
 
 ## 次に進む
 

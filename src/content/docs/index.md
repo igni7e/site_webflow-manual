@@ -1,9 +1,9 @@
 ---
-title: IGNITE Webflow更新マニュアル
-description: IGNITE提供の公開版Webflowサイト更新マニュアル
+title: Webflow更新マニュアル | 日本語でわかる使い方・CMS更新・SEO設定
+description: Webflowの更新方法、Content Editor、CMS投稿、SEO設定、フォーム確認、Localizationを日本語で解説する公開版Webflowマニュアル。
 template: splash
 hero:
-  tagline: IGNITEが提供する、公開版のWebflowサイト更新マニュアル。
+  tagline: Webflowの使い方、CMS更新、SEO設定、フォーム確認を日本語で確認できる公開マニュアル。
   actions:
     - text: はじめての方はこちら
       link: /01-getting-started/00-site-update-overview/
@@ -19,14 +19,6 @@ hero:
       variant: secondary
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/a-01-dashboard-site-list.png` を入れてください。
-撮影対象: A-01「Webflow Dashboardのサイト一覧」。マニュアル入口として対象サイトカードとDashboard全体が分かる状態
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[読み進め方]
@@ -34,11 +26,23 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
+![Webflow Dashboardのサイト一覧](../../assets/captures/manual/a-01-dashboard-site-list.png)
+
 
 ## このマニュアルについて
 
-このマニュアルは、Webflow で構築されたサイトを <strong>非エンジニアのクライアント担当者</strong> が安全に更新できるよう、IGNITE が制作・公開している手順書です。基本操作からトラブル解決、Locale翻訳まで全 7 カテゴリで網羅しています。
+このマニュアルは、Webflow で構築されたサイトを <strong>非エンジニアのクライアント担当者</strong> が安全に更新できるよう、IGNITE が制作・公開している日本語の手順書です。Webflowの更新方法、Content Editorの使い方、CMS投稿、SEO設定、フォーム確認、Locale翻訳、トラブル解決まで全 7 カテゴリで網羅しています。
 *実画面例: このマニュアルでは、Webflow Dashboardから対象サイトを開き、必要な画面へ進む流れを説明します。*
+
+## このマニュアルで分かること
+
+- WebflowにログインしてDashboardから対象サイトを開く方法
+- Content Editorで文字、画像、リンクを安全に更新する方法
+- Webflow CMSでブログ記事やお知らせを作成・公開する方法
+- WebflowのSEO title、meta description、OGP、noindex設定を確認する方法
+- Formsの送信内容確認、CSVダウンロード、通知メール設定の見方
+- Webflow Localizationで日本語・英語などのLocale翻訳を確認する方法
+- 反映されない、画像がアップロードできない、404になる時の確認方法
 
 ## 提供元と責任範囲
 
@@ -64,7 +68,7 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 
 - Webflowへの招待、ログイン、ダッシュボードは [はじめの一歩](/01-getting-started/01-invitation-email/) から順番に確認できます。
 - Webflowの英語UIが不安な場合は [Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
-- 普段の文字・画像・リンク更新は [Content editor roleでWebflowを開く手順](/02-editor/01-open-editor/) を使います。
+- 普段の文字・画像・リンク更新は [B-2. Content Editor（最新版）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
 - ブログやお知らせの投稿は [CMS更新](/03-cms/01-where-is-cms/) を確認してください。
 - Designerモードはサイト全体を壊す可能性があるため、先に [Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
 - WebflowのLocale機能で翻訳を追加・修正する場合は [E. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。

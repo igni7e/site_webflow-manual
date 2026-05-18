@@ -6,14 +6,6 @@ sidebar:
   label: "フォーム項目の追加・削除"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/f-09-form-fields-designer.png` を入れてください。
-撮影対象: F-09「Designerでフォーム要素を選択」。入力項目、フォーム設定、Submitボタンが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[作業前に止まるポイント]

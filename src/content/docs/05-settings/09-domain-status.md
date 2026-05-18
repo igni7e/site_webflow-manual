@@ -6,20 +6,14 @@ sidebar:
   label: "独自ドメイン接続の確認"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/f-11-publishing-domain-status.png` を入れてください。
-撮影対象: F-11「PublishingのProduction domain / SSL状態」。Connected、SSL、Production domainが分かる
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[公開前チェック]
 Publishする前に、公開先ドメイン、変更したページ、スマートフォン表示、リンク先を確認します。公開後は一般の閲覧者に見えるため、少しでも不安があればスクリーンショットを撮って確認してから進めます。
 :::
 <!-- body-callout:end -->
+
+![Publishing / Domain状態](../../../assets/captures/manual/f-05-domain-and-publishing-status.png)
 
 
 > 新規追加（標準スコープ補完）

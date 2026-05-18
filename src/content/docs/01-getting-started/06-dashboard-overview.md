@@ -6,16 +6,6 @@ sidebar:
   label: "管理画面（ダッシュボード）の基本的な見方"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- A-01: `src/assets/captures/manual/a-01-dashboard-site-list.png`。Webflow Dashboardのサイト一覧。対象サイトカード、Workspace名、サイト名が分かる状態。個人名は写っても問題ない範囲に調整
-- A-02: `src/assets/captures/manual/a-02-site-card-hover-actions.png`。対象サイトカードにカーソルを合わせ、開くボタンが出た状態。`Open in Webflow`、設定メニュー、Designerなどの違いが分かる状態
-- A-03: `src/assets/captures/manual/a-03-site-settings-left-menu.png`。対象サイトのSite settings左メニュー。General、Publishing、SEO、Forms、Backupsなどが見える状態
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[最初に見る場所]
@@ -23,8 +13,6 @@ Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、
 :::
 <!-- body-callout:end -->
 
-
-> 旧マニュアル番号: [No.6](/01-getting-started/06-dashboard-overview/)
 
 Webflowにログインすると、最初に表示されるのが「ダッシュボード」です。ここからサイトの編集や設定など、様々な操作を開始します。このマニュアルでは、ダッシュボードの基本的な画面構成と各部の役割について解説します。
 
@@ -35,7 +23,7 @@ Webflowにログインすると、最初に表示されるのが「ダッシュ�
 Webflowのダッシュボードは、あなたがアクセス権を持つサイトの一覧が表示される場所です。複数のサイトに関わっている場合は、ここに複数のサイトが並びます。
 
 通常、クライアントとして招待された場合は、編集対象のサイトが1つだけ表示されているはずです。
-*実画面例: 対象サイトを開いた後のSite settings画面。左側にGeneral、Publishing、SEO、Formsなどのメニューが並びます。*
+*実画面例: Dashboardでは対象サイトのカードと、開くための操作メニューを確認します。*
 
 <strong>ダッシュボードの主な構成要素:</strong>
 
@@ -57,10 +45,9 @@ Webflowのダッシュボードは、あなたがアクセス権を持つサイ�
 3.  <strong>「Open in Webflow」または編集用ボタンをクリック:</strong>
     カーソルを合わせると、いくつかのボタンが表示されます。2026年現在は、Content editor roleのユーザーもWebflow内のcanvasで編集する流れが基本です。表示されるボタン名はサイトや権限によって異なりますが、制作担当者から案内された編集用ボタンを開いてください。
 
-    :::note[キャプチャー差し込み位置]
-    ここには「ダッシュボードからWebflowを開く」が分かる実画面キャプチャーを入れてください。ページ上部のキャプチャー指示にある保存ファイル名へ差し替えます。
-    :::
-    *実画面例: サイトを開くと、左側メニューから設定やフォーム確認に進めます。*
+    ![Webflow Dashboardのサイト一覧](../../../assets/captures/manual/a-01-dashboard-site-list.png)
+
+    ![対象サイトカードの操作メニュー](../../../assets/captures/manual/a-02-site-card-actions.png)
 
 ## 3. 最初に押すボタン早見表
 
@@ -99,4 +86,4 @@ Webflowでは、役割によってできることが変わります。日常更�
 ---
 
 <strong>次のステップ:</strong>
-ダッシュボードの役割が理解できたところで、次は「[No.7](/01-getting-started/07-editor-vs-designer/) 【超重要】「エディター」と「デザイナー」の違いって何？」で、この2つのモードの違いについて、さらに詳しく学んでいきましょう。
+ダッシュボードの役割が理解できたところで、次は「[Content editor roleとDesignerの違い](/01-getting-started/07-editor-vs-designer/)」で、この2つのモードの違いについて、さらに詳しく学んでいきましょう。

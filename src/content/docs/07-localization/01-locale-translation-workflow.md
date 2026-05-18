@@ -5,22 +5,14 @@ sidebar:
   order: 1
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に以下のキャプチャーを入れてください。
-- E-01: `src/assets/captures/manual/e-01-locale-selector-topbar.png`。Designer上部のLocale selector。現在のLocaleが一目で分かる
-- E-08: `src/assets/captures/manual/e-08-select-secondary-locale.png`。Secondary localeを選ぶ直前。Locale selectorを開いた状態
-- E-09: `src/assets/captures/manual/e-09-secondary-locale-canvas.png`。Secondary localeのキャンバス。対象Locale選択後のページ表示
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Locale確認]
 翻訳作業では、今どのLocaleを編集しているかを最初に確認します。日本語、英語などのLocaleを間違えると、意図しない言語ページを書き換える可能性があります。
 :::
 <!-- body-callout:end -->
+
+![Designer上部のLocale selector](../../../assets/captures/manual/e-01-locale-selector.png)
 
 
 # Locale翻訳の基本手順
@@ -40,7 +32,6 @@ Locale翻訳では、最初に「どの言語を編集しているか」を確�
 8. 必要なLocaleとドメインを選んでPublishします。
 9. 公開後、実際のLocale URLで確認します。
 
-> <strong>キャプチャー指示</strong>: このページには、E-08「Locale selectorを開いた状態」とE-09「Secondary localeのキャンバス」を入れてください。どちらもBOOSTサイトで、編集対象のLocaleが一目で分かるように上部バーを含めて撮影します。
 
 ## 翻訳前に確認すること
 

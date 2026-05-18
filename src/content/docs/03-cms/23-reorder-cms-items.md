@@ -6,14 +6,6 @@ sidebar:
   label: "CMSアイテムの並び替え"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/c-26-cms-sort-settings.png` を入れてください。
-撮影対象: C-26「CMS一覧の並び順設定または公開ページの並び」。並び順の根拠が分かる画面
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::tip[下書きで確認]

@@ -6,14 +6,6 @@ sidebar:
   hidden: true
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-01-designer-opened.png` を入れてください。
-撮影対象: D-01「DesignerでBooostトップページを開いた状態」。左パネル、キャンバス、右パネル、上部バーが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Locale確認]

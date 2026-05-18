@@ -6,14 +6,6 @@ sidebar:
   label: "ページの複製"
 ---
 
-<!-- capture-callout:start -->
-:::note[キャプチャー指示]
-このページには、撮影後に `src/assets/captures/manual/d-11-duplicate-page-menu.png` を入れてください。
-撮影対象: D-11「Pagesパネルでページ複製メニュー」。Duplicate、ページ名、設定メニューが見える
-
-Webflow画面は数秒待ってから撮影し、Loading表示、個人情報、未公開情報が写っていない画像だけを使います。
-:::
-<!-- capture-callout:end -->
 
 <!-- body-callout:start -->
 :::caution[Designer操作の注意]

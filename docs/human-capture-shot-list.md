@@ -32,13 +32,14 @@
 
 | ID | 優先 | 保存ファイル名 | 撮影する画面 | 差し込み先 | 撮影ポイント |
 | --- | --- | --- | --- | --- | --- |
-| B-01 | P0 | `b-01-open-content-editor.png` | Content editorを開く入口 | `02-editor/00-editor-complete-guide.md`, `01-open-editor.md` | DashboardからContent editorに入るボタンが分かる状態。Designerではないことが伝わるようにする。 |
-| B-02 | P0 | `b-02-editor-canvas-opened.png` | Content editorでサイトを開いた直後 | `02-editor/00-editor-complete-guide.md`, `01-open-editor.md` | 上部バー、ページ画面、編集できるサイト画面が見える状態。ロード完了後に撮る。 |
-| B-03 | P0 | `b-03-editable-text-active.png` | テキスト編集状態 | `02-editor/02-edit-text.md`, `03-bold-text.md` | 編集できるテキスト、選択枠、入力カーソル、太字などの簡易ツールバーが分かる状態。 |
-| B-04 | P0 | `b-04-link-settings-panel.png` | リンク設定画面 | `02-editor/04-add-link.md`, `06-edit-link-url.md`, `09-external-link-new-tab.md`, `10-anchor-link.md` | URL入力欄、Open in new tab、リンク先設定が分かる状態。外部URLは公開してよいものにする。 |
-| B-05 | P0 | `b-05-image-replace.png` | 画像差し替え操作 | `02-editor/05-replace-image.md` | 画像にカーソルを合わせた状態、Replace / Upload画面、対象画像が分かる構図。 |
-| B-06 | P0 | `b-06-publish-button-editor.png` | EditorのPublish操作 | `02-editor/07-save-and-publish.md`, `11-before-publish-checklist.md` | Publishボタン、公開前に確認すべきページ全体、保存状態が分かる状態。 |
-| B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/08-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
+| B-01 | P0 | `b-01-open-content-editor.png` | Content Editor（旧バージョン）を開く入口 | `02-editor/01-open-legacy-editor.md` | Dashboard上の「Open Editor (Legacy)」が分かる状態。旧版の入口であることが伝わるようにする。 |
+| B-02 | P0 | `b-02-editor-canvas-opened.png` | Content Editor（旧バージョン）でサイトを開いた直後 | `02-editor/01-open-legacy-editor.md` | 旧Editorの下部バー、ページ画面、編集できるサイト画面が見える状態。ロード完了後に撮る。 |
+| B-03 | P0 | `b-03-editable-text-active.png` | テキスト編集状態 | `02-editor/03-edit-text.md`, `04-bold-text.md` | 編集できるテキスト、選択枠、入力カーソル、太字などの簡易ツールバーが分かる状態。 |
+| B-04 | P0 | `b-04-link-settings-panel.png` | リンク設定画面 | `02-editor/05-add-link.md`, `07-edit-link-url.md`, `10-external-link-new-tab.md`, `11-anchor-link.md` | URL入力欄、Open in new tab、リンク先設定が分かる状態。外部URLは公開してよいものにする。 |
+| B-05 | P0 | `b-05-image-replace.png` | 画像差し替え操作 | `02-editor/06-replace-image.md` | 画像にカーソルを合わせた状態、Replace / Upload画面、対象画像が分かる構図。 |
+| B-06 | P0 | `b-06-publish-button-editor.png` | EditorのPublish操作 | `02-editor/08-save-and-publish.md`, `12-before-publish-checklist.md` | Publishボタン、公開前に確認すべきページ全体、保存状態が分かる状態。 |
+| B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/09-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
+| B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | `02-editor/02-open-content-editor.md`, `02-editor/00-editor-complete-guide.md` | 最新版のContent editor roleとしてcanvasを開いた状態。旧Legacy Editorの下部バーではなく、最新UIで編集可能な状態が分かる構図にする。 |
 
 ## C. CMS更新
 
@@ -100,7 +101,7 @@
 時間が限られる場合は、次の順で撮影してください。
 
 1. A-01〜A-03: DashboardとSite settingsの入口
-2. B-01〜B-06: Content Editorの基本操作
+2. B-01〜B-06、B-08: Content Editorの基本操作
 3. C-01〜C-07: CMS投稿の基本操作
 4. F-02〜F-03: フォーム確認、CSV、通知メール
 5. E-01〜E-06: Locale翻訳の基本操作
@@ -108,4 +109,17 @@
 
 ## 差し替え方針
 
-現在の本文には画像を表示しません。各ページのコールアウトを見ながら、撮影後に必要な画像だけを追加してください。
+本文には撮影指示コールアウトを表示しません。撮影が必要な画像はこの一覧で管理し、撮影後に必要な画像だけを本文へ追加してください。
+
+## 2026-05-18 反映状況
+
+今回取得した37枚のPNGは、対応する本文ページへ反映済みです。画像は `src/assets/captures/manual/` に保存しています。現時点で、保存済みPNGの未使用画像はありません。
+
+今回未取得の統合版キャプチャーは以下です。
+
+- A-04: `a-04-invitation-and-login.png`
+- B-07: `b-07-discard-changes-confirm.png`
+- B-08: `b-08-content-editor-latest-canvas.png`
+- D-05: `d-05-undo-and-unsaved-warning.png`
+- E-06: `e-06-locale-publish-and-url.png`
+- G-04: `g-04-maintenance-request-example.png`
