@@ -66,6 +66,7 @@
 | C-12 | P0 | `c-12-rich-text-list-icons.png` | Rich Textのリストアイコン | `03-cms/09-bullet-list.md` | 選択中の本文、番号なしリスト、番号付きリストのアイコンが見える状態。 |
 | C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | `03-cms/20-archive-post.md` | 記事選択後、上部のArchiveボタンが見える状態。実行前に止める。 |
 | C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | `work/02-update-post.md` | CMS/Collection名、記事一覧、Newボタン。未公開記事名は必要に応じて隠す。 |
+| C-15 | P0 | `c-15-morbido-cms-fields-overview.png` | Morbido記事入力フィールド全体 | `03-cms/26-morbido-cms-field-guide.md` | Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldと、Save/Create/Publish周辺の操作ボタンが分かる状態。未公開本文や個人情報は隠す。 |
 
 ## D. Designer
 
@@ -147,6 +148,7 @@
 - C-12: `c-12-rich-text-list-icons.png`
 - C-13: `c-13-archive-button-visible.png`
 - C-14: `work-03-update-post-cms-list.png`
+- C-15: `c-15-morbido-cms-fields-overview.png`
 - D-05: `d-05-undo-and-unsaved-warning.png`
 - E-06: `e-06-locale-publish-and-url.png`
 - E-07: `work-06-edit-locale-selector.png`

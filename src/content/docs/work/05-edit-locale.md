@@ -19,6 +19,7 @@ LocaleはページやCMS記事ごとに状態が分かれるため、修正対�
 - 修正したい言語
 - 修正対象ページまたはCMS記事
 - 翻訳後の文章
+- 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
 - 参考ページ: [E-1. Locale翻訳の全体像](/07-localization/00-localization-overview/)
 
 ## 手順

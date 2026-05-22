@@ -9,7 +9,7 @@ sidebar:
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーを撮影します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の20枚だけを撮影してください。
+Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーを撮影します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の21枚だけを撮影してください。
 
 ## 保存先
 
@@ -47,6 +47,7 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | C-12 | P0 | `c-12-rich-text-list-icons.png` | Rich Textのリストアイコン | Rich Text本文欄でテキストを選択し、番号なしリストと番号付きリストのアイコンが見えている状態 | 選択中の本文、番号なしリストアイコン、番号付きリストアイコン、Rich Text欄 | 未公開本文、個人情報、不要な管理画面通知 |
 | C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | CMS記事一覧で記事にチェックを入れ、上部に `Archive` ボタンが表示された状態 | 選択済みチェックボックス、上部の `Archive` ボタン、記事一覧であることが分かるUI | 未公開記事名、個人情報、不要な本文、他社情報 |
 | C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | CMS記事一覧で `New` ボタンと記事一覧が見えている状態 | CMS/Collection名、記事一覧、Newボタン | 未公開記事名、個人名、機密情報 |
+| C-15 | P0 | `c-15-morbido-cms-fields-overview.png` | Morbido記事入力フィールド全体 | MorbidoのCMS記事編集画面で、個人情報や未公開本文が見えないようにした状態 | Title、Slug、Summary、Thumbnail、Bodyなど主要Field、Save/Create/Publish周辺の操作ボタン | 未公開記事本文、個人情報、社外秘の画像、他社情報 |
 | E-06 | P0 | `e-06-locale-publish-and-url.png` | Locale公開と公開URL確認 | Publishモーダル、または公開後のLocale URLが分かる画面を開いた状態 | 公開対象Locale、Publishモーダル、公開後の `/en` などのURL | 未公開ページ、個人情報、他社サイト情報 |
 | E-07 | P0 | `work-06-edit-locale-selector.png` | Locale selectorで対象言語を確認する画面 | Locale selectorでPrimary / Secondary localeが見えている状態 | Locale selector、現在のLocale、対象ページの見出し | 未公開ページ、個人情報、他社サイト情報 |
 | F-06 | P0 | `work-04-edit-seo-settings.png` | 作業ベースSEO設定画面 | SEO titleとmeta descriptionの入力欄が見えている設定画面 | Title tag、Meta description、対象ページ名 | 非公開ページ名、個人情報、APIキー、請求情報 |

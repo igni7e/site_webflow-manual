@@ -20,6 +20,7 @@ SEO設定は公開後の見え方に影響します。文言変更だけでな�
 - 変更後のSEO title
 - 変更後のmeta description
 - OGP画像を変える場合は画像ファイル
+- 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
 - 参考ページ: [F-1. フォーム回答・CSV・プラン変更の確認ガイド](/05-settings/00-site-settings-complete-guide/)
 
 ## 手順

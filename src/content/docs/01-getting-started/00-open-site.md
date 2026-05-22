@@ -36,4 +36,4 @@ DesignerはレイアウトやCSSに触れる画面です。制作担当者から
 
 ## 次に進む
 
-はじめて更新する場合は [A-1. 更新作業の全体像](/01-getting-started/00-site-update-overview/) へ進んでください。
+プランや権限の違いで迷う場合は [A-0-6. プラン・権限で迷ったときの見方](/01-getting-started/00-plan-role-decision/) を確認してください。はじめて更新する場合は [A-1. 更新作業の全体像](/01-getting-started/00-site-update-overview/) へ進んでください。

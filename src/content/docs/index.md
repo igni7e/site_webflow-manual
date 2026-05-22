@@ -28,7 +28,7 @@ hero:
 
 <!-- body-callout:start -->
 :::tip[読み進め方]
-初めて触る場合は、最初から順番に読むよりも「やりたい作業」に近い章を開き、作業前チェックと公開前チェックだけ先に確認すると迷いにくくなります。
+初めて触る場合は、最初から順番に読むよりも「やりたい作業」に近い章を開き、先に [WORK-0. 作業前に確認すること](/work/06-before-start/) と公開前チェックだけ確認すると迷いにくくなります。
 :::
 <!-- body-callout:end -->
 
@@ -45,6 +45,7 @@ hero:
 ## やりたいことから探す
 
 <div class="manual-card-grid">
+  <a class="manual-card" href="/work/06-before-start/"><strong>作業前に確認すること</strong><span>Workspace、サイト名、権限、Publish前の確認を先に整理します。</span></a>
   <a class="manual-card" href="/work/00-edit-text/"><strong>テキストを変えたい</strong><span>ページ上の文章を安全に直す流れを確認します。</span></a>
   <a class="manual-card" href="/work/01-replace-image/"><strong>画像を差し替えたい</strong><span>既存画像の交換、公開前チェック、相談ラインを確認します。</span></a>
   <a class="manual-card" href="/work/02-update-post/"><strong>お知らせ／ブログを更新したい</strong><span>CMSで記事を作成し、下書きから公開まで進めます。</span></a>
@@ -71,12 +72,14 @@ hero:
 ## まず読むページ
 
 - [A-0. Webflowの構造を知る](/01-getting-started/00-workspace-intro/)
+- [A-0-6. プラン・権限で迷ったときの見方](/01-getting-started/00-plan-role-decision/)
 - [A-1. 更新作業の全体像](/01-getting-started/00-site-update-overview/)
 - [A-10. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/)
 - [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
 - [B-1. Content Editor入門](/02-editor/00-editor-complete-guide/)
 - [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/)
 - [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
+- [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/)
 - [D-2. Designerの注意点](/04-designer/01-designer-warning/)
 - [E-1. Locale翻訳の全体像](/07-localization/00-localization-overview/)
 - [F-1. フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
@@ -85,9 +88,10 @@ hero:
 ## 細かい手順を探す
 
 - Webflowへの招待やログイン、ダッシュボードについての知識が必要ですか？ → [A-2. Webflowからの招待メールを確認しよう](/01-getting-started/01-invitation-email/) から順番に確認してください。
+- プラン、権限、メンバー追加の違いで迷っていますか？ → [A-0-6. プラン・権限で迷ったときの見方](/01-getting-started/00-plan-role-decision/) を確認してください。
 - Webflowの英語UIが不安ですか？ → [A-10. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
 - 普段の文字・画像・リンク更新をしたいですか？ → [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
-- ブログやお知らせの投稿をしたいですか？ → [C-2. CMS更新](/03-cms/01-where-is-cms/) を確認してください。
+- ブログやお知らせの投稿をしたいですか？ → [C-2. CMS更新](/03-cms/01-where-is-cms/) と [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
 - DesignerモードでレイアウトやCSSに触る必要がありますか？ → 先に [D-2. Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
 - WebflowのLocale機能で翻訳を追加・修正したいですか？ → [E-1. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
 

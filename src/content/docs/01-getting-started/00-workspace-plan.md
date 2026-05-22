@@ -43,4 +43,4 @@ Upgrade、Billing、Plan変更などは請求に関わる可能性がありま�
 
 ## 次に進む
 
-次は [A-0-3. サイトプランとの違い](/01-getting-started/00-site-plan/) を確認してください。
+次は [A-0-3. サイトプランとの違い](/01-getting-started/00-site-plan/) を確認してください。SeatやRoleの違いで迷う場合は [A-0-6. プラン・権限で迷ったときの見方](/01-getting-started/00-plan-role-decision/) も確認してください。

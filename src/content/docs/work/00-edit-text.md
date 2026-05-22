@@ -19,6 +19,7 @@ sidebar:
 - Webflowにログインできるアカウント
 - 修正後の文章
 - 修正対象ページのURL
+- 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
 - 参考ページ: [B-2. Content Editor（最新）でWebflowを開く方法](/02-editor/02-open-content-editor/)
 
 ## 手順

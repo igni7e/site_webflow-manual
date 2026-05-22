@@ -19,6 +19,7 @@ sidebar:
 - Site settingsを開ける権限
 - 確認したいフォーム名
 - 個人情報を扱う社内ルール
+- 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
 - 参考ページ: [「お問い合わせフォーム」から連絡が来たか確認する方法](/05-settings/04-form-submissions/)
 
 ## 手順
