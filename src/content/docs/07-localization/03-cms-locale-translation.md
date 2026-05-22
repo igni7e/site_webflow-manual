@@ -18,6 +18,13 @@ sidebar:
 
 # E-5. CMS記事をLocaleごとに翻訳する
 
+![CMS Locale翻訳の図解](../../../assets/diagrams/manual/diagram-45-cms-locale.svg)
+
+:::note[図解の見方]
+一覧と詳細の両方で翻訳表示を見ます。
+:::
+
+
 ブログやお知らせは、CMS itemごとに翻訳します。Primary localeの内容がSecondary localeへ継承されることがありますが、Secondary locale側で上書きしたフィールドは独立して管理される場合があります。
 *実画面例: CMS翻訳後は、記事詳細ページと一覧ページの両方で表示を確認します。*
 

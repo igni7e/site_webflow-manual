@@ -66,3 +66,10 @@ Webflowでサイトを更新し、「Publish」ボタンを押して公開した
 
 <strong>次のステップ:</strong>
 キャッシュの仕組みを理解すれば、もう慌てることはありませんね。次は、画像アップロード時のトラブルシューティング[「画像がアップロードできません！」原因と対処法](/06-troubleshooting/02-image-upload-failed/)です。
+
+![変更が反映されない時の図解](../../../assets/diagrams/manual/diagram-47-diagram.svg)
+
+:::note[図解の見方]
+まずPublishと公開先を確認します。
+:::
+

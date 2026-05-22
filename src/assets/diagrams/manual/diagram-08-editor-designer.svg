@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img">
+<title>EditorとDesignerの境界</title>
+<desc>触ってよい範囲と止める範囲を分けます。</desc>
+<rect width="1200" height="675" fill="#F7F9FC"/>
+<rect x="40" y="40" width="1120" height="595" rx="26" fill="#ffffff" stroke="#D8DEE8" stroke-width="2"/>
+<text x="80" y="108" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="42" font-weight="800" fill="#172033" text-anchor="start">EditorとDesignerの境界</text>
+<text x="82" y="148" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="500" fill="#5F6B7A" text-anchor="start">触ってよい範囲と止める範囲を分けます。</text>
+<rect x="80" y="176" width="1040" height="6" rx="3" fill="#784F7A"/>
+<rect x="80" y="245" width="239" height="150" rx="18" fill="#ffffff" stroke="#784F7A" stroke-width="3"/>
+<circle cx="114" cy="279" r="18" fill="#784F7A"/>
+<text x="114" y="286" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="150" y="280" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#172033" text-anchor="start">Editor</text>
+<line x1="323" y1="320" x2="343" y2="320" stroke="#784F7A" stroke-width="4" stroke-linecap="round"/>
+<path d="M 329 310 L 343 320 L 329 330" fill="none" stroke="#784F7A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="347" y="245" width="239" height="150" rx="18" fill="#ffffff" stroke="#784F7A" stroke-width="3"/>
+<circle cx="381" cy="279" r="18" fill="#784F7A"/>
+<text x="381" y="286" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="417" y="280" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#172033" text-anchor="start">内容更新</text>
+<line x1="590" y1="320" x2="610" y2="320" stroke="#784F7A" stroke-width="4" stroke-linecap="round"/>
+<path d="M 596 310 L 610 320 L 596 330" fill="none" stroke="#784F7A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="614" y="245" width="239" height="150" rx="18" fill="#ffffff" stroke="#784F7A" stroke-width="3"/>
+<circle cx="648" cy="279" r="18" fill="#784F7A"/>
+<text x="648" y="286" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="684" y="280" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#172033" text-anchor="start">Designer</text>
+<line x1="857" y1="320" x2="877" y2="320" stroke="#784F7A" stroke-width="4" stroke-linecap="round"/>
+<path d="M 863 310 L 877 320 L 863 330" fill="none" stroke="#784F7A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="881" y="245" width="239" height="150" rx="18" fill="#ffffff" stroke="#784F7A" stroke-width="3"/>
+<circle cx="915" cy="279" r="18" fill="#784F7A"/>
+<text x="915" y="286" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="951" y="280" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#172033" text-anchor="start">構造・見た目</text>
+<rect x="80" y="475" width="1040" height="92" rx="18" fill="#F1F5F9" stroke="#D8DEE8"/>
+<text x="110" y="512" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#784F7A" text-anchor="start">判断ポイント</text>
+<text x="110" y="548" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21" font-weight="600" fill="#172033" text-anchor="start">文章や画像はEditor、レイアウト変更はDesignerです。</text>
+<text x="1120" y="608" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="500" fill="#7A8493" text-anchor="end">Python generated diagram / diagram-08</text>
+</svg>

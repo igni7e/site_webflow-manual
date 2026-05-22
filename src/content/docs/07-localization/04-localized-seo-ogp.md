@@ -18,6 +18,13 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 
 # E-6. LocaleごとのSEO・OGP確認
 
+![Locale SEO/OGPの図解](../../../assets/diagrams/manual/diagram-46-locale-seo-ogp.svg)
+
+:::note[図解の見方]
+各LocaleでSEO文言が自然か確認します。
+:::
+
+
 翻訳ページでは、本文だけでなくSEO項目もLocaleごとに確認します。本文が自然でも、SEO項目がPrimary localeのままだと、検索結果やSNS共有で不自然に見えます。
 *実画面例: LocaleごとのSEOやOGPは、対象ページ・対象Localeを間違えずに確認します。*
 

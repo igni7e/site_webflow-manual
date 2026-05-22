@@ -120,3 +120,10 @@ Webflow は通常 <strong>公開時に sitemap.xml を自動更新</strong> し�
 
 <strong>次のステップ:</strong>
 これで便利な設定編は完了です。次はトラブル解決編へ進みましょう → 「変更を保存したのに、サイトに反映されません！」
+
+![sitemapとnoindexの図解](../../../assets/diagrams/manual/diagram-41-sitemap-noindex.svg)
+
+:::note[図解の見方]
+noindex解除忘れは重大なので必ず記録します。
+:::
+

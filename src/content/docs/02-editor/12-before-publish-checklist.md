@@ -70,3 +70,10 @@ Publishした後は、公開サイトを新しいタブで開いて確認しま�
 ## 次に進む
 
 Publishの具体的な手順は [変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) を確認してください。
+
+![Publish前の判断の図解](../../../assets/diagrams/manual/diagram-16-publish.svg)
+
+:::note[図解の見方]
+Publishは公開操作です。迷ったら止めます。
+:::
+

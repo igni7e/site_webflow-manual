@@ -8,6 +8,13 @@ sidebar:
 
 # B-13. 最新Content Editor画面の見方
 
+![編集アイコンが出る条件の図解](../../../assets/diagrams/manual/diagram-12-diagram.svg)
+
+:::note[図解の見方]
+アイコンが出ない時は、権限か対象要素を確認します。
+:::
+
+
 ## こんなときに使います
 
 Webflowを最新版のContent editor roleで開いた後、画面のどこを見ればよいか、どのアイコンを押せばよいか分からない時に使います。

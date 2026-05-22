@@ -8,6 +8,13 @@ sidebar:
 
 # A-0-2. ワークスペースのプラン
 
+![Workspace planで見る項目の図解](../../../assets/diagrams/manual/diagram-05-workspace-plan.svg)
+
+:::note[図解の見方]
+サイト公開の有無ではなく、チームとして使える範囲を確認します。
+:::
+
+
 ## 概要
 
 Workspaceプランは、チームとしてWebflowを使うための契約です。メンバーを何人まで追加できるか、どの権限を使えるかに関係します。

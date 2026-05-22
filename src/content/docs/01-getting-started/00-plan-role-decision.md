@@ -8,6 +8,13 @@ sidebar:
 
 # A-0-6. プラン・権限で迷ったときの見方
 
+![Workspace planとSite planの違いの図解](../../../assets/diagrams/manual/diagram-02-workspace-plan-site-plan.svg)
+
+:::note[図解の見方]
+Workspace planはチーム側、Site planはサイト公開側の契約です。
+:::
+
+
 ## 概要
 
 Webflowでは、Workspace plan、Site plan、Seat、Roleという似た言葉が出てきます。どれも「権限」や「契約」に関係しますが、意味は別です。

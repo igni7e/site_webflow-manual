@@ -112,3 +112,10 @@ Webflow がホスティングしている場合は <strong>自動更新</strong>
 
 <strong>次のステップ:</strong>
 検索エンジンへの表示制御（sitemap・noindex）について学びましょう → 「検索エンジンの表示制御（sitemap・noindex）」
+
+![DomainとSSLの関係の図解](../../../assets/diagrams/manual/diagram-40-domain-ssl.svg)
+
+:::note[図解の見方]
+ConnectedでもSSL Pendingのことがあります。
+:::
+

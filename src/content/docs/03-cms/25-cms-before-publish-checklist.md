@@ -75,3 +75,10 @@ CMSの記事やお知らせは、本文だけでなくTitle、Slug、サムネ�
 ## 次に進む
 
 公開操作の前に [下書きで保存する](/03-cms/16-save-as-draft/) と [下書きを公開する](/03-cms/17-publish-draft/) も確認してください。
+
+![CMS公開前チェックの図解](../../../assets/diagrams/manual/diagram-28-cms.svg)
+
+:::note[図解の見方]
+記事は複数箇所に出るため、一覧も確認します。
+:::
+

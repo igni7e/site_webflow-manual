@@ -82,3 +82,10 @@ URLを入力して「Debug」または「Preview card」をクリックすると
 
 <strong>次のステップ:</strong>
 SNSでの見栄えもバッチリですね。次は、Webサイトの重要な機能の一つである「お問い合わせフォーム」に関する[「お問い合わせフォーム」から連絡が来たか確認する方法](/05-settings/04-form-submissions/)です。
+
+![OGP画像の表示先の図解](../../../assets/diagrams/manual/diagram-37-ogp.svg)
+
+:::note[図解の見方]
+SNS側のキャッシュで古い画像が残る場合があります。
+:::
+

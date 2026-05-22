@@ -8,6 +8,13 @@ sidebar:
 
 # A-0-1. ワークスペースとは
 
+![WorkspaceとSiteの親子関係の図解](../../../assets/diagrams/manual/diagram-01-workspace-site.svg)
+
+:::note[図解の見方]
+Workspaceは会社やチームの入れ物。Siteはその中の1つのWebサイトです。
+:::
+
+
 ## 概要
 
 Workspaceは、Webflowで複数のサイト、メンバー、権限、プランをまとめて管理する単位です。Morbidoの場合は `morbido's Workspace` の中に `Morbido JA Site` などのサイトが入っている、という見方をします。

@@ -75,3 +75,10 @@ CMSは、記事やお知らせなどを <strong>Collection</strong> に保存し
 ## 次に進む
 
 ログイン直後に何を押すか迷う場合は [ログイン直後に押すもの・押さないもの](/01-getting-started/11-after-login-first-steps/) を確認してください。
+
+![Webflow用語のつながりの図解](../../../assets/diagrams/manual/diagram-10-webflow.svg)
+
+:::note[図解の見方]
+単語を単体で覚えるより、どこで使う言葉かで覚えます。
+:::
+

@@ -8,6 +8,13 @@ sidebar:
 
 # C-27. Morbido記事入力フィールド早見表
 
+![Morbido Fieldの見方の図解](../../../assets/diagrams/manual/diagram-29-morbido-field.svg)
+
+:::note[図解の見方]
+どこに表示されるFieldか確認してから入力します。
+:::
+
+
 ## こんなときに使います
 
 Morbidoのブログやお知らせを作成する時に、CMS画面の入力欄を見て「どこに何を入れるのか」が分からなくなった場合に使います。

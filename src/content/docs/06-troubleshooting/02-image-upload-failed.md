@@ -79,3 +79,10 @@ Webflowが対応していない特殊な画像ファイル形式（例: TIFF, RA
 
 <strong>次のステップ:</strong>
 画像トラブルはこれで解決ですね。次は、サイトの表示崩れに関する[「スマホで見た時だけ表示が崩れています」どう伝えればいい？](/06-troubleshooting/03-mobile-display-broken/)です。
+
+![画像アップロード失敗の図解](../../../assets/diagrams/manual/diagram-48-diagram.svg)
+
+:::note[図解の見方]
+原因を分けると相談が早くなります。
+:::
+

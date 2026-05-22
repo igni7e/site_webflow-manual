@@ -72,3 +72,10 @@ Designerのような構造編集を避けながら、目的の作業（文章の
 
 <strong>次のステップ:</strong>
 ここからはいよいよ、具体的な更新作業の方法に入っていきます。まずは基本の「[B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/)」からスタートです。
+
+![通常更新の安全ルートの図解](../../../assets/diagrams/manual/diagram-07-diagram.svg)
+
+:::note[図解の見方]
+デザインや構造を触らず、公開前チェックまで進めるのが基本です。
+:::
+

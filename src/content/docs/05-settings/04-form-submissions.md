@@ -57,3 +57,10 @@ Webサイトに設置された「お問い合わせフォーム」は、お客�
 
 <strong>次のステップ:</strong>
 フォームの確認方法はバッチリですね。次は、フォームからの通知を受け取るメールアドレスを変更したい場合の「[お問い合わせがあった時の通知メールアドレスを変更する方法](/05-settings/05-form-notification-email/)」です。
+
+![Forms確認の流れの図解](../../../assets/diagrams/manual/diagram-38-forms.svg)
+
+:::note[図解の見方]
+メールが届かなくてもSubmissionに残っている場合があります。
+:::
+

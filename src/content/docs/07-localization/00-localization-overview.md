@@ -24,6 +24,13 @@ sidebar:
 
 # E-1. Locale翻訳の全体像
 
+![Locale翻訳の流れの図解](../../../assets/diagrams/manual/diagram-42-locale.svg)
+
+:::note[図解の見方]
+今どのLocaleを触っているかを最初に確認します。
+:::
+
+
 Webflowの <strong>Localization</strong> は、1つのWebflowサイトの中で複数言語・複数地域向けのページを管理する機能です。IGNITEで多言語サイトを制作している場合、英語ページや日本語ページは、この <strong>Locale</strong> 機能を使って翻訳・修正していることがあります。
 
 このセクションでは、「Localeはどう追加するのか」「翻訳はどこから入れるのか」「CMS記事はどう翻訳するのか」「公開サイトへどう反映するのか」「SEOや言語切り替えは何を確認するのか」を順番に説明します。

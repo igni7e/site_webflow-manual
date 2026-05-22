@@ -18,6 +18,13 @@ sidebar:
 
 # E-3. 新しいLocaleを追加する時の流れ
 
+![PrimaryとSecondary Localeの図解](../../../assets/diagrams/manual/diagram-43-primary-secondary-locale.svg)
+
+:::note[図解の見方]
+Primary localeは後から簡単に変えられません。
+:::
+
+
 新しいLocaleを追加すると、URL、公開範囲、言語切り替え、SEOに影響します。既存サイトで新しい言語を増やす場合は、自己判断で進めず、IGNITEまたは管理者に確認してから作業してください。
 
 > <strong>注意</strong>: Webflowでは最初に作成したLocaleがPrimary localeになります。あとからSecondary localeをPrimary localeへ変更することはできません。
