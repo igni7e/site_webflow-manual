@@ -21,6 +21,7 @@ sidebar:
 - 修正対象ページのURL
 - 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
 - 参考ページ: [B-2. Content Editor（最新）でWebflowを開く方法](/02-editor/02-open-content-editor/)
+- 画面の見方: [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/)
 
 ## 手順
 

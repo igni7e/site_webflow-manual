@@ -40,6 +40,8 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 
 最新版の詳しい手順は [B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/) を確認してください。旧Legacy Editorの入口が表示される場合は [B-1. Content Editor（旧バージョン）でWebflowを開く方法](/02-editor/01-open-legacy-editor/) を確認してください。
 
+最新版の画面でPages、CMS、Assets、編集アイコン、Publishの位置に迷った場合は [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を先に確認してください。
+
 ## テキストを編集する
 
 1. 編集したい文章にマウスを合わせます。
@@ -89,6 +91,7 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 | Publishしたのに反映されない | ブラウザのキャッシュを削除、または強制再読み込みする |
 | 画像が大きすぎる | 画像サイズを調整してからアップロードする |
 | リンク先が違う | URLの入力ミス、外部リンク設定、新しいタブ設定を確認する |
+| Pages、CMS、Assetsの違いが分からない | [最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を確認する |
 
 ## 理解度チェック
 

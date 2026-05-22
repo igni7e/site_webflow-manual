@@ -78,6 +78,7 @@ hero:
 - [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
 - [B-1. Content Editor入門](/02-editor/00-editor-complete-guide/)
 - [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/)
+- [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/)
 - [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
 - [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/)
 - [D-2. Designerの注意点](/04-designer/01-designer-warning/)
@@ -91,6 +92,7 @@ hero:
 - プラン、権限、メンバー追加の違いで迷っていますか？ → [A-0-6. プラン・権限で迷ったときの見方](/01-getting-started/00-plan-role-decision/) を確認してください。
 - Webflowの英語UIが不安ですか？ → [A-10. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
 - 普段の文字・画像・リンク更新をしたいですか？ → [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
+- 最新版Content Editorの画面で何を見ればよいか迷っていますか？ → [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を確認してください。
 - ブログやお知らせの投稿をしたいですか？ → [C-2. CMS更新](/03-cms/01-where-is-cms/) と [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
 - DesignerモードでレイアウトやCSSに触る必要がありますか？ → 先に [D-2. Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
 - WebflowのLocale機能で翻訳を追加・修正したいですか？ → [E-1. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。

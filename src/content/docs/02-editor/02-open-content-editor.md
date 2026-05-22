@@ -57,9 +57,25 @@ Content editor roleで開けている場合、編集可能なテキスト、画�
 
 編集アイコンが表示されない場合は、ログインしているメールアドレス、Site role、編集対象ページ、編集不可に設定された要素ではないかを確認してください。
 
+最新版のcanvas画面で見る場所、編集アイコン、CMS、Assets、Publishの判断は [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) にまとめています。
+
+## 4. 開いた後にまず見る場所
+
+Webflowが開いたら、すぐに編集を始めず、次の順番で確認します。
+
+1. 正しいサイトを開いているか確認します。
+2. 正しいページを開いているか確認します。
+3. 文章・画像・リンクにカーソルを合わせ、青いアウトラインや編集アイコンが出るか確認します。
+4. CMS記事を触る場合は、CMSパネルまたはCMSテンプレートページを開いているか確認します。
+5. Publish権限がある場合も、公開前チェックを済ませてからPublishします。
+
+:::tip[公式画像を使う場合]
+最新版UIの説明画像は、Webflow公式Help CenterのContent editor roleページを参考にして構いません。Morbido画面で撮り直す場合は、個人情報や未公開ページが写らないようにしてください。
+:::
+
 :::note[旧版の画面が表示される場合]
 Dashboard上に「Open Editor (Legacy)」が表示される場合は、旧バージョンの入口です。その場合は [B-1. Content Editor（旧バージョン）でWebflowを開く方法](/02-editor/01-open-legacy-editor/) を確認してください。
 :::
 
 <strong>次のステップ:</strong>
-無事にWebflowを開くことができたら、[エディターでサイトの文字を書き換える方法](/02-editor/03-edit-text/) に進みましょう。
+無事にWebflowを開くことができたら、まず [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を確認し、その後 [エディターでサイトの文字を書き換える方法](/02-editor/03-edit-text/) に進みましょう。

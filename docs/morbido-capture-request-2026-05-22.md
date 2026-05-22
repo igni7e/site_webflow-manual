@@ -9,7 +9,7 @@ sidebar:
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーを撮影します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の21枚だけを撮影してください。
+Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーを撮影します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚だけを撮影してください。
 
 ## 保存先
 
@@ -41,6 +41,7 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | A-09 | P0 | `a-09-members-and-permissions.png` | Membersと権限 | WorkspaceまたはSite settingsのMembers画面 | Invite/Add memberボタン、Role、Can publishなど権限判断に必要な列 | 氏名、メールアドレス、個人アイコン、他社メンバー情報 |
 | A-10 | P0 | `a-10-open-site-from-dashboard.png` | Dashboardからサイト修正画面に入る入口 | Dashboardで対象サイトカードにカーソルを合わせ、Open in Webflowまたは編集入口が見えている状態 | 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口 | 他サイト名、個人情報、通知、請求情報 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | 最新版のContent editor roleでサイトを開いた直後のcanvas画面 | 最新UIであることが分かる上部または周辺UI、編集可能なページ、対象サイト名 | 未公開ページ、個人情報、通知、他社サイト情報 |
+| B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面 | canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン | 未公開ページ、個人情報、通知、他社サイト情報 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | 対象サイトカードからContent editor roleを開く直前のDashboard | 対象サイトカード、編集入口、Workspace名 | 他サイト名、メールアドレス、通知 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | 画像にカーソルを合わせ、画像編集アイコンが出ている状態 | 差し替え対象画像、画像編集アイコン、周辺の見出し | 未公開画像、個人情報、不要な管理画面通知 |
 | C-11 | P0 | `c-11-category-dropdown-open.png` | Categoryフィールドのドロップダウン | CMS記事編集画面で `Category` フィールドのドロップダウンを開いた状態 | `Category` フィールド、`Pick a Category...`、選択肢、記事編集画面であることが分かる周辺UI | 未公開記事名、個人情報、不要な本文、他社情報 |
