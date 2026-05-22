@@ -1,8 +1,9 @@
 ---
-title: "Locale翻訳の全体像"
+title: "E-1. Locale翻訳の全体像"
 description: "Webflow LocalizationとLocale機能の基本、翻訳できる範囲、作業前の注意点をまとめます。"
 sidebar:
   order: 0
+  label: "E-1. Locale翻訳の全体像"
 ---
 
 

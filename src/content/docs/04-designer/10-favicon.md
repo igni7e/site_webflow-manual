@@ -65,26 +65,20 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 
 ## 5. よくある質問 (Q&A)
 
-<details>
-<summary>ファビコンが正方形でないとどうなりますか？</summary>
+#### Q. ファビコンが正方形でないとどうなりますか？
 
 ブラウザによっては自動で正方形にトリミングされ、変な見た目になります。<strong>必ず正方形（1:1）</strong> で用意してください。
 
-</details>
 
-<details>
-<summary>ロゴを小さくしただけだと潰れて見えません。どうすれば？</summary>
+#### Q. ロゴを小さくしただけだと潰れて見えません。どうすれば？
 
 ロゴの一部（マーク部分のみ）を使うか、<strong>32×32 px 専用に再デザイン</strong> されたものを [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から依頼するのがおすすめです。
 
-</details>
 
-<details>
-<summary>SVG 形式は使えますか？</summary>
+#### Q. SVG 形式は使えますか？
 
 最近の Webflow は SVG ファビコンに対応していますが、<strong>互換性を重視するなら PNG</strong> が無難です。
 
-</details>
 
 ---
 

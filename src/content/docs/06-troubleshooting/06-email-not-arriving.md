@@ -85,26 +85,20 @@ sidebar:
 
 ## 5. よくある質問 (Q&A)
 
-<details>
-<summary>昨日まで届いていたのに、今日から急に届きません。</summary>
+#### Q. 昨日まで届いていたのに、今日から急に届きません。
 
 <strong>メールサーバー側の設定変更</strong> または <strong>Webflow 側の送信元IP変更</strong> が原因の可能性があります。まず Webflow 管理画面で送信記録があるかを確認し、なければフォームの設定を、あればメール側の問題として情シスに相談してください。
 
-</details>
 
-<details>
-<summary>通知メールアドレスを複数設定したいです。</summary>
+#### Q. 通知メールアドレスを複数設定したいです。
 
 Project Settings → Forms で <strong>カンマ区切り</strong> で複数のアドレスを入力できます。例: `info@example.com, sales@example.com`
 
-</details>
 
-<details>
-<summary>すべての対策をしたのに届きません。</summary>
+#### Q. すべての対策をしたのに届きません。
 
 [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご連絡ください。SPF/DKIM の設定確認、または Zapier 等での代替通知の実装を検討します。
 
-</details>
 
 ---
 

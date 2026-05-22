@@ -79,26 +79,20 @@ Webflow 上では <strong>ドメインの有効期限は確認できません</s
 
 ## 6. よくある質問 (Q&A)
 
-<details>
-<summary>「Connected」なのにサイトが表示されません。</summary>
+#### Q. 「Connected」なのにサイトが表示されません。
 
 ブラウザのキャッシュ、または DNS 反映の遅延の可能性があります。<strong>スーパーリロード</strong> と <strong>時間を置いた再確認</strong> を試してください。それでも復旧しない場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご連絡ください。
 
-</details>
 
-<details>
-<summary>SSL の更新は自分でやる必要がありますか？</summary>
+#### Q. SSL の更新は自分でやる必要がありますか？
 
 Webflow がホスティングしている場合は <strong>自動更新</strong> されます。手動操作は不要です。
 
-</details>
 
-<details>
-<summary>ドメインの「DNS設定」を変更したいです。</summary>
+#### Q. ドメインの「DNS設定」を変更したいです。
 
 <strong>絶対に自分で操作しないでください</strong>。誤った設定でサイトが見れなくなります。<strong>必ず [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご相談</strong> ください。
 
-</details>
 
 ---
 

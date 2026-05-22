@@ -162,6 +162,7 @@ window.addEventListener('beforeunload', saveSidebarScroll);
       ],
       sidebar: [
         { label: 'A. はじめの一歩', autogenerate: { directory: '01-getting-started' } },
+        { label: 'WORK. やりたいことから探す', autogenerate: { directory: 'work' } },
         { label: 'B. Content Editor', autogenerate: { directory: '02-editor' } },
         { label: 'C. CMS更新', autogenerate: { directory: '03-cms' } },
         { label: 'D. デザイナー', autogenerate: { directory: '04-designer' } },

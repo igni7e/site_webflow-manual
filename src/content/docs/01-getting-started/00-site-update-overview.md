@@ -1,8 +1,9 @@
 ---
-title: Webflow更新作業の全体像
+title: A-1. Webflow更新作業の全体像
 description: はじめてWebflowを触る担当者向けに、Content editor roleでのログインから公開前確認までの流れをまとめます。
 sidebar:
   order: 0
+  label: "A-1. 更新作業の全体像"
 ---
 
 
@@ -15,7 +16,7 @@ sidebar:
 ![Webflow Dashboardのサイト一覧](../../../assets/captures/manual/a-01-dashboard-site-list.png)
 
 
-# Webflow更新作業の全体像
+# A-1. Webflow更新作業の全体像
 
 このページは、Webflowで作られたWebサイトを更新する前に読む入口です。2026年現在、Webflowの日常更新は <strong>Content editor role</strong> を使い、Webflowのcanvas上で文章・画像・リンク・CMS記事を更新する流れが基本です。
 
@@ -86,42 +87,36 @@ Webflowの画面は英語で表示されることがあります。初めての�
    - B. Content editor role
    - C. Billing
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: B
 
 Content editor roleは、完成済みのサイト上で安全にコンテンツを更新するための役割です。Designerはレイアウトや構造も変更できるため、必要な場合だけ使います。
 
-</details>
 
 2. Publish前に確認することとして正しいものはどれですか？
    - A. 変更したページだけでなく、スマートフォン表示やリンク先も確認する
    - B. 画像が表示されていれば、文章やリンクは確認しなくてよい
    - C. 社内確認前でも、作業者の判断で必ずPublishする
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: A
 
 公開後は一般の閲覧者に見えるため、文章、画像、リンク、スマートフォン表示を確認してからPublishします。
 
-</details>
 
 3. Webflowの英語画面が不安なときの考え方として正しいものはどれですか？
    - A. 翻訳された日本語だけを見て、英語名は確認しない
    - B. Chrome翻訳や日本語化拡張機能で意味を確認しつつ、PublishやDeleteなどの英語名も確認する
    - C. 英語画面が出たら、すぐDesignerで設定を変更する
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: B
 
 翻訳は補助として便利ですが、重要なボタンは英語名も見て誤操作を防ぎます。
 
-</details>
 
 ## 次に進む
 

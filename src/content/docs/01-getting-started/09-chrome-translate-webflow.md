@@ -1,9 +1,9 @@
 ---
-title: "Webflowの英語画面を日本語で確認する"
+title: "A-2. Webflowの英語画面を日本語で確認する"
 description: "Webflowの管理画面が英語で分かりにくい時に、IGNITEのChrome拡張機能とChrome翻訳を使って画面を読みやすくする方法を説明します。"
 sidebar:
   order: 9
-  label: "英語画面を日本語で読む"
+  label: "A-2. Webflow日本語化拡張機能とChrome翻訳"
 ---
 
 

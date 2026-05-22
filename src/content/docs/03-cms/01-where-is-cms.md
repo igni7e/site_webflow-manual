@@ -62,15 +62,15 @@ CMSで記事を追加すると、記事詳細ページだけでなく、一覧�
 1.  <strong>Content editor roleでサイトを開く:</strong>
     まずは、通常通りWebflowを開きます。
 
-2.  <strong>画面下部ツールバーの「Collections」をクリック:</strong>
-    画面下部の黒いツールバーの中に、<strong>「Collections」</strong>というタブがあります。これは「情報の集まり」を意味し、CMS機能のことを指します。この「Collections」タブをクリックしてください。
+2.  <strong>CMSをクリック:</strong>
+    Webflowの編集画面で、CMSの入口をクリックします。画面や権限によっては `CMS`、または旧UIの `Collections` と表示される場合がありますが、このマニュアルではCMSに統一して説明します。
 
     ![CMS / Collections入口](../../../assets/captures/manual/c-01-cms-collections-entry.png)
 
-3.  <strong>CMSアイテムの一覧（コレクションリスト）が表示される:</strong>
+3.  <strong>CMSアイテムの一覧が表示される:</strong>
     クリックすると、画面の左側に、このサイトで管理されているCMSの一覧（例: `お知らせ`, `ブログ記事`, `導入事例`など）が表示されます。
 
-4.  <strong>編集したいコレクションを選択:</strong>
+4.  <strong>編集したいCMSを選択:</strong>
     このリストの中から、あなたが更新したい項目（例: `お知らせ`）をクリックします。
 
 5.  <strong>記事の一覧ページが開く:</strong>
@@ -91,7 +91,7 @@ CMSで記事を追加すると、記事詳細ページだけでなく、一覧�
 
 まずは次の4つだけ覚えてください。
 
-1. `Collections` は、お知らせやブログの管理入口です。
+1. `CMS` は、お知らせやブログの管理入口です。
 2. `New` は、新しい記事を追加するボタンです。
 3. `Save as Draft` は、まだ公開しない下書き保存です。
 4. `Publish` は、公開サイトに反映する操作です。

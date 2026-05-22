@@ -2,14 +2,20 @@
 title: Webflow更新マニュアル | 日本語でわかる使い方・CMS更新・SEO設定
 description: Webflowの更新方法、Content Editor、CMS投稿、SEO設定、フォーム確認、Localizationを日本語で解説する公開版Webflowマニュアル。
 template: splash
+sidebar:
+  order: 0
 hero:
   tagline: Webflowの使い方、CMS更新、SEO設定、フォーム確認を日本語で確認できる公開マニュアル。
   actions:
+    - text: やりたいことから探す
+      link: /#work
+      icon: right-arrow
+      variant: primary
     - text: はじめての方はこちら
       link: /01-getting-started/00-site-update-overview/
       icon: right-arrow
-      variant: primary
-    - text: Content Editor入門
+      variant: secondary
+    - text: コンテンツ管理入門
       link: /02-editor/00-editor-complete-guide/
       icon: pencil
       variant: secondary
@@ -34,14 +40,25 @@ hero:
 このマニュアルは、Webflow で構築されたサイトを <strong>非エンジニアのクライアント担当者</strong> が安全に更新できるよう、IGNITE が制作・公開している日本語の手順書です。Webflowの更新方法、Content Editorの使い方、CMS投稿、SEO設定、フォーム確認、Locale翻訳、トラブル解決まで全 7 カテゴリで網羅しています。
 *実画面例: このマニュアルでは、Webflow Dashboardから対象サイトを開き、必要な画面へ進む流れを説明します。*
 
+<span id="work"></span>
+
+## やりたいことから探す
+
+<div class="manual-card-grid">
+  <a class="manual-card" href="/work/00-edit-text/"><strong>テキストを変えたい</strong><span>ページ上の文章を安全に直す流れを確認します。</span></a>
+  <a class="manual-card" href="/work/01-replace-image/"><strong>画像を差し替えたい</strong><span>既存画像の交換、公開前チェック、相談ラインを確認します。</span></a>
+  <a class="manual-card" href="/work/02-update-post/"><strong>お知らせ／ブログを更新したい</strong><span>CMSで記事を作成し、下書きから公開まで進めます。</span></a>
+  <a class="manual-card" href="/work/03-edit-seo/"><strong>SEO設定を変えたい</strong><span>検索結果に出るタイトルや説明文を確認します。</span></a>
+  <a class="manual-card" href="/work/04-check-forms/"><strong>フォーム送信内容を確認したい</strong><span>問い合わせ内容、CSV、通知メールの見方を確認します。</span></a>
+  <a class="manual-card" href="/work/05-edit-locale/"><strong>言語切り替え（Locale）を直したい</strong><span>多言語ページの翻訳確認と公開前チェックへ進みます。</span></a>
+</div>
+
 ## このマニュアルで分かること
 
-- WebflowにログインしてDashboardから対象サイトを開く方法
-- Content Editorで文字、画像、リンクを安全に更新する方法
-- Webflow CMSでブログ記事やお知らせを作成・公開する方法
-- WebflowのSEO title、meta description、OGP、noindex設定を確認する方法
-- Formsの送信内容確認、CSVダウンロード、通知メール設定の見方
-- Webflow Localizationで日本語・英語などのLocale翻訳を確認する方法
+- テキスト、画像、リンクなどの日常更新を安全に進める方法
+- お知らせ／ブログ記事をCMSで作成し、下書き保存や公開を行う方法
+- SEO設定、フォーム送信内容、通知メールなど運用で確認する場所
+- Locale翻訳やDesigner操作など、影響範囲が大きい作業の注意点
 - 反映されない、画像がアップロードできない、404になる時の確認方法
 
 ## 提供元と責任範囲
@@ -53,25 +70,26 @@ hero:
 
 ## まず読むページ
 
-- [A. はじめの一歩: 更新作業の全体像](/01-getting-started/00-site-update-overview/)
-- [A. はじめの一歩: Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/)
-- [A. はじめの一歩: Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
-- [B. Content Editor: テキスト・画像・リンクを安全に更新する](/02-editor/00-editor-complete-guide/)
-- [C. CMS更新: ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
-- [D. デザイナー: 多言語サイトと自動翻訳の修正ガイド](/04-designer/00-localization-designer-guide/)
-- [E. Locale翻訳: Webflow Localizationの全体像](/07-localization/00-localization-overview/)
-- [F. 便利な設定: フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
-- [G. トラブル解決: まず確認するチェックリスト](/06-troubleshooting/00-common-checklist/)
-- [G. トラブル解決: 自分で直すより任せたい時の保守・補修依頼](/06-troubleshooting/07-maintenance-request/)
+- [A-0. Webflowの構造を知る](/01-getting-started/00-workspace-intro/)
+- [A-1. 更新作業の全体像](/01-getting-started/00-site-update-overview/)
+- [A-2. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/)
+- [A-3. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
+- [B-1. Content Editor入門](/02-editor/00-editor-complete-guide/)
+- [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/)
+- [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
+- [D-1. Designerの注意点](/04-designer/01-designer-warning/)
+- [E-1. Locale翻訳の全体像](/07-localization/00-localization-overview/)
+- [F-1. フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
+- [G-1. トラブル時にまず確認するチェックリスト](/06-troubleshooting/00-common-checklist/)
 
 ## 細かい手順を探す
 
-- Webflowへの招待、ログイン、ダッシュボードは [はじめの一歩](/01-getting-started/01-invitation-email/) から順番に確認できます。
-- Webflowの英語UIが不安な場合は [Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
-- 普段の文字・画像・リンク更新は [B-2. Content Editor（最新版）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
-- ブログやお知らせの投稿は [CMS更新](/03-cms/01-where-is-cms/) を確認してください。
-- Designerモードはサイト全体を壊す可能性があるため、先に [Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
-- WebflowのLocale機能で翻訳を追加・修正する場合は [E. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
+- Webflowへの招待やログイン、ダッシュボードについての知識が必要ですか？ → [A-1. はじめの一歩](/01-getting-started/01-invitation-email/) から順番に確認してください。
+- Webflowの英語UIが不安ですか？ → [A-2. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [A-3. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
+- 普段の文字・画像・リンク更新をしたいですか？ → [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
+- ブログやお知らせの投稿をしたいですか？ → [C-1. CMS更新](/03-cms/01-where-is-cms/) を確認してください。
+- DesignerモードでレイアウトやCSSに触る必要がありますか？ → 先に [D-1. Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
+- WebflowのLocale機能で翻訳を追加・修正したいですか？ → [E-1. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
 
 ## 困ったときは
 

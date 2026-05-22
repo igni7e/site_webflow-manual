@@ -44,10 +44,18 @@ sidebar:
 3.  <strong>上部の「Archive」ボタンをクリック:</strong>
     記事を選択すると、一覧の上部にメニューが表示されます。この中から<strong>「Archive」</strong>ボタンをクリックします。
 
-    ![非公開・アーカイブ・削除の確認画面](../../../assets/captures/manual/c-09-unpublish-archive-delete.png)
+:::note[キャプチャー指示]
+撮影する画面: CMS記事一覧で記事にチェックを入れ、上部に `Archive` ボタンが表示された状態。
+保存ファイル名: `c-13-archive-button-visible.png`
+撮影直前の状態: アーカイブ対象の記事にチェックを入れ、まだArchiveを実行していない状態。
+必ず写すもの: 選択済みチェックボックス、上部の `Archive` ボタン、記事一覧であることが分かるUI。
+写さないもの: 未公開記事名、個人情報、不要な本文、他社情報。
+:::
 
 4.  <strong>確認メッセージで再度「Archive」をクリック:</strong>
     「`Are you sure you want to archive 1 item?`」（本当に1個のアイテムをアーカイブしますか？）という確認メッセージが表示されます。問題なければ、もう一度「Archive」ボタンをクリックします。
+
+    ![非公開・アーカイブ・削除の確認画面](../../../assets/captures/manual/c-09-unpublish-archive-delete.png)
 
 5.  <strong>アーカイブ完了:</strong>
     選択した記事が一覧から消え、アーカイブが完了します。

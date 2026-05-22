@@ -79,26 +79,20 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 
 ## 6. よくある質問 (Q&A)
 
-<details>
-<summary>招待メールが相手に届きません。</summary>
+#### Q. 招待メールが相手に届きません。
 
 迷惑メールフォルダを確認してもらってください。それでも届かない場合は、Team settingsまたはSite accessから再送してください。
 
-</details>
 
-<details>
-<summary>招待した相手のメールアドレスを変更したいです。</summary>
+#### Q. 招待した相手のメールアドレスを変更したいです。
 
 一度 <strong>Remove して、新しいアドレスで再招待</strong> してください。直接の変更機能はありません。
 
-</details>
 
-<details>
-<summary>制作会社（IGNITE）の担当者は Designer 権限を持っていますか？</summary>
+#### Q. 制作会社（IGNITE）の担当者は Designer 権限を持っていますか？
 
 サイトのメンテナンス・改修作業のために、必要に応じてDesignerまたは管理権限を保持します。運用担当者には、作業範囲に応じてContent editor、Marketer、ReviewerなどのSite roleを割り当てます。
 
-</details>
 
 ---
 

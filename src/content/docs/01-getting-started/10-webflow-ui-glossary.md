@@ -1,9 +1,9 @@
 ---
-title: "Webflow基本用語の早見表"
+title: "A-3. Webflow基本用語の早見表"
 description: "Webflow初心者が最初に覚えるべき英語UI、ボタン名、画面名を日本語で説明します。"
 sidebar:
   order: 10
-  label: "Webflow基本用語の早見表"
+  label: "A-3. Webflow基本用語の早見表"
 ---
 
 

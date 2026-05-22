@@ -87,26 +87,20 @@ URLの末尾に `/robots.txt` を付けて確認できます：
 
 ## 6. よくある質問 (Q&A)
 
-<details>
-<summary>noindex を設定したら、すぐに検索結果から消えますか？</summary>
+#### Q. noindex を設定したら、すぐに検索結果から消えますか？
 
 いいえ、Google が再クロールして反映するまで <strong>数日〜数週間</strong> かかります。緊急性がある場合は Google Search Console の「URL の削除」機能も併用してください。
 
-</details>
 
-<details>
-<summary>sitemap.xml に新しい記事がすぐ載りません。</summary>
+#### Q. sitemap.xml に新しい記事がすぐ載りません。
 
 Webflow は通常 <strong>公開時に sitemap.xml を自動更新</strong> します。反映されない場合は Project Settings → SEO で sitemap の再生成を試してください。
 
-</details>
 
-<details>
-<summary>「特定のページだけ Google に表示させたい」という設定はありますか？</summary>
+#### Q. 「特定のページだけ Google に表示させたい」という設定はありますか？
 
 それは Webflow 側ではなく <strong>検索エンジン側の挙動</strong> です。コンテンツの質と被リンクで決まるため、SEO 対策（記事の充実、内部リンクなど）が必要になります。
 
-</details>
 
 ---
 

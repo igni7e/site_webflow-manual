@@ -84,26 +84,20 @@ sidebar:
 
 ## 8. よくある質問 (Q&A)
 
-<details>
-<summary>フォーム項目を追加したら、過去のデータはどうなりますか？</summary>
+#### Q. フォーム項目を追加したら、過去のデータはどうなりますか？
 
 過去の問い合わせデータは変わりません。<strong>新規追加項目は今後の送信から記録</strong> されます。
 
-</details>
 
-<details>
-<summary>削除した項目を元に戻したいです。</summary>
+#### Q. 削除した項目を元に戻したいです。
 
 直後なら <strong>Ctrl+Z（Cmd+Z）</strong> で取り消せます。Publish 後の場合は <strong>バックアップから復元</strong> か、再度同じ項目を追加する必要があります。
 
-</details>
 
-<details>
-<summary>自分でやるのが不安です。</summary>
+#### Q. 自分でやるのが不安です。
 
 [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から依頼することを強くおすすめします。フォーム関連は問い合わせ受信に直結するため、慎重な対応が必要です。
 
-</details>
 
 ---
 

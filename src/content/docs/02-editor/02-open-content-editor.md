@@ -30,6 +30,14 @@ sidebar:
 4. <strong>Webflowのcanvasでサイトが開く:</strong>
    サイトの見た目を確認しながら、編集可能なテキスト、画像、リンク、CMSコンテンツを更新できます。
 
+:::note[キャプチャー指示]
+撮影する画面: 最新版のContent editor roleでサイトを開いた直後のcanvas画面。
+保存ファイル名: `b-08-content-editor-latest-canvas.png`
+撮影直前の状態: Dashboardからサイトを開き、ロード完了後に編集可能なページが表示されている状態。
+必ず写すもの: 最新UIであることが分かる上部または周辺UI、編集可能なページ、対象サイト名。
+写さないもの: 未公開ページ、個人情報、通知、他社サイト情報。
+:::
+
 ## 2. `?update` で直接開く
 
 毎回Dashboardを経由せず、公開サイトの該当ページから直接Content editor roleの編集画面へ入る方法です。

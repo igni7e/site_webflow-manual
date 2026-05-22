@@ -27,6 +27,11 @@
 | A-03 | P0 | `a-03-site-settings-left-menu.png` | Site settingsの左メニュー | `01-getting-started/06-dashboard-overview.md`, `05-settings/00-site-settings-complete-guide.md` | General、Publishing、SEO、Forms、Backupsが見える状態。請求情報は写さない。 |
 | A-04 | P1 | `a-04-invitation-and-login.png` | 招待メールまたはログイン画面 | `01-getting-started/01-invitation-email.md`, `02-create-account.md`, `03-first-login.md`, `05-reset-password.md` | 招待メールならAccept Invitation、ログイン画面ならEmail、Password、Forgot passwordが分かる状態。実メールは隠す。 |
 | A-05 | P1 | `a-05-chrome-translate-extension.png` | Chrome翻訳またはIGNITE日本語化拡張機能 | `01-getting-started/09-chrome-translate-webflow.md` | Webflow画面とChrome拡張機能メニューが同時に見える構図。日本語化が便利だと分かる状態にする。 |
+| A-06 | P0 | `a-06-morbido-workspace-overview.png` | MorbidoのWorkspace全体 | `01-getting-started/00-workspace-intro.md` | `morbido's Workspace`、対象サイトカード、Dashboardであることが分かる構図。他サイトや個人情報は隠す。 |
+| A-07 | P0 | `a-07-workspace-plan-members.png` | Workspace plan / Members | `01-getting-started/00-workspace-plan.md` | 現在のWorkspace plan、メンバー数、UpgradeやPlan関連の表示。請求情報やメールアドレスは隠す。 |
+| A-08 | P0 | `a-08-site-plan-settings.png` | Site plan / Publishing設定 | `01-getting-started/00-site-plan.md` | 対象サイト名、Site settings、Site plan名または公開設定。カード情報や請求情報は写さない。 |
+| A-09 | P0 | `a-09-members-and-permissions.png` | Membersと権限 | `01-getting-started/00-add-member.md` | Invite/Add member、Role、Can publishなど権限判断に必要な列。氏名・メールは隠す。 |
+| A-10 | P0 | `a-10-open-site-from-dashboard.png` | Dashboardからサイト修正画面に入る入口 | `01-getting-started/00-open-site.md` | 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口。他サイト名は隠す。 |
 
 ## B. Content Editor
 
@@ -40,6 +45,8 @@
 | B-06 | P0 | `b-06-publish-button-editor.png` | EditorのPublish操作 | `02-editor/08-save-and-publish.md`, `12-before-publish-checklist.md` | Publishボタン、公開前に確認すべきページ全体、保存状態が分かる状態。 |
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/09-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | `02-editor/02-open-content-editor.md`, `02-editor/00-editor-complete-guide.md` | 最新版のContent editor roleとしてcanvasを開いた状態。旧Legacy Editorの下部バーではなく、最新UIで編集可能な状態が分かる構図にする。 |
+| B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
+| B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |
 
 ## C. CMS更新
 
@@ -55,6 +62,10 @@
 | C-08 | P1 | `c-08-schedule-and-date.png` | 公開日・予約公開設定 | `03-cms/14-publish-date.md`, `15-schedule-publish.md` | Date / Published on、Schedule、日時指定が見える状態。 |
 | C-09 | P1 | `c-09-unpublish-archive-delete.png` | 非公開・アーカイブ・削除の確認画面 | `03-cms/19-unpublish.md`, `20-archive-post.md`, `21-delete-post.md` | Unpublish、Archive、Deleteの確認画面。削除は実行しない。 |
 | C-10 | P1 | `c-10-asset-file-upload.png` | PDFなどファイルのAssetアップロード | `03-cms/24-attach-file.md` | Asset Panel、Upload、ファイル名、Copy linkが分かる状態。実資料名は公開OKのものにする。 |
+| C-11 | P0 | `c-11-category-dropdown-open.png` | Categoryフィールドのドロップダウン | `03-cms/05-post-category.md` | `Category`、`Pick a Category...`、選択肢が見える状態。未公開記事名や本文は隠す。 |
+| C-12 | P0 | `c-12-rich-text-list-icons.png` | Rich Textのリストアイコン | `03-cms/09-bullet-list.md` | 選択中の本文、番号なしリスト、番号付きリストのアイコンが見える状態。 |
+| C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | `03-cms/20-archive-post.md` | 記事選択後、上部のArchiveボタンが見える状態。実行前に止める。 |
+| C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | `work/02-update-post.md` | CMS/Collection名、記事一覧、Newボタン。未公開記事名は必要に応じて隠す。 |
 
 ## D. Designer
 
@@ -76,6 +87,7 @@
 | E-04 | P0 | `e-04-cms-locale-translation.png` | CMS itemのLocale翻訳 | `07-localization/03-cms-locale-translation.md` | CMS item、対象Locale、Title / Body / SEOなど翻訳対象フィールドが分かる状態。 |
 | E-05 | P0 | `e-05-localized-seo-ogp.png` | LocaleごとのSEO / OGP設定 | `07-localization/04-localized-seo-ogp.md` | Page title、Meta description、OGP imageが対象Localeごとに設定されることが分かる状態。 |
 | E-06 | P0 | `e-06-locale-publish-and-url.png` | Locale公開と公開URL確認 | `07-localization/05-locale-publish-checklist.md`, `07-publish-and-reflect-locale.md` | Publishモーダル、公開対象Locale、公開後の `/en` などのURLが分かる状態。 |
+| E-07 | P0 | `work-06-edit-locale-selector.png` | Locale selectorで対象言語を確認する画面 | `work/05-edit-locale.md` | Locale selector、現在のLocale、対象ページの見出しが分かる状態。 |
 
 ## F. 設定・フォーム
 
@@ -86,6 +98,8 @@
 | F-03 | P0 | `f-03-email-notification-settings.png` | Form通知メール設定 | `05-settings/05-form-notification-email.md`, `06-troubleshooting/06-email-not-arriving.md` | 通知先メール欄、フォーム名、保存ボタンが分かる状態。実メールアドレスは隠す。 |
 | F-04 | P1 | `f-04-members-and-roles.png` | Site access / メンバー権限 | `05-settings/08-invite-collaborator.md` | Role、Can publish、招待・権限設定が分かる状態。氏名・メールは隠す。 |
 | F-05 | P0 | `f-05-domain-and-publishing-status.png` | Publishing / Domain状態 | `05-settings/09-domain-status.md`, `06-troubleshooting/01-cache-not-reflecting.md` | Production domain、SSL、Connected、Publish状態が分かる状態。 |
+| F-06 | P0 | `work-04-edit-seo-settings.png` | 作業ベースSEO設定画面 | `work/03-edit-seo.md` | Title tag、Meta description、対象ページ名。APIキーや請求情報は写さない。 |
+| F-07 | P0 | `work-05-check-forms-submissions.png` | 作業ベースForms送信内容確認画面 | `work/04-check-forms.md` | フォーム名、Submissions、CSVダウンロード入口。氏名、メール、問い合わせ本文は隠す。 |
 
 ## G. トラブル解決・保守
 
@@ -109,17 +123,31 @@
 
 ## 差し替え方針
 
-本文には撮影指示コールアウトを表示しません。撮影が必要な画像はこの一覧で管理し、撮影後に必要な画像だけを本文へ追加してください。
+撮影が必要な画像はこの一覧で管理します。未撮影のページには、本文内にも `:::note[キャプチャー指示]` を入れ、撮影する画面、保存ファイル名、撮影直前の状態、必ず写すもの、写さないものを明記します。撮影後に画像を本文へ差し込む時は、該当するキャプチャー指示を削除してください。
 
-## 2026-05-18 反映状況
+## 2026-05-22 反映状況
 
-今回取得した37枚のPNGは、対応する本文ページへ反映済みです。画像は `src/assets/captures/manual/` に保存しています。現時点で、保存済みPNGの未使用画像はありません。
+2026-05-18に取得した37枚のPNGは、対応する本文ページへ反映済みです。画像は `src/assets/captures/manual/` に保存しています。
 
-今回未取得の統合版キャプチャーは以下です。
+今回未取得のキャプチャーは以下です。
 
 - A-04: `a-04-invitation-and-login.png`
+- A-06: `a-06-morbido-workspace-overview.png`
+- A-07: `a-07-workspace-plan-members.png`
+- A-08: `a-08-site-plan-settings.png`
+- A-09: `a-09-members-and-permissions.png`
+- A-10: `a-10-open-site-from-dashboard.png`
 - B-07: `b-07-discard-changes-confirm.png`
 - B-08: `b-08-content-editor-latest-canvas.png`
+- B-09: `work-01-edit-text-open-site.png`
+- B-10: `work-02-replace-image-edit-icon.png`
+- C-11: `c-11-category-dropdown-open.png`
+- C-12: `c-12-rich-text-list-icons.png`
+- C-13: `c-13-archive-button-visible.png`
+- C-14: `work-03-update-post-cms-list.png`
 - D-05: `d-05-undo-and-unsaved-warning.png`
 - E-06: `e-06-locale-publish-and-url.png`
+- E-07: `work-06-edit-locale-selector.png`
+- F-06: `work-04-edit-seo-settings.png`
+- F-07: `work-05-check-forms-submissions.png`
 - G-04: `g-04-maintenance-request-example.png`

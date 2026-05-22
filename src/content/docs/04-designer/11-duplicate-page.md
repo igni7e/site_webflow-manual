@@ -59,26 +59,20 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 
 ## 5. よくある質問 (Q&A)
 
-<details>
-<summary>複製したページが Designer 上では見えるのに、公開サイトに表示されません。</summary>
+#### Q. 複製したページが Designer 上では見えるのに、公開サイトに表示されません。
 
 複製ページが <strong>Draft（下書き）</strong> 状態の可能性があります。Page Settings で「Draft」のチェックを外し、Publish を実行してください。
 
-</details>
 
-<details>
-<summary>複製したページの URL を変えるにはどうすればいいですか？</summary>
+#### Q. 複製したページの URL を変えるにはどうすればいいですか？
 
 Page Settings の <strong>「Slug」</strong> 欄を編集します。例: 元 `/campaign-spring` → 新 `/campaign-summer`
 
-</details>
 
-<details>
-<summary>元ページに加えた変更を、複製ページにも反映させたいです。</summary>
+#### Q. 元ページに加えた変更を、複製ページにも反映させたいです。
 
 残念ながら <strong>複製後は別ページとして独立</strong> するため、自動同期はされません。両方を手動で更新するか、共通部分を <strong>Components（コンポーネント）</strong> として [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から設計を依頼する方法があります。
 
-</details>
 
 ---
 

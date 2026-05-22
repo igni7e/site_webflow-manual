@@ -1,14 +1,15 @@
 ---
-title: Content Editor入門：テキスト・画像・リンクを安全に更新する
+title: B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する
 description: WebflowのContent editor roleでテキスト、画像、リンクを更新し、Publishするまでの基本手順をまとめます。
 sidebar:
   order: 0
+  label: "B-1. Content Editor入門"
 ---
 
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
-Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+Webflowでは、コンテンツ管理にコンテンツエディター（CMS編集モード）を使います。文章・画像・リンクなどの内容を安全に更新できる仕組みで、レイアウトやデザインを変えたい時はDesigner操作が必要か確認してください。
 :::
 <!-- body-callout:end -->
 
@@ -16,9 +17,9 @@ Content editor roleでは、文章、画像、リンクなどの内容を安全�
 ![Dashboard上の編集入口](../../../assets/captures/manual/a-02-site-card-actions.png)
 
 
-# Content Editor入門：テキスト・画像・リンクを安全に更新する
+# B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する
 
-Content editor roleは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための役割です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
+コンテンツエディターは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための編集画面です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
 従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。Dashboardに「Open Editor (Legacy)」が表示される場合だけ、旧バージョンの入口ページを確認してください。
 *実画面例: Dashboardでは、通常の編集入口と旧Legacy Editorの入口を見分けてから作業に入ります。*
@@ -76,7 +77,7 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
 
 ## Publishする
 
-編集内容は、Publishするまで一般の閲覧者には反映されません。内容を確認したら、Publish権限がある担当者が公開します。公開後は実際のWebサイトを開き、変更が反映されているか確認してください。
+編集内容は、Publishするまで一般の閲覧者には反映されません。内容を確認したら、Publish権限がある担当者が公開しましょう。公開後は実際のWebサイトを開き、変更が反映されているか確認してください。
 
 詳しい手順は [変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) を確認してください。
 
@@ -96,42 +97,36 @@ WebflowにログインしてDashboardから対象サイトを開く方法と、�
    - B. 既存の文章、画像、リンクを更新する
    - C. DNS設定を変更する
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: B
 
 Content editor roleは、完成済みページのコンテンツ更新に向いています。構造変更やドメイン設定は担当者に確認してください。
 
-</details>
 
 2. 外部サイトへのリンクを設定するとき、確認した方がよいことはどれですか？
    - A. URLが正しいか、新しいタブで開く必要があるか
    - B. リンク文字の色だけ
    - C. 画像サイズだけ
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: A
 
 外部リンクはURLの入力ミスが起きやすいため、クリックして遷移先を確認します。必要に応じて新しいタブで開く設定も確認します。
 
-</details>
 
 3. 変更内容が一般公開サイトに反映されるタイミングとして正しいものはどれですか？
    - A. 文字を入力した瞬間
    - B. Previewで見た瞬間
    - C. Publishが完了した後
 
-<details>
-<summary>答えを見る</summary>
+#### 答え
 
 正解: C
 
 編集内容はPublishするまで一般の閲覧者には反映されません。Publish後は公開サイトで確認します。
 
-</details>
 
 ## 次に進む
 
