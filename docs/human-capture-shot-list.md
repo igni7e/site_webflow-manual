@@ -65,6 +65,15 @@
 | B-28 | P1 | `b-28-official-seo-overview.png` | 公式画像: SEO機能の概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/01-seo-title.md` | Webflow公式SEOページ画像。SEO title、meta description、Open Graphの説明に使う。 |
 | B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | `02-editor/14-official-content-editor-image-reference.md`, `07-localization/00-localization-overview.md` | Webflow公式Localizationページ画像。Localeや翻訳作業の全体像に使う。 |
 | B-30 | P1 | `b-30-official-collaboration-overview.png` | 公式画像: チーム編集・コメント・権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Webflow公式Collaborationページ画像。Content editor role、コメント、権限の説明に使う。 |
+| B-31 | P1 | `b-31-official-single-page-publishing.png` | 公式画像: 1ページだけPublishする考え方 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/08-save-and-publish.md` | Webflow公式Single page publishing画像。Publish対象ページと公開先を確認する説明に使う。 |
+| B-32 | P1 | `b-32-official-single-page-publishing-access.png` | 公式画像: 1ページ公開権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Webflow公式Single page publishing access画像。Role、Can publish、公開権限の説明に使う。 |
+| B-33 | P1 | `b-33-official-next-gen-cms.png` | 公式画像: Next-gen CMSの概要 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/02-create-new-post.md` | Webflow公式Next-gen CMS画像。CMS item作成フォームや主要Fieldの説明に使う。 |
+| B-34 | P1 | `b-34-official-publishing-permission-toggle.png` | 公式画像: Publish権限のON/OFF | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/08-save-and-publish.md` | Webflow公式Publishing permission toggle画像。Publish権限がない場合の説明に使う。 |
+| B-35 | P1 | `b-35-official-preview-roles.png` | 公式画像: Preview role | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/12-before-publish-checklist.md` | Webflow公式Preview roles画像。公開前レビューや確認担当者の説明に使う。 |
+| B-36 | P1 | `b-36-official-hosting-domain.png` | 公式画像: Hosting / Domain / SSLの概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/09-domain-status.md` | Webflow公式Hosting画像。Domain、SSL、Publishing設定の説明に使う。 |
+| B-37 | P1 | `b-37-official-security-permissions.png` | 公式画像: Securityと権限管理 | `02-editor/14-official-content-editor-image-reference.md`, `06-troubleshooting/00-common-checklist.md` | Webflow公式Security画像。権限不足や安全確認の説明に使う。 |
+| B-38 | P1 | `b-38-official-analyze-seo-settings.png` | 公式画像: Analyze / 計測の概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/10-search-engine-control.md` | Webflow公式Analyze画像。検索表示、計測、反映タイミングの説明に使う。 |
+| B-39 | P1 | `b-39-official-designer-overview.png` | 公式画像: Designerの概要 | `02-editor/14-official-content-editor-image-reference.md`, `04-designer/01-designer-warning.md` | Webflow公式Design画像。Designerが高機能で慎重に扱う画面だと伝える説明に使う。 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |
 
@@ -182,6 +191,15 @@
 - B-28: `b-28-official-seo-overview.png`
 - B-29: `b-29-official-localization-overview.png`
 - B-30: `b-30-official-collaboration-overview.png`
+- B-31: `b-31-official-single-page-publishing.png`
+- B-32: `b-32-official-single-page-publishing-access.png`
+- B-33: `b-33-official-next-gen-cms.png`
+- B-34: `b-34-official-publishing-permission-toggle.png`
+- B-35: `b-35-official-preview-roles.png`
+- B-36: `b-36-official-hosting-domain.png`
+- B-37: `b-37-official-security-permissions.png`
+- B-38: `b-38-official-analyze-seo-settings.png`
+- B-39: `b-39-official-designer-overview.png`
 - B-09: `work-01-edit-text-open-site.png`
 - B-10: `work-02-replace-image-edit-icon.png`
 - C-11: `c-11-category-dropdown-open.png`

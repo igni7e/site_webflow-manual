@@ -16,8 +16,22 @@ sidebar:
 
 # G-1. トラブル時にまず確認するチェックリスト
 
+![Webflow公式: Security](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6968e8767a907cb2aad06cce_og-security.jpg)
+
+:::note[公式画像]
+上の画像はWebflow公式Securityページの画像です。トラブル時は、まずログイン状態、権限、Publish状態、対象ページ、公開先を分けて確認してください。
+:::
+
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
 *実画面例: 問題が起きた時は、Site settingsでForms、Publishing、Backupsなどの関連画面を確認します。*
+
+:::note[キャプチャー差し込み位置]
+撮影する画面: エラーや権限不足が分かるWebflow画面、またはWebflow公式Security画像。
+保存ファイル名: `b-37-official-security-permissions.png`
+撮影直前の状態: エラー表示、権限不足、Publish不可などの状態が分かる画面で止める。
+必ず写すもの: エラーメッセージ、対象画面、どの操作で止まったか分かる周辺UI。
+写さないもの: メールアドレス、問い合わせ本文、請求情報、APIキー、他社情報。
+:::
 
 ## 英語画面で何を押せばよいか分からない
 

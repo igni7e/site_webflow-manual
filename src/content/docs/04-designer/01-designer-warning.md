@@ -16,6 +16,12 @@ sidebar:
 
 <strong>ここからのセクションで解説する「デザイナーモード」での操作は、Webサイトの構造やデザインに直接影響を与えるため、非常に高いリスクを伴います。</strong>
 
+![Webflow公式: Design](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c709dd63aab7a33448_og-design.jpg)
+
+:::caution[公式画像]
+上の画像はWebflow公式Designページの画像です。Designerは自由度が高い分、サイト構造やデザインに影響します。通常更新はContent editor roleで行い、Designerは必要な時だけ開いてください。
+:::
+
 これまで何度も説明してきた通り、<strong>日常的な更新作業はContent editor roleで行うのが原則</strong>です。このセクションは、Webサイト制作会社から特別な指示があった場合や、どうしてもContent editor roleでは編集できない箇所を、リスクを十分に理解した上でピンポイントで修正するための、いわば「最終手段」のマニュアルです。
 
 ---
@@ -39,6 +45,14 @@ sidebar:
 3. 表示されるメニューの中から、<strong>Wのロゴが入った「Designer」</strong>ボタンをクリックします。
 
    ![Designerを開いた状態](../../../assets/captures/manual/d-01-designer-opened.png)
+
+   :::note[キャプチャー差し込み位置]
+   撮影する画面: Designerを開いた直後の画面、またはWebflow公式Design画像。
+   保存ファイル名: `b-39-official-designer-overview.png`
+   撮影直前の状態: Designer画面のロードが完了し、左パネル・canvas・右パネルが見えている状態。
+   必ず写すもの: 左パネル、canvas、右パネル、上部バー、Designerであることが分かるUI。
+   写さないもの: 未公開ページ、個人情報、他社サイト情報、通知。
+   :::
 
 4. 非常に多機能で複雑な、Webサイトの設計図とも言える「デザイナー」画面が起動します。
 

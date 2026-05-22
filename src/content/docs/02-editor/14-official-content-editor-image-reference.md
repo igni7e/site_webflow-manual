@@ -78,6 +78,60 @@ sidebar:
 
 出典: [Webflow Updates](https://webflow.com/updates)
 
+### Single page publishing
+
+![Webflow公式: Single page publishing](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/69cbe15f8eb7ceaa36d45986_updates_hero-thumbnail.png)
+
+出典: [Single page publishing](https://webflow.com/updates/single-page-publishing)
+
+### Single page publishing access
+
+![Webflow公式: Single page publishing access](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/6a032830165d496445658d53_Email_1200x700_Custom-Role-SPP.png)
+
+出典: [Single page publishing access](https://webflow.com/updates/single-page-publishing-access)
+
+### Next-gen CMS
+
+![Webflow公式: Next-gen CMS](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/69d6ae8aa741ebac229650fc_NEXTGEN%20CMS_BlogInline_1280x720.png)
+
+出典: [Next-gen CMS available for everyone](https://webflow.com/updates/next-gen-cms-available-for-everyone)
+
+### Publishing permission toggle
+
+![Webflow公式: Publishing permission toggle](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68c3879d1012160cfdc82f45_64f9399ca7d13575ff21d68c_23008_23_Publishing_Permission_Toggle_Header_2400x1400.jpeg)
+
+出典: [Publishing permission toggle](https://webflow.com/updates/publishing-permission-toggle)
+
+### Preview roles
+
+![Webflow公式: Preview roles](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/697d3f975742cabc3e39fe3e_preview-roles-thumbnail-1280x720.png)
+
+出典: [Preview roles](https://webflow.com/updates/preview-roles)
+
+### Hosting
+
+![Webflow公式: Hosting](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c75e4868b2e2e713de_og-hosting.jpg)
+
+出典: [Hosting features](https://webflow.com/feature/hosting)
+
+### Security
+
+![Webflow公式: Security](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6968e8767a907cb2aad06cce_og-security.jpg)
+
+出典: [Security features](https://webflow.com/feature/security)
+
+### Analyze
+
+![Webflow公式: Analyze](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/686d776d065cce5ba641a6f8_og-analyze.webp)
+
+出典: [Analyze features](https://webflow.com/feature/analyze)
+
+### Design
+
+![Webflow公式: Design](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c709dd63aab7a33448_og-design.jpg)
+
+出典: [Design features](https://webflow.com/feature/design)
+
 ## 公式画像を入れる場所
 
 | ID | 画像で見せたい内容 | 差し込み先 | 公式情報 |
@@ -101,6 +155,15 @@ sidebar:
 | B-28 | SEO機能の概要 | [F-2. SEO titleを変更する方法](/05-settings/01-seo-title/) | [SEO features](https://webflow.com/feature/seo) |
 | B-29 | Localization機能の概要 | [G-1. Localization概要](/07-localization/00-localization-overview/) | [Localization features](https://webflow.com/feature/localization) |
 | B-30 | チーム編集・コメント・権限 | [A-8. Editorだけで作業した方がよい理由](/01-getting-started/08-editor-only-recommendation/) | [Collaboration features](https://webflow.com/feature/collaboration) |
+| B-31 | 1ページだけPublishする考え方 | [B-8. 変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) | [Single page publishing](https://webflow.com/updates/single-page-publishing) |
+| B-32 | 1ページ公開権限 | [A-8. Editorだけで作業した方がよい理由](/01-getting-started/08-editor-only-recommendation/) | [Single page publishing access](https://webflow.com/updates/single-page-publishing-access) |
+| B-33 | Next-gen CMSの概要 | [C-3. 新しい「お知らせ（ブログ記事）」を追加する方法](/03-cms/02-create-new-post/) | [Next-gen CMS available for everyone](https://webflow.com/updates/next-gen-cms-available-for-everyone) |
+| B-34 | Publish権限のON/OFF | [B-8. 変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/) | [Publishing permission toggle](https://webflow.com/updates/publishing-permission-toggle) |
+| B-35 | Preview role | [B-12. Editor公開前チェックリスト](/02-editor/12-before-publish-checklist/) | [Preview roles](https://webflow.com/updates/preview-roles) |
+| B-36 | Hosting / Domain / SSLの概要 | [F-10. 独自ドメインの接続状態を確認する](/05-settings/09-domain-status/) | [Hosting features](https://webflow.com/feature/hosting) |
+| B-37 | Securityと権限管理 | [G-1. トラブル時にまず確認するチェックリスト](/06-troubleshooting/00-common-checklist/) | [Security features](https://webflow.com/feature/security) |
+| B-38 | Analyze / 計測の概要 | [F-11. 検索エンジンの表示制御](/05-settings/10-search-engine-control/) | [Analyze features](https://webflow.com/feature/analyze) |
+| B-39 | Designerの概要 | [D-2. Designerの注意点](/04-designer/01-designer-warning/) | [Design features](https://webflow.com/feature/design) |
 
 ## 差し込み時の判断基準
 
@@ -214,6 +277,26 @@ Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Asset
 避けるもの: 個人名やメールアドレスが見える権限画面。
 :::
 
+### Publish / 権限 / Preview公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `Single page publishing`、`Single page publishing access`、`Publishing permission toggle`、`Preview roles` の画像。
+保存ファイル名: `b-31-official-single-page-publishing.png` から `b-35-official-preview-roles.png`
+差し込み先: `02-editor/08-save-and-publish.md`、`02-editor/12-before-publish-checklist.md`、`01-getting-started/08-editor-only-recommendation.md`
+必ず見せるもの: Publish対象、1ページ単位の公開、Can publish権限、Preview roleの文脈。
+避けるもの: 実行後に戻せないPublish完了画面、他社ドメイン、メールアドレス。
+:::
+
+### Site settings / Designer / Security公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `Hosting`、`Security`、`Analyze`、`Design` の画像。
+保存ファイル名: `b-36-official-hosting-domain.png` から `b-39-official-designer-overview.png`
+差し込み先: `05-settings/09-domain-status.md`、`06-troubleshooting/00-common-checklist.md`、`05-settings/10-search-engine-control.md`、`04-designer/01-designer-warning.md`
+必ず見せるもの: ドメイン・SSL、権限・安全性、分析・計測、Designerが高機能な編集画面であること。
+避けるもの: 請求情報、個人情報、APIキー、不要な外部サービス管理画面。
+:::
+
 ## 公式情報
 
 - [Edit site content as a content editor](https://help.webflow.com/hc/en-us/articles/33961251014931-Edit-site-content-as-a-content-editor)
@@ -222,10 +305,19 @@ Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Asset
 - [SEO features](https://webflow.com/feature/seo)
 - [Localization features](https://webflow.com/feature/localization)
 - [Collaboration features](https://webflow.com/feature/collaboration)
+- [Hosting features](https://webflow.com/feature/hosting)
+- [Security features](https://webflow.com/feature/security)
+- [Analyze features](https://webflow.com/feature/analyze)
+- [Design features](https://webflow.com/feature/design)
 - [CMS auto-save](https://webflow.com/updates/cms-auto-save)
 - [Improvements to the CMS Drafting and Publishing Workflow](https://webflow.com/updates/cms-draft-publishing-improvements)
 - [Publish and unpublish multiple CMS items at once](https://webflow.com/updates/bulk-publishing)
 - [Faster CMS item creation and undo/redo improvements](https://webflow.com/updates/cms-item-creation-and-undo-redo-updates)
+- [Single page publishing](https://webflow.com/updates/single-page-publishing)
+- [Single page publishing access](https://webflow.com/updates/single-page-publishing-access)
+- [Next-gen CMS available for everyone](https://webflow.com/updates/next-gen-cms-available-for-everyone)
+- [Publishing permission toggle](https://webflow.com/updates/publishing-permission-toggle)
+- [Preview roles](https://webflow.com/updates/preview-roles)
 - [Shortcut to edit your live site](https://help.webflow.com/hc/en-us/articles/48214769154579-Shortcut-to-edit-your-live-site)
 - [What's the difference between the legacy Editor and content editing in Webflow?](https://help.webflow.com/hc/en-us/articles/39773828407827-What-s-the-difference-between-the-legacy-Editor-and-edit-mode)
 - [Create and manage custom roles](https://help.webflow.com/hc/en-us/articles/46651804072467-Create-and-manage-custom-roles)

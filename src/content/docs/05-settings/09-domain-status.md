@@ -15,6 +15,12 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 ![Publishing / Domain状態](../../../assets/captures/manual/f-05-domain-and-publishing-status.png)
 
+![Webflow公式: Hosting](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c75e4868b2e2e713de_og-hosting.jpg)
+
+:::note[公式画像]
+上の画像はWebflow公式Hostingページの画像です。Morbidoで確認する時は、公式画像で全体像をつかみ、実際のDomain / SSL状態はWebflowのPublishing設定で確認してください。
+:::
+
 
 > 新規追加（標準スコープ補完）
 
@@ -38,6 +44,14 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 1. Webflow にログイン → 対象サイトの <strong>Project Settings</strong> を開く
 2. 左メニューから <strong>「Publishing」</strong> タブを選択
 *実画面例: Publishingでは、公開先ドメインや公開状態を確認します。ドメインやSSLの状態を見る時の入口です。*
+
+:::note[キャプチャー差し込み位置]
+撮影する画面: Site settingsのPublishing / Domain設定、またはWebflow公式Hosting画像。
+保存ファイル名: `b-36-official-hosting-domain.png`
+撮影直前の状態: Production domain、SSL、Connected状態が分かる画面でロード完了後に撮る。
+必ず写すもの: Production domain、Connected、SSL Active、Publishing画面であること。
+写さないもの: DNS設定値の詳細、請求情報、カード情報、他社ドメイン。
+:::
 
 3. <strong>「Production」</strong> セクションを確認
 4. 接続済みドメインの右側に <strong>緑のチェックマーク（Connected）</strong> が表示されているか確認

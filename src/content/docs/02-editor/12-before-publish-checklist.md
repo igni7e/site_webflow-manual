@@ -15,6 +15,12 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 ![EditorのPublish操作](../../../assets/captures/manual/b-06-publish-button-editor.png)
 
+![Webflow公式: Preview roles](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/697d3f975742cabc3e39fe3e_preview-roles-thumbnail-1280x720.png)
+
+:::note[公式画像]
+上の画像はWebflow公式UpdatesのPreview rolesに関する画像です。Publish前は、権限がある人だけでなく、必要に応じてレビュー担当者にも確認してもらう運用にすると安全です。
+:::
+
 
 Webflowでは、変更を保存しただけでは公開サイトに反映されない場合があります。公開する前に、以下のチェックリストで内容を確認してください。
 *実画面例: Publish前は、公開したいページの見た目とリンク先を画面上で確認します。*

@@ -9,7 +9,7 @@ sidebar:
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補19枚を確認してください。
+Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補28枚を確認してください。
 
 ## 保存先
 
@@ -84,6 +84,15 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | B-28 | P1 | `b-28-official-seo-overview.png` | 公式画像: SEO機能の概要 | Webflow公式SEOページの画像を確認した状態 | SEO title、meta description、Open Graphの文脈 | 外部SEOツール管理画面、実在する未公開検索結果 |
 | B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | Webflow公式Localizationページの画像を確認した状態 | Locale、翻訳、地域別コンテンツの文脈 | Morbido以外の顧客名が主役になる画像 |
 | B-30 | P1 | `b-30-official-collaboration-overview.png` | 公式画像: チーム編集・コメント・権限 | Webflow公式Collaborationページの画像を確認した状態 | コメント、権限、チームで安全に作業する文脈 | 氏名、メールアドレス、請求情報 |
+| B-31 | P1 | `b-31-official-single-page-publishing.png` | 公式画像: 1ページだけPublishする考え方 | Webflow公式Single page publishing画像、またはPublish確認画面を開いた状態 | Publish対象ページ、公開先、実行前で止めていること | 他社ドメイン、未公開ページ名、個人情報、通知 |
+| B-32 | P1 | `b-32-official-single-page-publishing-access.png` | 公式画像: 1ページ公開権限 | Webflow公式Single page publishing access画像、またはRole/permissions画面を開いた状態 | Role、Can publish、公開権限のON/OFF | 氏名、メールアドレス、請求情報、他社メンバー |
+| B-33 | P1 | `b-33-official-next-gen-cms.png` | 公式画像: Next-gen CMSの概要 | Webflow公式Next-gen CMS画像、または新規CMS itemフォームを開いた状態 | New item、Title/Name、Slug、主要Field、Save/Create/Publish周辺 | 未公開本文、個人情報、社外秘画像、他社情報 |
+| B-34 | P1 | `b-34-official-publishing-permission-toggle.png` | 公式画像: Publish権限のON/OFF | Webflow公式Publishing permission toggle画像、またはPublish権限設定画面 | Publish権限のON/OFF、Role、対象サイトまたはWorkspace | 氏名、メールアドレス、請求情報 |
+| B-35 | P1 | `b-35-official-preview-roles.png` | 公式画像: Preview role | Webflow公式Preview roles画像、またはPreview/review用権限が分かる画面 | Preview role、レビュー担当者が確認する文脈 | 氏名、メールアドレス、未公開情報 |
+| B-36 | P1 | `b-36-official-hosting-domain.png` | 公式画像: Hosting / Domain / SSLの概要 | Webflow公式Hosting画像、またはSite settingsのPublishing / Domain設定 | Production domain、Connected、SSL Active、Publishing画面 | DNS設定値の詳細、請求情報、カード情報、他社ドメイン |
+| B-37 | P1 | `b-37-official-security-permissions.png` | 公式画像: Securityと権限管理 | Webflow公式Security画像、または権限不足・エラー表示のWebflow画面 | エラーメッセージ、対象画面、どの操作で止まったか分かる周辺UI | メールアドレス、問い合わせ本文、請求情報、APIキー、他社情報 |
+| B-38 | P1 | `b-38-official-analyze-seo-settings.png` | 公式画像: Analyze / 計測の概要 | Webflow公式Analyze画像、またはSite settingsのSEO / sitemap / indexing設定 | SEO、sitemap、indexing、Publishが必要な設定であること | APIキー、Googleアカウント情報、外部計測タグの詳細、個人情報 |
+| B-39 | P1 | `b-39-official-designer-overview.png` | 公式画像: Designerの概要 | Webflow公式Design画像、またはDesignerを開いた直後の画面 | 左パネル、canvas、右パネル、上部バー、Designerであること | 未公開ページ、個人情報、他社サイト情報、通知 |
 | D-05 | P1 | `d-05-undo-and-unsaved-warning.png` | Undoまたは未保存変更の確認 | DesignerでUndo / Redo、または保存せず終了する確認画面が見える状態 | Undo / Redo、未保存変更の警告、戻る選択肢 | 実行して困る変更、個人情報、他社情報 |
 
 ## 撮影後の確認

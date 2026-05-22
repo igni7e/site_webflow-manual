@@ -16,6 +16,12 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 
 CMSの管理画面にアクセスできるようになったら、次はいよいよ新しい記事を追加してみましょう。ここでは例として「お知らせ」を新規作成する手順を解説しますが、「ブログ記事」や「導入事例」など、他のCMSコンテンツでも基本的な流れは同じです。
 
+![Webflow公式: Next-gen CMS](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/69d6ae8aa741ebac229650fc_NEXTGEN%20CMS_BlogInline_1280x720.png)
+
+:::note[公式画像]
+上の画像はWebflow公式UpdatesのNext-gen CMSに関する画像です。実際のMorbido画面では、Collection名や入力Fieldが異なるため、画面上の項目名を確認してから入力します。
+:::
+
 ---
 
 ## 1. 新規記事追加の基本ステップ
@@ -51,6 +57,14 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
     ![記事一覧画面](../../../assets/captures/manual/c-02-collection-items-list.png)
 
     ![新規CMS item入力フォーム](../../../assets/captures/manual/c-03-new-cms-item-form.png)
+
+    :::note[キャプチャー差し込み位置]
+    撮影する画面: CMS item作成フォーム、またはNext-gen CMSの公式画像。
+    保存ファイル名: `b-33-official-next-gen-cms.png`
+    撮影直前の状態: 新規CMS itemフォームが開き、主要Fieldが見えている状態。
+    必ず写すもの: New item、Title/Name、Slug、主要Field、Save / Create / Publish周辺。
+    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
+    :::
 
 
 3.  <strong>記事の入力フォームが開く:</strong>
