@@ -152,16 +152,15 @@ def color_mix(hex_color: str, target: str = "#FFFFFF", ratio: float = 0.86) -> s
 
 
 def draw_box(x: int, y: int, w: int, h: int, label: str, color: str, idx: int) -> str:
-    tint = color_mix(color, "#FFFFFF", 0.92)
+    tint = color_mix(color, "#FFFFFF", 0.94)
     parts = [
-        f'<rect x="{x}" y="{y + 8}" width="{w}" height="{h}" rx="22" fill="#0F172A" opacity="0.08"/>',
-        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="22" fill="#ffffff" stroke="#D5DCE8" stroke-width="2"/>',
-        f'<rect x="{x + 12}" y="{y + 12}" width="{w - 24}" height="44" rx="14" fill="{tint}"/>',
-        f'<circle cx="{x + 38}" cy="{y + 34}" r="17" fill="{color}"/>',
-        svg_text(x + 38, y + 41, str(idx), 17, "#ffffff", "800", "middle"),
+        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="2"/>',
+        f'<rect x="{x}" y="{y}" width="6" height="{h}" rx="3" fill="{color}"/>',
+        f'<circle cx="{x + 34}" cy="{y + 34}" r="15" fill="{tint}" stroke="{color}" stroke-width="2"/>',
+        svg_text(x + 34, y + 40, str(idx), 15, color, "800", "middle"),
     ]
     for i, line in enumerate(wrap_svg_text(label, 16)):
-        parts.append(svg_text(x + 72, y + 36 + i * 24, line, 23, "#172033", "750"))
+        parts.append(svg_text(x + 62, y + 34 + i * 23, line, 22, "#172033", "700"))
     return "\n".join(parts)
 
 
@@ -175,36 +174,25 @@ def draw_arrow(x1: int, y: int, x2: int, color: str) -> str:
 
 
 def render_svg(diagram: Diagram) -> str:
-    bg = "#F6F8FC"
+    bg = "#FFFFFF"
     muted = "#5F6B7A"
     color = diagram.color
-    tint = color_mix(color, "#FFFFFF", 0.9)
-    faint = color_mix(color, "#FFFFFF", 0.96)
     parts = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img">',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img">',
         f"<title>{escape(diagram.title)}</title>",
         f"<desc>{escape(diagram.subtitle)}</desc>",
-        "<defs>",
-        f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="{faint}"/></linearGradient>',
-        f'<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="{color}"/><stop offset="100%" stop-color="{tint}"/></linearGradient>',
-        "</defs>",
-        f'<rect width="1200" height="675" fill="{bg}"/>',
-        f'<rect x="42" y="48" width="1120" height="590" rx="30" fill="#0F172A" opacity="0.08"/>',
-        f'<rect x="40" y="40" width="1120" height="590" rx="30" fill="url(#bg)" stroke="#D8DEE8" stroke-width="2"/>',
-        f'<circle cx="1040" cy="110" r="92" fill="{tint}" opacity="0.72"/>',
-        f'<circle cx="1100" cy="172" r="48" fill="{color}" opacity="0.08"/>',
-        f'<rect x="80" y="82" width="7" height="78" rx="4" fill="{color}"/>',
-        svg_text(106, 112, diagram.title, 42, "#172033", "800"),
-        svg_text(108, 152, diagram.subtitle, 22, muted, "500"),
-        f'<rect x="80" y="184" width="1040" height="8" rx="4" fill="url(#bar)"/>',
+        f'<rect width="1120" height="420" fill="{bg}"/>',
+        f'<rect x="28" y="28" width="1064" height="364" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>',
+        svg_text(56, 76, diagram.title, 28, "#172033", "800"),
+        svg_text(58, 108, diagram.subtitle, 18, muted, "500"),
     ]
 
     box_count = len(diagram.boxes)
-    gap = 28
-    box_w = int((1040 - gap * (box_count - 1)) / box_count)
-    box_h = 150
-    start_x = 80
-    y = 250
+    gap = 24
+    box_w = int((1008 - gap * (box_count - 1)) / box_count)
+    box_h = 112
+    start_x = 56
+    y = 156
     for idx, label in enumerate(diagram.boxes, start=1):
         x = start_x + (idx - 1) * (box_w + gap)
         parts.append(draw_box(x, y, box_w, box_h, label, color, idx))
@@ -213,14 +201,13 @@ def render_svg(diagram: Diagram) -> str:
 
     parts.extend(
         [
-            f'<rect x="80" y="484" width="1040" height="100" rx="22" fill="#FFFFFF" stroke="#D8DEE8" stroke-width="2"/>',
-            f'<rect x="80" y="484" width="14" height="100" rx="7" fill="{color}"/>',
-            svg_text(112, 524, "判断ポイント", 24, color, "800"),
+            f'<line x1="56" y1="306" x2="1064" y2="306" stroke="#E2E8F0" stroke-width="2"/>',
+            f'<circle cx="70" cy="346" r="6" fill="{color}"/>',
         ]
     )
     wrapped_note = textwrap.wrap(diagram.note, width=54)
     for i, line in enumerate(wrapped_note[:2]):
-        parts.append(svg_text(112, 558 + i * 24, line, 21, "#172033", "600"))
+        parts.append(svg_text(90, 352 + i * 22, line, 18, "#172033", "600"))
     parts.append("</svg>")
     return "\n".join(parts)
 
