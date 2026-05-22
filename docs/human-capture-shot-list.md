@@ -46,6 +46,17 @@
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/09-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | `02-editor/02-open-content-editor.md`, `02-editor/00-editor-complete-guide.md` | 最新版のContent editor roleとしてcanvasを開いた状態。旧Legacy Editorの下部バーではなく、最新UIで編集可能な状態が分かる構図にする。 |
 | B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面。canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコンが分かる状態。 |
+| B-12 | P0 | `b-12-official-content-editor-canvas.png` | 公式画像: Content editor roleのcanvas全体 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/02-open-content-editor.md` | Webflow公式Help Centerまたは公式サイトの画像を利用。canvas、編集対象ページ、Content editor roleであることが分かるUI。Legacy Editorの古い下部バーだけの画像は避ける。 |
+| B-13 | P0 | `b-13-official-content-editor-panels.png` | 公式画像: Pages / CMS / Assets / Settingsの入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像を利用。各panelの入口と位置関係が分かる画像にする。 |
+| B-14 | P0 | `b-14-official-text-editing.png` | 公式画像: 文字編集のアウトラインまたはPencilアイコン | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/03-edit-text.md` | 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコンが分かる公式画像。 |
+| B-15 | P0 | `b-15-official-image-replace.png` | 公式画像: 画像差し替えの入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/06-replace-image.md` | 対象画像、画像編集アイコン、AssetsまたはUploadに進める入口が分かる公式画像。 |
+| B-16 | P0 | `b-16-official-link-editing.png` | 公式画像: リンク編集の入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/07-edit-link-url.md`, `02-editor/10-external-link-new-tab.md` | Link設定、URL入力欄、新しいタブ設定などが分かる公式画像。 |
+| B-17 | P0 | `b-17-official-publish-flow.png` | 公式画像: Publish前の確認画面 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/08-save-and-publish.md`, `02-editor/12-before-publish-checklist.md` | Publishボタン、公開対象、公開前確認の文脈が分かる公式画像。 |
+| B-18 | P1 | `b-18-official-update-shortcut.png` | 公式画像: `?update` で直接編集画面を開く導線 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/02-open-content-editor.md` | 公式Help Centerの `?update` shortcut説明と整合する画像。ブラウザURL欄を写す場合は実サイトURLを公開可能なものにする。 |
+| B-19 | P1 | `b-19-official-legacy-vs-content-editor.png` | 公式画像: Legacy Editorと最新版Content Editorの違い | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | 旧Legacy Editorと最新版Content Editorを混同しないように、比較説明に使える公式画像または公式ページの画像。 |
+| B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/00-blog-post-complete-guide.md` | CMS fields、preview、publishの流れが分かる公式画像。 |
+| B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/01-seo-title.md` | Page title、Meta description、Open Graph設定などが分かる公式画像。 |
+| B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Content editor role、Can publish、権限範囲の説明に使える公式画像。 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |
 
@@ -144,6 +155,17 @@
 - B-07: `b-07-discard-changes-confirm.png`
 - B-08: `b-08-content-editor-latest-canvas.png`
 - B-11: `b-09-latest-content-editor-screen-guide.png`
+- B-12: `b-12-official-content-editor-canvas.png`
+- B-13: `b-13-official-content-editor-panels.png`
+- B-14: `b-14-official-text-editing.png`
+- B-15: `b-15-official-image-replace.png`
+- B-16: `b-16-official-link-editing.png`
+- B-17: `b-17-official-publish-flow.png`
+- B-18: `b-18-official-update-shortcut.png`
+- B-19: `b-19-official-legacy-vs-content-editor.png`
+- B-20: `b-20-official-cms-item-editing.png`
+- B-21: `b-21-official-seo-ogp-controls.png`
+- B-22: `b-22-official-content-role-permissions.png`
 - B-09: `work-01-edit-text-open-site.png`
 - B-10: `work-02-replace-image-edit-icon.png`
 - C-11: `c-11-category-dropdown-open.png`

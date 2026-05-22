@@ -22,6 +22,12 @@ Webflowを最新版のContent editor roleで開いた後、画面のどこを見
 写さないもの: 未公開ページ、個人情報、通知、他社サイト情報。
 :::
 
+![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
+
+:::tip[公式画像を追加する場合]
+Content Editorの画面説明を増やす場合は、[B-14. 公式画像で見るContent Editor操作](/02-editor/14-official-content-editor-image-reference/) の差し込み位置リストを使ってください。公式画像で一般的なUIを説明し、Morbido固有の画面は別途キャプチャーで補う構成にします。
+:::
+
 ## 最新Content Editorでできること
 
 | できること | 例 | 確認ページ |

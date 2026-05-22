@@ -9,7 +9,7 @@ sidebar:
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーを撮影します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚だけを撮影してください。
+Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補11枚を確認してください。
 
 ## 保存先
 
@@ -28,6 +28,8 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 - 保存、公開、削除、復元、招待、アーカイブなどは実行せず、実行前の確認画面またはボタンが見える状態で止めてください。
 - ボタンだけを拡大しすぎず、押す場所と周辺の文脈が同時に分かる構図にしてください。
 - 画像サイズは横1280px前後を目安にしてください。
+- Webflow公式画像を使う場合は、公式Help Centerまたは公式サイトの最新版Content Editor画像を優先してください。
+- 公式画像を保存する場合も、ファイル名はこの依頼書の `保存ファイル名` と完全一致させてください。
 
 ## 最優先で撮るもの
 
@@ -42,6 +44,12 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | A-10 | P0 | `a-10-open-site-from-dashboard.png` | Dashboardからサイト修正画面に入る入口 | Dashboardで対象サイトカードにカーソルを合わせ、Open in Webflowまたは編集入口が見えている状態 | 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口 | 他サイト名、個人情報、通知、請求情報 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | 最新版のContent editor roleでサイトを開いた直後のcanvas画面 | 最新UIであることが分かる上部または周辺UI、編集可能なページ、対象サイト名 | 未公開ページ、個人情報、通知、他社サイト情報 |
 | B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面 | canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン | 未公開ページ、個人情報、通知、他社サイト情報 |
+| B-12 | P0 | `b-12-official-content-editor-canvas.png` | 公式画像: Content editor roleのcanvas全体 | Webflow公式Help Centerまたは公式サイトのContent Editor説明画像を確認した状態 | canvas、編集対象ページ、Content editor roleであることが分かるUI | Legacy Editorの古い下部バーだけの画像、個人情報、未公開ページ |
+| B-13 | P0 | `b-13-official-content-editor-panels.png` | 公式画像: Pages / CMS / Assets / Settingsの入口 | Webflow公式Help CenterのContent editor role説明画像を確認した状態 | Pages、CMS、Assets、Settingsなどの入口と画面全体の位置関係 | 入口だけの極端な拡大、ロード中のUI、通知 |
+| B-14 | P0 | `b-14-official-text-editing.png` | 公式画像: 文字編集のアウトラインまたはPencilアイコン | 公式画像またはMorbido画面でテキストにカーソルを合わせた状態 | 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコン | デザイン編集パネル中心の画面、未公開本文、個人情報 |
+| B-15 | P0 | `b-15-official-image-replace.png` | 公式画像: 画像差し替えの入口 | 公式画像またはMorbido画面で画像編集入口が見えている状態 | 対象画像、画像編集アイコン、AssetsまたはUploadに進める入口 | 著作権不明の画像、個人情報、未公開素材 |
+| B-16 | P0 | `b-16-official-link-editing.png` | 公式画像: リンク編集の入口 | 公式画像またはMorbido画面でリンク設定入口が見えている状態 | Link設定、URL入力欄、新しいタブ設定 | 実在する非公開URL、ログイン情報、外部サービス管理画面 |
+| B-17 | P0 | `b-17-official-publish-flow.png` | 公式画像: Publish前の確認画面 | 公式画像またはMorbido画面でPublish前確認が見えている状態 | Publishボタン、公開対象、公開前確認の文脈 | 実際にPublish完了してしまった後だけの画面、公開してはいけないドメイン |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | 対象サイトカードからContent editor roleを開く直前のDashboard | 対象サイトカード、編集入口、Workspace名 | 他サイト名、メールアドレス、通知 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | 画像にカーソルを合わせ、画像編集アイコンが出ている状態 | 差し替え対象画像、画像編集アイコン、周辺の見出し | 未公開画像、個人情報、不要な管理画面通知 |
 | C-11 | P0 | `c-11-category-dropdown-open.png` | Categoryフィールドのドロップダウン | CMS記事編集画面で `Category` フィールドのドロップダウンを開いた状態 | `Category` フィールド、`Pick a Category...`、選択肢、記事編集画面であることが分かる周辺UI | 未公開記事名、個人情報、不要な本文、他社情報 |
@@ -63,6 +71,11 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | --- | --- | --- | --- | --- | --- | --- |
 | A-04 | P1 | `a-04-invitation-and-login.png` | 招待メールまたはログイン画面 | 招待メールならAccept Invitation、ログイン画面ならEmail、Password、Forgot passwordが分かる状態 | Accept Invitation、Email、Password、Forgot passwordなどログイン導線 | 実メールアドレス、個人名、受信箱の他メール |
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | Content Editorで未公開変更を作り、Discard確認画面を出した状態 | Discard、Cancelなどの判断ボタン | 実際に破棄して困る変更、個人情報、通知 |
+| B-18 | P1 | `b-18-official-update-shortcut.png` | 公式画像: `?update` で直接編集画面を開く導線 | 公式Help CenterのShortcut説明、または公開サイトURL末尾に `?update` を付けた状態 | URL末尾の `?update`、編集画面への導線 | 非公開URL、個人情報、他社サイト情報 |
+| B-19 | P1 | `b-19-official-legacy-vs-content-editor.png` | 公式画像: Legacy Editorと最新版Content Editorの違い | 公式Help Centerの比較説明を確認した状態 | Legacy Editorと最新版Content Editorの違いが説明できる画像 | 旧画面だけで最新版UIと誤解される画像 |
+| B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | 公式画像またはMorbido CMSで、CMS fieldsが見えている状態 | CMS fields、preview、publishの流れ | 未公開記事本文、個人情報、社外秘画像 |
+| B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | 公式画像またはMorbido設定画面でSEO / OGPが見えている状態 | Page title、Meta description、Open Graph設定 | APIキー、非公開ページ名、請求情報 |
+| B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | 公式Help Centerのrole説明、または権限画面を開いた状態 | Content editor role、Can publish、権限範囲 | 氏名、メールアドレス、請求情報 |
 | D-05 | P1 | `d-05-undo-and-unsaved-warning.png` | Undoまたは未保存変更の確認 | DesignerでUndo / Redo、または保存せず終了する確認画面が見える状態 | Undo / Redo、未保存変更の警告、戻る選択肢 | 実行して困る変更、個人情報、他社情報 |
 
 ## 撮影後の確認
@@ -85,6 +98,7 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 - `src/content/docs/01-getting-started/00-add-member.md`
 - `src/content/docs/01-getting-started/00-open-site.md`
 - `src/content/docs/02-editor/02-open-content-editor.md`
+- `src/content/docs/02-editor/14-official-content-editor-image-reference.md`
 - `src/content/docs/03-cms/05-post-category.md`
 - `src/content/docs/03-cms/09-bullet-list.md`
 - `src/content/docs/03-cms/20-archive-post.md`
