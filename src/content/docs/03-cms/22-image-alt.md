@@ -1,9 +1,9 @@
 ---
-title: "画像にalt属性（代替テキスト）を入力する"
+title: "C-23. 画像にalt属性（代替テキスト）を入力する"
 description: "クライアント向けWebflow更新マニュアル：SEOとアクセシビリティのために画像説明文を入れる方法"
 sidebar:
   order: 22
-  label: "画像にalt属性を入力"
+  label: "C-23. 画像にalt属性（代替テキスト）を入力する"
 ---
 
 

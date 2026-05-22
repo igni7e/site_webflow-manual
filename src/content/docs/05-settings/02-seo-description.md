@@ -1,9 +1,9 @@
 ---
-title: "Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
+title: "F-3. Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
 description: "クライアント向けWebflow更新マニュアル：Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
 sidebar:
   order: 2
-  label: "Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
+  label: "F-3. Google検索結果に出る「ページの説明文」を変更する方法 (SEO)"
 ---
 
 

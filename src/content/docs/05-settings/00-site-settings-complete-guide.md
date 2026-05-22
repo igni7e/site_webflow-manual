@@ -1,9 +1,9 @@
 ---
-title: F-1. フォーム回答・CSV・プラン変更の確認ガイド
+title: "F-1. フォーム回答・CSV・プラン変更の確認ガイド"
 description: Webflow運用でよく使うフォーム回答確認、CSVダウンロード、公開前のプラン変更をまとめます。
 sidebar:
   order: 0
-  label: "F-1. フォーム回答・CSV・SEO設定"
+  label: "F-1. フォーム回答・CSV・プラン変更の確認ガイド"
 ---
 
 
@@ -16,7 +16,7 @@ sidebar:
 ![Site settingsの左メニュー](../../../assets/captures/manual/a-03-site-settings-left-menu.png)
 
 
-# フォーム回答・CSV・プラン変更の確認ガイド
+# F-1. フォーム回答・CSV・プラン変更の確認ガイド
 
 この章では、サイト運用でよく使う設定・確認作業をまとめます。特にお問い合わせフォームの回答確認、CSVダウンロード、公開前のプラン変更は、運用開始後によく必要になります。
 *実画面例: Site settingsでは、左側メニューからForms、SEO、Publishing、Backups、Plansなどを切り替えます。*

@@ -1,9 +1,9 @@
 ---
-title: "Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
+title: "F-2. Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
 description: "クライアント向けWebflow更新マニュアル：Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
 sidebar:
   order: 1
-  label: "Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
+  label: "F-2. Google検索結果に出る「ページのタイトル」を変更する方法 (SEO)"
 ---
 
 

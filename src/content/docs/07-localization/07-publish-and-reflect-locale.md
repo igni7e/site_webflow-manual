@@ -1,7 +1,8 @@
 ---
-title: "Locale翻訳を公開サイトに反映する方法"
+title: "E-7. Locale翻訳を公開サイトに反映する方法"
 description: "Webflow Localizationで翻訳した内容をPublishし、公開URLで確認する流れを説明します。"
 sidebar:
+  label: "E-7. Locale翻訳を公開サイトに反映する方法"
   order: 6
 ---
 
@@ -13,7 +14,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 <!-- body-callout:end -->
 
 
-# Locale翻訳を公開サイトに反映する方法
+# E-7. Locale翻訳を公開サイトに反映する方法
 
 Localeの翻訳は、DesignerやCMS上で編集しただけでは公開サイトに反映されません。対象Localeの公開設定とPublish対象を確認し、公開後に実際のURLで表示を確認します。
 *実画面例: 翻訳を公開サイトに反映する時は、Publish対象と公開後URLを確認します。*

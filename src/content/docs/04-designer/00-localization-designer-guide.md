@@ -1,7 +1,8 @@
 ---
-title: DesignerでLocale関連画面を触る前の注意
+title: "D-1. DesignerでLocale関連画面を触る前の注意"
 description: Webflow DesignerでLocale関連画面を触る前に確認する注意点と、Eセクションへの案内をまとめます。
 sidebar:
+  label: "D-1. DesignerでLocale関連画面を触る前の注意"
   order: 0
 ---
 
@@ -15,7 +16,7 @@ sidebar:
 ![Designerを開いた状態](../../../assets/captures/manual/d-01-designer-opened.png)
 
 
-# DesignerでLocale関連画面を触る前の注意
+# D-1. DesignerでLocale関連画面を触る前の注意
 
 Designerは、Webflowサイトのデザイン、レイアウト、構造、Locale設定まで編集できる強力な画面です。Editorより自由度が高い一方で、誤操作の影響も大きいため、通常の文章・画像更新では使わず、必要な場合だけ使ってください。
 

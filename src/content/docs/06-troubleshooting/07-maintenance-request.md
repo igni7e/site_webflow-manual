@@ -1,9 +1,9 @@
 ---
-title: "自分で直すより任せたい時のWebflow保守・補修依頼"
+title: "G-8. 自分で直すより任せたい時のWebflow保守・補修依頼"
 description: "Webflowサイトの更新や補修を自社で対応するか、IGNITEへ依頼するか迷った時の判断基準と保守プランの目安を説明します。"
 sidebar:
   order: 7
-  label: "任せたい時の保守・補修依頼"
+  label: "G-8. 自分で直すより任せたい時のWebflow保守・補修依頼"
 ---
 
 

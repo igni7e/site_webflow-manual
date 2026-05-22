@@ -1,7 +1,8 @@
 ---
-title: "CMS記事をLocaleごとに翻訳する"
+title: "E-5. CMS記事をLocaleごとに翻訳する"
 description: "ブログ、お知らせ、導入事例などのCMS itemをLocaleごとに翻訳・確認する方法を説明します。"
 sidebar:
+  label: "E-5. CMS記事をLocaleごとに翻訳する"
   order: 4
 ---
 
@@ -15,7 +16,7 @@ sidebar:
 ![CMS itemのLocale翻訳](../../../assets/captures/manual/e-04-cms-locale-translation.png)
 
 
-# CMS記事をLocaleごとに翻訳する
+# E-5. CMS記事をLocaleごとに翻訳する
 
 ブログやお知らせは、CMS itemごとに翻訳します。Primary localeの内容がSecondary localeへ継承されることがありますが、Secondary locale側で上書きしたフィールドは独立して管理される場合があります。
 *実画面例: CMS翻訳後は、記事詳細ページと一覧ページの両方で表示を確認します。*

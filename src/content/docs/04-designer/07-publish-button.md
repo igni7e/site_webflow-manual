@@ -1,9 +1,9 @@
 ---
-title: "【最重要】変更をサイトに反映させる「Publish」ボタンの押し方"
-description: "クライアント向けWebflow更新マニュアル：最重要変更をサイトに反映させる「Publish」ボタンの押し方"
+title: "D-8. 【最重要】変更をサイトに反映させる「Publish」ボタンの押し方"
+description: "クライアント向けWebflow更新マニュアル：変更をサイトに反映させる「Publish」ボタンの押し方"
 sidebar:
   order: 7
-  label: "最重要変更をサイトに反映させる「Publish」ボタンの押し方"
+  label: "D-8. 【最重要】変更をサイトに反映させる「Publish」ボタンの押し方"
 ---
 
 

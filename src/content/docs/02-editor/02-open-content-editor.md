@@ -3,7 +3,7 @@ title: "B-2. Content Editor（最新版）でWebflowを開く方法"
 description: "クライアント向けWebflow更新マニュアル：最新版のContent editor roleでWebflowを開く方法"
 sidebar:
   order: 2
-  label: "B-2. Content Editor（最新）"
+  label: "B-2. Content Editor（最新版）でWebflowを開く方法"
 ---
 
 :::tip[通常はこちらを使います]

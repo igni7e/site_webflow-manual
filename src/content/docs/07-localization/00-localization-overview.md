@@ -16,7 +16,7 @@ sidebar:
 ![Designer上部のLocale selector](../../../assets/captures/manual/e-01-locale-selector.png)
 
 
-# Locale翻訳の全体像
+# E-1. Locale翻訳の全体像
 
 Webflowの <strong>Localization</strong> は、1つのWebflowサイトの中で複数言語・複数地域向けのページを管理する機能です。IGNITEで多言語サイトを制作している場合、英語ページや日本語ページは、この <strong>Locale</strong> 機能を使って翻訳・修正していることがあります。
 

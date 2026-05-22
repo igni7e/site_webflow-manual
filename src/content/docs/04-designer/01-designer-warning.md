@@ -1,9 +1,9 @@
 ---
-title: "D-1. Designerの注意点"
+title: "D-2. Designerの注意点"
 description: "クライアント向けWebflow更新マニュアル：触る前に見て！デザイナーモードを開く時の注意点"
 sidebar:
   order: 1
-  label: "D-1. Designerの注意点"
+  label: "D-2. Designerの注意点"
 ---
 
 

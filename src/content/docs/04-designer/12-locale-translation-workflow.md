@@ -1,8 +1,9 @@
 ---
-title: "Locale翻訳ページはEセクションへ移動しました"
+title: "D-13. Locale翻訳ページはEセクションへ移動しました"
 description: "Locale翻訳の詳しい手順は、独立したEセクションで確認できます。"
 sidebar:
   order: 12
+  label: "D-13. Locale翻訳ページはEセクションへ移動しました"
   hidden: true
 ---
 
@@ -14,7 +15,7 @@ sidebar:
 <!-- body-callout:end -->
 
 
-# Locale翻訳ページはEセクションへ移動しました
+# D-13. Locale翻訳ページはEセクションへ移動しました
 
 Locale機能は重要度が高いため、Designer章の中の1ページではなく、独立した「E. Locale翻訳」セクションとして整理しました。
 

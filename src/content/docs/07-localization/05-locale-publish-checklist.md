@@ -1,7 +1,8 @@
 ---
-title: "Locale公開前チェックリスト"
+title: "E-8. Locale公開前チェックリスト"
 description: "Webflow Localizationで翻訳したページやCMS記事をPublishする前に確認する項目をまとめます。"
 sidebar:
+  label: "E-8. Locale公開前チェックリスト"
   order: 7
 ---
 
@@ -13,7 +14,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 <!-- body-callout:end -->
 
 
-# Locale公開前チェックリスト
+# E-8. Locale公開前チェックリスト
 
 Locale翻訳は、本文だけでなくURL、SEO、CMS、言語切り替えにも影響します。Publish前にこのチェックリストで確認してください。
 *実画面例: Locale公開前は、公開対象のドメインや公開状態を確認してからPublishします。*

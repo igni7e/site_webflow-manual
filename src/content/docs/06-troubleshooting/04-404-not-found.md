@@ -1,9 +1,9 @@
 ---
-title: "「サイトが”404 Not Found”と表示されます」どういう意味？"
+title: "G-5. 「サイトが”404 Not Found”と表示されます」どういう意味？"
 description: "クライアント向けWebflow更新マニュアル：「サイトが”404 Not Found”と表示されます」どういう意味？"
 sidebar:
   order: 4
-  label: "「サイトが”404 Not Found”と表示されます」どういう意味？"
+  label: "G-5. 「サイトが”404 Not Found”と表示されます」どういう意味？"
 ---
 
 

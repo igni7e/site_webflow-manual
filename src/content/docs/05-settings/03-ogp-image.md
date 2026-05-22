@@ -1,9 +1,9 @@
 ---
-title: "SNSでシェアされた時の画像（OGP画像）を変更する方法"
+title: "F-4. SNSでシェアされた時の画像（OGP画像）を変更する方法"
 description: "クライアント向けWebflow更新マニュアル：SNSでシェアされた時の画像（OGP画像）を変更する方法"
 sidebar:
   order: 3
-  label: "SNSでシェアされた時の画像（OGP画像）を変更する方法"
+  label: "F-4. SNSでシェアされた時の画像（OGP画像）を変更する方法"
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: "本文にYouTube動画を埋め込む方法"
+title: "C-13. 本文にYouTube動画を埋め込む方法"
 description: "クライアント向けWebflow更新マニュアル：本文にYouTube動画を埋め込む方法"
 sidebar:
   order: 12
-  label: "本文にYouTube動画を埋め込む方法"
+  label: "C-13. 本文にYouTube動画を埋め込む方法"
 ---
 
 

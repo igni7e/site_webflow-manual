@@ -1,15 +1,15 @@
 ---
-title: "普段の更新はContent editor roleでOKです"
+title: "A-9. 普段の更新はContent editor roleでOKです"
 description: "クライアント向けWebflow更新マニュアル：普段の更新はContent editor roleで安全に行う"
 sidebar:
   order: 8
-  label: "普段の更新はContent editor role"
+  label: "A-9. 普段の更新はContent editor roleでOKです"
 ---
 
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
-Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+コンテンツエディターでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、Designer操作が必要か確認してください。
 :::
 <!-- body-callout:end -->
 

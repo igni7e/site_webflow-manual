@@ -1,15 +1,15 @@
 ---
-title: "【超重要】Content editor roleとDesignerの違い"
+title: "A-8. 【超重要】Content editor roleとDesignerの違い"
 description: "クライアント向けWebflow更新マニュアル：Content editor roleとDesignerの違い"
 sidebar:
   order: 7
-  label: "Content editor roleとDesigner"
+  label: "A-8. 【超重要】Content editor roleとDesignerの違い"
 ---
 
 
 <!-- body-callout:start -->
 :::tip[編集の基本]
-Content editor roleでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、無理に触らずDesigner操作が必要か確認してください。
+コンテンツエディターでは、文章、画像、リンクなどの内容を安全に更新できます。レイアウトやデザインを変えたい時は、Designer操作が必要か確認してください。
 :::
 <!-- body-callout:end -->
 

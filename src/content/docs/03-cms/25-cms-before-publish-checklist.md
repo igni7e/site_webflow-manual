@@ -1,9 +1,9 @@
 ---
-title: "CMS記事の公開前チェックリスト"
+title: "C-26. CMS記事の公開前チェックリスト"
 description: "Webflow CMSでブログやお知らせを公開する前に確認するタイトル、Slug、画像、本文、公開状態のチェック項目をまとめます。"
 sidebar:
   order: 25
-  label: "CMS公開前チェック"
+  label: "C-26. CMS記事の公開前チェックリスト"
 ---
 
 

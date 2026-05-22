@@ -28,7 +28,7 @@ DesignerはレイアウトやCSSに触れる画面です。制作担当者から
 2. Dashboardで正しいWorkspaceを選びます。
 3. 対象サイトのカードを探します。
 4. 普段の更新では、制作担当者から案内された編集用ボタンを開きます。
-5. レイアウト修正が必要な場合だけ、Designerを開く前に [D-1. Designerの注意点](/04-designer/01-designer-warning/) を確認します。
+5. レイアウト修正が必要な場合だけ、Designerを開く前に [D-2. Designerの注意点](/04-designer/01-designer-warning/) を確認します。
 
 :::tip[迷った時の判断]
 文章、画像、リンク、CMS記事を直したい場合はContent editor roleから始めましょう。ページ構造、余白、フォントサイズ、CSSを直したい場合はDesignerが関係するため、先に制作担当者へ確認することをお勧めします。

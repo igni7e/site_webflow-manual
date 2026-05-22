@@ -1,7 +1,8 @@
 ---
-title: "LocaleごとのSEO・OGP確認"
+title: "E-6. LocaleごとのSEO・OGP確認"
 description: "翻訳ページのPage title、Meta description、Slug、OGP画像などをLocaleごとに確認する方法を説明します。"
 sidebar:
+  label: "E-6. LocaleごとのSEO・OGP確認"
   order: 5
 ---
 
@@ -15,7 +16,7 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 ![LocaleごとのSEO / OGP設定](../../../assets/captures/manual/e-05-localized-seo-ogp.png)
 
 
-# LocaleごとのSEO・OGP確認
+# E-6. LocaleごとのSEO・OGP確認
 
 翻訳ページでは、本文だけでなくSEO項目もLocaleごとに確認します。本文が自然でも、SEO項目がPrimary localeのままだと、検索結果やSNS共有で不自然に見えます。
 *実画面例: LocaleごとのSEOやOGPは、対象ページ・対象Localeを間違えずに確認します。*

@@ -1,9 +1,9 @@
 ---
-title: "検索エンジンの表示制御（sitemap・noindex）"
+title: "F-11. 検索エンジンの表示制御（sitemap・noindex）"
 description: "クライアント向けWebflow更新マニュアル：Googleなどの検索結果への表示・非表示を制御する方法"
 sidebar:
   order: 10
-  label: "検索エンジンの表示制御"
+  label: "F-11. 検索エンジンの表示制御（sitemap・noindex）"
 ---
 
 

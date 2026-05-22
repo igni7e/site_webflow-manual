@@ -1,9 +1,9 @@
 ---
-title: A-1. Webflow更新作業の全体像
+title: "A-1. Webflow更新作業の全体像"
 description: はじめてWebflowを触る担当者向けに、Content editor roleでのログインから公開前確認までの流れをまとめます。
 sidebar:
   order: 0
-  label: "A-1. 更新作業の全体像"
+  label: "A-1. Webflow更新作業の全体像"
 ---
 
 

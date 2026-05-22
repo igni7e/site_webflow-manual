@@ -1,7 +1,8 @@
 ---
-title: "新しいLocaleを追加する時の流れ"
+title: "E-3. 新しいLocaleを追加する時の流れ"
 description: "Webflow Localizationで新しい言語・地域を追加する時に確認する項目と基本手順を説明します。"
 sidebar:
+  label: "E-3. 新しいLocaleを追加する時の流れ"
   order: 2
 ---
 
@@ -15,7 +16,7 @@ sidebar:
 ![Localization設定画面](../../../assets/captures/manual/e-02-localization-settings.png)
 
 
-# 新しいLocaleを追加する時の流れ
+# E-3. 新しいLocaleを追加する時の流れ
 
 新しいLocaleを追加すると、URL、公開範囲、言語切り替え、SEOに影響します。既存サイトで新しい言語を増やす場合は、自己判断で進めず、IGNITEまたは管理者に確認してから作業してください。
 

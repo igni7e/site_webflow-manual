@@ -1,9 +1,9 @@
 ---
-title: "【お守り】操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
-description: "クライアント向けWebflow更新マニュアル：お守り操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
+title: "D-9. 【お守り】操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
+description: "クライアント向けWebflow更新マニュアル：操作を間違えた時に一つ前に戻す方法 (Ctrl+Z)"
 sidebar:
   order: 8
-  label: "お守り操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
+  label: "D-9. 【お守り】操作を間違えた！一つ前に戻す方法 (Ctrl+Z)"
 ---
 
 

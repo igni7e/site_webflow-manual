@@ -3,7 +3,7 @@ title: "B-補足. Content Editor（旧バージョン）でWebflowを開く方�
 description: "クライアント向けWebflow更新マニュアル：旧Legacy EditorでWebflowを開く方法"
 sidebar:
   order: 1
-  label: "B-補足. Content Editor（旧）"
+  label: "B-補足. Content Editor（旧バージョン）でWebflowを開く方法"
 ---
 
 :::caution[旧バージョンの画面です]

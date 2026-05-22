@@ -1,9 +1,9 @@
 ---
-title: "CMSアイテムの表示順を並び替える"
+title: "C-24. CMSアイテムの表示順を並び替える"
 description: "クライアント向けWebflow更新マニュアル：お知らせ・ブログ記事の並び順を変更する方法"
 sidebar:
   order: 23
-  label: "CMSアイテムの並び替え"
+  label: "C-24. CMSアイテムの表示順を並び替える"
 ---
 
 

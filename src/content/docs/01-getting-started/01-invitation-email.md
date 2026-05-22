@@ -1,9 +1,9 @@
 ---
-title: "Webflowからの招待メールを確認しよう"
+title: "A-2. Webflowからの招待メールを確認しよう"
 description: "クライアント向けWebflow更新マニュアル：Webflowからの招待メールを確認しよう"
 sidebar:
   order: 1
-  label: "Webflowからの招待メールを確認しよう"
+  label: "A-2. Webflowからの招待メールを確認しよう"
 ---
 
 

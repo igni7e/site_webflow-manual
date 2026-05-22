@@ -1,9 +1,9 @@
 ---
-title: "Editor公開前チェックリスト"
+title: "B-12. Editor公開前チェックリスト"
 description: "Webflow Editorで文章・画像・リンクを更新した後、Publish前に確認する項目を初心者向けにまとめます。"
 sidebar:
   order: 12
-  label: "Editor公開前チェック"
+  label: "B-12. Editor公開前チェックリスト"
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する
+title: "B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する"
 description: WebflowのContent editor roleでテキスト、画像、リンクを更新し、Publishするまでの基本手順をまとめます。
 sidebar:
   order: 0
-  label: "B-1. Content Editor入門"
+  label: "B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する"
 ---
 
 

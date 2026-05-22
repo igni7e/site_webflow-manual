@@ -1,9 +1,9 @@
 ---
-title: "Webflowの共同編集者を招待する"
+title: "F-9. Webflowの共同編集者を招待する"
 description: "クライアント向けWebflow更新マニュアル：Content editor roleなどのチームメンバー権限を招待・管理する方法"
 sidebar:
   order: 8
-  label: "共同編集者を招待する"
+  label: "F-9. Webflowの共同編集者を招待する"
 ---
 
 

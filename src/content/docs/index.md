@@ -72,23 +72,23 @@ hero:
 
 - [A-0. Webflowの構造を知る](/01-getting-started/00-workspace-intro/)
 - [A-1. 更新作業の全体像](/01-getting-started/00-site-update-overview/)
-- [A-2. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/)
-- [A-3. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
+- [A-10. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/)
+- [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/)
 - [B-1. Content Editor入門](/02-editor/00-editor-complete-guide/)
 - [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/)
 - [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
-- [D-1. Designerの注意点](/04-designer/01-designer-warning/)
+- [D-2. Designerの注意点](/04-designer/01-designer-warning/)
 - [E-1. Locale翻訳の全体像](/07-localization/00-localization-overview/)
 - [F-1. フォーム回答・CSV・SEO設定](/05-settings/00-site-settings-complete-guide/)
 - [G-1. トラブル時にまず確認するチェックリスト](/06-troubleshooting/00-common-checklist/)
 
 ## 細かい手順を探す
 
-- Webflowへの招待やログイン、ダッシュボードについての知識が必要ですか？ → [A-1. はじめの一歩](/01-getting-started/01-invitation-email/) から順番に確認してください。
-- Webflowの英語UIが不安ですか？ → [A-2. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [A-3. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
+- Webflowへの招待やログイン、ダッシュボードについての知識が必要ですか？ → [A-2. Webflowからの招待メールを確認しよう](/01-getting-started/01-invitation-email/) から順番に確認してください。
+- Webflowの英語UIが不安ですか？ → [A-10. Webflow日本語化拡張機能とChrome翻訳](/01-getting-started/09-chrome-translate-webflow/) と [A-11. Webflow基本用語の早見表](/01-getting-started/10-webflow-ui-glossary/) を先に確認してください。
 - 普段の文字・画像・リンク更新をしたいですか？ → [B-2. Content Editor（最新）でWebflowを開く手順](/02-editor/02-open-content-editor/) を使います。
-- ブログやお知らせの投稿をしたいですか？ → [C-1. CMS更新](/03-cms/01-where-is-cms/) を確認してください。
-- DesignerモードでレイアウトやCSSに触る必要がありますか？ → 先に [D-1. Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
+- ブログやお知らせの投稿をしたいですか？ → [C-2. CMS更新](/03-cms/01-where-is-cms/) を確認してください。
+- DesignerモードでレイアウトやCSSに触る必要がありますか？ → 先に [D-2. Designerの注意点](/04-designer/01-designer-warning/) を読んでください。
 - WebflowのLocale機能で翻訳を追加・修正したいですか？ → [E-1. Locale翻訳](/07-localization/00-localization-overview/) を確認してください。
 
 ## 困ったときは
