@@ -19,4 +19,4 @@ description: Morbido向けWebflow更新マニュアル改善後の最終確認�
 - [x] frontmatter必須項目の不足を確認する
 - [x] Astro buildのwarning/errorを確認し、可能なものを解消する
 - [x] ブラウザまたは静的HTMLで主要ページを確認する
-- [ ] 必要な修正をcommitしてmainへpushする
+- [x] 必要な修正をcommitしてmainへpushする
