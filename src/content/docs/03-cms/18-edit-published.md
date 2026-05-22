@@ -13,6 +13,12 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 :::
 <!-- body-callout:end -->
 
+![Webflow公式: CMS draft and publishing workflow](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68c38775d9bdfbd0cb6b4e0f_675b2dcbab61cca37e960bfe_CMS_Draft_SlashUpdates_1280x720.png)
+
+:::note[公式画像]
+公開済みCMS itemを編集する場合は、下書き変更、個別公開、サイト全体Publishの違いを確認します。公開前には、一覧ページと詳細ページの両方で表示崩れがないか確認してください。
+:::
+
 
 Webサイトは公開して終わりではありません。情報が古くなったり、誤りが見つかったりした場合には、速やかに内容を修正する必要があります。一度公開した記事でも、CMSを使えば簡単に修正し、更新することができます。
 

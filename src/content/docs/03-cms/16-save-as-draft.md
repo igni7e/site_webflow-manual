@@ -13,6 +13,12 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 :::
 <!-- body-callout:end -->
 
+![Webflow公式: CMS auto-save](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68cc49bba84b934bf98711aa_EHbEQwnDfRxN1-a2uTJAyomnc9Xl2tFSoa-5VfcU8wg.webp)
+
+:::note[公式画像]
+WebflowではCMS編集の保存・公開まわりのUIが継続的に改善されています。実際のMorbido画面では、表示されるボタン名や公開状態を確認してから操作してください。
+:::
+
 
 記事を作成している途中で作業を中断したい時や、まだ公開する段階ではないけれど、書いた内容を保存しておきたい場合に使うのが「下書き（Draft）」保存機能です。
 

@@ -8,13 +8,75 @@ sidebar:
 
 # B-14. 公式画像で見るContent Editor操作
 
-このページは、Webflow公式サイトや公式Help Centerの画像をマニュアル内に追加するための整理ページです。公式画像を使う場合も、Morbido固有のサイト名、未公開ページ、個人情報が写る画面は避けてください。
+このページは、Webflow公式サイト、公式Updates、公式Help Centerの画像をマニュアル内に追加するための整理ページです。公式画像を使う場合も、Morbido固有のサイト名、未公開ページ、個人情報が写る画面は避けてください。
 
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
 
 :::note[公式画像の扱い]
 上の画像はWebflow公式サイトの `Create and edit website content with edit mode` で公開されているOG画像です。本文内で公式画像を使う場合は、古いLegacy Editorではなく、最新版のContent editor roleを説明している画像を優先してください。
 :::
+
+## 公式画像ギャラリー
+
+### Content editing
+
+![Webflow公式: Content editing](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
+
+出典: [Create and edit website content with edit mode](https://webflow.com/feature/edit-content)
+
+### CMS
+
+![Webflow公式: CMS](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c73c5e198d61f793e6_og-cms.jpg)
+
+出典: [CMS features](https://webflow.com/feature/cms)
+
+### CMS draft and publishing workflow
+
+![Webflow公式: CMS draft and publishing workflow](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68c38775d9bdfbd0cb6b4e0f_675b2dcbab61cca37e960bfe_CMS_Draft_SlashUpdates_1280x720.png)
+
+出典: [Improvements to the CMS Drafting and Publishing Workflow](https://webflow.com/updates/cms-draft-publishing-improvements)
+
+### CMS auto-save
+
+![Webflow公式: CMS auto-save](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68cc49bba84b934bf98711aa_EHbEQwnDfRxN1-a2uTJAyomnc9Xl2tFSoa-5VfcU8wg.webp)
+
+出典: [CMS auto-save](https://webflow.com/updates/cms-auto-save)
+
+### Bulk publishing
+
+![Webflow公式: Bulk publishing](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68cc49d8c5555155bdaa5369_4lwP3S1E7mhLYeYfoFYfYLfzTQnG77sM0QucmS-shNc.webp)
+
+出典: [Publish and unpublish multiple CMS items at once](https://webflow.com/updates/bulk-publishing)
+
+### CMS item creation
+
+![Webflow公式: CMS item creation](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68c98804a08a561616e8ef74_SlashUpdates_1280x720.webp)
+
+出典: [Faster CMS item creation and undo/redo improvements](https://webflow.com/updates/cms-item-creation-and-undo-redo-updates)
+
+### SEO
+
+![Webflow公式: SEO](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c770e582b18c4af85a_og-seo.jpg)
+
+出典: [SEO features](https://webflow.com/feature/seo)
+
+### Localization
+
+![Webflow公式: Localization](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c78c1f42a6c861a3f5_og-localization.jpg)
+
+出典: [Localization features](https://webflow.com/feature/localization)
+
+### Collaboration
+
+![Webflow公式: Collaboration](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/696024d9c1533c595d9a59dc_b4b6cabaa465ba72859df6c7b04e99bb_og_collaboration.jpg)
+
+出典: [Collaboration features](https://webflow.com/feature/collaboration)
+
+### Webflow Updates
+
+![Webflow公式: Updates](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6896474ae8dd71c038917ff7_Updates-OG.webp)
+
+出典: [Webflow Updates](https://webflow.com/updates)
 
 ## 公式画像を入れる場所
 
@@ -31,6 +93,14 @@ sidebar:
 | B-20 | CMS itemを作成・編集する画面 | [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/) | [Edit site content in Webflow](https://webflow.com/feature/edit-content) |
 | B-21 | SEO / Open Graphを確認する画面 | [F-2. SEO titleを変更する方法](/05-settings/01-seo-title/) | [Edit site content in Webflow](https://webflow.com/feature/edit-content) |
 | B-22 | Content editor roleの権限・Publish権限 | [A-8. Editorだけで作業した方がよい理由](/01-getting-started/08-editor-only-recommendation/) | [Create and manage custom roles](https://help.webflow.com/hc/en-us/articles/46651804072467-Create-and-manage-custom-roles) |
+| B-23 | CMSの概要説明 | [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/) | [CMS features](https://webflow.com/feature/cms) |
+| B-24 | CMS下書き・公開ワークフロー | [C-18. 公開済み記事を編集する方法](/03-cms/18-edit-published/) | [Improvements to the CMS Drafting and Publishing Workflow](https://webflow.com/updates/cms-draft-publishing-improvements) |
+| B-25 | CMS自動保存 | [C-16. 下書き保存する方法](/03-cms/16-save-as-draft/) | [CMS auto-save](https://webflow.com/updates/cms-auto-save) |
+| B-26 | CMS一括公開・一括非公開 | [C-25. CMS公開前チェックリスト](/03-cms/25-cms-before-publish-checklist/) | [Publish and unpublish multiple CMS items at once](https://webflow.com/updates/bulk-publishing) |
+| B-27 | CMS item作成改善 | [C-2. 新規記事を作成する](/03-cms/02-create-new-post/) | [Faster CMS item creation and undo/redo improvements](https://webflow.com/updates/cms-item-creation-and-undo-redo-updates) |
+| B-28 | SEO機能の概要 | [F-2. SEO titleを変更する方法](/05-settings/01-seo-title/) | [SEO features](https://webflow.com/feature/seo) |
+| B-29 | Localization機能の概要 | [G-1. Localization概要](/07-localization/00-localization-overview/) | [Localization features](https://webflow.com/feature/localization) |
+| B-30 | チーム編集・コメント・権限 | [A-8. Editorだけで作業した方がよい理由](/01-getting-started/08-editor-only-recommendation/) | [Collaboration features](https://webflow.com/feature/collaboration) |
 
 ## 差し込み時の判断基準
 
@@ -104,10 +174,58 @@ Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Asset
 避けるもの: 実際にPublish完了してしまった後だけの画面、公開してはいけないドメイン。
 :::
 
+### CMS公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `CMS features`、`CMS auto-save`、`CMS Drafting and Publishing Workflow`、`Bulk publishing`、`CMS item creation` の画像。
+保存ファイル名: `b-23-official-cms-overview.png` から `b-27-official-cms-item-creation.png`
+差し込み先: `03-cms/00-blog-post-complete-guide.md`、`03-cms/02-create-new-post.md`、`03-cms/16-save-as-draft.md`、`03-cms/18-edit-published.md`、`03-cms/25-cms-before-publish-checklist.md`
+必ず見せるもの: CMSの編集対象、下書き、公開、保存、複数item操作の文脈。
+避けるもの: Webflow製品外のCMS画像、古いUIだけで現在画面と誤解される画像。
+:::
+
+### SEO公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `SEO features` の画像。
+保存ファイル名: `b-28-official-seo-overview.png`
+差し込み先: `05-settings/01-seo-title.md`、`05-settings/02-seo-description.md`、`05-settings/03-ogp-image.md`
+必ず見せるもの: SEO、metadata、Open Graph、検索表示に関する文脈。
+避けるもの: 外部SEOツールの管理画面、実在する未公開ページの検索結果。
+:::
+
+### Localization公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `Localization features` の画像。
+保存ファイル名: `b-29-official-localization-overview.png`
+差し込み先: `07-localization/00-localization-overview.md`
+必ず見せるもの: Locale、翻訳、地域別コンテンツの文脈。
+避けるもの: Morbido以外の顧客名が主役になる画像、翻訳前後の意味が分からない画像。
+:::
+
+### Collaboration公式画像
+
+:::note[公式画像差し込み位置]
+使う画像: Webflow公式 `Collaboration features` の画像。
+保存ファイル名: `b-30-official-collaboration-overview.png`
+差し込み先: `01-getting-started/08-editor-only-recommendation.md`
+必ず見せるもの: コメント、権限、チームで安全に作業する文脈。
+避けるもの: 個人名やメールアドレスが見える権限画面。
+:::
+
 ## 公式情報
 
 - [Edit site content as a content editor](https://help.webflow.com/hc/en-us/articles/33961251014931-Edit-site-content-as-a-content-editor)
 - [Create and edit website content with edit mode](https://webflow.com/feature/edit-content)
+- [CMS features](https://webflow.com/feature/cms)
+- [SEO features](https://webflow.com/feature/seo)
+- [Localization features](https://webflow.com/feature/localization)
+- [Collaboration features](https://webflow.com/feature/collaboration)
+- [CMS auto-save](https://webflow.com/updates/cms-auto-save)
+- [Improvements to the CMS Drafting and Publishing Workflow](https://webflow.com/updates/cms-draft-publishing-improvements)
+- [Publish and unpublish multiple CMS items at once](https://webflow.com/updates/bulk-publishing)
+- [Faster CMS item creation and undo/redo improvements](https://webflow.com/updates/cms-item-creation-and-undo-redo-updates)
 - [Shortcut to edit your live site](https://help.webflow.com/hc/en-us/articles/48214769154579-Shortcut-to-edit-your-live-site)
 - [What's the difference between the legacy Editor and content editing in Webflow?](https://help.webflow.com/hc/en-us/articles/39773828407827-What-s-the-difference-between-the-legacy-Editor-and-edit-mode)
 - [Create and manage custom roles](https://help.webflow.com/hc/en-us/articles/46651804072467-Create-and-manage-custom-roles)

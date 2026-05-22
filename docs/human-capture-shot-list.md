@@ -57,6 +57,14 @@
 | B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/00-blog-post-complete-guide.md` | CMS fields、preview、publishの流れが分かる公式画像。 |
 | B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/01-seo-title.md` | Page title、Meta description、Open Graph設定などが分かる公式画像。 |
 | B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Content editor role、Can publish、権限範囲の説明に使える公式画像。 |
+| B-23 | P1 | `b-23-official-cms-overview.png` | 公式画像: CMS機能の概要 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/00-blog-post-complete-guide.md` | Webflow公式CMSページ画像。CMSで構造化コンテンツを管理する全体像が分かる画像にする。 |
+| B-24 | P1 | `b-24-official-cms-draft-publishing.png` | 公式画像: CMS下書き・公開ワークフロー | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/18-edit-published.md` | Webflow公式Updates画像。Draft changes、個別公開、公開前確認の文脈が分かる画像にする。 |
+| B-25 | P1 | `b-25-official-cms-auto-save.png` | 公式画像: CMS自動保存 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/16-save-as-draft.md` | Webflow公式Updates画像。CMS編集の保存・公開操作を説明できる画像にする。 |
+| B-26 | P1 | `b-26-official-cms-bulk-publishing.png` | 公式画像: CMS一括公開・一括非公開 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/25-cms-before-publish-checklist.md` | Webflow公式Updates画像。複数CMS itemをまとめて扱う操作の注意喚起に使う。 |
+| B-27 | P1 | `b-27-official-cms-item-creation.png` | 公式画像: CMS item作成改善 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/02-create-new-post.md` | Webflow公式Updates画像。CMS item作成や編集の流れを補助する画像にする。 |
+| B-28 | P1 | `b-28-official-seo-overview.png` | 公式画像: SEO機能の概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/01-seo-title.md` | Webflow公式SEOページ画像。SEO title、meta description、Open Graphの説明に使う。 |
+| B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | `02-editor/14-official-content-editor-image-reference.md`, `07-localization/00-localization-overview.md` | Webflow公式Localizationページ画像。Localeや翻訳作業の全体像に使う。 |
+| B-30 | P1 | `b-30-official-collaboration-overview.png` | 公式画像: チーム編集・コメント・権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Webflow公式Collaborationページ画像。Content editor role、コメント、権限の説明に使う。 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |
 
@@ -166,6 +174,14 @@
 - B-20: `b-20-official-cms-item-editing.png`
 - B-21: `b-21-official-seo-ogp-controls.png`
 - B-22: `b-22-official-content-role-permissions.png`
+- B-23: `b-23-official-cms-overview.png`
+- B-24: `b-24-official-cms-draft-publishing.png`
+- B-25: `b-25-official-cms-auto-save.png`
+- B-26: `b-26-official-cms-bulk-publishing.png`
+- B-27: `b-27-official-cms-item-creation.png`
+- B-28: `b-28-official-seo-overview.png`
+- B-29: `b-29-official-localization-overview.png`
+- B-30: `b-30-official-collaboration-overview.png`
 - B-09: `work-01-edit-text-open-site.png`
 - B-10: `work-02-replace-image-edit-icon.png`
 - C-11: `c-11-category-dropdown-open.png`

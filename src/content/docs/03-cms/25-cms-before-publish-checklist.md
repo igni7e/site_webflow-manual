@@ -15,6 +15,12 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
 ![下書き保存・公開操作](../../../assets/captures/manual/c-07-save-draft-and-publish.png)
 
+![Webflow公式: CMS bulk publishing](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68cc49d8c5555155bdaa5369_4lwP3S1E7mhLYeYfoFYfYLfzTQnG77sM0QucmS-shNc.webp)
+
+:::caution[まとめて公開する前に]
+複数のCMS itemをまとめて公開・非公開にする操作は影響範囲が広くなります。Morbidoで同じ操作を行う場合は、対象itemをひとつずつ確認してから進めてください。
+:::
+
 
 CMSの記事やお知らせは、本文だけでなくTitle、Slug、サムネイル、カテゴリー、公開状態なども確認が必要です。公開前にこのページの項目を上から順番に確認してください。
 *実画面例: CMS記事の公開前は、詳細ページと一覧ページの両方で見え方を確認します。*

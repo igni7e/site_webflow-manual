@@ -15,6 +15,12 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 
 ![CMS / Collections入口](../../../assets/captures/manual/c-01-cms-collections-entry.png)
 
+![Webflow公式: CMS](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c73c5e198d61f793e6_og-cms.jpg)
+
+:::note[公式画像]
+上の画像はWebflow公式CMSページの画像です。実際のMorbido投稿画面で入力するFieldはサイトごとに異なるため、具体的な入力欄はこの章の手順と [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
+:::
+
 
 # C-1. ブログ記事を新規投稿する完全ガイド
 

@@ -17,6 +17,12 @@ sidebar:
 前のマニュアルでContent editor roleとDesignerの大きな違いについて学びました。このページでは、なぜ日常更新はContent editor roleで十分なのか、そしてContent editor roleを使うことのメリットを整理します。
 *実画面例: Designerでは見た目だけでなく構造にも触れます。文章や画像の通常更新だけなら、Content editor roleを優先してください。*
 
+![Webflow公式: Collaboration](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/696024d9c1533c595d9a59dc_b4b6cabaa465ba72859df6c7b04e99bb_og_collaboration.jpg)
+
+:::tip[チームで安全に更新する]
+Content editor roleは、更新担当者が文章・画像・CMSを扱いやすくしつつ、デザインや構造を不用意に変えないための役割です。複数人で作業する場合も、権限とPublish担当を分けると安全です。
+:::
+
 ---
 
 ## 1. なぜContent editor roleで良いのか？

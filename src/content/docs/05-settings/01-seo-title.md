@@ -16,6 +16,12 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 
 Webサイトの集客において、GoogleやYahoo!などの検索エンジンからの流入は非常に重要です。その検索結果に表示される「ページのタイトル（Title Tag）」は、ユーザーがクリックするかどうかを決める最も重要な要素の一つです。ここでは、各ページのタイトルを最適化する方法を解説します。
 
+![Webflow公式: SEO](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c770e582b18c4af85a_og-seo.jpg)
+
+:::note[公式画像]
+WebflowにはSEO title、meta description、Open Graphなどを管理する機能があります。このページでは、その中でも検索結果に出るTitle Tagを中心に扱います。
+:::
+
 ---
 
 ## 1. ページタイトル（Title Tag）とは？

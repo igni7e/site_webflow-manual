@@ -9,7 +9,7 @@ sidebar:
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補11枚を確認してください。
+Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補19枚を確認してください。
 
 ## 保存先
 
@@ -76,6 +76,14 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | 公式画像またはMorbido CMSで、CMS fieldsが見えている状態 | CMS fields、preview、publishの流れ | 未公開記事本文、個人情報、社外秘画像 |
 | B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | 公式画像またはMorbido設定画面でSEO / OGPが見えている状態 | Page title、Meta description、Open Graph設定 | APIキー、非公開ページ名、請求情報 |
 | B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | 公式Help Centerのrole説明、または権限画面を開いた状態 | Content editor role、Can publish、権限範囲 | 氏名、メールアドレス、請求情報 |
+| B-23 | P1 | `b-23-official-cms-overview.png` | 公式画像: CMS機能の概要 | Webflow公式CMSページの画像を確認した状態 | CMSで構造化コンテンツを管理する全体像 | Webflow製品外のCMS画像、古いUIだけの画像 |
+| B-24 | P1 | `b-24-official-cms-draft-publishing.png` | 公式画像: CMS下書き・公開ワークフロー | Webflow公式UpdatesのCMS Drafting and Publishing画像を確認した状態 | Draft changes、個別公開、公開前確認の文脈 | 公開してはいけないドメイン、未公開記事本文 |
+| B-25 | P1 | `b-25-official-cms-auto-save.png` | 公式画像: CMS自動保存 | Webflow公式UpdatesのCMS auto-save画像を確認した状態 | CMS編集の保存・公開操作を説明できる画面 | 未公開本文、個人情報 |
+| B-26 | P1 | `b-26-official-cms-bulk-publishing.png` | 公式画像: CMS一括公開・一括非公開 | Webflow公式UpdatesのBulk publishing画像を確認した状態 | 複数CMS itemをまとめて扱う操作の文脈 | 誤って本番itemを公開する操作 |
+| B-27 | P1 | `b-27-official-cms-item-creation.png` | 公式画像: CMS item作成改善 | Webflow公式UpdatesのCMS item creation画像を確認した状態 | CMS item作成や編集の流れ | 未公開記事本文、個人情報 |
+| B-28 | P1 | `b-28-official-seo-overview.png` | 公式画像: SEO機能の概要 | Webflow公式SEOページの画像を確認した状態 | SEO title、meta description、Open Graphの文脈 | 外部SEOツール管理画面、実在する未公開検索結果 |
+| B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | Webflow公式Localizationページの画像を確認した状態 | Locale、翻訳、地域別コンテンツの文脈 | Morbido以外の顧客名が主役になる画像 |
+| B-30 | P1 | `b-30-official-collaboration-overview.png` | 公式画像: チーム編集・コメント・権限 | Webflow公式Collaborationページの画像を確認した状態 | コメント、権限、チームで安全に作業する文脈 | 氏名、メールアドレス、請求情報 |
 | D-05 | P1 | `d-05-undo-and-unsaved-warning.png` | Undoまたは未保存変更の確認 | DesignerでUndo / Redo、または保存せず終了する確認画面が見える状態 | Undo / Redo、未保存変更の警告、戻る選択肢 | 実行して困る変更、個人情報、他社情報 |
 
 ## 撮影後の確認
