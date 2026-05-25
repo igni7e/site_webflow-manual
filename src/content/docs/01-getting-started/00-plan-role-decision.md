@@ -8,10 +8,10 @@ sidebar:
 
 # A-0-6. プラン・権限で迷ったときの見方
 
-![Workspace planとSite planの違いの図解](../../../assets/diagrams/manual/diagram-02-workspace-plan-site-plan.svg)
+![Workspace planとSite planの違いの図解](../../../assets/ai-diagrams/manual/workspace-plan-site-plan.png)
 
 :::note[図解の見方]
-Workspace planはチーム側、Site planはサイト公開側の契約です。
+Workspace planはメンバーや権限などチーム側、Site planはドメイン、CMS、フォームなどサイト公開側の契約です。
 :::
 
 

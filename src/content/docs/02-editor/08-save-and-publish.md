@@ -79,9 +79,8 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 <strong>次のステップ:</strong>
 公開方法をマスターすれば、基本的な更新は一人で完結できます。次は、安心して作業するためのお守りとして、「[変更をやめて、保存せずに終了する方法](/02-editor/09-discard-changes/)」を覚えておきましょう。
 
-![Publishの流れの図解](../../../assets/diagrams/manual/diagram-17-publish.svg)
+![Publishの流れの図解](../../../assets/ai-diagrams/manual/publish-flow.png)
 
 :::note[図解の見方]
 公開後は必ず実サイトで確認します。
 :::
-

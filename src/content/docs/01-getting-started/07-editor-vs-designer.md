@@ -71,9 +71,8 @@ Content editor roleは、家の「内装」を変更する役割に似ていま�
 <strong>次のステップ:</strong>
 これで2つの役割の違いが明確になりましたね。次からは、いよいよ実際の更新作業の中心となるContent editor roleでの使い方を学んでいきます。まずは「[普段の更新はContent editor roleでOKです](/01-getting-started/08-editor-only-recommendation/)」で、その安心感について再確認しましょう。
 
-![EditorとDesignerの境界の図解](../../../assets/diagrams/manual/diagram-08-editor-designer.svg)
+![EditorとDesignerの境界の図解](../../../assets/ai-diagrams/manual/editor-designer-boundary.png)
 
 :::note[図解の見方]
 文章や画像はEditor、レイアウト変更はDesignerです。
 :::
-

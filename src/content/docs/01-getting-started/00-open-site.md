@@ -8,7 +8,7 @@ sidebar:
 
 # A-0-5. サイトの修正画面に入る方法
 
-![Dashboardから開く入口の図解](../../../assets/diagrams/manual/diagram-04-dashboard.svg)
+![Dashboardから開く入口の図解](../../../assets/ai-diagrams/manual/content-editor-open-flow.png)
 
 :::note[図解の見方]
 日常更新はOpen in Webflowから入り、Designerは必要な時だけ使います。

@@ -8,7 +8,7 @@ sidebar:
 
 # A-0-3. サイトプランとの違い
 
-![Site planで見る項目の図解](../../../assets/diagrams/manual/diagram-06-site-plan.svg)
+![Site planで見る項目の図解](../../../assets/ai-diagrams/manual/workspace-plan-site-plan.png)
 
 :::note[図解の見方]
 公開サイトに必要な機能はSite plan側で確認します。

@@ -8,10 +8,10 @@ sidebar:
 
 # B-13. 最新Content Editor画面の見方
 
-![編集アイコンが出る条件の図解](../../../assets/diagrams/manual/diagram-12-diagram.svg)
+![編集アイコンが出る条件の図解](../../../assets/ai-diagrams/manual/editor-icon-conditions.png)
 
 :::note[図解の見方]
-アイコンが出ない時は、権限か対象要素を確認します。
+青い枠とアイコンが出る文字・画像はContent Editorで編集できます。何も出ない部分は、権限、対象要素、Designer側の設定、CMS管理の可能性を確認します。
 :::
 
 

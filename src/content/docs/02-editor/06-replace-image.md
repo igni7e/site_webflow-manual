@@ -74,9 +74,8 @@ Webサイトの印象を大きく左右する「画像」。Content editor role�
 <strong>次のステップ:</strong>
 画像の差し替えができると、サイトの印象をガラッと変えられますね。次は、設定済みのリンク先を変更したい場合の「[エディターでリンク先のURLを変更する方法](/02-editor/07-edit-link-url/)」です。
 
-![画像差し替えの判断の図解](../../../assets/diagrams/manual/diagram-14-diagram.svg)
+![画像差し替えの判断の図解](../../../assets/ai-diagrams/manual/image-replace-safe-steps.png)
 
 :::note[図解の見方]
-差し替え後は縦横比とスマホ表示を必ず見ます。
+画像差し替えは、青い枠と画像アイコンが出る対象を選び、差し替え後にデスクトップとスマートフォンの両方で切れ方を確認します。
 :::
-

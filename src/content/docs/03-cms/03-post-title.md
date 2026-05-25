@@ -83,9 +83,8 @@ Slugを公開後に変更するとURLが変わり、既に共有したリンク�
 <strong>次のステップ:</strong>
 タイトルはバッチリですね。次は、記事一覧などで表示される重要な顔となる「[記事の「アイキャッチ画像（サムネイル）」を設定する方法](/03-cms/04-thumbnail-image/)」を設定する方法」を学びましょう。
 
-![TitleとSlugの関係の図解](../../../assets/diagrams/manual/diagram-21-title-slug.svg)
+![TitleとSlugの関係の図解](../../../assets/ai-diagrams/manual/title-slug-relationship.png)
 
 :::note[図解の見方]
 Slugは公開後に変えるとURLが変わります。
 :::
-

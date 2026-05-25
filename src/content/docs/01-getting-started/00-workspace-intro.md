@@ -8,10 +8,10 @@ sidebar:
 
 # A-0-1. ワークスペースとは
 
-![WorkspaceとSiteの親子関係の図解](../../../assets/diagrams/manual/diagram-01-workspace-site.svg)
+![WorkspaceとSiteの親子関係の図解](../../../assets/ai-diagrams/manual/workspace-site-relationship.png)
 
 :::note[図解の見方]
-Workspaceは会社やチームの入れ物。Siteはその中の1つのWebサイトです。
+Workspaceは会社やチームの入れ物。Siteはその中にある個別のWebサイトです。作業前に、正しいWorkspace内の正しいSite cardを選んでいるか確認します。
 :::
 
 

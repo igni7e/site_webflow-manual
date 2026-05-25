@@ -80,9 +80,8 @@ Dashboard上に「Open Editor (Legacy)」が表示される場合は、旧バー
 <strong>次のステップ:</strong>
 無事にWebflowを開くことができたら、まず [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を確認し、その後 [エディターでサイトの文字を書き換える方法](/02-editor/03-edit-text/) に進みましょう。
 
-![Content Editorで開く流れの図解](../../../assets/diagrams/manual/diagram-11-content-editor.svg)
+![Content Editorで開く流れの図解](../../../assets/ai-diagrams/manual/content-editor-open-flow.png)
 
 :::note[図解の見方]
 開いたらすぐ編集せず、ページと権限を確認します。
 :::
-

@@ -86,7 +86,7 @@ WebflowではCMS編集の保存・公開まわりのUIが継続的に改善さ�
 <strong>次のステップ:</strong>
 下書きの保存方法がわかりましたね。それでは、完成した下書きをいよいよ世に出すための[下書きした記事を「公開」する方法](/03-cms/17-publish-draft/)に進みましょう。
 
-![下書きから公開までの図解](../../../assets/diagrams/manual/diagram-25-diagram.svg)
+![下書きから公開までの図解](../../../assets/ai-diagrams/manual/cms-publish-status-options.png)
 
 :::note[図解の見方]
 今どの状態かを確認してから操作します。

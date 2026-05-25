@@ -7,6 +7,29 @@ description: "Webflowマニュアルに追加したPython生成図解50枚のフ
 
 Pythonで生成したSVG図解を `src/assets/diagrams/manual/` に保存し、各本文ページへ差し込みました。
 
+## AI生成画像への差し替えメモ
+
+以下の図解は、Python生成SVGよりも初心者向けの視覚説明を優先し、AI生成のPNGへ差し替えました。元のSVGは削除せず、段階的な差し替え対象として残しています。
+
+| 旧図解 | 新ファイル | 差し込み先 | 理由 |
+| --- | --- | --- | --- |
+| `diagram-12-diagram.svg` | `src/assets/ai-diagrams/manual/editor-icon-conditions.png` | `02-editor/13-latest-content-editor-screen-guide.md` | 編集できる要素と編集できない要素の違いを画面イメージで見せるため。 |
+| `diagram-13-diagram.svg` | `src/assets/ai-diagrams/manual/text-edit-safe-steps.png` | `02-editor/03-edit-text.md` | テキスト修正の流れを、Publish前確認まで含めて見せるため。 |
+| `diagram-14-diagram.svg` | `src/assets/ai-diagrams/manual/image-replace-safe-steps.png` | `02-editor/06-replace-image.md` | 画像差し替え後のデスクトップ・スマホ確認を強調するため。 |
+| `diagram-01-workspace-site.svg` | `src/assets/ai-diagrams/manual/workspace-site-relationship.png` | `01-getting-started/00-workspace-intro.md` | WorkspaceとSite cardの関係を実務画面に近い構図で見せるため。 |
+| `diagram-02-workspace-plan-site-plan.svg` | `src/assets/ai-diagrams/manual/workspace-plan-site-plan.png` | `01-getting-started/00-plan-role-decision.md`, `00-workspace-plan.md`, `00-site-plan.md` | Workspace planとSite planの違いをまとめて見せるため。 |
+| `diagram-04-dashboard.svg` | `src/assets/ai-diagrams/manual/content-editor-open-flow.png` | `01-getting-started/00-open-site.md` | DashboardからContent Editorへ入る流れを具体的に見せるため。 |
+| `diagram-07-diagram.svg` | `src/assets/ai-diagrams/manual/safe-update-route.png` | `01-getting-started/08-editor-only-recommendation.md` | 通常更新の安全ルートと相談が必要な操作を分けて見せるため。 |
+| `diagram-08-editor-designer.svg` | `src/assets/ai-diagrams/manual/editor-designer-boundary.png` | `01-getting-started/07-editor-vs-designer.md` | EditorとDesignerの責任範囲を視覚的に分けるため。 |
+| `diagram-11-content-editor.svg` | `src/assets/ai-diagrams/manual/content-editor-open-flow.png` | `02-editor/02-open-content-editor.md` | Content Editorを開いて編集対象を確認する流れを見せるため。 |
+| `diagram-16-publish.svg`, `diagram-17-publish.svg` | `src/assets/ai-diagrams/manual/publish-flow.png` | `02-editor/12-before-publish-checklist.md`, `02-editor/08-save-and-publish.md` | Publish前確認、公開先選択、公開後確認を一連の流れで見せるため。 |
+| `diagram-19-cms.svg` | `src/assets/ai-diagrams/manual/cms-overview.png` | `03-cms/00-blog-post-complete-guide.md` | Collection、CMS item、一覧・詳細ページの関係を見せるため。 |
+| `diagram-20-cms-item.svg` | `src/assets/ai-diagrams/manual/cms-item-creation-flow.png` | `03-cms/02-create-new-post.md` | CMS item作成から下書き保存・公開までの流れを見せるため。 |
+| `diagram-21-title-slug.svg` | `src/assets/ai-diagrams/manual/title-slug-relationship.png` | `03-cms/03-post-title.md` | TitleとSlug、公開URLの関係を具体的に見せるため。 |
+| `diagram-25-diagram.svg`, `diagram-26-diagram.svg`, `diagram-28-cms.svg` | `src/assets/ai-diagrams/manual/cms-publish-status-options.png` | `03-cms/16-save-as-draft.md`, `03-cms/18-edit-published.md`, `03-cms/25-cms-before-publish-checklist.md` | Draft、Publish now、Queueの違いを明確に見せるため。 |
+| `diagram-40-domain-ssl.svg` | `src/assets/ai-diagrams/manual/domain-ssl-status.png` | `05-settings/09-domain-status.md` | Domain、SSL、公開先を設定画面風に見せるため。 |
+| `diagram-47-diagram.svg` | `src/assets/ai-diagrams/manual/publish-cache-troubleshooting.png` | `06-troubleshooting/01-cache-not-reflecting.md` | Publish、公開先、cache、CMS statusの切り分けを見せるため。 |
+
 | ID | ファイル | 差し込み先 | 用途 |
 | --- | --- | --- | --- |
 | diagram-01 | `diagram-01-workspace-site.svg` | `01-getting-started/00-workspace-intro.md` | Workspaceの基本構造 |

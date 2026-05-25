@@ -8,10 +8,10 @@ sidebar:
 
 # A-0-2. ワークスペースのプラン
 
-![Workspace planで見る項目の図解](../../../assets/diagrams/manual/diagram-05-workspace-plan.svg)
+![Workspace planで見る項目の図解](../../../assets/ai-diagrams/manual/workspace-plan-site-plan.png)
 
 :::note[図解の見方]
-サイト公開の有無ではなく、チームとして使える範囲を確認します。
+Workspace planでは、メンバー数、Seat、Roleなどチームとして使える範囲を確認します。Domain、CMS、フォームなどはSite plan側で確認します。
 :::
 
 
