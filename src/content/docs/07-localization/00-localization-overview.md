@@ -24,7 +24,7 @@ sidebar:
 
 # E-1. Locale翻訳の全体像
 
-![Locale翻訳の流れの図解](../../../assets/diagrams/manual/diagram-42-locale.svg)
+![Locale翻訳の流れの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]
 今どのLocaleを触っているかを最初に確認します。

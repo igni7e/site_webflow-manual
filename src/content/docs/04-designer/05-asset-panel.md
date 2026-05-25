@@ -60,9 +60,8 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 <strong>次のステップ:</strong>
 アセットパネルの役割がわかりました。次は、このパネルを使って、不要になった画像をサーバーから完全に削除する方法「[不要になった画像をサーバーから削除する方法](/04-designer/06-delete-asset/)」です。
 
-![Asset Panelの考え方の図解](../../../assets/diagrams/manual/diagram-33-asset-panel.svg)
+![Asset Panelの考え方の図解](../../../assets/ai-diagrams/manual/asset-panel-workflow.png)
 
 :::note[図解の見方]
 使われているAssetを消すと表示崩れにつながります。
 :::
-

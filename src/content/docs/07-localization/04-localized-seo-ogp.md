@@ -18,7 +18,7 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 
 # E-6. LocaleごとのSEO・OGP確認
 
-![Locale SEO/OGPの図解](../../../assets/diagrams/manual/diagram-46-locale-seo-ogp.svg)
+![Locale SEO/OGPの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]
 各LocaleでSEO文言が自然か確認します。

@@ -18,7 +18,7 @@ sidebar:
 
 # E-3. 新しいLocaleを追加する時の流れ
 
-![PrimaryとSecondary Localeの図解](../../../assets/diagrams/manual/diagram-43-primary-secondary-locale.svg)
+![PrimaryとSecondary Localeの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]
 Primary localeは後から簡単に変えられません。

@@ -66,9 +66,8 @@ CMSの入力フォームの中に、画像を設定するための専用フィ�
 <strong>次のステップ:</strong>
 記事の顔となる画像が設定できました。次は、記事を分類し、整理しやすくするための「[記事の「カテゴリー」を選択する方法](/03-cms/05-post-category/)」を選択する方法」です。
 
-![サムネイルと本文画像の図解](../../../assets/diagrams/manual/diagram-22-diagram.svg)
+![サムネイルと本文画像の図解](../../../assets/ai-diagrams/manual/cms-thumbnail-body-image.png)
 
 :::note[図解の見方]
 一覧用画像と本文中画像は別のFieldの場合があります。
 :::
-

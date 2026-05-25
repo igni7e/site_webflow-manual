@@ -29,6 +29,20 @@ Pythonで生成したSVG図解を `src/assets/diagrams/manual/` に保存し、�
 | `diagram-25-diagram.svg`, `diagram-26-diagram.svg`, `diagram-28-cms.svg` | `src/assets/ai-diagrams/manual/cms-publish-status-options.png` | `03-cms/16-save-as-draft.md`, `03-cms/18-edit-published.md`, `03-cms/25-cms-before-publish-checklist.md` | Draft、Publish now、Queueの違いを明確に見せるため。 |
 | `diagram-40-domain-ssl.svg` | `src/assets/ai-diagrams/manual/domain-ssl-status.png` | `05-settings/09-domain-status.md` | Domain、SSL、公開先を設定画面風に見せるため。 |
 | `diagram-47-diagram.svg` | `src/assets/ai-diagrams/manual/publish-cache-troubleshooting.png` | `06-troubleshooting/01-cache-not-reflecting.md` | Publish、公開先、cache、CMS statusの切り分けを見せるため。 |
+| `diagram-03-diagram.svg` | `src/assets/ai-diagrams/manual/member-permissions.png` | `01-getting-started/00-add-member.md` | 追加する人、招待元、Role、Can publishの確認点をまとめて見せるため。 |
+| `diagram-15-diagram.svg` | `src/assets/ai-diagrams/manual/link-change-safe-check.png` | `02-editor/07-edit-link-url.md` | リンク変更前後に確認するURL、リンク先、別タブ設定を見せるため。 |
+| `diagram-18-diagram.svg` | `src/assets/ai-diagrams/manual/discard-changes-warning.png` | `02-editor/09-discard-changes.md` | Discard時に戻る範囲とPublish済みとの差を視覚的に見せるため。 |
+| `diagram-22-diagram.svg` | `src/assets/ai-diagrams/manual/cms-thumbnail-body-image.png` | `03-cms/04-thumbnail-image.md` | サムネイル画像と本文内画像の表示先の違いを見せるため。 |
+| `diagram-23-diagram.svg` | `src/assets/ai-diagrams/manual/cms-category-selection.png` | `03-cms/05-post-category.md` | Categoryの選択が一覧、絞り込み、関連記事に影響することを見せるため。 |
+| `diagram-24-rich-text.svg` | `src/assets/ai-diagrams/manual/cms-rich-text-structure.png` | `03-cms/06-write-body.md` | Rich Text内の見出し、本文、画像、リンクの並びを見せるため。 |
+| `diagram-30-diagram.svg` | `src/assets/ai-diagrams/manual/cms-body-link-options.png` | `03-cms/13-body-link.md` | 内部リンク、外部リンク、別タブ設定の違いを見せるため。 |
+| `diagram-27-diagram.svg` | `src/assets/ai-diagrams/manual/cms-unpublish-archive-delete.png` | `03-cms/19-unpublish.md` | Unpublish、Archive、Deleteの影響範囲を分けて見せるため。 |
+| `diagram-31-designer.svg`, `diagram-32-designer.svg` | `src/assets/ai-diagrams/manual/designer-caution.png` | `04-designer/01-designer-warning.md`, `04-designer/02-edit-homepage-text.md` | Designerで触ってよい箇所と相談すべき箇所を見せるため。 |
+| `diagram-33-asset-panel.svg` | `src/assets/ai-diagrams/manual/asset-panel-workflow.png` | `04-designer/05-asset-panel.md` | Asset Panelでアップロード、選択、差し替えを行う流れを見せるため。 |
+| `diagram-34-undo.svg` | `src/assets/ai-diagrams/manual/undo-backup-restore.png` | `04-designer/08-undo-ctrl-z.md` | Undo、History、Backup restoreの戻せる範囲を分けて見せるため。 |
+| `diagram-35-seo-title.svg`, `diagram-36-meta-description.svg`, `diagram-37-ogp.svg` | `src/assets/ai-diagrams/manual/seo-meta-ogp-settings.png` | `05-settings/01-seo-title.md`, `05-settings/02-seo-description.md`, `05-settings/03-ogp-image.md` | SEO title、Meta description、OGP画像の表示先をまとめて見せるため。 |
+| `diagram-38-forms.svg`, `diagram-39-csv.svg` | `src/assets/ai-diagrams/manual/forms-csv-privacy.png` | `05-settings/04-form-submissions.md`, `05-settings/06-form-csv-download.md` | Form submissionsとCSV exportで個人情報を扱う注意点を見せるため。 |
+| `diagram-42-locale.svg`, `diagram-43-primary-secondary-locale.svg`, `diagram-44-diagram.svg`, `diagram-45-cms-locale.svg`, `diagram-46-locale-seo-ogp.svg` | `src/assets/ai-diagrams/manual/localization-workflow.png` | `07-localization/*` | Primary Locale、Secondary Locale、静的ページ、CMS、SEO/OGPの翻訳範囲をまとめて見せるため。 |
 
 | ID | ファイル | 差し込み先 | 用途 |
 | --- | --- | --- | --- |

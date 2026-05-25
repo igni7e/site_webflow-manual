@@ -67,9 +67,8 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 <strong>次のステップ:</strong>
 `Ctrl+Z` はデザイナーモードの命綱です。必ず覚えておきましょう。次は、もう一つの安全装置、「[デザインが崩れたかも？変更を保存せずに終了する方法](/04-designer/09-discard-designer-changes/)」です。
 
-![Undoと復元の違いの図解](../../../assets/diagrams/manual/diagram-34-undo.svg)
+![Undoと復元の違いの図解](../../../assets/ai-diagrams/manual/undo-backup-restore.png)
 
 :::note[図解の見方]
 大きく戻す場合はBackup確認が必要です。
 :::
-

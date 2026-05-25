@@ -66,9 +66,8 @@ sidebar:
 <strong>次のステップ:</strong>
 基本的な編集作業はこれで一通り学びました。次は、これまでの作業を無駄にしないための、最も重要な工程「[変更を保存してサイトに反映させる方法](/02-editor/08-save-and-publish/)」です。
 
-![リンク変更の確認範囲の図解](../../../assets/diagrams/manual/diagram-15-diagram.svg)
+![リンク変更の確認範囲の図解](../../../assets/ai-diagrams/manual/link-change-safe-check.png)
 
 :::note[図解の見方]
 外部リンクは必要に応じて新しいタブにします。
 :::
-

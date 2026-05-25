@@ -94,9 +94,8 @@ Google DocsやWordから貼り付けた場合、見た目がそのまま入る�
 <strong>次のステップ:</strong>
 まずは文章の入力が基本です。次は、文章にメリハリをつけるための装飾「[本文の文字を太字にする・斜体にする](/03-cms/07-bold-italic-body/)」を学びましょう。
 
-![Rich Text本文の構造の図解](../../../assets/diagrams/manual/diagram-24-rich-text.svg)
+![Rich Text本文の構造の図解](../../../assets/ai-diagrams/manual/cms-rich-text-structure.png)
 
 :::note[図解の見方]
 見出しの順番を崩さず、読みやすく整えます。
 :::
-

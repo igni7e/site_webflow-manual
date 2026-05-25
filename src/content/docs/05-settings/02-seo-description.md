@@ -64,9 +64,8 @@ Google検索結果に表示される「ページの説明文（Meta Description�
 次のステップ:
 SEO対策の基本はこれでバッチリですね。次は、SNSでの見栄えを良くするための「[SNSでシェアされた時の画像（OGP画像）を変更する方法](/05-settings/03-ogp-image/)」です。
 
-![Meta descriptionの役割の図解](../../../assets/diagrams/manual/diagram-36-meta-description.svg)
+![Meta descriptionの役割の図解](../../../assets/ai-diagrams/manual/seo-meta-ogp-settings.png)
 
 :::note[図解の見方]
 すぐ反映されないため、公開確認と検索確認を分けます。
 :::
-

@@ -8,7 +8,7 @@ sidebar:
 
 # A-0-4. メンバー追加と権限
 
-![誰をどこに追加するかの図解](../../../assets/diagrams/manual/diagram-03-diagram.svg)
+![誰をどこに追加するかの図解](../../../assets/ai-diagrams/manual/member-permissions.png)
 
 :::note[図解の見方]
 招待前に、何をしてほしい人なのかを先に決めます。

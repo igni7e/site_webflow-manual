@@ -18,7 +18,7 @@ sidebar:
 
 # E-5. CMS記事をLocaleごとに翻訳する
 
-![CMS Locale翻訳の図解](../../../assets/diagrams/manual/diagram-45-cms-locale.svg)
+![CMS Locale翻訳の図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]
 一覧と詳細の両方で翻訳表示を見ます。

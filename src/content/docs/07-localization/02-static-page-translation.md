@@ -18,7 +18,7 @@ sidebar:
 
 # E-4. 静的ページをLocaleごとに翻訳する
 
-![静的ページ翻訳の図解](../../../assets/diagrams/manual/diagram-44-diagram.svg)
+![静的ページ翻訳の図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]
 翻訳後は長さで崩れやすくなります。
