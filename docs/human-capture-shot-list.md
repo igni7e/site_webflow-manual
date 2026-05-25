@@ -32,6 +32,10 @@
 | A-08 | P0 | `a-08-site-plan-settings.png` | Site plan / Publishing設定 | `01-getting-started/00-site-plan.md` | 対象サイト名、Site settings、Site plan名または公開設定。カード情報や請求情報は写さない。 |
 | A-09 | P0 | `a-09-members-and-permissions.png` | Membersと権限 | `01-getting-started/00-add-member.md` | Invite/Add member、Role、Can publishなど権限判断に必要な列。氏名・メールは隠す。 |
 | A-10 | P0 | `a-10-open-site-from-dashboard.png` | Dashboardからサイト修正画面に入る入口 | `01-getting-started/00-open-site.md` | 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口。他サイト名は隠す。 |
+| A-11 | P0 | `a-11-workspace-selector-open.png` | Workspace selectorを開いた状態 | `01-getting-started/00-workspace-intro.md` | 現在選択中のWorkspace名、対象Workspace候補、切り替え場所。他社Workspace名やメールアドレスは隠す。 |
+| A-12 | P0 | `a-12-site-card-entry-points.png` | 対象Site cardの入口一覧 | `01-getting-started/00-workspace-intro.md` | 対象Site名、Open / Content editor、Settings、Designerの位置関係。他サイト名は隠す。 |
+| A-13 | P0 | `a-13-workspace-members-role-list.png` | Workspace MembersのRole一覧 | `01-getting-started/00-workspace-plan.md` | Members見出し、RoleまたはSeat列、人数表示。氏名・メールは隠す。 |
+| A-14 | P0 | `a-14-workspace-plan-billing-warning.png` | Plan / Upgrade / Billing入口 | `01-getting-started/00-workspace-plan.md` | Plan名、UpgradeやBilling入口、請求に関わる画面だと分かる見出し。カード情報や料金明細は写さない。 |
 
 ## B. Content Editor
 
@@ -74,8 +78,14 @@
 | B-37 | P1 | `b-37-official-security-permissions.png` | 公式画像: Securityと権限管理 | `02-editor/14-official-content-editor-image-reference.md`, `06-troubleshooting/00-common-checklist.md` | Webflow公式Security画像。権限不足や安全確認の説明に使う。 |
 | B-38 | P1 | `b-38-official-analyze-seo-settings.png` | 公式画像: Analyze / 計測の概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/10-search-engine-control.md` | Webflow公式Analyze画像。検索表示、計測、反映タイミングの説明に使う。 |
 | B-39 | P1 | `b-39-official-designer-overview.png` | 公式画像: Designerの概要 | `02-editor/14-official-content-editor-image-reference.md`, `04-designer/01-designer-warning.md` | Webflow公式Design画像。Designerが高機能で慎重に扱う画面だと伝える説明に使う。 |
+| B-40 | P0 | `work-00-dashboard-workspace-site-check.png` | 作業前のWorkspace / Site確認 | `work/06-before-start.md` | DashboardでWorkspace名と対象Site cardが同時に見える構図。他社Site名、通知、メールは隠す。 |
+| B-41 | P0 | `work-00-content-editor-entry-check.png` | 作業前のContent editor入口確認 | `work/06-before-start.md` | 対象Site card、Content editor入口、DesignerやSettingsとの位置関係。通常更新の入口を説明できる状態にする。 |
+| B-42 | P0 | `work-00-before-publish-target-check.png` | 作業前ページのPublish前確認 | `work/06-before-start.md` | Publishボタン、公開対象、公開先ドメイン、Cancelできる状態。実行前で止める。 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |
+| B-43 | P0 | `work-01-editable-text-indicator.png` | テキスト編集可能表示 | `work/00-edit-text.md` | Content editorで修正対象テキスト、青枠、鉛筆アイコンが見える状態。未公開情報は隠す。 |
+| B-44 | P0 | `work-01-text-before-publish-review.png` | テキスト修正後のPublish前確認 | `work/00-edit-text.md` | 修正後テキスト、Publishボタン、対象ページが分かる周辺UI。実行前で止める。 |
+| B-45 | P0 | `work-01-site-access-role-check.png` | テキスト編集できない時の権限確認 | `work/00-edit-text.md` | Site access / Members、Role、Can publish、Content editorなど。氏名・メールは隠す。 |
 
 ## C. CMS更新
 
@@ -96,6 +106,20 @@
 | C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | `03-cms/20-archive-post.md` | 記事選択後、上部のArchiveボタンが見える状態。実行前に止める。 |
 | C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | `work/02-update-post.md` | CMS/Collection名、記事一覧、Newボタン。未公開記事名は必要に応じて隠す。 |
 | C-15 | P0 | `c-15-morbido-cms-fields-overview.png` | Morbido記事入力フィールド全体 | `03-cms/26-morbido-cms-field-guide.md` | Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldと、Save/Create/Publish周辺の操作ボタンが分かる状態。未公開本文や個人情報は隠す。 |
+| C-16 | P0 | `c-16-cms-entry-with-sidebar.png` | CMS / Collections入口 | `03-cms/01-where-is-cms.md` | Content editorまたは編集画面でCMS / Collections入口、左メニュー、対象Site名が分かる状態。 |
+| C-17 | P0 | `c-17-collection-list-select-target.png` | Collection一覧から対象を選ぶ画面 | `03-cms/01-where-is-cms.md` | Blog、News、お知らせなどのCollection名とCMS見出し。未公開記事名は写さない。 |
+| C-18 | P0 | `c-18-cms-items-status-list.png` | CMS item一覧のstatus確認 | `03-cms/01-where-is-cms.md` | item一覧、Status列、Draft / Published表示、Newボタン、検索欄。社外秘タイトルは隠す。 |
+| C-19 | P0 | `c-19-new-item-from-collection-list.png` | Collection一覧からNew itemを押す直前 | `03-cms/02-create-new-post.md` | Collection名、Newボタン、検索欄、既存itemのstatus表示。 |
+| C-20 | P0 | `c-20-new-cms-item-fields-overview.png` | 新規CMS itemのField全体 | `03-cms/02-create-new-post.md` | Title / Name、Slug、主要Field、Save as Draft、Publish / Create周辺。未公開本文は隠す。 |
+| C-21 | P0 | `c-21-cms-save-publish-options.png` | CMS itemの保存・公開ボタン | `03-cms/02-create-new-post.md` | Save as Draft、Publish、ScheduleまたはPublish options、現在のCMS item名。実行前で止める。 |
+| C-22 | P0 | `c-22-save-as-draft-button-closeup.png` | Save as Draftボタン | `03-cms/16-save-as-draft.md` | Save as Draft、Publish / Create、item名、Draft対象だと分かる見出し。 |
+| C-23 | P0 | `c-23-draft-status-in-item-list.png` | Draft statusの一覧表示 | `03-cms/16-save-as-draft.md` | 対象item名、Draft status、Collection名、一覧UI。未公開本文や個人情報は隠す。 |
+| C-24 | P0 | `c-24-published-item-draft-changes.png` | 公開済みitemの未公開変更 | `03-cms/16-save-as-draft.md` | PublishedまたはDraft changesのstatus、Publish options、item名。未公開本文は隠す。 |
+| C-25 | P0 | `c-25-draft-item-before-publish.png` | Draft itemを公開前に探す画面 | `03-cms/17-publish-draft.md` | Draft status、対象item、Collection名、検索欄または一覧UI。 |
+| C-26 | P0 | `c-26-draft-item-publish-options.png` | Draft itemのPublish入口 | `03-cms/17-publish-draft.md` | Publish、Publish options、item名、Draft status。実行前で止める。 |
+| C-27 | P0 | `c-27-publish-now-queue-options.png` | Publish now / Queue選択肢 | `03-cms/17-publish-draft.md` | Publish now、Queue for next site publish、Scheduleがあればその選択肢、Cancelできる状態。 |
+| C-28 | P0 | `c-28-published-item-status-list.png` | Published itemの一覧表示 | `03-cms/18-edit-published.md` | Published status、対象item、Collection名、検索欄または一覧UI。 |
+| C-29 | P0 | `c-29-published-item-update-options.png` | 公開済みitem編集後のPublish options | `03-cms/18-edit-published.md` | item名、Published / Draft changesのstatus、Publish now、Queue for next site publish。 |
 
 ## D. Designer
 
@@ -130,6 +154,11 @@
 | F-05 | P0 | `f-05-domain-and-publishing-status.png` | Publishing / Domain状態 | `05-settings/09-domain-status.md`, `06-troubleshooting/01-cache-not-reflecting.md` | Production domain、SSL、Connected、Publish状態が分かる状態。 |
 | F-06 | P0 | `work-04-edit-seo-settings.png` | 作業ベースSEO設定画面 | `work/03-edit-seo.md` | Title tag、Meta description、対象ページ名。APIキーや請求情報は写さない。 |
 | F-07 | P0 | `work-05-check-forms-submissions.png` | 作業ベースForms送信内容確認画面 | `work/04-check-forms.md` | フォーム名、Submissions、CSVダウンロード入口。氏名、メール、問い合わせ本文は隠す。 |
+| F-08 | P0 | `f-08-site-access-overview.png` | Site access全体 | `05-settings/08-invite-collaborator.md` | Site access見出し、Members一覧、Role、Can publish、Invite member / Invite client。氏名・メールは隠す。 |
+| F-09 | P0 | `f-09-site-settings-site-access-menu.png` | Site settingsからSite accessへ入る画面 | `05-settings/08-invite-collaborator.md` | 対象Site名、Site settings、Site accessメニュー、左メニューの位置関係。 |
+| F-10 | P0 | `f-10-invite-member-button.png` | Invite memberボタン | `05-settings/08-invite-collaborator.md` | Invite member / Invite client、Members一覧見出し、Role列。既存メンバー情報は隠す。 |
+| F-11 | P0 | `f-11-role-can-publish-setting.png` | RoleとCan publishの設定 | `05-settings/08-invite-collaborator.md` | Site role、Content editor、Can publish、保存または招待前のボタン。実メールは写さない。 |
+| F-12 | P0 | `f-12-existing-member-role-edit.png` | 既存メンバーの権限編集 | `05-settings/08-invite-collaborator.md` | Role変更メニュー、Can publish、Removeまたは権限変更入口。氏名・メールは隠す。 |
 
 ## G. トラブル解決・保守
 
@@ -138,6 +167,11 @@
 | G-01 | P0 | `g-01-backups-list.png` | Backups一覧 | `06-troubleshooting/05-backup-restore.md` | Backup日時、Preview、Restoreが見える状態。実行はしない。 |
 | G-02 | P0 | `g-02-backup-restore-warning.png` | Restore確認画面 | `06-troubleshooting/05-backup-restore.md` | 復元前の警告と戻る選択肢が分かる状態。Restoreは押さない。 |
 | G-03 | P1 | `g-03-error-examples.png` | 画像アップロードエラー、404などの例 | `06-troubleshooting/02-image-upload-failed.md`, `04-404-not-found.md` | エラー内容、URL、発生箇所が分かる状態。公開してよいPC画面のテストページで撮る。 |
+| G-04 | P0 | `g-04-publishing-domain-status-check.png` | Publishing / Domain状態の確認 | `06-troubleshooting/00-common-checklist.md` | Publishing、Production domain、Connected / Published状態、対象Site名。DNS機密値は隠す。 |
+| G-05 | P0 | `g-05-cms-item-status-troubleshooting.png` | CMS item statusの確認 | `06-troubleshooting/00-common-checklist.md` | 対象item、Draft / Published / Queuedなどのstatus、Collection名。未公開本文は隠す。 |
+| G-06 | P0 | `g-06-editable-indicator-troubleshooting.png` | 編集できる要素の表示確認 | `06-troubleshooting/00-common-checklist.md` | 編集対象、青枠または鉛筆アイコン、ページ上の周辺文脈。 |
+| G-07 | P0 | `g-07-role-permission-troubleshooting.png` | Role / Can publish権限確認 | `06-troubleshooting/00-common-checklist.md` | Site access、Role、Content editor、Can publish。氏名・メールは隠す。 |
+| G-08 | P0 | `g-08-can-publish-permission-check.png` | Publishできない時の権限確認 | `06-troubleshooting/00-common-checklist.md` | Publishボタン、権限不足メッセージがあればその表示、対象画面。 |
 | G-04 | P0 | `g-04-maintenance-request-example.png` | 保守依頼時に送るキャプチャ例 | `06-troubleshooting/07-maintenance-request.md`, `00-common-checklist.md` | URL、困っている箇所、画面全体、発生日時を説明できる構図。 |
 
 ## 最低限の撮影順

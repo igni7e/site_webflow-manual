@@ -23,6 +23,24 @@ Webflowで何かを変更する前に、どの画面を開くべきか、どこ�
 | 作業内容が合っているか | このマニュアルのWORKページ | テキスト、画像、CMS、SEO、フォーム、Localeのどれかを選びます |
 | Publishしてよいか | 作業前の社内確認 | 公開してよい内容か、必要に応じて社内確認を取ります |
 
+:::note[キャプチャー指示]
+撮影する画面: Webflow DashboardでWorkspace名と対象Site cardが同時に見えている画面。
+保存ファイル名: `work-00-dashboard-workspace-site-check.png`
+撮影直前の状態: Dashboardの読み込み完了後、対象Workspaceを選択し、対象Site cardが画面内に表示されている状態。
+必ず写すもの: Workspace selectorまたはWorkspace名、対象Site card、Site名、Dashboardであることが分かる上部UI。
+写さないもの: 他社Site名、個人メールアドレス、通知、請求情報。
+この画像で読者に確認してほしいポイント: 作業前に「正しいWorkspace」と「正しいSite」を見分ける場所。
+:::
+
+:::note[キャプチャー指示]
+撮影する画面: 対象Site card上でContent editorまたは編集入口を開く直前の画面。
+保存ファイル名: `work-00-content-editor-entry-check.png`
+撮影直前の状態: 対象Site cardの操作メニュー、Open、Editor、Content editorなどの入口が見えている状態。
+必ず写すもの: 対象Site card、Content editor入口、DesignerやSettingsとの位置関係。
+写さないもの: 他社Site名、個人メールアドレス、不要な通知。
+この画像で読者に確認してほしいポイント: 通常更新ではDesignerではなくContent editor入口から入ること。
+:::
+
 :::tip[迷った時の入口]
 文章や画像の通常更新は、まずContent editor roleで開くことをお勧めします。Designer、Billing、Plan、Delete、Archiveなどは影響範囲が大きいため、作業前に確認してください。
 :::
@@ -67,6 +85,15 @@ Webflowで何かを変更する前に、どの画面を開くべきか、どこ�
 - リンク先が正しい
 - 画像が粗くない、見切れていない
 - 公開してよい内容か社内確認が済んでいる
+
+:::note[キャプチャー指示]
+撮影する画面: Publishボタンを押す前、またはPublish確認画面で公開対象を確認している画面。
+保存ファイル名: `work-00-before-publish-target-check.png`
+撮影直前の状態: 変更内容を保存後、Publish実行前で止め、公開対象ページや公開先ドメインを確認できる状態。
+必ず写すもの: Publishボタン、公開対象、公開先ドメイン、Cancelできる状態。
+写さないもの: 未公開本文、個人情報、問い合わせ本文、不要な他ページ情報。
+この画像で読者に確認してほしいポイント: Publish前に「どこへ公開されるか」と「今押してよいか」を止まって確認する場所。
+:::
 
 :::caution[公開前チェック]
 少しでも不安がある場合は、Publishする前にスクリーンショットを撮り、社内担当者または制作担当者に確認してから進めることをお勧めします。

@@ -42,12 +42,39 @@ WebflowではCMS編集の保存・公開まわりのUIが継続的に改善さ�
 
     ![下書き保存・公開操作](../../../assets/captures/manual/c-07-save-draft-and-publish.png)
 
+    :::note[キャプチャー指示]
+    撮影する画面: CMS item編集画面でSave as Draftが見えている画面。
+    保存ファイル名: `c-22-save-as-draft-button-closeup.png`
+    撮影直前の状態: CMS itemの入力後、Save as Draftを押す直前で止める。
+    必ず写すもの: Save as Draft、PublishまたはCreate、item名、Draftにする対象だと分かる見出し。
+    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
+    この画像で読者に確認してほしいポイント: 未完成の記事はPublishではなくSave as Draftを選ぶこと。
+    :::
+
 3.  <strong>下書き保存完了:</strong>
     クリックすると、記事が下書きとして保存され、CMSの記事一覧画面に戻ります。一覧画面では、その記事のステータスが「<strong>Draft</strong>」と表示されているはずです。
+
+    :::note[キャプチャー指示]
+    撮影する画面: CMS item一覧で、保存した記事のstatusがDraftになっている画面。
+    保存ファイル名: `c-23-draft-status-in-item-list.png`
+    撮影直前の状態: Save as Draft後、CMS item一覧に戻り、対象itemのDraft表示が見えている状態。
+    必ず写すもの: 対象item名、Draft status、Collection名、一覧画面であることが分かるUI。
+    写さないもの: 未公開本文、個人情報、社外秘タイトル、他社情報。
+    この画像で読者に確認してほしいポイント: Draftは管理画面には残るが、公開サイトには出ない状態であること。
+    :::
 
 ### 公開済みの記事を編集している場合
 
 一度公開した記事を編集している途中で、その変更内容をまだ公開したくない場合は、編集パネルの右上にある「<strong>Save</strong>」ボタンをクリックします。これにより、変更内容は下書きとして保存されますが、<strong>サイト上で公開されているのは変更前のバージョンのまま</strong>となります。
+
+:::note[キャプチャー指示]
+撮影する画面: 公開済みCMS itemを編集し、未公開の変更があることが分かるstatusまたはPublish options周辺。
+保存ファイル名: `c-24-published-item-draft-changes.png`
+撮影直前の状態: Published itemを編集後、変更を公開せずにstatusやPublish optionsを確認している状態。
+必ず写すもの: PublishedまたはDraft changesのstatus、Publish options、item名。
+写さないもの: 未公開本文、個人情報、社外秘タイトル、他社情報。
+この画像で読者に確認してほしいポイント: 公開済み記事を編集しても、変更内容は明示的にPublishするまで公開サイトへ出ないこと。
+:::
 
 ## 3. 下書き記事の注意点
 
@@ -64,4 +91,3 @@ WebflowではCMS編集の保存・公開まわりのUIが継続的に改善さ�
 :::note[図解の見方]
 今どの状態かを確認してから操作します。
 :::
-

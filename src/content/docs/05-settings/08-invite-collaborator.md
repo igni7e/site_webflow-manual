@@ -15,6 +15,15 @@ Site settingsはサイト全体に影響する項目が多い画面です。SEO�
 
 ![Site access / メンバー権限](../../../assets/captures/manual/f-04-members-and-roles.png)
 
+:::note[キャプチャー指示]
+撮影する画面: Site settings内のSite access画面。
+保存ファイル名: `f-08-site-access-overview.png`
+撮影直前の状態: Site accessの読み込み完了後、メンバー一覧と権限列が見えている状態。
+必ず写すもの: Site access見出し、Members一覧、Role、Can publish、Invite memberまたはInvite client。
+写さないもの: 氏名、メールアドレス、他社メンバー、請求情報。
+この画像で読者に確認してほしいポイント: 編集できる人と公開できる人を確認する画面。
+:::
+
 
 > 新規追加（標準スコープ補完）
 
@@ -41,10 +50,39 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 1. Webflowにログインし、WorkspaceのTeam settingsまたは対象サイトのSite accessを開きます。
    *実画面例: Site accessでは、サイトに入れるメンバーや権限を確認します。*
 
+   :::note[キャプチャー指示]
+   撮影する画面: 対象サイトのSite settings左メニューからSite accessを選ぶ直前、または選んだ直後の画面。
+   保存ファイル名: `f-09-site-settings-site-access-menu.png`
+   撮影直前の状態: Site settingsを開き、左メニューにSite accessが見えている状態。
+   必ず写すもの: 対象Site名、Site settings、Site accessメニュー、左メニューの位置関係。
+   写さないもの: 請求情報、個人メールアドレス、APIキー、他社Site名。
+   この画像で読者に確認してほしいポイント: Membersや権限を確認する時に、Settingsのどこへ入るか。
+   :::
+
 2. <strong>Invite member</strong> または <strong>Invite client</strong> を選びます。
+
+   :::note[キャプチャー指示]
+   撮影する画面: Invite memberまたはInvite clientを開く直前のSite access画面。
+   保存ファイル名: `f-10-invite-member-button.png`
+   撮影直前の状態: Site accessで招待ボタンが見えており、まだ招待を送信していない状態。
+   必ず写すもの: Invite memberまたはInvite client、Members一覧の見出し、Role列。
+   写さないもの: 既存メンバーの氏名、メールアドレス、請求情報。
+   この画像で読者に確認してほしいポイント: 新しい担当者を追加する入口。
+   :::
+
 3. 招待相手のメールアドレスを入力します。
 4. SeatとSite roleで <strong>Content editor</strong> を選びます。
 5. 必要に応じて <strong>Can publish</strong> をオンまたはオフにします。
+
+   :::note[キャプチャー指示]
+   撮影する画面: 招待または権限編集画面で、Site roleとCan publishを選ぶ部分。
+   保存ファイル名: `f-11-role-can-publish-setting.png`
+   撮影直前の状態: メール送信前、または権限保存前で止め、RoleとCan publishの選択肢が見えている状態。
+   必ず写すもの: Site role、Content editor、Can publish、保存または招待前であることが分かるボタン。
+   写さないもの: 招待相手の実メールアドレス、氏名、請求情報。
+   この画像で読者に確認してほしいポイント: 編集権限と公開権限は別に設定すること。
+   :::
+
 6. 内容を確認して招待を送信します。
 
 招待された相手には Webflow から招待メールが届きます。受信側の操作は「招待メールを確認しよう」と同じ流れです。
@@ -55,6 +93,15 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 2. 対象メンバーを選びます。
 3. Site role、Site access、Can publishを見直します。
 4. 不要なメンバーはRemoveします。
+
+:::note[キャプチャー指示]
+撮影する画面: 既存メンバーの権限編集メニュー、またはRole変更メニュー。
+保存ファイル名: `f-12-existing-member-role-edit.png`
+撮影直前の状態: 対象メンバーの行を開き、RoleやCan publishを確認できる状態。保存や削除は実行しない。
+必ず写すもの: Role変更メニュー、Can publish、Removeまたは権限変更に進む入口。
+写さないもの: 氏名、メールアドレス、他社メンバー、請求情報。
+この画像で読者に確認してほしいポイント: 編集できない・Publishできない時に既存メンバーの権限を見る場所。
+:::
 
 退職者など、サイト編集権限を持たせるべきでないメンバーは <strong>必ず削除</strong> しましょう。
 
