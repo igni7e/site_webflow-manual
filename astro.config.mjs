@@ -7,6 +7,9 @@ const googleSiteVerification = process.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export default defineConfig({
   site: siteUrl,
+  redirects: {
+    '/03-cms/26-morbido-cms-field-guide/': '/03-cms/26-booost-cms-field-guide/',
+  },
   integrations: [
     starlight({
       title: 'IGNITE Webflow更新マニュアル',

@@ -1,13 +1,13 @@
 ---
-title: Morbido Webflowマニュアル改善 最終検収TODO 2026-05-22
-description: Morbido向けWebflow更新マニュアル改善後の最終確認と仕上げ計画。
+title: Booost Webflowマニュアル改善 最終検収TODO 2026-05-22
+description: Booost向けWebflow更新マニュアル改善後の最終確認と仕上げ計画。
 ---
 
-# Morbido Webflowマニュアル改善 最終検収TODO 2026-05-22
+# Booost Webflowマニュアル改善 最終検収TODO 2026-05-22
 
 ## 目的
 
-前回実装したMorbido向けWebflow更新マニュアル改善について、要件漏れ、リンク不備、表示不備、AGENTS.md違反、ビルド警告を再確認し、必要な修正まで完了する。
+前回実装したBooost向けWebflow更新マニュアル改善について、要件漏れ、リンク不備、表示不備、AGENTS.md違反、ビルド警告を再確認し、必要な修正まで完了する。
 
 ## TODO
 

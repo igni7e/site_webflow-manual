@@ -22,12 +22,12 @@
 
 | ID | 優先 | 保存ファイル名 | 撮影する画面 | 差し込み先 | 撮影ポイント |
 | --- | --- | --- | --- | --- | --- |
-| A-01 | P0 | `a-01-dashboard-site-list.png` | Webflow Dashboardのサイト一覧 | `01-getting-started/00-site-update-overview.md`, `06-dashboard-overview.md` | BOOSTのサイトカード、Workspace名、Dashboard画面であることが分かる構図。不要なサイトや個人情報は隠す。 |
+| A-01 | P0 | `a-01-dashboard-site-list.png` | Webflow Dashboardのサイト一覧 | `01-getting-started/00-site-update-overview.md`, `06-dashboard-overview.md` | Booostのサイトカード、Workspace名、Dashboard画面であることが分かる構図。不要なサイトや個人情報は隠す。 |
 | A-02 | P0 | `a-02-site-card-actions.png` | 対象サイトカードの操作メニュー | `01-getting-started/06-dashboard-overview.md`, `07-editor-vs-designer.md`, `08-editor-only-recommendation.md` | Content editor入口とDesigner入口の違いが分かる状態。普段押す場所と触らない場所を説明できるようにする。 |
 | A-03 | P0 | `a-03-site-settings-left-menu.png` | Site settingsの左メニュー | `01-getting-started/06-dashboard-overview.md`, `05-settings/00-site-settings-complete-guide.md` | General、Publishing、SEO、Forms、Backupsが見える状態。請求情報は写さない。 |
 | A-04 | P1 | `a-04-invitation-and-login.png` | 招待メールまたはログイン画面 | `01-getting-started/01-invitation-email.md`, `02-create-account.md`, `03-first-login.md`, `05-reset-password.md` | 招待メールならAccept Invitation、ログイン画面ならEmail、Password、Forgot passwordが分かる状態。実メールは隠す。 |
 | A-05 | P1 | `a-05-chrome-translate-extension.png` | Chrome翻訳またはIGNITE日本語化拡張機能 | `01-getting-started/09-chrome-translate-webflow.md` | Webflow画面とChrome拡張機能メニューが同時に見える構図。日本語化が便利だと分かる状態にする。 |
-| A-06 | P0 | `a-06-morbido-workspace-overview.png` | MorbidoのWorkspace全体 | `01-getting-started/00-workspace-intro.md` | `morbido's Workspace`、対象サイトカード、Dashboardであることが分かる構図。他サイトや個人情報は隠す。 |
+| A-06 | P0 | `a-06-booost-workspace-overview.png` | BooostのWorkspace全体 | `01-getting-started/00-workspace-intro.md` | `Booost Workspace`、対象サイトカード、Dashboardであることが分かる構図。他サイトや個人情報は隠す。 |
 | A-07 | P0 | `a-07-workspace-plan-members.png` | Workspace plan / Members | `01-getting-started/00-workspace-plan.md` | 現在のWorkspace plan、メンバー数、UpgradeやPlan関連の表示。請求情報やメールアドレスは隠す。 |
 | A-08 | P0 | `a-08-site-plan-settings.png` | Site plan / Publishing設定 | `01-getting-started/00-site-plan.md` | 対象サイト名、Site settings、Site plan名または公開設定。カード情報や請求情報は写さない。 |
 | A-09 | P0 | `a-09-members-and-permissions.png` | Membersと権限 | `01-getting-started/00-add-member.md` | Invite/Add member、Role、Can publishなど権限判断に必要な列。氏名・メールは隠す。 |
@@ -49,7 +49,7 @@
 | B-06 | P0 | `b-06-publish-button-editor.png` | EditorのPublish操作 | `02-editor/08-save-and-publish.md`, `12-before-publish-checklist.md` | Publishボタン、公開前に確認すべきページ全体、保存状態が分かる状態。 |
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/09-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | `02-editor/02-open-content-editor.md`, `02-editor/00-editor-complete-guide.md` | 最新版のContent editor roleとしてcanvasを開いた状態。旧Legacy Editorの下部バーではなく、最新UIで編集可能な状態が分かる構図にする。 |
-| B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面。canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコンが分かる状態。 |
+| B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像、またはBooostサイトを最新版Content editor roleで開いたcanvas画面。canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコンが分かる状態。 |
 | B-12 | P0 | `b-12-official-content-editor-canvas.png` | 公式画像: Content editor roleのcanvas全体 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/02-open-content-editor.md` | Webflow公式Help Centerまたは公式サイトの画像を利用。canvas、編集対象ページ、Content editor roleであることが分かるUI。Legacy Editorの古い下部バーだけの画像は避ける。 |
 | B-13 | P0 | `b-13-official-content-editor-panels.png` | 公式画像: Pages / CMS / Assets / Settingsの入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像を利用。各panelの入口と位置関係が分かる画像にする。 |
 | B-14 | P0 | `b-14-official-text-editing.png` | 公式画像: 文字編集のアウトラインまたはPencilアイコン | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/03-edit-text.md` | 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコンが分かる公式画像。 |
@@ -105,7 +105,7 @@
 | C-12 | P0 | `c-12-rich-text-list-icons.png` | Rich Textのリストアイコン | `03-cms/09-bullet-list.md` | 選択中の本文、番号なしリスト、番号付きリストのアイコンが見える状態。 |
 | C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | `03-cms/20-archive-post.md` | 記事選択後、上部のArchiveボタンが見える状態。実行前に止める。 |
 | C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | `work/02-update-post.md` | CMS/Collection名、記事一覧、Newボタン。未公開記事名は必要に応じて隠す。 |
-| C-15 | P0 | `c-15-morbido-cms-fields-overview.png` | Morbido記事入力フィールド全体 | `03-cms/26-morbido-cms-field-guide.md` | Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldと、Save/Create/Publish周辺の操作ボタンが分かる状態。未公開本文や個人情報は隠す。 |
+| C-15 | P0 | `c-15-booost-cms-fields-overview.png` | Booost記事入力フィールド全体 | `03-cms/26-booost-cms-field-guide.md` | Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldと、Save/Create/Publish周辺の操作ボタンが分かる状態。未公開本文や個人情報は隠す。 |
 | C-16 | P0 | `c-16-cms-entry-with-sidebar.png` | CMS / Collections入口 | `03-cms/01-where-is-cms.md` | Content editorまたは編集画面でCMS / Collections入口、左メニュー、対象Site名が分かる状態。 |
 | C-17 | P0 | `c-17-collection-list-select-target.png` | Collection一覧から対象を選ぶ画面 | `03-cms/01-where-is-cms.md` | Blog、News、お知らせなどのCollection名とCMS見出し。未公開記事名は写さない。 |
 | C-18 | P0 | `c-18-cms-items-status-list.png` | CMS item一覧のstatus確認 | `03-cms/01-where-is-cms.md` | item一覧、Status列、Draft / Published表示、Newボタン、検索欄。社外秘タイトルは隠す。 |
@@ -193,12 +193,12 @@
 
 2026-05-18に取得した37枚のPNGは、対応する本文ページへ反映済みです。画像は `src/assets/captures/manual/` に保存しています。
 
-次回の撮影依頼用に、未撮影分だけを抜き出した依頼書を `docs/morbido-capture-request-2026-05-22.md` に作成しました。撮影担当者へ渡す場合は、まずそちらを使ってください。
+次回の撮影依頼用に、未撮影分だけを抜き出した依頼書を `docs/booost-capture-request-2026-05-22.md` に作成しました。撮影担当者へ渡す場合は、まずそちらを使ってください。
 
 今回未取得のキャプチャーは以下です。
 
 - A-04: `a-04-invitation-and-login.png`
-- A-06: `a-06-morbido-workspace-overview.png`
+- A-06: `a-06-booost-workspace-overview.png`
 - A-07: `a-07-workspace-plan-members.png`
 - A-08: `a-08-site-plan-settings.png`
 - A-09: `a-09-members-and-permissions.png`
@@ -240,7 +240,7 @@
 - C-12: `c-12-rich-text-list-icons.png`
 - C-13: `c-13-archive-button-visible.png`
 - C-14: `work-03-update-post-cms-list.png`
-- C-15: `c-15-morbido-cms-fields-overview.png`
+- C-15: `c-15-booost-cms-fields-overview.png`
 - D-05: `d-05-undo-and-unsaved-warning.png`
 - E-06: `e-06-locale-publish-and-url.png`
 - E-07: `work-06-edit-locale-selector.png`

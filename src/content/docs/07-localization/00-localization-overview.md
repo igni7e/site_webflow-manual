@@ -18,7 +18,7 @@ sidebar:
 ![Webflow公式: Localization](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c78c1f42a6c861a3f5_og-localization.jpg)
 
 :::note[公式画像]
-上の画像はWebflow公式Localizationページの画像です。Morbidoで翻訳作業をする時は、公式画像で全体像を確認し、実際の作業では現在選択中のLocaleを必ず確認してください。
+上の画像はWebflow公式Localizationページの画像です。Booostで翻訳作業をする時は、公式画像で全体像を確認し、実際の作業では現在選択中のLocaleを必ず確認してください。
 :::
 
 

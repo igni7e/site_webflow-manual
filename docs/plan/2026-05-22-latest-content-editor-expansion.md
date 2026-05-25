@@ -7,7 +7,7 @@ description: Webflow最新版Content editor roleの説明・公式画像利用�
 
 ## 目的
 
-Morbido向けWebflowマニュアルのうち、最新版Content editor roleの説明を厚くする。Webflow公式Help Centerの最新情報を確認し、初心者が「どこを見て、何を押して、どこまで触ってよいか」を判断できるページと導線を追加する。
+Booost向けWebflowマニュアルのうち、最新版Content editor roleの説明を厚くする。Webflow公式Help Centerの最新情報を確認し、初心者が「どこを見て、何を押して、どこまで触ってよいか」を判断できるページと導線を追加する。
 
 ## TODO
 

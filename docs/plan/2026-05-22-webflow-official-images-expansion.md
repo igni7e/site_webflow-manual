@@ -22,4 +22,4 @@ Webflow公式Help Centerで公開されている画像を活用し、最新版Co
 
 - Webflow Help Center本文はCloudflareで直接画像URL取得が制限されるため、Help Center画像は公式ページURLを明記した `公式画像差し込み位置` として管理する。
 - Webflow公式サイト `Create and edit website content with edit mode` から取得できるOG画像は本文に直接埋め込む。
-- 実際のMorbido画面でしか判断できない箇所は、従来どおり `src/assets/captures/manual/` に保存するキャプチャー指示として残す。
+- 実際のBooost画面でしか判断できない箇所は、従来どおり `src/assets/captures/manual/` に保存するキャプチャー指示として残す。

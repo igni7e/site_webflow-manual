@@ -18,7 +18,7 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 ![Webflow公式: CMS](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c73c5e198d61f793e6_og-cms.jpg)
 
 :::note[公式画像]
-上の画像はWebflow公式CMSページの画像です。実際のMorbido投稿画面で入力するFieldはサイトごとに異なるため、具体的な入力欄はこの章の手順と [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
+上の画像はWebflow公式CMSページの画像です。実際のBooost投稿画面で入力するFieldはサイトごとに異なるため、具体的な入力欄はこの章の手順と [C-27. Booost記事入力フィールド早見表](/03-cms/26-booost-cms-field-guide/) を確認してください。
 :::
 
 
@@ -66,7 +66,7 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 
 <strong>Name</strong> または <strong>Title</strong> には記事の正式タイトルを入れます。<strong>Slug</strong> はURLの末尾に使われる文字列です。日本語ではなく、半角英数字とハイフンで、内容が分かる短い文字列にします。
 
-Morbidoの記事投稿でSummary、Thumbnail、Categoryなどの入力欄に迷う場合は、先に [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
+Booostの記事投稿でSummary、Thumbnail、Categoryなどの入力欄に迷う場合は、先に [C-27. Booost記事入力フィールド早見表](/03-cms/26-booost-cms-field-guide/) を確認してください。
 
 例:
 
@@ -165,4 +165,4 @@ Slugは記事URLに使われます。公開後に変更するとURLが変わる�
 
 ## 次に進む
 
-実際の操作に入る場合は [CMSの場所](/03-cms/01-where-is-cms/) から進んでください。入力欄の意味を先に整理したい場合は [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
+実際の操作に入る場合は [CMSの場所](/03-cms/01-where-is-cms/) から進んでください。入力欄の意味を先に整理したい場合は [C-27. Booost記事入力フィールド早見表](/03-cms/26-booost-cms-field-guide/) を確認してください。

@@ -22,7 +22,7 @@ CMSは「決まった項目に入力して記事を作る場所」です。ペ�
 - カテゴリー
 - 公開日
 - 作業前チェック: [WORK-0. 作業前に確認すること](/work/06-before-start/)
-- 入力欄の確認: [C-27. Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/)
+- 入力欄の確認: [C-27. Booost記事入力フィールド早見表](/03-cms/26-booost-cms-field-guide/)
 - 参考ページ: [C-1. ブログ記事を新規投稿する完全ガイド](/03-cms/00-blog-post-complete-guide/)
 - 画面の見方: [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/)
 
@@ -62,7 +62,7 @@ CMSは「決まった項目に入力して記事を作る場所」です。ペ�
 
 ### Q. SummaryやSlugなど、どこに何を入れるか分かりません
 
-[Morbido記事入力フィールド早見表](/03-cms/26-morbido-cms-field-guide/) を確認してください。
+[Booost記事入力フィールド早見表](/03-cms/26-booost-cms-field-guide/) を確認してください。
 
 ### Q. 公開前に何を確認すればよいですか
 

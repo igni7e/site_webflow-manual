@@ -19,7 +19,7 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
 ![Webflow公式: Next-gen CMS](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/69d6ae8aa741ebac229650fc_NEXTGEN%20CMS_BlogInline_1280x720.png)
 
 :::note[公式画像]
-上の画像はWebflow公式UpdatesのNext-gen CMSに関する画像です。実際のMorbido画面では、Collection名や入力Fieldが異なるため、画面上の項目名を確認してから入力します。
+上の画像はWebflow公式UpdatesのNext-gen CMSに関する画像です。実際のBooost画面では、Collection名や入力Fieldが異なるため、画面上の項目名を確認してから入力します。
 :::
 
 ---

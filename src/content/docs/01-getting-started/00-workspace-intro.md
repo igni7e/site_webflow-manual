@@ -17,13 +17,13 @@ Workspaceは会社やチームの入れ物。Siteはその中にある個別のW
 
 ## 概要
 
-Workspaceは、Webflowで複数のサイト、メンバー、権限、プランをまとめて管理する単位です。Morbidoの場合は `morbido's Workspace` の中に `Morbido JA Site` などのサイトが入っている、という見方をします。
+Workspaceは、Webflowで複数のサイト、メンバー、権限、プランをまとめて管理する単位です。Booostの場合は `Booost Workspace` の中に `Booost JA Site` などのサイトが入っている、という見方をします。
 
 サイトを更新する時は、まず「どのWorkspaceの、どのサイトを開いているか」を確認すると迷いにくくなります。
 
 :::note[キャプチャー指示]
-撮影する画面: Webflow Dashboardで `morbido's Workspace` と対象サイトカードが見えている画面。
-保存ファイル名: `a-06-morbido-workspace-overview.png`
+撮影する画面: Webflow Dashboardで `Booost Workspace` と対象サイトカードが見えている画面。
+保存ファイル名: `a-06-booost-workspace-overview.png`
 撮影直前の状態: Dashboardの読み込み完了後、Workspace名とサイトカードが表示されている状態。
 必ず写すもの: Workspace名、対象サイト名、サイトカード、Dashboardであることが分かる左メニューまたは上部UI。
 写さないもの: 個人メールアドレス、他社サイト名、請求情報、不要な通知。

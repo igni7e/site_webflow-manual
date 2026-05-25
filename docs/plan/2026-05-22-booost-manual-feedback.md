@@ -1,9 +1,9 @@
 ---
-title: Morbido Webflowマニュアル改善 2026-05-22 実装TODO
-description: Morbido向けWebflow更新マニュアルのフィードバック反映計画。
+title: Booost Webflowマニュアル改善 2026-05-22 実装TODO
+description: Booost向けWebflow更新マニュアルのフィードバック反映計画。
 ---
 
-# Morbido Webflowマニュアル改善 2026-05-22 実装TODO
+# Booost Webflowマニュアル改善 2026-05-22 実装TODO
 
 ## 方針
 

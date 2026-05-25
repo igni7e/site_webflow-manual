@@ -70,7 +70,7 @@ Webflowが開いたら、すぐに編集を始めず、次の順番で確認し�
 5. Publish権限がある場合も、公開前チェックを済ませてからPublishします。
 
 :::tip[公式画像を使う場合]
-最新版UIの説明画像は、Webflow公式Help CenterのContent editor roleページや [B-14. 公式画像で見るContent Editor操作](/02-editor/14-official-content-editor-image-reference/) を参考にして構いません。Morbido画面で撮り直す場合は、個人情報や未公開ページが写らないようにしてください。
+最新版UIの説明画像は、Webflow公式Help CenterのContent editor roleページや [B-14. 公式画像で見るContent Editor操作](/02-editor/14-official-content-editor-image-reference/) を参考にして構いません。Booost画面で撮り直す場合は、個人情報や未公開ページが写らないようにしてください。
 :::
 
 :::note[旧版の画面が表示される場合]

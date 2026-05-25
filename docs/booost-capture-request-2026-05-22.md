@@ -1,15 +1,15 @@
 ---
-title: "Morbido Webflowマニュアル 追加キャプチャー撮影依頼 2026-05-22"
-description: "Morbido向けWebflow更新マニュアルで追加撮影が必要な未撮影キャプチャーの依頼リスト。"
+title: "Booost Webflowマニュアル 追加キャプチャー撮影依頼 2026-05-22"
+description: "Booost向けWebflow更新マニュアルで追加撮影が必要な未撮影キャプチャーの依頼リスト。"
 sidebar:
   order: 2
 ---
 
-# Morbido Webflowマニュアル 追加キャプチャー撮影依頼 2026-05-22
+# Booost Webflowマニュアル 追加キャプチャー撮影依頼 2026-05-22
 
 ## 目的
 
-Morbido向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補28枚を確認してください。
+Booost向けWebflow更新マニュアルに差し込む追加キャプチャーと公式画像を整理します。既に撮影済みの37枚は対象外です。この依頼では、未撮影の22枚に加えて、Webflow公式画像候補28枚を確認してください。
 
 ## 保存先
 
@@ -37,26 +37,26 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 
 | ID | 優先 | 保存ファイル名 | 撮影する画面 | 撮影直前の状態 | 必ず写すもの | 写さないもの |
 | --- | --- | --- | --- | --- | --- | --- |
-| A-06 | P0 | `a-06-morbido-workspace-overview.png` | MorbidoのWorkspace全体 | Webflow Dashboardで `morbido's Workspace` と対象サイトカードが見えている状態 | Workspace名、対象サイト名、サイトカード、Dashboardであることが分かる左メニューまたは上部UI | 個人メールアドレス、他社サイト名、請求情報、不要な通知 |
+| A-06 | P0 | `a-06-booost-workspace-overview.png` | BooostのWorkspace全体 | Webflow Dashboardで `Booost Workspace` と対象サイトカードが見えている状態 | Workspace名、対象サイト名、サイトカード、Dashboardであることが分かる左メニューまたは上部UI | 個人メールアドレス、他社サイト名、請求情報、不要な通知 |
 | A-07 | P0 | `a-07-workspace-plan-members.png` | Workspace plan / Members | WebflowのWorkspace planまたはMembers付近で、現在のプランとメンバー数が分かる状態 | Workspace plan、メンバー数、UpgradeやPlan関連の表示 | 請求先、カード情報、個人メールアドレス、料金明細の詳細 |
 | A-08 | P0 | `a-08-site-plan-settings.png` | Site plan / Publishing設定 | Site settings内のPlansまたはPublishing周辺で、Site planやCMS Hosting / Business planが分かる状態 | 対象サイト名、Site settingsであること、Site plan名または公開設定 | 請求情報、カード情報、他サイトの情報 |
 | A-09 | P0 | `a-09-members-and-permissions.png` | Membersと権限 | WorkspaceまたはSite settingsのMembers画面 | Invite/Add memberボタン、Role、Can publishなど権限判断に必要な列 | 氏名、メールアドレス、個人アイコン、他社メンバー情報 |
 | A-10 | P0 | `a-10-open-site-from-dashboard.png` | Dashboardからサイト修正画面に入る入口 | Dashboardで対象サイトカードにカーソルを合わせ、Open in Webflowまたは編集入口が見えている状態 | 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口 | 他サイト名、個人情報、通知、請求情報 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | 最新版のContent editor roleでサイトを開いた直後のcanvas画面 | 最新UIであることが分かる上部または周辺UI、編集可能なページ、対象サイト名 | 未公開ページ、個人情報、通知、他社サイト情報 |
-| B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面 | canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン | 未公開ページ、個人情報、通知、他社サイト情報 |
+| B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | Webflow公式Help CenterのContent editor role説明画像、またはBooostサイトを最新版Content editor roleで開いたcanvas画面 | canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン | 未公開ページ、個人情報、通知、他社サイト情報 |
 | B-12 | P0 | `b-12-official-content-editor-canvas.png` | 公式画像: Content editor roleのcanvas全体 | Webflow公式Help Centerまたは公式サイトのContent Editor説明画像を確認した状態 | canvas、編集対象ページ、Content editor roleであることが分かるUI | Legacy Editorの古い下部バーだけの画像、個人情報、未公開ページ |
 | B-13 | P0 | `b-13-official-content-editor-panels.png` | 公式画像: Pages / CMS / Assets / Settingsの入口 | Webflow公式Help CenterのContent editor role説明画像を確認した状態 | Pages、CMS、Assets、Settingsなどの入口と画面全体の位置関係 | 入口だけの極端な拡大、ロード中のUI、通知 |
-| B-14 | P0 | `b-14-official-text-editing.png` | 公式画像: 文字編集のアウトラインまたはPencilアイコン | 公式画像またはMorbido画面でテキストにカーソルを合わせた状態 | 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコン | デザイン編集パネル中心の画面、未公開本文、個人情報 |
-| B-15 | P0 | `b-15-official-image-replace.png` | 公式画像: 画像差し替えの入口 | 公式画像またはMorbido画面で画像編集入口が見えている状態 | 対象画像、画像編集アイコン、AssetsまたはUploadに進める入口 | 著作権不明の画像、個人情報、未公開素材 |
-| B-16 | P0 | `b-16-official-link-editing.png` | 公式画像: リンク編集の入口 | 公式画像またはMorbido画面でリンク設定入口が見えている状態 | Link設定、URL入力欄、新しいタブ設定 | 実在する非公開URL、ログイン情報、外部サービス管理画面 |
-| B-17 | P0 | `b-17-official-publish-flow.png` | 公式画像: Publish前の確認画面 | 公式画像またはMorbido画面でPublish前確認が見えている状態 | Publishボタン、公開対象、公開前確認の文脈 | 実際にPublish完了してしまった後だけの画面、公開してはいけないドメイン |
+| B-14 | P0 | `b-14-official-text-editing.png` | 公式画像: 文字編集のアウトラインまたはPencilアイコン | 公式画像またはBooost画面でテキストにカーソルを合わせた状態 | 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコン | デザイン編集パネル中心の画面、未公開本文、個人情報 |
+| B-15 | P0 | `b-15-official-image-replace.png` | 公式画像: 画像差し替えの入口 | 公式画像またはBooost画面で画像編集入口が見えている状態 | 対象画像、画像編集アイコン、AssetsまたはUploadに進める入口 | 著作権不明の画像、個人情報、未公開素材 |
+| B-16 | P0 | `b-16-official-link-editing.png` | 公式画像: リンク編集の入口 | 公式画像またはBooost画面でリンク設定入口が見えている状態 | Link設定、URL入力欄、新しいタブ設定 | 実在する非公開URL、ログイン情報、外部サービス管理画面 |
+| B-17 | P0 | `b-17-official-publish-flow.png` | 公式画像: Publish前の確認画面 | 公式画像またはBooost画面でPublish前確認が見えている状態 | Publishボタン、公開対象、公開前確認の文脈 | 実際にPublish完了してしまった後だけの画面、公開してはいけないドメイン |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | 対象サイトカードからContent editor roleを開く直前のDashboard | 対象サイトカード、編集入口、Workspace名 | 他サイト名、メールアドレス、通知 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | 画像にカーソルを合わせ、画像編集アイコンが出ている状態 | 差し替え対象画像、画像編集アイコン、周辺の見出し | 未公開画像、個人情報、不要な管理画面通知 |
 | C-11 | P0 | `c-11-category-dropdown-open.png` | Categoryフィールドのドロップダウン | CMS記事編集画面で `Category` フィールドのドロップダウンを開いた状態 | `Category` フィールド、`Pick a Category...`、選択肢、記事編集画面であることが分かる周辺UI | 未公開記事名、個人情報、不要な本文、他社情報 |
 | C-12 | P0 | `c-12-rich-text-list-icons.png` | Rich Textのリストアイコン | Rich Text本文欄でテキストを選択し、番号なしリストと番号付きリストのアイコンが見えている状態 | 選択中の本文、番号なしリストアイコン、番号付きリストアイコン、Rich Text欄 | 未公開本文、個人情報、不要な管理画面通知 |
 | C-13 | P0 | `c-13-archive-button-visible.png` | CMS一覧のArchiveボタン | CMS記事一覧で記事にチェックを入れ、上部に `Archive` ボタンが表示された状態 | 選択済みチェックボックス、上部の `Archive` ボタン、記事一覧であることが分かるUI | 未公開記事名、個人情報、不要な本文、他社情報 |
 | C-14 | P0 | `work-03-update-post-cms-list.png` | CMS記事一覧から投稿を始める画面 | CMS記事一覧で `New` ボタンと記事一覧が見えている状態 | CMS/Collection名、記事一覧、Newボタン | 未公開記事名、個人名、機密情報 |
-| C-15 | P0 | `c-15-morbido-cms-fields-overview.png` | Morbido記事入力フィールド全体 | MorbidoのCMS記事編集画面で、個人情報や未公開本文が見えないようにした状態 | Title、Slug、Summary、Thumbnail、Bodyなど主要Field、Save/Create/Publish周辺の操作ボタン | 未公開記事本文、個人情報、社外秘の画像、他社情報 |
+| C-15 | P0 | `c-15-booost-cms-fields-overview.png` | Booost記事入力フィールド全体 | BooostのCMS記事編集画面で、個人情報や未公開本文が見えないようにした状態 | Title、Slug、Summary、Thumbnail、Bodyなど主要Field、Save/Create/Publish周辺の操作ボタン | 未公開記事本文、個人情報、社外秘の画像、他社情報 |
 | E-06 | P0 | `e-06-locale-publish-and-url.png` | Locale公開と公開URL確認 | Publishモーダル、または公開後のLocale URLが分かる画面を開いた状態 | 公開対象Locale、Publishモーダル、公開後の `/en` などのURL | 未公開ページ、個人情報、他社サイト情報 |
 | E-07 | P0 | `work-06-edit-locale-selector.png` | Locale selectorで対象言語を確認する画面 | Locale selectorでPrimary / Secondary localeが見えている状態 | Locale selector、現在のLocale、対象ページの見出し | 未公開ページ、個人情報、他社サイト情報 |
 | F-06 | P0 | `work-04-edit-seo-settings.png` | 作業ベースSEO設定画面 | SEO titleとmeta descriptionの入力欄が見えている設定画面 | Title tag、Meta description、対象ページ名 | 非公開ページ名、個人情報、APIキー、請求情報 |
@@ -73,8 +73,8 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | Content Editorで未公開変更を作り、Discard確認画面を出した状態 | Discard、Cancelなどの判断ボタン | 実際に破棄して困る変更、個人情報、通知 |
 | B-18 | P1 | `b-18-official-update-shortcut.png` | 公式画像: `?update` で直接編集画面を開く導線 | 公式Help CenterのShortcut説明、または公開サイトURL末尾に `?update` を付けた状態 | URL末尾の `?update`、編集画面への導線 | 非公開URL、個人情報、他社サイト情報 |
 | B-19 | P1 | `b-19-official-legacy-vs-content-editor.png` | 公式画像: Legacy Editorと最新版Content Editorの違い | 公式Help Centerの比較説明を確認した状態 | Legacy Editorと最新版Content Editorの違いが説明できる画像 | 旧画面だけで最新版UIと誤解される画像 |
-| B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | 公式画像またはMorbido CMSで、CMS fieldsが見えている状態 | CMS fields、preview、publishの流れ | 未公開記事本文、個人情報、社外秘画像 |
-| B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | 公式画像またはMorbido設定画面でSEO / OGPが見えている状態 | Page title、Meta description、Open Graph設定 | APIキー、非公開ページ名、請求情報 |
+| B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | 公式画像またはBooost CMSで、CMS fieldsが見えている状態 | CMS fields、preview、publishの流れ | 未公開記事本文、個人情報、社外秘画像 |
+| B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | 公式画像またはBooost設定画面でSEO / OGPが見えている状態 | Page title、Meta description、Open Graph設定 | APIキー、非公開ページ名、請求情報 |
 | B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | 公式Help Centerのrole説明、または権限画面を開いた状態 | Content editor role、Can publish、権限範囲 | 氏名、メールアドレス、請求情報 |
 | B-23 | P1 | `b-23-official-cms-overview.png` | 公式画像: CMS機能の概要 | Webflow公式CMSページの画像を確認した状態 | CMSで構造化コンテンツを管理する全体像 | Webflow製品外のCMS画像、古いUIだけの画像 |
 | B-24 | P1 | `b-24-official-cms-draft-publishing.png` | 公式画像: CMS下書き・公開ワークフロー | Webflow公式UpdatesのCMS Drafting and Publishing画像を確認した状態 | Draft changes、個別公開、公開前確認の文脈 | 公開してはいけないドメイン、未公開記事本文 |
@@ -82,7 +82,7 @@ Morbido向けWebflow更新マニュアルに差し込む追加キャプチャー
 | B-26 | P1 | `b-26-official-cms-bulk-publishing.png` | 公式画像: CMS一括公開・一括非公開 | Webflow公式UpdatesのBulk publishing画像を確認した状態 | 複数CMS itemをまとめて扱う操作の文脈 | 誤って本番itemを公開する操作 |
 | B-27 | P1 | `b-27-official-cms-item-creation.png` | 公式画像: CMS item作成改善 | Webflow公式UpdatesのCMS item creation画像を確認した状態 | CMS item作成や編集の流れ | 未公開記事本文、個人情報 |
 | B-28 | P1 | `b-28-official-seo-overview.png` | 公式画像: SEO機能の概要 | Webflow公式SEOページの画像を確認した状態 | SEO title、meta description、Open Graphの文脈 | 外部SEOツール管理画面、実在する未公開検索結果 |
-| B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | Webflow公式Localizationページの画像を確認した状態 | Locale、翻訳、地域別コンテンツの文脈 | Morbido以外の顧客名が主役になる画像 |
+| B-29 | P1 | `b-29-official-localization-overview.png` | 公式画像: Localization機能の概要 | Webflow公式Localizationページの画像を確認した状態 | Locale、翻訳、地域別コンテンツの文脈 | Booost以外の顧客名が主役になる画像 |
 | B-30 | P1 | `b-30-official-collaboration-overview.png` | 公式画像: チーム編集・コメント・権限 | Webflow公式Collaborationページの画像を確認した状態 | コメント、権限、チームで安全に作業する文脈 | 氏名、メールアドレス、請求情報 |
 | B-31 | P1 | `b-31-official-single-page-publishing.png` | 公式画像: 1ページだけPublishする考え方 | Webflow公式Single page publishing画像、またはPublish確認画面を開いた状態 | Publish対象ページ、公開先、実行前で止めていること | 他社ドメイン、未公開ページ名、個人情報、通知 |
 | B-32 | P1 | `b-32-official-single-page-publishing-access.png` | 公式画像: 1ページ公開権限 | Webflow公式Single page publishing access画像、またはRole/permissions画面を開いた状態 | Role、Can publish、公開権限のON/OFF | 氏名、メールアドレス、請求情報、他社メンバー |

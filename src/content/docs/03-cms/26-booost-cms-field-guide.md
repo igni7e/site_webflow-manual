@@ -1,14 +1,14 @@
 ---
-title: "C-27. Morbido記事入力フィールド早見表"
-description: "Morbidoのブログ・お知らせ投稿で入力するTitle、Slug、Summary、画像、本文などの項目を初心者向けに整理します。"
+title: "C-27. Booost記事入力フィールド早見表"
+description: "Booostのブログ・お知らせ投稿で入力するTitle、Slug、Summary、画像、本文などの項目を初心者向けに整理します。"
 sidebar:
   order: 26
-  label: "C-27. Morbido記事入力フィールド早見表"
+  label: "C-27. Booost記事入力フィールド早見表"
 ---
 
-# C-27. Morbido記事入力フィールド早見表
+# C-27. Booost記事入力フィールド早見表
 
-![Morbido Fieldの見方の図解](../../../assets/ai-diagrams/manual/morbido-cms-field-guide.png)
+![Booost Fieldの見方の図解](../../../assets/ai-diagrams/manual/booost-cms-field-guide.png)
 
 :::note[図解の見方]
 どこに表示されるFieldか確認してから入力します。
@@ -17,13 +17,13 @@ sidebar:
 
 ## こんなときに使います
 
-Morbidoのブログやお知らせを作成する時に、CMS画面の入力欄を見て「どこに何を入れるのか」が分からなくなった場合に使います。
+Booostのブログやお知らせを作成する時に、CMS画面の入力欄を見て「どこに何を入れるのか」が分からなくなった場合に使います。
 
-CMSの項目名はサイトごとに少し違います。このページでは、Morbidoの記事投稿で迷いやすい項目を、初心者向けにまとめます。
+CMSの項目名はサイトごとに少し違います。このページでは、Booostの記事投稿で迷いやすい項目を、初心者向けにまとめます。
 
 :::note[キャプチャー指示]
-撮影する画面: MorbidoのCMS記事編集画面で、Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldが縦に見えている状態。
-保存ファイル名: `c-15-morbido-cms-fields-overview.png`
+撮影する画面: BooostのCMS記事編集画面で、Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldが縦に見えている状態。
+保存ファイル名: `c-15-booost-cms-fields-overview.png`
 撮影直前の状態: 新規記事またはテスト記事の編集画面を開き、個人情報や未公開本文が見えないようにした状態。
 必ず写すもの: CMS記事編集画面であること、主要Field名、Save/Create/Publish周辺の操作ボタン。
 写さないもの: 未公開記事本文、個人情報、社外秘の画像、他社情報。

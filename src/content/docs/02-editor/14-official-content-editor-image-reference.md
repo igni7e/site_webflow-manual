@@ -8,7 +8,7 @@ sidebar:
 
 # B-14. 公式画像で見るContent Editor操作
 
-このページは、Webflow公式サイト、公式Updates、公式Help Centerの画像をマニュアル内に追加するための整理ページです。公式画像を使う場合も、Morbido固有のサイト名、未公開ページ、個人情報が写る画面は避けてください。
+このページは、Webflow公式サイト、公式Updates、公式Help Centerの画像をマニュアル内に追加するための整理ページです。公式画像を使う場合も、Booost固有のサイト名、未公開ページ、個人情報が写る画面は避けてください。
 
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
 
@@ -171,8 +171,8 @@ sidebar:
 Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Assets / Publishの位置関係を説明する場合は、公式画像を使うと読者が最新版UIを理解しやすくなります。
 :::
 
-:::caution[Morbido画面を優先する場面]
-対象サイト名、Morbido固有のCollection名、実際に押すサイトカード、実際の投稿Fieldなどを説明する場合は、公式画像ではなくMorbido画面のキャプチャーを使ってください。個人情報、未公開記事、問い合わせ本文、請求情報は必ず隠します。
+:::caution[Booost画面を優先する場面]
+対象サイト名、Booost固有のCollection名、実際に押すサイトカード、実際の投稿Fieldなどを説明する場合は、公式画像ではなくBooost画面のキャプチャーを使ってください。個人情報、未公開記事、問い合わせ本文、請求情報は必ず隠します。
 :::
 
 ## 公式画像差し込み位置
@@ -264,7 +264,7 @@ Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Asset
 保存ファイル名: `b-29-official-localization-overview.png`
 差し込み先: `07-localization/00-localization-overview.md`
 必ず見せるもの: Locale、翻訳、地域別コンテンツの文脈。
-避けるもの: Morbido以外の顧客名が主役になる画像、翻訳前後の意味が分からない画像。
+避けるもの: Booost以外の顧客名が主役になる画像、翻訳前後の意味が分からない画像。
 :::
 
 ### Collaboration公式画像

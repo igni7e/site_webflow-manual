@@ -22,7 +22,7 @@ Webflowを最新版のContent editor roleで開いた後、画面のどこを見
 最新版のContent Editorは、旧Legacy Editorとは違い、Webflowのcanvas上で文章、画像、リンク、CMS記事、Assets、ページ設定の一部を扱えます。ただし、デザインや構造を作り替える画面ではありません。
 
 :::note[公式画像またはキャプチャー指示]
-撮影する画面: Webflow公式Help CenterのContent editor role説明画像、またはMorbidoサイトを最新版Content editor roleで開いたcanvas画面。
+撮影する画面: Webflow公式Help CenterのContent editor role説明画像、またはBooostサイトを最新版Content editor roleで開いたcanvas画面。
 保存ファイル名: `b-09-latest-content-editor-screen-guide.png`
 撮影直前の状態: Webflow canvasが読み込み完了し、編集できるテキストや画像にカーソルを合わせられる状態。
 必ず写すもの: canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン。
@@ -32,7 +32,7 @@ Webflowを最新版のContent editor roleで開いた後、画面のどこを見
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
 
 :::tip[公式画像を追加する場合]
-Content Editorの画面説明を増やす場合は、[B-14. 公式画像で見るContent Editor操作](/02-editor/14-official-content-editor-image-reference/) の差し込み位置リストを使ってください。公式画像で一般的なUIを説明し、Morbido固有の画面は別途キャプチャーで補う構成にします。
+Content Editorの画面説明を増やす場合は、[B-14. 公式画像で見るContent Editor操作](/02-editor/14-official-content-editor-image-reference/) の差し込み位置リストを使ってください。公式画像で一般的なUIを説明し、Booost固有の画面は別途キャプチャーで補う構成にします。
 :::
 
 ## 最新Content Editorでできること

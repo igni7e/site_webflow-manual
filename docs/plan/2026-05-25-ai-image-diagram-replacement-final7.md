@@ -15,7 +15,7 @@ description: "残っているPython生成図解7件をAI生成画像へ差し替
 
 - [x] 残り7件の参照先と用途を確認する
 - [x] Webflow用語・初回ログイン確認のAI生成画像を作成する
-- [x] Morbido CMS Field・検索表示制御のAI生成画像を作成する
+- [x] Booost CMS Field・検索表示制御のAI生成画像を作成する
 - [x] 画像アップロード・404・保守依頼のAI生成画像を作成する
 - [x] 対象ページの画像参照をAI生成画像に差し替える
 - [x] `docs/diagram-inventory-2026-05-22.md` に差し替えメモを追記する

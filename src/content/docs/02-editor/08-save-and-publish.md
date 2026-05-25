@@ -19,7 +19,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 ![Webflow公式: Single page publishing](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/69cbe15f8eb7ceaa36d45986_updates_hero-thumbnail.png)
 
 :::note[公式画像]
-上の画像はWebflow公式UpdatesのSingle page publishingに関する画像です。MorbidoでPublishする場合は、公開対象ページと公開先ドメインを確認してから進めてください。
+上の画像はWebflow公式UpdatesのSingle page publishingに関する画像です。BooostでPublishする場合は、公開対象ページと公開先ドメインを確認してから進めてください。
 :::
 
 これまで行ってきた文字の修正や画像の差し替えは、この「公開（Publish）」という操作を完了して初めて、一般のサイト訪問者が見るWebサイトに反映されます。ただし、PublishできるかどうかはSite roleと <strong>Can publish</strong> 設定によって変わります。

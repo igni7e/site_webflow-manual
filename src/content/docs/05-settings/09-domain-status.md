@@ -18,7 +18,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 ![Webflow公式: Hosting](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c75e4868b2e2e713de_og-hosting.jpg)
 
 :::note[公式画像]
-上の画像はWebflow公式Hostingページの画像です。Morbidoで確認する時は、公式画像で全体像をつかみ、実際のDomain / SSL状態はWebflowのPublishing設定で確認してください。
+上の画像はWebflow公式Hostingページの画像です。Booostで確認する時は、公式画像で全体像をつかみ、実際のDomain / SSL状態はWebflowのPublishing設定で確認してください。
 :::
 
 

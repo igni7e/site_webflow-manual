@@ -18,8 +18,8 @@ Webflowで何かを変更する前に、どの画面を開くべきか、どこ�
 
 | 確認すること | 見る場所 | 判断 |
 | --- | --- | --- |
-| 正しいWorkspaceか | Dashboard左上や上部 | `morbido's Workspace` など、対象のWorkspaceになっているか確認します |
-| 正しいサイトか | Dashboardのサイトカード | `Morbido JA Site` など、更新対象のサイト名を確認します |
+| 正しいWorkspaceか | Dashboard左上や上部 | `Booost Workspace` など、対象のWorkspaceになっているか確認します |
+| 正しいサイトか | Dashboardのサイトカード | `Booost JA Site` など、更新対象のサイト名を確認します |
 | 作業内容が合っているか | このマニュアルのWORKページ | テキスト、画像、CMS、SEO、フォーム、Localeのどれかを選びます |
 | Publishしてよいか | 作業前の社内確認 | 公開してよい内容か、必要に応じて社内確認を取ります |
 

@@ -45,7 +45,7 @@ Pythonで生成したSVG図解を `src/assets/diagrams/manual/` に保存し、�
 | `diagram-42-locale.svg`, `diagram-43-primary-secondary-locale.svg`, `diagram-44-diagram.svg`, `diagram-45-cms-locale.svg`, `diagram-46-locale-seo-ogp.svg` | `src/assets/ai-diagrams/manual/localization-workflow.png` | `07-localization/*` | Primary Locale、Secondary Locale、静的ページ、CMS、SEO/OGPの翻訳範囲をまとめて見せるため。 |
 | `diagram-10-webflow.svg` | `src/assets/ai-diagrams/manual/webflow-ui-terms-map.png` | `01-getting-started/10-webflow-ui-glossary.md` | Dashboard、Content editor role、Designer、CMS、Site settingsの関係を見せるため。 |
 | `diagram-09-diagram.svg` | `src/assets/ai-diagrams/manual/dashboard-first-check-flow.png` | `01-getting-started/11-after-login-first-steps.md` | ログイン直後に確認するWorkspace、Site、開く入口、押さないボタンを見せるため。 |
-| `diagram-29-morbido-field.svg` | `src/assets/ai-diagrams/manual/morbido-cms-field-guide.png` | `03-cms/26-morbido-cms-field-guide.md` | Morbido記事入力Fieldと表示先の関係を見せるため。 |
+| `diagram-29-booost-field.svg` | `src/assets/ai-diagrams/manual/booost-cms-field-guide.png` | `03-cms/26-booost-cms-field-guide.md` | Booost記事入力Fieldと表示先の関係を見せるため。 |
 | `diagram-41-sitemap-noindex.svg` | `src/assets/ai-diagrams/manual/sitemap-noindex-control.png` | `05-settings/10-search-engine-control.md` | sitemap.xml、noindex、robots.txt、Search Consoleの役割を見せるため。 |
 | `diagram-48-diagram.svg` | `src/assets/ai-diagrams/manual/image-upload-troubleshooting.png` | `06-troubleshooting/02-image-upload-failed.md` | 画像アップロード失敗時の原因切り分けを見せるため。 |
 | `diagram-49-404.svg` | `src/assets/ai-diagrams/manual/404-not-found-causes.png` | `06-troubleshooting/04-404-not-found.md` | URLミス、Slug変更、CMS status、公開先違いによる404を見せるため。 |
@@ -81,7 +81,7 @@ Pythonで生成したSVG図解を `src/assets/diagrams/manual/` に保存し、�
 | diagram-26 | `diagram-26-diagram.svg` | `03-cms/18-edit-published.md` | 公開済み修正 |
 | diagram-27 | `diagram-27-diagram.svg` | `03-cms/19-unpublish.md` | 非公開 |
 | diagram-28 | `diagram-28-cms.svg` | `03-cms/25-cms-before-publish-checklist.md` | 公開前 |
-| diagram-29 | `diagram-29-morbido-field.svg` | `03-cms/26-morbido-cms-field-guide.md` | Morbido Fields |
+| diagram-29 | `diagram-29-booost-field.svg` | `03-cms/26-booost-cms-field-guide.md` | Booost Fields |
 | diagram-30 | `diagram-30-diagram.svg` | `03-cms/13-body-link.md` | 本文リンク |
 | diagram-31 | `diagram-31-designer.svg` | `04-designer/01-designer-warning.md` | Designer注意 |
 | diagram-32 | `diagram-32-designer.svg` | `04-designer/02-edit-homepage-text.md` | Designer画面 |

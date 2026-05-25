@@ -93,7 +93,7 @@ DIAGRAMS: list[Diagram] = [
     Diagram("diagram-26", "公開済み記事の修正", "公開済み記事は保存が公開に近い意味になる場合があります。", "03-cms/18-edit-published.md", "公開済み修正", ("Published", "Edit", "Save", "Live確認"), "公開済み記事は変更後の反映タイミングに注意します。", "#8A4B5B"),
     Diagram("diagram-27", "非公開・アーカイブ・削除", "似ている操作でも影響が違います。", "03-cms/19-unpublish.md", "非公開", ("Unpublish", "Archive", "Delete", "Restore相談"), "削除は最終手段。迷ったらArchiveや相談を優先します。", "#2F5F73"),
     Diagram("diagram-28", "CMS公開前チェック", "公開前に見る場所をまとめます。", "03-cms/25-cms-before-publish-checklist.md", "公開前", ("詳細ページ", "一覧", "スマホ", "SNS表示"), "記事は複数箇所に出るため、一覧も確認します。", "#784F7A"),
-    Diagram("diagram-29", "Morbido Fieldの見方", "入力Fieldは表示場所と対応しています。", "03-cms/26-morbido-cms-field-guide.md", "Morbido Fields", ("Title", "Summary", "Thumbnail", "Body"), "どこに表示されるFieldか確認してから入力します。", "#526D33"),
+    Diagram("diagram-29", "Booost Fieldの見方", "入力Fieldは表示場所と対応しています。", "03-cms/26-booost-cms-field-guide.md", "Booost Fields", ("Title", "Summary", "Thumbnail", "Body"), "どこに表示されるFieldか確認してから入力します。", "#526D33"),
     Diagram("diagram-30", "本文リンクと外部リンク", "本文中リンクは公開後クリック確認します。", "03-cms/13-body-link.md", "本文リンク", ("文字選択", "リンク設定", "新規タブ", "クリック確認"), "リンク切れは公開前に必ず潰します。", "#A05A36"),
     Diagram("diagram-31", "Designerを開く前の判断", "Designerは最終手段として扱います。", "04-designer/01-designer-warning.md", "Designer注意", ("目的確認", "バックアップ", "対象だけ編集", "相談"), "目的が曖昧なら開かない方が安全です。", "#315C8A"),
     Diagram("diagram-32", "Designer画面の三層", "左、中央、右の役割を分けます。", "04-designer/02-edit-homepage-text.md", "Designer画面", ("Navigator", "Canvas", "Style panel", "Publish"), "中央だけでなく左右の設定にも影響が出ます。", "#596B2D"),
