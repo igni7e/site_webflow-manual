@@ -8,7 +8,7 @@ sidebar:
 
 # C-27. Morbido記事入力フィールド早見表
 
-![Morbido Fieldの見方の図解](../../../assets/diagrams/manual/diagram-29-morbido-field.svg)
+![Morbido Fieldの見方の図解](../../../assets/ai-diagrams/manual/morbido-cms-field-guide.png)
 
 :::note[図解の見方]
 どこに表示されるFieldか確認してから入力します。

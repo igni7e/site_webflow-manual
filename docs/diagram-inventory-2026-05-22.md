@@ -43,6 +43,13 @@ Pythonで生成したSVG図解を `src/assets/diagrams/manual/` に保存し、�
 | `diagram-35-seo-title.svg`, `diagram-36-meta-description.svg`, `diagram-37-ogp.svg` | `src/assets/ai-diagrams/manual/seo-meta-ogp-settings.png` | `05-settings/01-seo-title.md`, `05-settings/02-seo-description.md`, `05-settings/03-ogp-image.md` | SEO title、Meta description、OGP画像の表示先をまとめて見せるため。 |
 | `diagram-38-forms.svg`, `diagram-39-csv.svg` | `src/assets/ai-diagrams/manual/forms-csv-privacy.png` | `05-settings/04-form-submissions.md`, `05-settings/06-form-csv-download.md` | Form submissionsとCSV exportで個人情報を扱う注意点を見せるため。 |
 | `diagram-42-locale.svg`, `diagram-43-primary-secondary-locale.svg`, `diagram-44-diagram.svg`, `diagram-45-cms-locale.svg`, `diagram-46-locale-seo-ogp.svg` | `src/assets/ai-diagrams/manual/localization-workflow.png` | `07-localization/*` | Primary Locale、Secondary Locale、静的ページ、CMS、SEO/OGPの翻訳範囲をまとめて見せるため。 |
+| `diagram-10-webflow.svg` | `src/assets/ai-diagrams/manual/webflow-ui-terms-map.png` | `01-getting-started/10-webflow-ui-glossary.md` | Dashboard、Content editor role、Designer、CMS、Site settingsの関係を見せるため。 |
+| `diagram-09-diagram.svg` | `src/assets/ai-diagrams/manual/dashboard-first-check-flow.png` | `01-getting-started/11-after-login-first-steps.md` | ログイン直後に確認するWorkspace、Site、開く入口、押さないボタンを見せるため。 |
+| `diagram-29-morbido-field.svg` | `src/assets/ai-diagrams/manual/morbido-cms-field-guide.png` | `03-cms/26-morbido-cms-field-guide.md` | Morbido記事入力Fieldと表示先の関係を見せるため。 |
+| `diagram-41-sitemap-noindex.svg` | `src/assets/ai-diagrams/manual/sitemap-noindex-control.png` | `05-settings/10-search-engine-control.md` | sitemap.xml、noindex、robots.txt、Search Consoleの役割を見せるため。 |
+| `diagram-48-diagram.svg` | `src/assets/ai-diagrams/manual/image-upload-troubleshooting.png` | `06-troubleshooting/02-image-upload-failed.md` | 画像アップロード失敗時の原因切り分けを見せるため。 |
+| `diagram-49-404.svg` | `src/assets/ai-diagrams/manual/404-not-found-causes.png` | `06-troubleshooting/04-404-not-found.md` | URLミス、Slug変更、CMS status、公開先違いによる404を見せるため。 |
+| `diagram-50-diagram.svg` | `src/assets/ai-diagrams/manual/maintenance-request-info-checklist.png` | `06-troubleshooting/07-maintenance-request.md` | 保守依頼時に共有すべきURL、スクショ、変更内容、エラー文を見せるため。 |
 
 | ID | ファイル | 差し込み先 | 用途 |
 | --- | --- | --- | --- |

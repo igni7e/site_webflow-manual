@@ -63,9 +63,8 @@ Dashboardは、Webflow内のサイト一覧です。複数のWorkspaceに参加�
 
 実際の画面構成は [管理画面（ダッシュボード）の基本的な見方](/01-getting-started/06-dashboard-overview/) で確認できます。Webflowを開いた後は [Content Editor入門](/02-editor/00-editor-complete-guide/) に進んでください。
 
-![初回ログイン後の確認順の図解](../../../assets/diagrams/manual/diagram-09-diagram.svg)
+![初回ログイン後の確認順の図解](../../../assets/ai-diagrams/manual/dashboard-first-check-flow.png)
 
 :::note[図解の見方]
 最初に正しいWorkspaceとSiteにいるか見ます。
 :::
-

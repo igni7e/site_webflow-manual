@@ -112,9 +112,8 @@ Webflowは直感的に操作できますが、Designerや設定画面を誤っ�
 
 まだ保守契約がない場合や、初めて相談する場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) からご連絡ください。フォームには、対象サイトURL、困っている内容、希望公開日、スクリーンショットの有無を記載すると確認がスムーズです。
 
-![保守依頼に必要な情報の図解](../../../assets/diagrams/manual/diagram-50-diagram.svg)
+![保守依頼に必要な情報の図解](../../../assets/ai-diagrams/manual/maintenance-request-info-checklist.png)
 
 :::note[図解の見方]
 スクショとURLがあると原因確認がかなり早くなります。
 :::
-

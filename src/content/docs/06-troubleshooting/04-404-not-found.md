@@ -70,9 +70,8 @@ Webサイト全体がまだ公開されていない、またはメンテナン�
 <strong>次のステップ:</strong>
 404エラーの意味は理解できましたね。次は、万が一の事態に備えるための「[サイトのバックアップを確認・復元する方法](/06-troubleshooting/05-backup-restore/)」です。
 
-![404の原因整理の図解](../../../assets/diagrams/manual/diagram-49-404.svg)
+![404の原因整理の図解](../../../assets/ai-diagrams/manual/404-not-found-causes.png)
 
 :::note[図解の見方]
 Slug変更後は古いURLが404になることがあります。
 :::
-
