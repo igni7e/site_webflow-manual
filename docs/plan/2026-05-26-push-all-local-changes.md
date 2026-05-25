@@ -18,6 +18,6 @@ sidebar:
 - [x] 現在の変更範囲を確認する
 - [x] 全変更をstageする
 - [x] `npm run build` で検証する
-- [ ] commitを作成する
-- [ ] `origin/main` へpushする
-- [ ] push後の状態を確認する
+- [x] commitを作成する
+- [x] `origin/main` へpushする
+- [x] push後の状態を確認する
