@@ -21,32 +21,17 @@ Workspaceは、Webflowで複数のサイト、メンバー、権限、プラン�
 
 サイトを更新する時は、まず「どのWorkspaceの、どのサイトを開いているか」を確認すると迷いにくくなります。
 
-:::note[キャプチャー指示]
-撮影する画面: Webflow Dashboardで `Booost Workspace` と対象サイトカードが見えている画面。
-保存ファイル名: `a-06-booost-workspace-overview.png`
-撮影直前の状態: Dashboardの読み込み完了後、Workspace名とサイトカードが表示されている状態。
-必ず写すもの: Workspace名、対象サイト名、サイトカード、Dashboardであることが分かる左メニューまたは上部UI。
-写さないもの: 個人メールアドレス、他社サイト名、請求情報、不要な通知。
-この画像で読者に確認してほしいポイント: Webflowを開いた直後に、どのWorkspaceで作業しているかを見る場所。
-:::
+ログイン直後のDashboardでは、Workspace内のサイトが一覧表示されます。
 
-:::note[キャプチャー指示]
-撮影する画面: Workspace selectorまたはWorkspace切り替えメニューを開いた状態。
-保存ファイル名: `a-11-workspace-selector-open.png`
-撮影直前の状態: Dashboard上でWorkspace名をクリックし、切り替え候補が表示されている状態。
-必ず写すもの: 現在選択中のWorkspace名、Workspace selector、対象Workspaceの候補。
-写さないもの: 他社Workspace名、個人メールアドレス、請求情報、通知。
-この画像で読者に確認してほしいポイント: 複数Workspaceがある場合に、正しいWorkspaceへ切り替える場所。
-:::
+![WebflowダッシュボードのAll sites一覧](../../../assets/captures/manual/a-06-booost-workspace-overview.png)
 
-:::note[キャプチャー指示]
-撮影する画面: 対象Site cardと、Open / Settings / Designerなどの入口が見えているDashboard。
-保存ファイル名: `a-12-site-card-entry-points.png`
-撮影直前の状態: 対象Site cardの操作メニューまたはカード上の主要ボタンを表示した状態。
-必ず写すもの: 対象Site名、Site card、OpenまたはContent editor入口、Settings、Designer入口。
-写さないもの: 他社Site名、個人情報、通知。
-この画像で読者に確認してほしいポイント: Workspaceの中から正しいSiteを選び、目的に合った入口を選ぶ場所。
-:::
+左上のWorkspace名をクリックすると、別のWorkspaceに切り替えられます。
+
+![ワークスペース切り替えドロップダウンを開いた状態](../../../assets/captures/manual/a-11-workspace-selector-open.png)
+
+各サイトカードの「…」メニューから、Settings・CMS・Editorなどの入口を開けます。
+
+![サイトカードの「…」メニュー（Settings・Open CMS・Open Editor等）](../../../assets/captures/manual/a-12-site-card-entry-points.png)
 
 ## Workspaceで管理するもの
 

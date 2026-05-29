@@ -19,19 +19,11 @@ sidebar:
 
 ![Webflow公式: Collaboration](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/696024d9c1533c595d9a59dc_b4b6cabaa465ba72859df6c7b04e99bb_og_collaboration.jpg)
 
-![Webflow公式: Single page publishing access](https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/6a032830165d496445658d53_Email_1200x700_Custom-Role-SPP.png)
-
 :::tip[チームで安全に更新する]
 Content editor roleは、更新担当者が文章・画像・CMSを扱いやすくしつつ、デザインや構造を不用意に変えないための役割です。複数人で作業する場合も、権限とPublish担当を分けると安全です。
 :::
 
-:::note[キャプチャー差し込み位置]
-撮影する画面: WebflowのRole / permissions / Can publish設定、または公式Single page publishing access画像。
-保存ファイル名: `b-32-official-single-page-publishing-access.png`
-撮影直前の状態: 権限設定の一覧で、Content editor roleやPublish権限の考え方が分かる状態。
-必ず写すもの: Role、Can publish、公開権限のON/OFFが判断できる周辺UI。
-写さないもの: 氏名、メールアドレス、請求情報、他社メンバー。
-:::
+![Site access（メンバーのSite roleとCan publishトグル）](../../../assets/captures/manual/b-32-official-single-page-publishing-access.png)
 
 ---
 

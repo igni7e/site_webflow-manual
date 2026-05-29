@@ -21,32 +21,17 @@ Workspaceプランは、チームとしてWebflowを使うための契約です�
 
 無料プランでは人数や権限に制限があります。追加メンバーが必要になった場合は、サイト更新の担当者だけで判断せず、社内管理者または制作担当者に確認してください。
 
-:::note[キャプチャー指示]
-撮影する画面: WebflowのWorkspace planまたはMembers付近で、現在のプランとメンバー数が分かる画面。
-保存ファイル名: `a-07-workspace-plan-members.png`
-撮影直前の状態: SettingsまたはMembers画面の読み込みが完了している状態。
-必ず写すもの: Workspace plan、メンバー数、UpgradeやPlan関連の表示。
-写さないもの: 請求先、カード情報、個人メールアドレス、料金明細の詳細。
-この画像で読者に確認してほしいポイント: 「人を追加できるか」「何人で使っているか」を見る画面。
-:::
+プラン画面では、Starter / Basic / CMS / Businessなどの料金とできることを比較できます。
 
-:::note[キャプチャー指示]
-撮影する画面: Members一覧で、RoleやSeatの列が分かる画面。
-保存ファイル名: `a-13-workspace-members-role-list.png`
-撮影直前の状態: Members一覧の読み込み完了後、RoleやSeatの列が見える状態。個人情報はマスクする。
-必ず写すもの: Members見出し、RoleまたはSeatの列、メンバー数が分かる表示。
-写さないもの: 氏名、メールアドレス、招待中の個人情報、請求情報。
-この画像で読者に確認してほしいポイント: 「誰がいるか」ではなく、人数と権限の種類を確認する場所。
-:::
+![Site plans料金比較（Starter/Basic/CMS/Business）](../../../assets/captures/manual/a-07-workspace-plan-members.png)
 
-:::note[キャプチャー指示]
-撮影する画面: Upgrade、Billing、Plan変更につながるボタンが見える画面。
-保存ファイル名: `a-14-workspace-plan-billing-warning.png`
-撮影直前の状態: Plan関連の画面で、請求情報の詳細を開く前に止める。
-必ず写すもの: Plan名、UpgradeまたはBillingに進む入口、現在の画面がWorkspace plan関連だと分かる見出し。
-写さないもの: クレジットカード情報、請求先住所、料金明細、個人メールアドレス。
-この画像で読者に確認してほしいポイント: 請求に関わるボタンは、更新担当者だけで押さないこと。
-:::
+メンバーごとの役割（Site role）と公開権限は、Members / Site rolesの一覧で確認します。
+
+![Site roles一覧（役割と公開権限）](../../../assets/captures/manual/a-13-workspace-members-role-list.png)
+
+現在のプランやアドオン、請求内容はBilling and hostingで確認できます。
+
+![サイトのBilling and hosting（プラン・アドオン・請求設定）](../../../assets/captures/manual/a-14-workspace-plan-billing-warning.png)
 
 ## 確認するポイント
 

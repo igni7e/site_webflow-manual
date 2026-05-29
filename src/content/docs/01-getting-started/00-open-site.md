@@ -21,13 +21,7 @@ Webflowにログインしたら、Dashboardから対象サイトを選びます�
 
 DesignerはレイアウトやCSSに触れる画面です。制作担当者から指示がある場合だけ使いましょう。
 
-:::note[キャプチャー指示]
-撮影する画面: Dashboardで対象サイトカードにカーソルを合わせ、Open in Webflowまたは編集入口が見えている画面。
-保存ファイル名: `a-10-open-site-from-dashboard.png`
-撮影直前の状態: サイトカードのメニューまたは主要ボタンが表示されている状態。
-必ず写すもの: 対象サイトカード、Open in Webflow、SettingsまたはDesignerへの入口。
-写さないもの: 他サイト名、個人情報、通知、請求情報。
-:::
+![サイトカードで「Open in Webflow」が表示された状態](../../../assets/captures/manual/a-10-open-site-from-dashboard.png)
 
 ## 手順
 

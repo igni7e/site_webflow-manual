@@ -38,14 +38,7 @@ Webサイトは公開して終わりではありません。情報が古くな�
 2.  <strong>修正したい記事を探す:</strong>
     記事一覧の中から、修正したい記事を探します。ステータスが「<strong>Published</strong>」になっているものが公開済みの記事です。目的の記事をクリックして、編集パネルを開きます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: CMS item一覧でPublished記事を選ぶ画面。
-    保存ファイル名: `c-28-published-item-status-list.png`
-    撮影直前の状態: 対象Collectionの記事一覧を開き、Published statusのitemが見えている状態。
-    必ず写すもの: Published status、対象item、Collection名、検索欄または一覧UI。
-    写さないもの: 個人情報、社外秘タイトル、他社情報、未公開本文。
-    この画像で読者に確認してほしいポイント: 修正対象がすでに公開済みの記事かどうかを一覧で確認する場所。
-    :::
+    ![CMSアイテム一覧（Published/Draftのステータス）](../../../assets/captures/manual/c-18-cms-items-status-list.png)
 
 3.  <strong>内容を修正する:</strong>
     編集パネルが開き、現在の記事の内容が表示されます。タイトル、本文、画像、カテゴリーなど、修正したい箇所を自由に変更してください。操作方法は、新規記事を作成した時と全く同じです。
@@ -53,14 +46,7 @@ Webサイトは公開して終わりではありません。情報が古くな�
 4.  <strong>変更を保存し、公開方法を選ぶ:</strong>
     公開済みCMS itemを編集した場合、変更内容はまず下書きとして保存されます。公開サイトに反映するには、<strong>Publish now</strong>、または <strong>Queue for next site publish</strong> などの公開操作を選びます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: 公開済みCMS itemを編集した後、Publish optionsまたはstatusが見えている画面。
-    保存ファイル名: `c-29-published-item-update-options.png`
-    撮影直前の状態: Published itemを編集後、変更を公開する前で止めている状態。
-    必ず写すもの: item名、PublishedまたはDraft changesのstatus、Publish now、Queue for next site publish。
-    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
-    この画像で読者に確認してほしいポイント: 公開済み記事でも、編集後の変更は公開操作を選ぶまでlive反映されないこと。
-    :::
+    ![アイテムの更新・公開オプション](../../../assets/captures/manual/c-21-cms-save-publish-options.png)
 
 5.  <strong>公開処理の実行:</strong>
     今すぐ反映する場合は <strong>Publish now</strong>、サイト全体の次回Publishに合わせる場合は <strong>Queue for next site publish</strong> を選びます。完了後はCMS一覧でstatusを確認し、公開サイトでも表示を確認します。

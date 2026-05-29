@@ -51,42 +51,18 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
 1.  <strong>CMS管理画面を開く:</strong>
     [「お知らせ」や「ブログ」はどこで管理してるの？](/03-cms/01-where-is-cms/)の手順に従って、WebflowのCMSから追加したいコンテンツ（例: `お知らせ`）を選択します。すると、そのコンテンツの記事一覧画面が表示されます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: 対象Collectionの記事一覧画面。
-    保存ファイル名: `c-19-new-item-from-collection-list.png`
-    撮影直前の状態: CMSで対象Collectionを選択し、Newボタンと既存item一覧が見えている状態。
-    必ず写すもの: Collection名、Newボタン、検索欄、既存itemのstatus表示。
-    写さないもの: 未公開記事名、個人情報、社外秘タイトル、他社情報。
-    この画像で読者に確認してほしいポイント: 新規記事は対象Collectionを選んでからNewボタンで作ること。
-    :::
+    ![コレクションリスト右上の「+ New Blog」ボタン](../../../assets/captures/manual/c-19-new-item-from-collection-list.png)
 
 2.  <strong>「New」ボタンをクリック:</strong>
     画面の右上を見てください。<strong>「+ New [項目名]」</strong>（例: `+ New Announcement`）という青いボタンがあります。これが新規追加ボタンです。このボタンをクリックします。
 
-    ![記事一覧画面](../../../assets/captures/manual/c-02-collection-items-list.png)
-
-    ![新規CMS item入力フォーム](../../../assets/captures/manual/c-03-new-cms-item-form.png)
-
-    :::note[キャプチャー差し込み位置]
-    撮影する画面: CMS item作成フォーム、またはNext-gen CMSの公式画像。
-    保存ファイル名: `b-33-official-next-gen-cms.png`
-    撮影直前の状態: 新規CMS itemフォームが開き、主要Fieldが見えている状態。
-    必ず写すもの: New item、Title/Name、Slug、主要Field、Save / Create / Publish周辺。
-    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
-    :::
+    ![記事一覧画面（右上に新規追加ボタン）](../../../assets/captures/manual/c-02-collection-items-list.png)
 
 
 3.  <strong>記事の入力フォームが開く:</strong>
     クリックすると、新しい記事の情報を入力するための専用フォーム（編集パネル）が画面右側に表示されます。ここには、「タイトル」「公開日」「本文」など、あらかじめ制作会社が設定した項目が並んでいます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: 新規CMS itemの入力フォーム全体。
-    保存ファイル名: `c-20-new-cms-item-fields-overview.png`
-    撮影直前の状態: New itemフォームを開き、Title / Name、Slug、Summary、Thumbnail、Bodyなど主要Fieldが見えている状態。
-    必ず写すもの: TitleまたはName、Slug、主要Field、Save as Draft、PublishまたはCreate周辺。
-    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
-    この画像で読者に確認してほしいポイント: CMS記事はページを直接作るのではなく、決まったFieldに入力して作ること。
-    :::
+    ![新規CMSアイテムのフィールド一覧](../../../assets/captures/manual/c-15-booost-cms-fields-overview.png)
 
 4.  <strong>各項目を埋めていく:</strong>
     このフォームの上から順に、必要な情報を入力したり、設定したりしていきます。
@@ -103,14 +79,7 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
     -   <strong>一旦下書きとして保存したい場合:</strong> 「Save as Draft」ボタンをクリックします。（→ [下書きで保存する方法](/03-cms/16-save-as-draft/)）
     -   <strong>未来の日時で公開を予約したい場合:</strong> 公開日時を設定して「Schedule」ボタンをクリックします。（→ [未来の日時で公開を予約する方法](/03-cms/15-schedule-publish/)）
 
-    :::note[キャプチャー指示]
-    撮影する画面: CMS itemフォーム下部または上部の保存・公開ボタン周辺。
-    保存ファイル名: `c-21-cms-save-publish-options.png`
-    撮影直前の状態: 入力後、Save as Draft、Publish、Scheduleなどの操作ボタンが見えている状態。実行前で止める。
-    必ず写すもの: Save as Draft、Publish、ScheduleまたはPublish options、現在のCMS item名。
-    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
-    この画像で読者に確認してほしいポイント: 下書き、即時公開、予約公開の入口は同じCMS item画面にあること。
-    :::
+    ![「Publish now」ドロップダウンの公開オプション](../../../assets/captures/manual/c-21-cms-save-publish-options.png)
 
 ## 4. 保存方法の選び方
 

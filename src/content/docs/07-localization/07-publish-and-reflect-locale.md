@@ -51,6 +51,8 @@ https://example.com/en/blog/sample-post/
 
 Primary localeにはSubdirectoryが付かない構成もあります。サイトによってURL設計が異なるため、実際の公開URLは必ずWebflowの設定と公開サイトで確認してください。
 
+![英語ロケール（/en）がURLに反映された公開ページ](../../../assets/captures/manual/e-06-locale-publish-and-url.png)
+
 ## 反映されない時に見る場所
 
 | 症状 | 確認する場所 |

@@ -27,26 +27,12 @@ sidebar:
 
 1. Dashboardから対象サイトを開きます。
 
-:::note[キャプチャー指示]
-撮影する画面: 対象サイトカードからContent editor roleを開く直前のDashboard。
-保存ファイル名: `work-01-edit-text-open-site.png`
-撮影直前の状態: サイトカードの編集入口が見えている状態。
-必ず写すもの: 対象サイトカード、編集入口、Workspace名。
-写さないもの: 他サイト名、メールアドレス、通知。
-この画像で読者に確認してほしいポイント: 文字修正を始める前に、正しいWorkspace、正しいSite、正しい編集入口を選んでいること。
-:::
+![ダッシュボードからサイトを開く](../../../assets/captures/manual/a-10-open-site-from-dashboard.png)
 
 2. 修正したいページを表示します。
 3. 変更したい文章にカーソルを合わせ、編集できる状態か確認します。
 
-:::note[キャプチャー指示]
-撮影する画面: Content editorで、修正したいテキストに青い枠または鉛筆アイコンが出ている画面。
-保存ファイル名: `work-01-editable-text-indicator.png`
-撮影直前の状態: 修正対象の文章にカーソルを合わせ、編集可能な表示が出た状態で止める。
-必ず写すもの: 修正対象テキスト、青い枠、鉛筆アイコンまたは編集できることが分かるUI、ページ上の周辺文脈。
-写さないもの: 未公開情報、個人情報、関係ないページ内容。
-この画像で読者に確認してほしいポイント: クリックできる文字とクリックしても編集できない文字の見分け方。
-:::
+![編集可能テキストの青いアウトライン](../../../assets/captures/manual/b-03-editable-text-active.png)
 
 4. 編集アイコンまたはテキスト部分をクリックします。
 5. 文章を入力・削除します。
@@ -54,14 +40,7 @@ sidebar:
 7. スマートフォン表示でも崩れていないか確認します。
 8. 問題がなければPublishします。
 
-:::note[キャプチャー指示]
-撮影する画面: テキスト修正後、Publish前に変更箇所を確認しているContent editor画面。
-保存ファイル名: `work-01-text-before-publish-review.png`
-撮影直前の状態: 修正した文章が画面に表示され、Publish実行前で止めている状態。
-必ず写すもの: 修正後テキスト、Publishボタン、変更対象ページだと分かる見出しや周辺UI。
-写さないもの: 未公開キャンペーン情報、個人情報、不要な他ページ情報。
-この画像で読者に確認してほしいポイント: 修正後すぐPublishせず、内容と対象ページを見直す位置。
-:::
+![公開前の未公開変更の確認](../../../assets/captures/manual/work-00-before-publish-target-check.png)
 
 :::tip[長い文章の更新]
 長い文章は、先にGoogle Docsやメモ帳で作ってから貼り付けることをお勧めします。直接入力だけで進めると、途中で内容を見失いやすくなります。
@@ -75,14 +54,7 @@ sidebar:
 
 権限が原因の場合は、Site settingsのSite accessまたはMembersで、自分のSite roleが `Content editor` 以上になっているか、Publishまで必要な場合は `Can publish` がオンになっているかを確認します。詳しくは [エディターでサイトの文字を書き換える方法](/02-editor/03-edit-text/) と [Webflowの共同編集者を招待する](/05-settings/08-invite-collaborator/) を確認してください。
 
-:::note[キャプチャー指示]
-撮影する画面: Site accessまたはMembersで、対象ユーザーのRoleとCan publishを確認している画面。
-保存ファイル名: `work-01-site-access-role-check.png`
-撮影直前の状態: 権限一覧の読み込み完了後、対象ユーザーの行が見える状態。氏名やメールアドレスは隠す。
-必ず写すもの: Site accessまたはMembers、Role、Can publish、Content editorなどの権限名。
-写さないもの: 氏名、メールアドレス、他社メンバー、請求情報。
-この画像で読者に確認してほしいポイント: 編集できない時に、画面ではなく権限を確認する場所。
-:::
+![Site accessで自分の役割を確認](../../../assets/captures/manual/f-08-site-access-overview.png)
 
 ### Q. 文章を変えたのに公開サイトに出ません
 

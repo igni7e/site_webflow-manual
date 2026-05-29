@@ -21,13 +21,7 @@ Webflowには、WorkspaceプランとSite planがあります。名前が似て�
 
 Workspaceプランは「チームやメンバー管理」のためのプランです。Site planは「公開中のWebサイトを運用する」ためのプランで、CMSやフォーム、独自ドメインなどに関係します。
 
-:::note[キャプチャー指示]
-撮影する画面: Site settings内のPlansまたはPublishing周辺で、Site planやCMS Hosting / Business Hostingが分かる画面。
-保存ファイル名: `a-08-site-plan-settings.png`
-撮影直前の状態: 対象サイトのSite settingsを開き、プラン名や公開設定が表示されている状態。
-必ず写すもの: 対象サイト名、Site settingsであること、Site plan名または公開設定。
-写さないもの: 請求情報、カード情報、他サイトの情報。
-:::
+![Workspaceの請求とサイトプランのサマリー](../../../assets/captures/manual/a-08-site-plan-settings.png)
 
 ## 違い
 

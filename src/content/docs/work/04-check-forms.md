@@ -28,13 +28,7 @@ sidebar:
 2. Site settingsに進みます。
 3. FormsまたはSubmissionsの画面を開きます。
 
-:::note[キャプチャー指示]
-撮影する画面: Forms一覧またはSubmissions画面。
-保存ファイル名: `work-05-check-forms-submissions.png`
-撮影直前の状態: フォーム名とSubmissionsが表示されている状態。
-必ず写すもの: フォーム名、Submissions、CSVダウンロード入口。
-写さないもの: 氏名、メールアドレス、電話番号、問い合わせ本文。
-:::
+![Forms一覧とSubmissions](../../../assets/captures/manual/f-02-forms-list-and-submissions.png)
 
 4. 確認したいフォームを選びます。
 5. 送信日時と内容を確認します。

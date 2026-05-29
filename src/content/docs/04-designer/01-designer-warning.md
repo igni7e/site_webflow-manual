@@ -46,13 +46,7 @@ sidebar:
 
    ![Designerを開いた状態](../../../assets/captures/manual/d-01-designer-opened.png)
 
-   :::note[キャプチャー差し込み位置]
-   撮影する画面: Designerを開いた直後の画面、またはWebflow公式Design画像。
-   保存ファイル名: `b-39-official-designer-overview.png`
-   撮影直前の状態: Designer画面のロードが完了し、左パネル・canvas・右パネルが見えている状態。
-   必ず写すもの: 左パネル、canvas、右パネル、上部バー、Designerであることが分かるUI。
-   写さないもの: 未公開ページ、個人情報、他社サイト情報、通知。
-   :::
+   ![WebflowのDesigner編集画面の概要](../../../assets/captures/manual/b-39-official-designer-overview.png)
 
 4. 非常に多機能で複雑な、Webサイトの設計図とも言える「デザイナー」画面が起動します。
 

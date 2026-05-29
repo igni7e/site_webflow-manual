@@ -32,14 +32,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 2.  <strong>公開したい下書き記事を探す:</strong>
     記事一覧の中から、公開したい記事を探します。ステータスが「<strong>Draft</strong>」になっているものが下書き記事です。目的の記事をクリックして、編集パネルを開きます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: CMS item一覧でDraft記事を探している画面。
-    保存ファイル名: `c-25-draft-item-before-publish.png`
-    撮影直前の状態: 対象Collectionの記事一覧を開き、Draft statusのitemが見えている状態。
-    必ず写すもの: Draft status、対象item、Collection名、検索欄または一覧UI。
-    写さないもの: 未公開本文、個人情報、社外秘タイトル、他社情報。
-    この画像で読者に確認してほしいポイント: 公開する前に、対象itemがDraftであることを一覧で確認する場所。
-    :::
+    ![公開前の下書きアイテム一覧](../../../assets/captures/manual/c-23-draft-status-in-item-list.png)
 
 3.  <strong>内容の最終チェック:</strong>
     公開する前に、誤字脱字はないか、画像やリンクの設定は正しいかなど、記事の内容を最後にもう一度見直しましょう。
@@ -52,26 +45,12 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
     ![下書き保存・公開操作](../../../assets/captures/manual/c-07-save-draft-and-publish.png)
 
-    :::note[キャプチャー指示]
-    撮影する画面: Draft itemの編集画面でPublishまたはPublish optionsが見えている画面。
-    保存ファイル名: `c-26-draft-item-publish-options.png`
-    撮影直前の状態: 内容確認後、Publish実行前で止め、Publish optionsを開ける状態。
-    必ず写すもの: Publish、Publish options、item名、Draft status。
-    写さないもの: 未公開本文、個人情報、社外秘画像、他社情報。
-    この画像で読者に確認してほしいポイント: Draftから公開する時に押すボタンと、公開オプションの位置。
-    :::
+    ![下書きアイテムの公開オプション](../../../assets/captures/manual/c-21-cms-save-publish-options.png)
 
 6.  <strong>公開の確認:</strong>
     クリックすると、「`Publish 1 item`」のような確認メッセージが表示されます。問題がなければ、もう一度「<strong>Publish now</strong>」ボタンをクリックします。
 
-    :::note[キャプチャー指示]
-    撮影する画面: Publish now / Queue for next site publish / Scheduleなどの公開オプションが見えている画面。
-    保存ファイル名: `c-27-publish-now-queue-options.png`
-    撮影直前の状態: Publish optionsを開き、まだ公開を実行していない状態。
-    必ず写すもの: Publish now、Queue for next site publish、Scheduleがあればその選択肢、Cancelできる状態。
-    写さないもの: 未公開本文、個人情報、社外秘タイトル、他社情報。
-    この画像で読者に確認してほしいポイント: 今すぐ公開するのか、次回Site publishに回すのかを選ぶ場所。
-    :::
+    ![「Publish now」と次回公開キューのオプション](../../../assets/captures/manual/b-24-official-cms-draft-publishing.png)
 
 7.  <strong>公開完了:</strong>
     「Published successfully!」というメッセージが表示されれば、公開は成功です。CMSの記事一覧画面に戻ると、該当記事のステータスが「<strong>Published</strong>」に変わっているはずです。

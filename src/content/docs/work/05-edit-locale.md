@@ -28,13 +28,7 @@ LocaleはページやCMS記事ごとに状態が分かれるため、修正対�
 2. 現在選択しているLocaleを確認します。
 3. 修正したいLocaleへ切り替えます。
 
-:::note[キャプチャー指示]
-撮影する画面: Locale selectorでPrimary / Secondary localeが見えている状態。
-保存ファイル名: `work-06-edit-locale-selector.png`
-撮影直前の状態: 対象ページを開き、Locale selectorが操作できる状態。
-必ず写すもの: Locale selector、現在のLocale、対象ページの見出し。
-写さないもの: 未公開ページ、個人情報、他社サイト情報。
-:::
+![ロケールセレクター（JA/EN切り替え）](../../../assets/captures/manual/work-06-edit-locale-selector.png)
 
 4. 翻訳文を確認します。
 5. 必要な文章だけ修正します。

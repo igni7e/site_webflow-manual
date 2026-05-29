@@ -67,26 +67,10 @@ CMSで記事を追加すると、記事詳細ページだけでなく、一覧�
 
     ![CMS / Collections入口](../../../assets/captures/manual/c-01-cms-collections-entry.png)
 
-    :::note[キャプチャー指示]
-    撮影する画面: Content editorまたはWebflow編集画面で、CMS / Collections入口が見えている画面。
-    保存ファイル名: `c-16-cms-entry-with-sidebar.png`
-    撮影直前の状態: 対象Siteを開き、左メニューまたは上部UIにCMS / Collections入口が表示されている状態。
-    必ず写すもの: CMSまたはCollections、左メニュー、対象Site名、現在開いている編集画面。
-    写さないもの: 未公開本文、個人情報、他社Site名、通知。
-    この画像で読者に確認してほしいポイント: お知らせやブログはページ上ではなくCMS入口から管理すること。
-    :::
-
 3.  <strong>CMSアイテムの一覧が表示される:</strong>
     クリックすると、画面の左側に、このサイトで管理されているCMSの一覧（例: `お知らせ`, `ブログ記事`, `導入事例`など）が表示されます。
 
-    :::note[キャプチャー指示]
-    撮影する画面: CMSを開いた後、Collection一覧が表示されている画面。
-    保存ファイル名: `c-17-collection-list-select-target.png`
-    撮影直前の状態: CMS / Collectionsを開き、Blog、News、お知らせなどのCollection名が見えている状態。
-    必ず写すもの: Collection一覧、対象Collection名、左メニューまたはCMS見出し。
-    写さないもの: 未公開記事名、個人情報、他社情報。
-    この画像で読者に確認してほしいポイント: どのCollectionを選べば目的の記事一覧に進めるか。
-    :::
+    ![CMSコレクション一覧から対象を選ぶ](../../../assets/captures/manual/b-20-official-cms-item-editing.png)
 
 4.  <strong>編集したいCMSを選択:</strong>
     このリストの中から、あなたが更新したい項目（例: `お知らせ`）をクリックします。
@@ -94,14 +78,7 @@ CMSで記事を追加すると、記事詳細ページだけでなく、一覧�
 5.  <strong>記事の一覧ページが開く:</strong>
 クリックすると、そのCMS一覧に含まれる記事が表示された管理ページに切り替わります。ここが、お知らせやブログ記事を集中管理する場所です。
 
-:::note[キャプチャー指示]
-撮影する画面: CMS item一覧で、記事名、status、Newボタンが見えている画面。
-保存ファイル名: `c-18-cms-items-status-list.png`
-撮影直前の状態: 対象Collectionを選択し、記事一覧の読み込みが完了している状態。
-必ず写すもの: item一覧、Status列またはDraft / Published表示、Newボタン、検索欄。
-写さないもの: 未公開記事の本文、個人情報、社外秘タイトル、他社情報。
-この画像で読者に確認してほしいポイント: 記事を開く前に、公開状態と対象itemを一覧で確認する場所。
-:::
+![CMSアイテム一覧（PublishedとDraftが混在）](../../../assets/captures/manual/c-18-cms-items-status-list.png)
 
 ## 5. この画面でできること
 

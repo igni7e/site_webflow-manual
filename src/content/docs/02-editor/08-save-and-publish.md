@@ -42,13 +42,7 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 
     ![EditorのPublish操作](../../../assets/captures/manual/b-06-publish-button-editor.png)
 
-    :::note[キャプチャー差し込み位置]
-    撮影する画面: WebflowのPublish確認画面、またはSingle page publishingの確認UI。
-    保存ファイル名: `b-31-official-single-page-publishing.png`
-    撮影直前の状態: Publishボタンを押した後、公開対象ページと公開先を確認できる画面で止める。
-    必ず写すもの: Publish対象、公開先ドメイン、Cancelできる状態、実行前であること。
-    写さないもの: 他社ドメイン、未公開ページ名、個人情報、通知。
-    :::
+    ![公開先（Staging/Production）を選ぶPublishダイアログ](../../../assets/captures/manual/b-17-official-publish-flow.png)
 
 3.  <strong>公開内容と公開先の確認:</strong>
     公開前に、変更内容、公開対象のページ、公開先ドメインを確認します。本番ドメインに公開してよいか不安な場合は、制作担当者または管理者へ確認してください。

@@ -21,13 +21,7 @@ Webflowを最新版のContent editor roleで開いた後、画面のどこを見
 
 最新版のContent Editorは、旧Legacy Editorとは違い、Webflowのcanvas上で文章、画像、リンク、CMS記事、Assets、ページ設定の一部を扱えます。ただし、デザインや構造を作り替える画面ではありません。
 
-:::note[公式画像またはキャプチャー指示]
-撮影する画面: Webflow公式Help CenterのContent editor role説明画像、またはBooostサイトを最新版Content editor roleで開いたcanvas画面。
-保存ファイル名: `b-09-latest-content-editor-screen-guide.png`
-撮影直前の状態: Webflow canvasが読み込み完了し、編集できるテキストや画像にカーソルを合わせられる状態。
-必ず写すもの: canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコン。
-写さないもの: 未公開ページ、個人情報、通知、他社サイト情報。
-:::
+![最新Content Editor画面全体（上部バーとcanvas）](../../../assets/captures/manual/b-09-latest-content-editor-screen-guide.png)
 
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
 

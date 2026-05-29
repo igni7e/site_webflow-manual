@@ -55,6 +55,8 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 -   <strong>元に戻す:</strong> 左向きの矢印アイコン
 -   <strong>やり直す:</strong> 右向きの矢印アイコン
 
+![Undoが無効で「Nothing to undo」と表示された状態](../../../assets/captures/manual/d-05-undo-and-unsaved-warning.png)
+
 
 ## 5. 【重要】「元に戻す」の限界
 

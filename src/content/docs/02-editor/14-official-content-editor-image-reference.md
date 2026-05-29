@@ -179,123 +179,113 @@ Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Asset
 
 ### Content editor roleのcanvas全体
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式Help Center `Edit site content as a content editor` のContent editor role画面、またはWebflow公式サイト `Edit content` ページのcontent editing紹介画像。
-保存ファイル名: `b-12-official-content-editor-canvas.png`
-差し込み先: `02-editor/02-open-content-editor.md`、`02-editor/13-latest-content-editor-screen-guide.md`
-必ず見せるもの: canvas、編集対象のページ、Content editor roleであることが分かるUI。
-避けるもの: Legacy Editorの下部バーだけが写る古い画面、個人情報、未公開ページ。
-:::
+![Webflow公式: Content editor roleで開いたcanvas全体](../../../assets/captures/manual/b-12-official-content-editor-canvas.png)
 
 ### Pages / CMS / Assets / Settingsの入口
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式Help Center `Edit site content as a content editor` で、Pages panel、CMS panel、Assets panel、Settings panelの入口が分かる画像。
-保存ファイル名: `b-13-official-content-editor-panels.png`
-差し込み先: `02-editor/13-latest-content-editor-screen-guide.md`
-必ず見せるもの: Pages、CMS、Assets、Settingsなどの入口と、画面全体の位置関係。
-避けるもの: 入口だけを極端に拡大した画像、ロード中のUI、通知。
-:::
+![最新Content Editorの画面全体（Pages/CMS/Assetsの入口）](../../../assets/captures/manual/b-09-latest-content-editor-screen-guide.png)
 
 ### 文字編集
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式のcontent editing紹介画像、またはHelp Center内でテキスト編集のアウトラインや編集アイコンが分かる画像。
-保存ファイル名: `b-14-official-text-editing.png`
-差し込み先: `02-editor/03-edit-text.md`
-必ず見せるもの: 編集対象テキスト、青いアウトライン、Pencilなどの編集アイコン。
-避けるもの: デザイン編集パネル中心の画面、意図が分からない拡大画像。
-:::
+![Webflow公式: テキストの直接編集](../../../assets/captures/manual/b-14-official-text-editing.png)
 
 ### 画像差し替え
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式Help Center内で、画像またはAssetの編集・差し替え入口が分かる画像。
-保存ファイル名: `b-15-official-image-replace.png`
-差し込み先: `02-editor/06-replace-image.md`
-必ず見せるもの: 対象画像、画像編集アイコン、AssetsまたはUploadに進める入口。
-避けるもの: 著作権や個人情報のある画像、未公開素材。
-:::
+![Webflow公式: Assetsパネルからの画像差し替え](../../../assets/captures/manual/b-15-official-image-replace.png)
 
 ### リンク編集
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式Help Center内で、リンク設定またはリンク編集の入口が分かる画像。
-保存ファイル名: `b-16-official-link-editing.png`
-差し込み先: `02-editor/07-edit-link-url.md`、`02-editor/10-external-link-new-tab.md`
-必ず見せるもの: Linkの設定入口、URL入力欄、必要であれば新しいタブ設定。
-避けるもの: 実在する非公開URL、ログイン情報、外部サービスの管理画面。
-:::
+![Webflow公式: Link Settingsダイアログ](../../../assets/captures/manual/b-16-official-link-editing.png)
 
 ### Publish
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式Help Center内で、Publishまたは公開前確認が分かる画像。
-保存ファイル名: `b-17-official-publish-flow.png`
-差し込み先: `02-editor/08-save-and-publish.md`、`02-editor/12-before-publish-checklist.md`
-必ず見せるもの: Publishボタン、公開対象、公開前に確認する文脈。
-避けるもの: 実際にPublish完了してしまった後だけの画面、公開してはいけないドメイン。
-:::
+![Webflow公式: 公開先（Staging/Production）選択ダイアログ](../../../assets/captures/manual/b-17-official-publish-flow.png)
 
 ### CMS公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `CMS features`、`CMS auto-save`、`CMS Drafting and Publishing Workflow`、`Bulk publishing`、`CMS item creation` の画像。
-保存ファイル名: `b-23-official-cms-overview.png` から `b-27-official-cms-item-creation.png`
-差し込み先: `03-cms/00-blog-post-complete-guide.md`、`03-cms/02-create-new-post.md`、`03-cms/16-save-as-draft.md`、`03-cms/18-edit-published.md`、`03-cms/25-cms-before-publish-checklist.md`
-必ず見せるもの: CMSの編集対象、下書き、公開、保存、複数item操作の文脈。
-避けるもの: Webflow製品外のCMS画像、古いUIだけで現在画面と誤解される画像。
+CMSの基本構造（Collection・Item・Field）:
+
+![Webflow公式: CMS構造（Collection > Item > Field）](../../../assets/captures/manual/b-23-official-cms-overview.png)
+
+下書きと公開のワークフロー:
+
+![Webflow公式: CMSアイテムのDraft・公開ワークフロー](../../../assets/captures/manual/b-24-official-cms-draft-publishing.png)
+
+複数アイテムの一括公開:
+
+![Webflow公式: CMSアイテムの一括公開（Select）](../../../assets/captures/manual/b-26-official-cms-bulk-publishing.png)
+
+:::note[未撮影]
+`b-25-official-cms-auto-save.png`（CMS自動保存）と `b-27-official-cms-item-creation.png`（item作成改善）は未撮影です。揃ったらこの位置に追加します。
 :::
 
 ### SEO公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `SEO features` の画像。
-保存ファイル名: `b-28-official-seo-overview.png`
-差し込み先: `05-settings/01-seo-title.md`、`05-settings/02-seo-description.md`、`05-settings/03-ogp-image.md`
-必ず見せるもの: SEO、metadata、Open Graph、検索表示に関する文脈。
-避けるもの: 外部SEOツールの管理画面、実在する未公開ページの検索結果。
-:::
+![Webflow公式: SEO設定と検索結果プレビュー](../../../assets/captures/manual/b-28-official-seo-overview.png)
 
 ### Localization公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `Localization features` の画像。
-保存ファイル名: `b-29-official-localization-overview.png`
-差し込み先: `07-localization/00-localization-overview.md`
-必ず見せるもの: Locale、翻訳、地域別コンテンツの文脈。
-避けるもの: Booost以外の顧客名が主役になる画像、翻訳前後の意味が分からない画像。
-:::
+![Webflow公式: ローカライゼーション有効時のDesigner](../../../assets/captures/manual/b-29-official-localization-overview.png)
 
 ### Collaboration公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `Collaboration features` の画像。
-保存ファイル名: `b-30-official-collaboration-overview.png`
-差し込み先: `01-getting-started/08-editor-only-recommendation.md`
-必ず見せるもの: コメント、権限、チームで安全に作業する文脈。
-避けるもの: 個人名やメールアドレスが見える権限画面。
-:::
+![Webflow公式: Content editorロールの追加権限モーダル](../../../assets/captures/manual/b-30-official-collaboration-overview.png)
 
 ### Publish / 権限 / Preview公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `Single page publishing`、`Single page publishing access`、`Publishing permission toggle`、`Preview roles` の画像。
-保存ファイル名: `b-31-official-single-page-publishing.png` から `b-35-official-preview-roles.png`
-差し込み先: `02-editor/08-save-and-publish.md`、`02-editor/12-before-publish-checklist.md`、`01-getting-started/08-editor-only-recommendation.md`
-必ず見せるもの: Publish対象、1ページ単位の公開、Can publish権限、Preview roleの文脈。
-避けるもの: 実行後に戻せないPublish完了画面、他社ドメイン、メールアドレス。
+1ページ単位の公開権限（Site access）:
+
+![Webflow公式: 1ページ公開権限（Site access）](../../../assets/captures/manual/b-32-official-single-page-publishing-access.png)
+
+メンバーごとのCan publishトグル:
+
+![Webflow公式: Site rolesのCan publishトグル](../../../assets/captures/manual/b-34-official-publishing-permission-toggle.png)
+
+ロールごとの権限対応表（Preview roles）:
+
+![Webflow公式: Workspace/Siteロール対応表（Preview roles）](../../../assets/captures/manual/b-35-official-preview-roles.png)
+
+:::note[未撮影]
+`b-31-official-single-page-publishing.png`（1ページ公開の考え方）は未撮影です。揃ったらこの位置に追加します。
 :::
 
 ### Site settings / Designer / Security公式画像
 
-:::note[公式画像差し込み位置]
-使う画像: Webflow公式 `Hosting`、`Security`、`Analyze`、`Design` の画像。
-保存ファイル名: `b-36-official-hosting-domain.png` から `b-39-official-designer-overview.png`
-差し込み先: `05-settings/09-domain-status.md`、`06-troubleshooting/00-common-checklist.md`、`05-settings/10-search-engine-control.md`、`04-designer/01-designer-warning.md`
-必ず見せるもの: ドメイン・SSL、権限・安全性、分析・計測、Designerが高機能な編集画面であること。
-避けるもの: 請求情報、個人情報、APIキー、不要な外部サービス管理画面。
+アクセス解析（Analyze）:
+
+![Webflow公式: Analyzeダッシュボード（アクセス解析）](../../../assets/captures/manual/b-38-official-analyze-seo-settings.png)
+
+Designer編集画面の概要:
+
+![Webflow公式: Designer編集画面の概要](../../../assets/captures/manual/b-39-official-designer-overview.png)
+
+:::note[未撮影]
+`b-36-official-hosting-domain.png`（Hosting / Domain / SSL）と `b-37-official-security-permissions.png`（Security・権限管理）は未撮影です。揃ったらこの位置に追加します。
 :::
+
+## 補足キャプチャ（ローカル）
+
+カタログ表（B-18〜B-22）に対応するローカルキャプチャです。各記事への差し込み先は上の表を参照してください。
+
+### `?update` で直接編集画面を開く
+
+![URL末尾に ?update を付けてContent Editorを起動](../../../assets/captures/manual/b-18-official-update-shortcut.png)
+
+### Legacy Editorと最新版Content Editorの違い
+
+![旧Legacy Editorと新Content Editorの比較](../../../assets/captures/manual/b-19-official-legacy-vs-content-editor.png)
+
+### CMS itemの作成・編集
+
+![CMSコレクションのアイテム編集フォーム](../../../assets/captures/manual/b-20-official-cms-item-editing.png)
+
+### SEO / Open Graphの設定
+
+![Page Settings（SEOタグとOpen Graph）](../../../assets/captures/manual/b-21-official-seo-ogp-controls.png)
+
+### Content editor roleの権限
+
+![Content editorロールに付与できる追加パーミッション](../../../assets/captures/manual/b-22-official-content-role-permissions.png)
 
 ## 公式情報
 

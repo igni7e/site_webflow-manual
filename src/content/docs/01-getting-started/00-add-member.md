@@ -21,13 +21,7 @@ Webflowでは、メンバーごとにできる作業範囲が変わります。�
 
 権限を強くしすぎると、DesignerやSettingsでサイト全体に影響する操作ができてしまいます。追加前に「その人が何を更新する担当か」を確認しましょう。
 
-:::note[キャプチャー指示]
-撮影する画面: WorkspaceまたはSite settingsのMembers画面。
-保存ファイル名: `a-09-members-and-permissions.png`
-撮影直前の状態: Members画面の読み込み完了後、招待ボタンと権限欄が見える状態。
-必ず写すもの: Invite/Add memberボタン、Role、Can publishなど権限判断に必要な列。
-写さないもの: 氏名、メールアドレス、個人アイコン、他社メンバー情報。
-:::
+![Site roles（メンバーの役割とCan publish権限）一覧](../../../assets/captures/manual/a-09-members-and-permissions.png)
 
 ## 追加前に確認すること
 

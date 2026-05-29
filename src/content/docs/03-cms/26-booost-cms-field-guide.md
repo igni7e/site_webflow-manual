@@ -21,13 +21,7 @@ Booostのブログやお知らせを作成する時に、CMS画面の入力欄�
 
 CMSの項目名はサイトごとに少し違います。このページでは、Booostの記事投稿で迷いやすい項目を、初心者向けにまとめます。
 
-:::note[キャプチャー指示]
-撮影する画面: BooostのCMS記事編集画面で、Title、Slug、Summary、Thumbnail、Bodyなど主要Fieldが縦に見えている状態。
-保存ファイル名: `c-15-booost-cms-fields-overview.png`
-撮影直前の状態: 新規記事またはテスト記事の編集画面を開き、個人情報や未公開本文が見えないようにした状態。
-必ず写すもの: CMS記事編集画面であること、主要Field名、Save/Create/Publish周辺の操作ボタン。
-写さないもの: 未公開記事本文、個人情報、社外秘の画像、他社情報。
-:::
+![Booost CMSの新規ブログ作成フォーム（フィールド一覧）](../../../assets/captures/manual/c-15-booost-cms-fields-overview.png)
 
 ## 入力欄の見方
 

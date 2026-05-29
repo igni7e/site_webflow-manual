@@ -67,13 +67,7 @@ Webflow は <strong>sitemap.xml を自動生成</strong> します。確認す�
 1. Project Settings → <strong>「SEO」</strong> タブを開く
 *実画面例: サイト全体の検索エンジン関連設定は、Site settingsのSEOから確認します。*
 
-:::note[キャプチャー差し込み位置]
-撮影する画面: Site settingsのSEO / sitemap / indexing設定、またはWebflow公式Analyze画像。
-保存ファイル名: `b-38-official-analyze-seo-settings.png`
-撮影直前の状態: SEO設定やsitemap/noindex関連の入口が見えている状態。
-必ず写すもの: SEO、sitemap、indexing、Publishが必要な設定であることが分かる周辺UI。
-写さないもの: APIキー、Googleアカウント情報、外部計測タグの詳細、個人情報。
-:::
+![WebflowのAnalyzeダッシュボード（アクセス解析）](../../../assets/captures/manual/b-38-official-analyze-seo-settings.png)
 
 2. <strong>「Disable Webflow subdomain indexing」</strong> をON
 3. <strong>Publish</strong>

@@ -46,6 +46,8 @@ The Webflow Team
 --------------------------------------------------
 ```
 
+![Webflowからの招待メール（Accept invitationボタン）](../../../assets/captures/manual/a-04-invitation-and-login.png)
+
 ## 3. 招待メールを確認する手順
 
 1.  メールソフトを開く: 普段お使いのメールクライアント（Gmail, Outlookなど）を開きます。

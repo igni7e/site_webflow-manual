@@ -25,13 +25,7 @@ sidebar:
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
 *実画面例: 問題が起きた時は、Site settingsでForms、Publishing、Backupsなどの関連画面を確認します。*
 
-:::note[キャプチャー差し込み位置]
-撮影する画面: エラーや権限不足が分かるWebflow画面、またはWebflow公式Security画像。
-保存ファイル名: `b-37-official-security-permissions.png`
-撮影直前の状態: エラー表示、権限不足、Publish不可などの状態が分かる画面で止める。
-必ず写すもの: エラーメッセージ、対象画面、どの操作で止まったか分かる周辺UI。
-写さないもの: メールアドレス、問い合わせ本文、請求情報、APIキー、他社情報。
-:::
+![Content editorロールの権限設定](../../../assets/captures/manual/b-22-official-content-role-permissions.png)
 
 ## 英語画面で何を押せばよいか分からない
 
@@ -54,23 +48,9 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - 別ブラウザやスマートフォン回線で確認したか
 - CMS記事の場合、記事自体がPublishedになっているか
 
-:::note[キャプチャー指示]
-撮影する画面: Publishing / Domain設定で、公開先ドメインとPublish状態を確認している画面。
-保存ファイル名: `g-04-publishing-domain-status-check.png`
-撮影直前の状態: Site settingsのPublishingまたはDomain周辺を開き、Production domainやPublish状態が見えている状態。
-必ず写すもの: Publishing、Production domain、ConnectedまたはPublished状態、対象Site名。
-写さないもの: DNSの機密値、請求情報、個人メールアドレス、APIキー。
-この画像で読者に確認してほしいポイント: 変更が見えない時に、公開先ドメインとPublish状態を確認する場所。
-:::
+![公開・ドメイン状態の確認](../../../assets/captures/manual/f-05-domain-and-publishing-status.png)
 
-:::note[キャプチャー指示]
-撮影する画面: CMS item一覧で、対象記事のstatusを確認している画面。
-保存ファイル名: `g-05-cms-item-status-troubleshooting.png`
-撮影直前の状態: 対象Collectionを開き、記事一覧のstatus列またはDraft / Published表示が見えている状態。
-必ず写すもの: 対象item、Draft / Published / Queuedなどのstatus、Collection名。
-写さないもの: 未公開本文、個人情報、社外秘タイトル、他社情報。
-この画像で読者に確認してほしいポイント: CMS記事が出ない時に、記事自体が公開状態かどうかを見る場所。
-:::
+![CMSアイテムのステータス確認](../../../assets/captures/manual/c-18-cms-items-status-list.png)
 
 詳しくは [変更が反映されない理由](/06-troubleshooting/01-cache-not-reflecting/) を確認してください。
 
@@ -83,23 +63,9 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - その内容がCMS itemで管理されていないか
 - Site accessで自分のRoleがContent editor以上になっているか
 
-:::note[キャプチャー指示]
-撮影する画面: Content editorで、編集できる要素と編集できない要素の違いが分かる画面。
-保存ファイル名: `g-06-editable-indicator-troubleshooting.png`
-撮影直前の状態: 対象テキストまたは画像にカーソルを合わせ、青枠や編集アイコンの有無が分かる状態。
-必ず写すもの: 編集対象、青枠または鉛筆アイコン、ページ上の周辺文脈。
-写さないもの: 個人情報、未公開情報、他社情報。
-この画像で読者に確認してほしいポイント: そもそもContent editorで編集できる要素かどうかを見る場所。
-:::
+![編集可能要素が青枠で示されたエディター画面](../../../assets/captures/manual/g-06-editable-indicator-troubleshooting.png)
 
-:::note[キャプチャー指示]
-撮影する画面: Site accessまたはMembersでRoleを確認している画面。
-保存ファイル名: `g-07-role-permission-troubleshooting.png`
-撮影直前の状態: 権限一覧の読み込み完了後、Role列とCan publish列が見えている状態。個人情報は隠す。
-必ず写すもの: Site access、Role、Content editor、Can publish。
-写さないもの: 氏名、メールアドレス、他社メンバー、請求情報。
-この画像で読者に確認してほしいポイント: 画面操作ではなく権限が原因の時に見る場所。
-:::
+![役割と公開権限の確認](../../../assets/captures/manual/a-09-members-and-permissions.png)
 
 ## Publishできない
 
@@ -110,14 +76,7 @@ Webflowの更新作業で困ったときは、まずこのページで原因を�
 - CMS itemだけをPublishするのか、サイト全体をPublishするのか
 - 公開前の社内確認が済んでいるか
 
-:::note[キャプチャー指示]
-撮影する画面: Publishボタンが押せない、またはPublish権限がないことが分かる画面。
-保存ファイル名: `g-08-can-publish-permission-check.png`
-撮影直前の状態: Publish操作前に止め、Publishボタンの状態または権限不足メッセージが分かる状態。
-必ず写すもの: Publishボタン、権限不足メッセージがあればその表示、対象画面。
-写さないもの: 未公開本文、個人情報、他社情報、請求情報。
-この画像で読者に確認してほしいポイント: Publishできない時は操作ミスではなくCan publish権限が原因の場合があること。
-:::
+![Can publish / Cannot publish の比較](../../../assets/captures/manual/g-08-can-publish-permission-check.png)
 
 ## 画像がアップロードできない
 

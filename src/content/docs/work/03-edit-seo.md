@@ -30,13 +30,7 @@ SEO設定は公開後の見え方に影響します。文言変更だけでな�
 3. Title tagを確認します。
 4. Meta descriptionを確認します。
 
-:::note[キャプチャー指示]
-撮影する画面: SEO titleとmeta descriptionの入力欄が見えている設定画面。
-保存ファイル名: `work-04-edit-seo-settings.png`
-撮影直前の状態: 対象ページのSEO設定欄が表示されている状態。
-必ず写すもの: Title tag、Meta description、対象ページ名。
-写さないもの: 非公開ページ名、個人情報、APIキー、請求情報。
-:::
+![ページのSEO設定（Title・Meta description編集）](../../../assets/captures/manual/work-04-edit-seo-settings.png)
 
 5. 必要な箇所だけ変更します。
 6. 文字数が長すぎないか確認します。
