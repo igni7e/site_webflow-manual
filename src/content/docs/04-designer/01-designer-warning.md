@@ -46,8 +46,6 @@ sidebar:
 
    ![Designerを開いた状態](../../../assets/captures/manual/d-01-designer-opened.png)
 
-   ![WebflowのDesigner編集画面の概要](../../../assets/captures/manual/b-39-official-designer-overview.png)
-
 4. 非常に多機能で複雑な、Webサイトの設計図とも言える「デザイナー」画面が起動します。
 
 ## 3. デザイナーモードの画面構成
@@ -68,7 +66,7 @@ PDF資料では、Designerで文章を修正する時の入口として次のよ
 ---
 
 <strong>次のステップ:</strong>
-以上の注意点を十分に理解し、覚悟が決まったら、次のマニュアルに進んでください。まずは、比較的リスクの低いテキストの修正から、「[デザイナーモードで「トップページの文章」を変える方法](/04-designer/02-edit-homepage-text/)」を変える方法」を見ていきましょう。
+以上の注意点を十分に理解し、覚悟が決まったら、次のマニュアルに進んでください。まずは、比較的リスクの低いテキストの修正から、「[デザイナーモードで「トップページの文章」を変える方法](/04-designer/02-edit-homepage-text/)」を見ていきましょう。
 
 ![Designerを開く前の判断の図解](../../../assets/ai-diagrams/manual/designer-caution.png)
 

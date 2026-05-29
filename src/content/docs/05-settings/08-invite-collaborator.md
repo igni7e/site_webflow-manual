@@ -64,8 +64,6 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 3. Site role、Site access、Can publishを見直します。
 4. 不要なメンバーはRemoveします。
 
-![既存メンバーの公開権限トグル](../../../assets/captures/manual/b-34-official-publishing-permission-toggle.png)
-
 退職者など、サイト編集権限を持たせるべきでないメンバーは <strong>必ず削除</strong> しましょう。
 
 ## 4. Seatと人数の考え方

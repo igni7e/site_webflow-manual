@@ -69,7 +69,7 @@ WebflowにはSEO title、meta description、Open Graphなどを管理する機�
 ---
 
 <strong>次のステップ:</strong>
-タイトルとセットで重要な、「[Google検索結果に出る「ページの説明文」を変更する方法 (SEO)](/05-settings/02-seo-description/)」を変更する方法 (SEO)」に進みましょう。
+タイトルとセットで重要な、「[Google検索結果に出る「ページの説明文」を変更する方法 (SEO)](/05-settings/02-seo-description/)」に進みましょう。
 
 ![SEO titleの位置づけの図解](../../../assets/ai-diagrams/manual/seo-meta-ogp-settings.png)
 

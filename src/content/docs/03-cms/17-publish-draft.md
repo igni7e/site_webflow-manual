@@ -43,14 +43,10 @@ Publishする前に、公開先ドメイン、変更したページ、スマー�
 5.  <strong>「Publish」ボタンをクリック:</strong>
     編集パネルの右下にある、青い<strong>「Publish」</strong>（公開する）ボタンをクリックします。
 
-    ![下書き保存・公開操作](../../../assets/captures/manual/c-07-save-draft-and-publish.png)
-
     ![下書きアイテムの公開オプション](../../../assets/captures/manual/c-21-cms-save-publish-options.png)
 
 6.  <strong>公開の確認:</strong>
     クリックすると、「`Publish 1 item`」のような確認メッセージが表示されます。問題がなければ、もう一度「<strong>Publish now</strong>」ボタンをクリックします。
-
-    ![「Publish now」と次回公開キューのオプション](../../../assets/captures/manual/b-24-official-cms-draft-publishing.png)
 
 7.  <strong>公開完了:</strong>
     「Published successfully!」というメッセージが表示されれば、公開は成功です。CMSの記事一覧画面に戻ると、該当記事のステータスが「<strong>Published</strong>」に変わっているはずです。

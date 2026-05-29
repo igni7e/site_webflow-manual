@@ -51,12 +51,12 @@ CMSの管理画面にアクセスできるようになったら、次はいよ�
 1.  <strong>CMS管理画面を開く:</strong>
     [「お知らせ」や「ブログ」はどこで管理してるの？](/03-cms/01-where-is-cms/)の手順に従って、WebflowのCMSから追加したいコンテンツ（例: `お知らせ`）を選択します。すると、そのコンテンツの記事一覧画面が表示されます。
 
-    ![コレクションリスト右上の「+ New Blog」ボタン](../../../assets/captures/manual/c-19-new-item-from-collection-list.png)
+    ![記事一覧画面（コレクション内のアイテム一覧）](../../../assets/captures/manual/c-02-collection-items-list.png)
 
 2.  <strong>「New」ボタンをクリック:</strong>
     画面の右上を見てください。<strong>「+ New [項目名]」</strong>（例: `+ New Announcement`）という青いボタンがあります。これが新規追加ボタンです。このボタンをクリックします。
 
-    ![記事一覧画面（右上に新規追加ボタン）](../../../assets/captures/manual/c-02-collection-items-list.png)
+    ![コレクションリスト右上の「+ New Blog」ボタン](../../../assets/captures/manual/c-19-new-item-from-collection-list.png)
 
 
 3.  <strong>記事の入力フォームが開く:</strong>
@@ -110,7 +110,7 @@ CMS記事は、1つの記事ページだけでなく複数の場所に表示さ�
 ---
 
 <strong>次のステップ:</strong>
-記事の入力フォームを開くところまでできました。次からは、各入力項目の詳細な設定方法を見ていきましょう。まずは最も基本の「[記事の「タイトル」を入力する](/03-cms/03-post-title/)」を入力する」です。
+記事の入力フォームを開くところまでできました。次からは、各入力項目の詳細な設定方法を見ていきましょう。まずは最も基本の「[記事の「タイトル」を入力する](/03-cms/03-post-title/)」です。
 
 ![CMS item作成フローの図解](../../../assets/ai-diagrams/manual/cms-item-creation-flow.png)
 
