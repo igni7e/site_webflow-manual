@@ -16,8 +16,6 @@ sidebar:
 ![CMS itemのLocale翻訳](../../../assets/captures/manual/e-04-cms-locale-translation.png)
 
 
-# E-5. CMS記事をLocaleごとに翻訳する
-
 ![CMS Locale翻訳の図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]

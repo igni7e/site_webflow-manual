@@ -6,8 +6,6 @@ sidebar:
   label: "A-0-5. サイトの修正画面に入る方法"
 ---
 
-# A-0-5. サイトの修正画面に入る方法
-
 ![Dashboardから開く入口の図解](../../../assets/ai-diagrams/manual/content-editor-open-flow.png)
 
 :::note[図解の見方]

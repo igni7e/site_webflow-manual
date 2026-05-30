@@ -14,8 +14,6 @@ sidebar:
 <!-- body-callout:end -->
 
 
-# G-1. トラブル時にまず確認するチェックリスト
-
 ![Webflow公式: Security](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6968e8767a907cb2aad06cce_og-security.jpg)
 
 :::note[公式画像]

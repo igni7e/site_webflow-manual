@@ -6,8 +6,6 @@ sidebar:
   label: "B-14. 公式画像で見るContent Editor操作"
 ---
 
-# B-14. 公式画像で見るContent Editor操作
-
 このページは、Webflow公式サイト、公式Updates、公式Help Centerの画像をマニュアル内に追加するための整理ページです。公式画像を使う場合も、Booost固有のサイト名、未公開ページ、個人情報が写る画面は避けてください。
 
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)

@@ -22,8 +22,6 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 :::
 
 
-# C-1. ブログ記事を新規投稿する完全ガイド
-
 ![CMSの全体像の図解](../../../assets/ai-diagrams/manual/cms-overview.png)
 
 :::note[図解の見方]

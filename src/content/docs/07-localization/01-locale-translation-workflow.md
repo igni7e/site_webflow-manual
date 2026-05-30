@@ -16,8 +16,6 @@ sidebar:
 ![Designer上部のLocale selector](../../../assets/captures/manual/e-01-locale-selector.png)
 
 
-# E-2. Locale翻訳の基本手順
-
 Locale翻訳では、最初に「どの言語を編集しているか」を確認することが最も重要です。別のLocaleを選んだまま編集すると、意図しない言語の内容を変更してしまうことがあります。
 *実画面例: Locale翻訳では、ページの見た目だけでなく、現在選択しているLocaleも確認します。*
 

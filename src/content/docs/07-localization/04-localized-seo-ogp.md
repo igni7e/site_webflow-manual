@@ -16,8 +16,6 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 ![LocaleごとのSEO / OGP設定](../../../assets/captures/manual/e-05-localized-seo-ogp.png)
 
 
-# E-6. LocaleごとのSEO・OGP確認
-
 ![Locale SEO/OGPの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]

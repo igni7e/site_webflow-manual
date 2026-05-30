@@ -16,8 +16,6 @@ sidebar:
 ![Localization設定画面](../../../assets/captures/manual/e-02-localization-settings.png)
 
 
-# E-3. 新しいLocaleを追加する時の流れ
-
 ![PrimaryとSecondary Localeの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]

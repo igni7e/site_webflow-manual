@@ -6,8 +6,6 @@ sidebar:
   label: "A-0-2. ワークスペースのプラン"
 ---
 
-# A-0-2. ワークスペースのプラン
-
 ![Workspace planで見る項目の図解](../../../assets/ai-diagrams/manual/workspace-plan-site-plan.png)
 
 :::note[図解の見方]

@@ -6,8 +6,6 @@ sidebar:
   label: "A-0-6. プラン・権限で迷ったときの見方"
 ---
 
-# A-0-6. プラン・権限で迷ったときの見方
-
 ![Workspace planとSite planの違いの図解](../../../assets/ai-diagrams/manual/workspace-plan-site-plan.png)
 
 :::note[図解の見方]

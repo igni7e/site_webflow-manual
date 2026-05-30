@@ -22,8 +22,6 @@ sidebar:
 :::
 
 
-# E-1. Locale翻訳の全体像
-
 ![Locale翻訳の流れの図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]

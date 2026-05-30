@@ -6,8 +6,6 @@ sidebar:
   label: "B-13. 最新Content Editor画面の見方"
 ---
 
-# B-13. 最新Content Editor画面の見方
-
 ![編集アイコンが出る条件の図解](../../../assets/ai-diagrams/manual/editor-icon-conditions.png)
 
 :::note[図解の見方]

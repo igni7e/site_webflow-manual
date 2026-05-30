@@ -6,8 +6,6 @@ sidebar:
   label: "A-0-1. ワークスペースとは"
 ---
 
-# A-0-1. ワークスペースとは
-
 ![WorkspaceとSiteの親子関係の図解](../../../assets/ai-diagrams/manual/workspace-site-relationship.png)
 
 :::note[図解の見方]

@@ -6,8 +6,6 @@ sidebar:
   label: "C-27. Booost記事入力フィールド早見表"
 ---
 
-# C-27. Booost記事入力フィールド早見表
-
 ![Booost Fieldの見方の図解](../../../assets/ai-diagrams/manual/booost-cms-field-guide.png)
 
 :::note[図解の見方]

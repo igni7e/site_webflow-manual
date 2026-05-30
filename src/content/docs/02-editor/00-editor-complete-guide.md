@@ -17,8 +17,6 @@ Webflowでは、コンテンツ管理にコンテンツエディター（CMS編�
 ![Dashboard上の編集入口](../../../assets/captures/manual/a-02-site-card-actions.png)
 
 
-# B-1. Content Editor入門：テキスト・画像・リンクを安全に更新する
-
 コンテンツエディターは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための編集画面です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
 従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。Dashboardに「Open Editor (Legacy)」が表示される場合だけ、旧バージョンの入口ページを確認してください。

@@ -15,8 +15,6 @@ sidebar:
 <!-- body-callout:end -->
 
 
-# D-13. Locale翻訳ページはEセクションへ移動しました
-
 Locale機能は重要度が高いため、Designer章の中の1ページではなく、独立した「E. Locale翻訳」セクションとして整理しました。
 
 以下のページから確認してください。

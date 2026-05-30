@@ -16,8 +16,6 @@ sidebar:
 ![固定ページの翻訳操作](../../../assets/captures/manual/e-03-static-page-translation.png)
 
 
-# E-4. 静的ページをLocaleごとに翻訳する
-
 ![静的ページ翻訳の図解](../../../assets/ai-diagrams/manual/localization-workflow.png)
 
 :::note[図解の見方]

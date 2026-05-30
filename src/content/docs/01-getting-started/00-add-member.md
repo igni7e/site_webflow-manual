@@ -6,8 +6,6 @@ sidebar:
   label: "A-0-4. メンバー追加と権限"
 ---
 
-# A-0-4. メンバー追加と権限
-
 ![誰をどこに追加するかの図解](../../../assets/ai-diagrams/manual/member-permissions.png)
 
 :::note[図解の見方]
