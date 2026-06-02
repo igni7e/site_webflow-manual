@@ -10,10 +10,6 @@ sidebar:
 
 ![Webflow公式: content editingの紹介画像](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/680fb9c7decb8c21fd926774_og-edit-mode.jpg)
 
-:::note[公式画像の扱い]
-上の画像はWebflow公式サイトの `Create and edit website content with edit mode` で公開されているOG画像です。本文内で公式画像を使う場合は、古いLegacy Editorではなく、最新版のContent editor roleを説明している画像を優先してください。
-:::
-
 ## 公式画像ギャラリー
 
 ### Content editing
@@ -165,12 +161,11 @@ sidebar:
 
 ## 差し込み時の判断基準
 
-:::tip[公式画像を優先する場面]
-Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Assets / Publishの位置関係を説明する場合は、公式画像を使うと読者が最新版UIを理解しやすくなります。
-:::
+- Webflowの一般的なUI、Content editor roleの考え方、Pages / CMS / Assets / Publishの位置関係を説明する場合は、公式画像を優先します。
+- 対象サイト名、Booost固有のCollection名、実際の投稿Fieldなどを説明する場合は、Booost画面のキャプチャーを優先します。
 
-:::caution[Booost画面を優先する場面]
-対象サイト名、Booost固有のCollection名、実際に押すサイトカード、実際の投稿Fieldなどを説明する場合は、公式画像ではなくBooost画面のキャプチャーを使ってください。個人情報、未公開記事、問い合わせ本文、請求情報は必ず隠します。
+:::caution[キャプチャー時の注意]
+Booost画面を使う場合は、個人情報、未公開記事、問い合わせ本文、請求情報が写らないようにしてください。
 :::
 
 ## 公式画像差し込み位置
@@ -269,7 +264,7 @@ Designer編集画面の概要:
 
 ![URL末尾に ?update を付けてContent Editorを起動](../../../assets/captures/manual/b-18-official-update-shortcut.png)
 
-### Legacy Editorと最新版Content Editorの違い
+### 旧版との比較（補足）
 
 ![旧Legacy Editorと新Content Editorの比較](../../../assets/captures/manual/b-19-official-legacy-vs-content-editor.png)
 

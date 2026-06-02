@@ -32,6 +32,10 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 
 ![Asset Panelまたはロゴ画像選択](../../../assets/captures/manual/d-03-assets-and-logo.png)
 
+:::note[キャプチャー指示]
+Navigatorから画像を選び、Image settingsで `Replace Image` が見える状態を撮影してください。保存ファイル名は `src/assets/captures/manual/d-05-asset-panel-replace-image.png`。左側のAssets Panel、対象画像、Replace Imageの入口が分かる画角にし、未公開画像や個人情報は写さないでください。
+:::
+
 クリックすると、画面の左側にアセットパネルが開き、アップロード済みの画像などが一覧で表示されます。
 
 ## 3. アセットパネルの基本的な使い方
@@ -49,6 +53,28 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 ### 表示形式を切り替える方法
 
 検索バーの右側にあるアイコンで、画像の表示を大きなグリッド表示と、ファイル名が見やすいリスト表示に切り替えることができます。
+
+### 画像を削除する方法
+
+1. 削除したい画像の設定アイコンを開きます。
+2. <strong>Used on X pages</strong> を確認し、使用中のページがないかを見ます。
+3. 使われていない画像だけ、赤い <strong>Delete</strong> ボタンで削除します。
+
+:::note[キャプチャー差し込み位置]
+画像の設定アイコンから `Used on X pages` と赤い `Delete` ボタンが見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/d-05-asset-delete-used-on-pages.png`。削除対象が実際に不要な画像か確認した上で、削除実行前の状態を撮影してください。
+:::
+
+### 一括クリーンアップ機能
+
+アセットパネルには、未使用アセットをまとめて整理する <strong>Clean up assets</strong> 機能があります。実行前に、必要な画像まで削除されないか制作担当者に確認してください。
+
+:::note[キャプチャー差し込み位置]
+Expandメニュー内の `Clean up assets` が見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/d-05-clean-up-assets-menu.png`。メニューを開いた状態で、実行ボタンを押す前に撮影してください。
+:::
+
+:::caution[削除前の確認]
+アセットを削除すると、その画像を使っているページで画像抜けが起きる可能性があります。`Used on X pages` が表示されている場合は、自分だけで削除せず制作担当者へ確認してください。
+:::
 
 ## 4. アセットパネルを使う上での注意点
 

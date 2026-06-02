@@ -23,8 +23,6 @@ Webflowで何かを変更する前に、どの画面を開くべきか、どこ�
 
 ![Dashboardで対象サイトを確認する画面](../../../assets/captures/manual/work-00-dashboard-workspace-site-check.png)
 
-![サイトメニューから「Open Editor (legacy)」を選ぶ](../../../assets/captures/manual/work-00-content-editor-entry-check.png)
-
 :::tip[迷った時の入口]
 文章や画像の通常更新は、まずContent editor roleで開くことをお勧めします。Designer、Billing、Plan、Delete、Archiveなどは影響範囲が大きいため、作業前に確認してください。
 :::

@@ -31,7 +31,7 @@ OGPは、WebページがSNSでシェアされた時に、どのように表示�
 ## 2. OGP画像を設定する場所
 
 OGP画像の設定場所は、ページのSEO設定と同じ場所にあります。
-*実画面例: SEOやSNS表示に関わる設定を確認する入口です。OGP画像はページ設定またはCMS itemのOpen Graph Settingsで確認します。*
+OGP画像は、ページ設定またはCMS itemの <strong>Open Graph Settings</strong> で確認します。
 
 ### 静的ページ（トップページ、会社概要など）の場合
 
@@ -39,6 +39,10 @@ OGP画像の設定場所は、ページのSEO設定と同じ場所にありま�
 2.  左側のパネル群から<strong>「Pages」</strong>（ページのアイコン）をクリックします。
 3.  ページ一覧が表示されるので、設定を変更したいページにカーソルを合わせ、表示される<strong>歯車アイコン（Settings）</strong>をクリックします。
 4.  ページ設定パネルが開きます。その中の<strong>「Open Graph Settings」</strong>というセクションに<strong>「Open Graph Image」</strong>という項目があります。ここが設定場所です。
+
+:::note[キャプチャー差し込み位置]
+Page Settings内の `Open Graph Settings` と `Open Graph Image` 項目をここに追加します。保存ファイル名は `src/assets/captures/manual/f-03-open-graph-image-setting.png`。ページ名、Open Graph Image欄、Uploadまたは画像選択の入口が分かる状態で撮影してください。
+:::
 
 ### CMSページ（ブログ記事、お知らせなど）の場合
 
@@ -58,6 +62,10 @@ OGP画像の設定場所は、ページのSEO設定と同じ場所にありま�
 
 4.  <strong>アップロードとプレビュー確認:</strong>
     画像がWebflowにアップロードされ、設定欄にプレビューが表示されます。意図した画像が正しく設定されたかを確認してください。
+
+:::tip[静的ページとCMSページの違い]
+会社概要やサービスページはPagesのPage Settings、ブログやお知らせはCMS item内のOpen Graph Settingsを確認します。どちらを編集しているか分からない場合は、公開URLとページ名を控えてから制作担当者へ確認してください。
+:::
 
 ## 4. OGP画像の推奨サイズ
 

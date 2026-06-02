@@ -13,14 +13,6 @@ sidebar:
 :::
 <!-- body-callout:end -->
 
-> 新規追加（標準スコープ補完）
-
-![Webflow公式: Analyze](https://cdn.prod.website-files.com/650311fc2ebc7fe34237a592/686d776d065cce5ba641a6f8_og-analyze.webp)
-
-:::note[公式画像]
-上の画像はWebflow公式Analyzeページの画像です。検索表示や計測に関わる設定は、変更後すぐに外部サービスへ反映されるとは限りません。
-:::
-
 「特定のページは Google の検索結果に出したくない」「サイト全体のページ一覧を Google に正しく伝えたい」といった、検索エンジンとの付き合い方の基本設定です。
 
 ---
@@ -60,12 +52,20 @@ Webflow は <strong>sitemap.xml を自動生成</strong> します。確認す�
 4. <strong>「Disable indexing for this page」</strong> または <strong>「Exclude from sitemap.xml」</strong> をON
 5. <strong>Publish</strong> で反映
 
+:::note[キャプチャー差し込み位置]
+Page Settingsの `Indexing` または `Search settings` で `Disable indexing for this page` / `Exclude from sitemap.xml` が見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/f-10-page-indexing-settings.png`。ON/OFF状態が分かる画角で、設定変更を実行する前に撮影してください。
+:::
+
+:::caution[noindex解除忘れに注意]
+noindexは検索結果からページを外すための設定です。キャンペーン終了後やテストページだけに使い、通常の会社概要・サービス・ブログ記事には設定しないでください。
+:::
+
 ### サイト全体を一時的に非公開にする場合
 
 サイトリニューアル中など、<strong>サイト全体を検索結果から外したい時</strong>：
 
 1. Project Settings → <strong>「SEO」</strong> タブを開く
-*実画面例: サイト全体の検索エンジン関連設定は、Site settingsのSEOから確認します。*
+   サイト全体の検索エンジン関連設定は、Site settingsのSEOから確認します。
 
 2. <strong>「Disable Webflow subdomain indexing」</strong> をON
 3. <strong>Publish</strong>
@@ -80,7 +80,7 @@ URLの末尾に `/robots.txt` を付けて確認できます：
 - 例: `https://example.com/robots.txt`
 
 カスタマイズが必要な場合は [IGNITE公式サイトのお問い合わせフォーム](https://igni7e.jp/contact/) から依頼してください。クライアント側での編集は推奨されません。
-*実画面例: Custom codeは専門的な設定です。SEOタグや計測タグに関係することがあるため、通常は制作担当者に依頼してください。*
+Custom codeは専門的な設定です。SEOタグや計測タグに関係することがあるため、通常は制作担当者に依頼してください。
 
 ## 5. よくある「noindex」を使う場面
 

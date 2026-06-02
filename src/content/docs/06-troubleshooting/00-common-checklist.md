@@ -14,16 +14,11 @@ sidebar:
 <!-- body-callout:end -->
 
 
-![Webflow公式: Security](https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6968e8767a907cb2aad06cce_og-security.jpg)
-
-:::note[公式画像]
-上の画像はWebflow公式Securityページの画像です。トラブル時は、まずログイン状態、権限、Publish状態、対象ページ、公開先を分けて確認してください。
-:::
-
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
-*実画面例: 問題が起きた時は、Site settingsでForms、Publishing、Backupsなどの関連画面を確認します。*
 
-![Content editorロールの権限設定](../../../assets/captures/manual/b-22-official-content-role-permissions.png)
+:::note[キャプチャー差し込み位置]
+トラブル時に確認する Site settings の関連画面をここに追加します。保存ファイル名は `src/assets/captures/manual/g-00-settings-troubleshooting-check.png`。Forms、Publishing、Backups、またはContent editor roleの権限確認画面のうち、原因切り分けに使う画面を撮影してください。フォーム送信内容やメールアドレスは写さないでください。
+:::
 
 ## 英語画面で何を押せばよいか分からない
 

@@ -15,9 +15,6 @@ Site settingsはサイト全体に影響する項目が多い画面です。SEO�
 
 ![Site accessページ（メンバーの役割とCan publish権限）](../../../assets/captures/manual/f-08-site-access-overview.png)
 
-
-> 新規追加（標準スコープ補完）
-
 社内で複数人がサイトを更新する場合、メンバーごとにWebflowのSeatとSite roleを割り当てます。これにより、誰がいつ編集したか、誰が公開できるかを管理できます。
 
 ---
@@ -39,13 +36,17 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
 ## 2. Content editorを招待する手順
 
 1. Webflowにログインし、WorkspaceのTeam settingsまたは対象サイトのSite accessを開きます。
-   *実画面例: Site accessでは、サイトに入れるメンバーや権限を確認します。*
+   Site accessでは、サイトに入れるメンバーや権限を確認します。
 
    ![Site SettingsのSite accessメニュー](../../../assets/captures/manual/f-09-site-settings-site-access-menu.png)
 
 2. <strong>Invite member</strong> または <strong>Invite client</strong> を選びます。
 
    ![メンバーと役割の一覧](../../../assets/captures/manual/f-04-members-and-roles.png)
+
+   :::note[キャプチャー指示]
+   既存画像と重複しないよう、Invite member / Invite client の招待モーダル、SeatとSite roleで `Content editor` を選ぶ画面、または `Can publish` トグルが見える画面を撮影してください。保存ファイル名は `src/assets/captures/manual/f-08-invite-member-role-modal.png`。メールアドレスなどの個人情報は写さないでください。
+   :::
 
 3. 招待相手のメールアドレスを入力します。
 4. SeatとSite roleで <strong>Content editor</strong> を選びます。

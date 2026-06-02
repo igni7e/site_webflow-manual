@@ -41,8 +41,8 @@
 
 | ID | 優先 | 保存ファイル名 | 撮影する画面 | 差し込み先 | 撮影ポイント |
 | --- | --- | --- | --- | --- | --- |
-| B-01 | P0 | `b-01-open-content-editor.png` | Content Editor（旧バージョン）を開く入口 | `02-editor/01-open-legacy-editor.md` | Dashboard上の「Open Editor (Legacy)」が分かる状態。旧版の入口であることが伝わるようにする。 |
-| B-02 | P0 | `b-02-editor-canvas-opened.png` | Content Editor（旧バージョン）でサイトを開いた直後 | `02-editor/01-open-legacy-editor.md` | 旧Editorの下部バー、ページ画面、編集できるサイト画面が見える状態。ロード完了後に撮る。 |
+| B-01 | P2 | `b-01-open-content-editor.png` | Content Editor（旧バージョン）を開く入口（補足） | `02-editor/01-open-legacy-editor.md` | 旧版が必要な既存運用向け。通常更新では最新版Content editor roleの画面を優先する。 |
+| B-02 | P2 | `b-02-editor-canvas-opened.png` | Content Editor（旧バージョン）でサイトを開いた直後（補足） | `02-editor/01-open-legacy-editor.md` | 旧版が必要な場合だけ撮影する。旧Editorの下部バー、ページ画面、編集できるサイト画面が見える状態。 |
 | B-03 | P0 | `b-03-editable-text-active.png` | テキスト編集状態 | `02-editor/03-edit-text.md`, `04-bold-text.md` | 編集できるテキスト、選択枠、入力カーソル、太字などの簡易ツールバーが分かる状態。 |
 | B-04 | P0 | `b-04-link-settings-panel.png` | リンク設定画面 | `02-editor/05-add-link.md`, `07-edit-link-url.md`, `10-external-link-new-tab.md`, `11-anchor-link.md` | URL入力欄、Open in new tab、リンク先設定が分かる状態。外部URLは公開してよいものにする。 |
 | B-05 | P0 | `b-05-image-replace.png` | 画像差し替え操作 | `02-editor/06-replace-image.md` | 画像にカーソルを合わせた状態、Replace / Upload画面、対象画像が分かる構図。 |
@@ -57,7 +57,7 @@
 | B-16 | P0 | `b-16-official-link-editing.png` | 公式画像: リンク編集の入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/07-edit-link-url.md`, `02-editor/10-external-link-new-tab.md` | Link設定、URL入力欄、新しいタブ設定などが分かる公式画像。 |
 | B-17 | P0 | `b-17-official-publish-flow.png` | 公式画像: Publish前の確認画面 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/08-save-and-publish.md`, `02-editor/12-before-publish-checklist.md` | Publishボタン、公開対象、公開前確認の文脈が分かる公式画像。 |
 | B-18 | P1 | `b-18-official-update-shortcut.png` | 公式画像: `?update` で直接編集画面を開く導線 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/02-open-content-editor.md` | 公式Help Centerの `?update` shortcut説明と整合する画像。ブラウザURL欄を写す場合は実サイトURLを公開可能なものにする。 |
-| B-19 | P1 | `b-19-official-legacy-vs-content-editor.png` | 公式画像: Legacy Editorと最新版Content Editorの違い | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | 旧Legacy Editorと最新版Content Editorを混同しないように、比較説明に使える公式画像または公式ページの画像。 |
+| B-19 | P2 | `b-19-official-legacy-vs-content-editor.png` | 公式画像: Legacy Editorと最新版Content Editorの違い（補足） | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | 旧Legacy Editorと最新版Content Editorを混同しないための補足比較に使う。通常更新の説明では最新版Content editor roleの画像を優先する。 |
 | B-20 | P1 | `b-20-official-cms-item-editing.png` | 公式画像: CMS itemを作成・編集する画面 | `02-editor/14-official-content-editor-image-reference.md`, `03-cms/00-blog-post-complete-guide.md` | CMS fields、preview、publishの流れが分かる公式画像。 |
 | B-21 | P1 | `b-21-official-seo-ogp-controls.png` | 公式画像: SEO / Open Graphを確認する画面 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/01-seo-title.md` | Page title、Meta description、Open Graph設定などが分かる公式画像。 |
 | B-22 | P1 | `b-22-official-content-role-permissions.png` | 公式画像: Content editor roleの権限・Publish権限 | `02-editor/14-official-content-editor-image-reference.md`, `01-getting-started/08-editor-only-recommendation.md` | Content editor role、Can publish、権限範囲の説明に使える公式画像。 |
@@ -79,7 +79,7 @@
 | B-38 | P1 | `b-38-official-analyze-seo-settings.png` | 公式画像: Analyze / 計測の概要 | `02-editor/14-official-content-editor-image-reference.md`, `05-settings/10-search-engine-control.md` | Webflow公式Analyze画像。検索表示、計測、反映タイミングの説明に使う。 |
 | B-39 | P1 | `b-39-official-designer-overview.png` | 公式画像: Designerの概要 | `02-editor/14-official-content-editor-image-reference.md`, `04-designer/01-designer-warning.md` | Webflow公式Design画像。Designerが高機能で慎重に扱う画面だと伝える説明に使う。 |
 | B-40 | P0 | `work-00-dashboard-workspace-site-check.png` | 作業前のWorkspace / Site確認 | `work/06-before-start.md` | DashboardでWorkspace名と対象Site cardが同時に見える構図。他社Site名、通知、メールは隠す。 |
-| B-41 | P0 | `work-00-content-editor-entry-check.png` | 作業前のContent editor入口確認 | `work/06-before-start.md` | 対象Site card、Content editor入口、DesignerやSettingsとの位置関係。通常更新の入口を説明できる状態にする。 |
+| B-41 | P2 | `work-00-content-editor-entry-check.png` | 作業前のContent editor入口確認（補足） | `work/06-before-start.md` | 旧Legacy Editor入口を強調する画像は使わない。必要な場合のみ、最新版Content editor roleを優先する導線として撮影する。 |
 | B-42 | P0 | `work-00-before-publish-target-check.png` | 作業前ページのPublish前確認 | `work/06-before-start.md` | Publishボタン、公開対象、公開先ドメイン、Cancelできる状態。実行前で止める。 |
 | B-09 | P0 | `work-01-edit-text-open-site.png` | テキスト修正作業の開始画面 | `work/00-edit-text.md` | 対象サイトカードからContent editor roleを開く直前。Workspace名、対象サイトカード、編集入口が分かる構図。 |
 | B-10 | P0 | `work-02-replace-image-edit-icon.png` | 画像差し替えアイコン | `work/01-replace-image.md` | 対象画像と編集アイコンが同時に見える状態。未公開画像や個人情報は写さない。 |

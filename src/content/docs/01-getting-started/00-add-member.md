@@ -6,10 +6,10 @@ sidebar:
   label: "A-0-4. メンバー追加と権限"
 ---
 
-![誰をどこに追加するかの図解](../../../assets/ai-diagrams/manual/member-permissions.png)
+![Site roles（メンバーの役割とCan publish権限）一覧](../../../assets/captures/manual/a-09-members-and-permissions.png)
 
-:::note[図解の見方]
-招待前に、何をしてほしい人なのかを先に決めます。
+:::note[画面の見方]
+招待前に、何をしてほしい人なのかを先に決め、必要なRoleとCan publish権限だけを確認します。
 :::
 
 
@@ -18,8 +18,6 @@ sidebar:
 Webflowでは、メンバーごとにできる作業範囲が変わります。普段の更新担当者には、文章・画像・CMSを更新できる範囲の権限を付けるのが基本です。
 
 権限を強くしすぎると、DesignerやSettingsでサイト全体に影響する操作ができてしまいます。追加前に「その人が何を更新する担当か」を確認しましょう。
-
-![Site roles（メンバーの役割とCan publish権限）一覧](../../../assets/captures/manual/a-09-members-and-permissions.png)
 
 ## 追加前に確認すること
 

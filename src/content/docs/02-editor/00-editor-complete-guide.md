@@ -19,8 +19,7 @@ Webflowでは、コンテンツ管理にコンテンツエディター（CMS編�
 
 コンテンツエディターは、Webflowサイトの見た目を確認しながら、文章・画像・リンクなどのコンテンツを更新するための編集画面です。サイトの構造やデザインを変更せずに作業できるため、日常的な更新はContent editor roleで行うのが安全です。
 
-従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。Dashboardに「Open Editor (Legacy)」が表示される場合だけ、旧バージョンの入口ページを確認してください。
-*実画面例: Dashboardでは、通常の編集入口と旧Legacy Editorの入口を見分けてから作業に入ります。*
+従来のLegacy Editorは2026年8月4日から利用できなくなる予定です。この章では、公開版として最新のContent editor roleを前提に説明します。
 
 ## 作業全体の流れ
 
@@ -36,9 +35,13 @@ Webflowでは、コンテンツ管理にコンテンツエディター（CMS編�
 
 WebflowにログインしてDashboardから対象サイトを開く方法と、サイトURLの末尾に `?update` を付けて直接開く方法があります。サイトごとに権限や案内URLが異なる場合があるため、初回は制作担当者から共有された方法を優先してください。
 
-最新版の詳しい手順は [B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/) を確認してください。旧Legacy Editorの入口が表示される場合は [B-1. Content Editor（旧バージョン）でWebflowを開く方法](/02-editor/01-open-legacy-editor/) を確認してください。
+最新版の詳しい手順は [B-2. Content Editor（最新版）でWebflowを開く方法](/02-editor/02-open-content-editor/) を確認してください。
 
 最新版の画面でPages、CMS、Assets、編集アイコン、Publishの位置に迷った場合は [B-13. 最新Content Editor画面の見方](/02-editor/13-latest-content-editor-screen-guide/) を先に確認してください。
+
+:::note[旧版の画面が出た場合]
+Dashboardに「Open Editor (Legacy)」しか表示されない場合は、補足ページ [Content Editor（旧バージョン）でWebflowを開く方法](/02-editor/01-open-legacy-editor/) を確認してください。通常の更新案内では最新版Content editor roleを優先します。
+:::
 
 ## テキストを編集する
 

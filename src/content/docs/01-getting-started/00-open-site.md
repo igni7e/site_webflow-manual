@@ -6,9 +6,9 @@ sidebar:
   label: "A-0-5. サイトの修正画面に入る方法"
 ---
 
-![Dashboardから開く入口の図解](../../../assets/ai-diagrams/manual/content-editor-open-flow.png)
+![サイトカードで「Open in Webflow」が表示された状態](../../../assets/captures/manual/a-10-open-site-from-dashboard.png)
 
-:::note[図解の見方]
+:::note[画面の見方]
 日常更新はOpen in Webflowから入り、Designerは必要な時だけ使います。
 :::
 
@@ -18,8 +18,6 @@ sidebar:
 Webflowにログインしたら、Dashboardから対象サイトを選びます。普段の文字・画像・ブログ更新では、まずContent editor roleで開くことをお勧めします。
 
 DesignerはレイアウトやCSSに触れる画面です。制作担当者から指示がある場合だけ使いましょう。
-
-![サイトカードで「Open in Webflow」が表示された状態](../../../assets/captures/manual/a-10-open-site-from-dashboard.png)
 
 ## 手順
 

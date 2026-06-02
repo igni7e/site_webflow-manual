@@ -13,11 +13,7 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 :::
 <!-- body-callout:end -->
 
-
-> 新規追加（標準スコープ補完）
-
 ブラウザのタブやブックマーク一覧に表示される <strong>小さなアイコン</strong> を「ファビコン（Favicon）」と呼びます。ブランディングの基本要素です。
-*実画面例: faviconやサイト名などの基本設定は、Site settingsのGeneral周辺で確認することがあります。*
 
 ---
 
@@ -52,6 +48,10 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 5. <strong>Webclip</strong> の <strong>Upload</strong> ボタンをクリックして 256×256 px のファイルをアップロード
 6. ページ下部の <strong>Save Changes</strong> をクリック
 7. <strong>Designer モードを開いて Publish</strong> することで、サイトに反映されます
+
+:::note[キャプチャー差し込み位置]
+Project Settings > General の `Favicon & Webclip` セクションをここに追加します。保存ファイル名は `src/assets/captures/manual/d-10-favicon-webclip-settings.png`。Favicon（32×32px）とWebclip（256×256px）のUploadボタンが見える状態で撮影してください。
+:::
 
 ## 4. 反映確認
 

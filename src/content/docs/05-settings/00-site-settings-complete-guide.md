@@ -64,6 +64,12 @@ Webflowサイトを独自ドメインで公開したり、CMSを使ったりす�
 5. 必要なプランを選び、支払いサイクルを確認します。
 6. 決済内容を確認してから確定します。
 
+## Site usageで容量・Bandwidthを確認する
+
+画像、動画、PDFなどを追加した後は、Site usageでBandwidth使用量を確認できます。Bandwidthの上限はSite planによって変わるため、使用量が増えている場合は自己判断でプラン変更せず、社内管理者または制作担当者に相談してください。
+
+詳しい見方は [Site usageで容量・Bandwidthを確認する](/05-settings/11-site-usage-bandwidth/) を確認してください。
+
 ## SEO・SNS表示も確認する
 
 公開前後には、検索結果やSNS共有で表示されるタイトル、説明文、OGP画像も確認します。

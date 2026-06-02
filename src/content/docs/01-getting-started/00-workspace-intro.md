@@ -27,9 +27,9 @@ Workspaceは、Webflowで複数のサイト、メンバー、権限、プラン�
 
 ![ワークスペース切り替えドロップダウンを開いた状態](../../../assets/captures/manual/a-11-workspace-selector-open.png)
 
-各サイトカードの「…」メニューから、Settings・CMS・Editorなどの入口を開けます。
+各サイトカードの「…」メニューから、Settings・CMSなどの入口を開けます。通常の文章・画像更新は、最新版のContent editor roleで開く導線を優先してください。
 
-![サイトカードの「…」メニュー（Settings・Open CMS・Open Editor等）](../../../assets/captures/manual/a-12-site-card-entry-points.png)
+![サイトカードの「…」メニュー（Settings・Open CMSなど）](../../../assets/captures/manual/a-12-site-card-entry-points.png)
 
 ## Workspaceで管理するもの
 
