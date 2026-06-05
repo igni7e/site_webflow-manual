@@ -63,9 +63,9 @@ Webflowが開いたら、すぐに編集を始めず、次の順番で確認し�
 4. CMS記事を触る場合は、CMSパネルまたはCMSテンプレートページを開いているか確認します。
 5. Publish権限がある場合も、公開前チェックを済ませてからPublishします。
 
-:::note[キャプチャー差し込み位置]
-Content Editorを開いた直後の画面をここに追加します。保存ファイル名は `src/assets/captures/manual/b-02-content-editor-first-check.png`。正しいサイト名、ページ上の編集可能要素、左側のCMSまたはAssets入口が確認できる画角にし、個人情報や未公開ページ名は写さないでください。
-:::
+![Content Editorを開いた直後の確認画面](../../../assets/captures/manual/b-02-content-editor-first-check.png)
+
+*実画面例: 編集を始める前に、正しいサイト名、編集可能な要素、左側メニューの入口が見えているかを確認します。*
 
 :::note[旧版の画面が表示される場合]
 Dashboard上に「Open Editor (Legacy)」しか表示されない場合は、旧バージョンの入口です。通常は最新版Content editor roleを優先し、旧版が必要な場合だけ [補足ページ](/02-editor/01-open-legacy-editor/) を確認してください。

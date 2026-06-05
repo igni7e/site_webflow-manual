@@ -16,9 +16,9 @@ sidebar:
 
 Webflowの更新作業で困ったときは、まずこのページで原因を切り分けてください。多くの問題は、ログイン状態、Publish忘れ、ブラウザキャッシュ、権限、対象ページの取り違えで起きます。
 
-:::note[キャプチャー差し込み位置]
-トラブル時に確認する Site settings の関連画面をここに追加します。保存ファイル名は `src/assets/captures/manual/g-00-settings-troubleshooting-check.png`。Forms、Publishing、Backups、またはContent editor roleの権限確認画面のうち、原因切り分けに使う画面を撮影してください。フォーム送信内容やメールアドレスは写さないでください。
-:::
+![トラブル時に確認するSite settings関連画面](../../../assets/captures/manual/g-00-settings-troubleshooting-check.png)
+
+*実画面例: 問題の原因を切り分ける時は、Site settings側の権限・公開・フォーム関連設定も確認します。*
 
 ## 英語画面で何を押せばよいか分からない
 

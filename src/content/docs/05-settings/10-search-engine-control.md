@@ -52,9 +52,13 @@ Webflow は <strong>sitemap.xml を自動生成</strong> します。確認す�
 4. <strong>「Disable indexing for this page」</strong> または <strong>「Exclude from sitemap.xml」</strong> をON
 5. <strong>Publish</strong> で反映
 
-:::note[キャプチャー差し込み位置]
-Page Settingsの `Indexing` または `Search settings` で `Disable indexing for this page` / `Exclude from sitemap.xml` が見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/f-10-page-indexing-settings.png`。ON/OFF状態が分かる画角で、設定変更を実行する前に撮影してください。
-:::
+![Sitemap indexingがOffの状態](../../../assets/captures/manual/f-11-page-indexing-settings.png)
+
+*実画面例: Sitemap indexingをOffにすると、そのテンプレートページは検索結果やsitemap.xmlに出ない状態になります。*
+
+![Sitemap indexingがOnの状態](../../../assets/captures/manual/f-10-page-indexing-settings.png)
+
+*実画面例: 通常公開したいページでは、Sitemap indexingがOnになっているか確認します。*
 
 :::caution[noindex解除忘れに注意]
 noindexは検索結果からページを外すための設定です。キャンペーン終了後やテストページだけに使い、通常の会社概要・サービス・ブログ記事には設定しないでください。

@@ -42,9 +42,9 @@ sidebar:
 4. 別ページの特定箇所へリンクする場合は <strong>`/about/#contact`</strong> のように完全パスを書く
 5. Save をクリック
 
-:::note[キャプチャー差し込み位置]
-URL欄に `#contact` のようなアンカーIDを入力しているリンク設定画面をここに追加します。保存ファイル名は `src/assets/captures/manual/b-11-anchor-link-url-field.png`。リンク（鎖アイコン）を開き、`#` から始まるIDが入力中だと分かる状態で撮影してください。
-:::
+![アンカーIDを入力したリンク設定画面](../../../assets/captures/manual/b-11-anchor-link-url-field.png)
+
+*実画面例: 同じページ内へ移動する場合は、URL欄に `#contact` のようなIDを入力します。*
 
 ## 4. ボタンからアンカーへリンクする場合
 

@@ -34,9 +34,9 @@ sidebar:
 5. <strong>「Open in new tab（新しいタブで開く）」のチェックボックスをONにします</strong>
 6. <strong>Save</strong> ボタンをクリックして保存
 
-:::note[キャプチャー差し込み位置]
-リンク設定パネルで `Open in new tab` のチェックボックスが見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/b-10-open-in-new-tab-setting.png`。対象テキストを選択し、URL入力欄とチェックボックスが表示されている状態で撮影してください。
-:::
+![リンク設定パネルのOpen in new tab](../../../assets/captures/manual/b-10-open-in-new-tab-setting.png)
+
+*実画面例: 外部リンクではURL欄を確認したうえで、`Open in new tab` をONにします。*
 
 ## 3. 既存のリンクを「新しいタブで開く」に変更する
 

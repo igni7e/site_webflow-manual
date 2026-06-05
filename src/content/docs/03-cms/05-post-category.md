@@ -42,9 +42,9 @@ CMSの入力フォーム内でのカテゴリー設定方法は、サイトの�
 
 一つの記事に、複数の関連カテゴリーを設定できるタイプです。「Categories」「関連カテゴリー」といった名前のフィールドで、クリックすると選択肢が表示され、複数にチェックを入れることができます。
 
-:::note[キャプチャー差し込み位置]
-複数カテゴリーを選択する multi-reference フィールドの操作画面をここに追加します。保存ファイル名は `src/assets/captures/manual/c-05-multi-reference-categories.png`。`Categories` または関連カテゴリーの選択肢が開き、複数選択できることが分かる状態で撮影してください。
-:::
+![複数カテゴリーを選択するmulti-referenceフィールド](../../../assets/captures/manual/c-05-multi-reference-categories.png)
+
+*実画面例: 複数選択タイプでは、関連するカテゴリーを複数選んで記事に紐づけられます。*
 
 <strong>【操作方法】</strong>
 1.  カテゴリーのフィールドをクリックします。

@@ -49,6 +49,7 @@
 | B-06 | P0 | `b-06-publish-button-editor.png` | EditorのPublish操作 | `02-editor/08-save-and-publish.md`, `12-before-publish-checklist.md` | Publishボタン、公開前に確認すべきページ全体、保存状態が分かる状態。 |
 | B-07 | P1 | `b-07-discard-changes-confirm.png` | 変更破棄の確認画面 | `02-editor/09-discard-changes.md` | Discard、Cancelなどの判断ボタンが見える状態。実際に破棄する直前で止める。 |
 | B-08 | P0 | `b-08-content-editor-latest-canvas.png` | Content Editor（最新版）でサイトを開いた直後 | `02-editor/02-open-content-editor.md`, `02-editor/00-editor-complete-guide.md` | 最新版のContent editor roleとしてcanvasを開いた状態。旧Legacy Editorの下部バーではなく、最新UIで編集可能な状態が分かる構図にする。 |
+| B-08A | P0 | `b-02-content-editor-first-check.png` | Content Editorを開いた直後の初回確認画面 | `02-editor/02-open-content-editor.md` | 正しいサイト名、ページ上の編集可能要素、左側のCMSまたはAssets入口が同時に見える状態。青いアウトラインまたは編集アイコンが出ていること。個人情報、未公開ページ名、通知、請求情報は写さない。詳しい指示は `docs/content-editor-first-check-capture-request-2026-06-02.md` を参照する。 |
 | B-11 | P0 | `b-09-latest-content-editor-screen-guide.png` | 最新Content Editorの画面構成 | `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像、またはBooostサイトを最新版Content editor roleで開いたcanvas画面。canvas、上部バー、Pages/CMS/Assetsなどの入口、編集可能な要素の青いアウトラインまたは編集アイコンが分かる状態。 |
 | B-12 | P0 | `b-12-official-content-editor-canvas.png` | 公式画像: Content editor roleのcanvas全体 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/02-open-content-editor.md` | Webflow公式Help Centerまたは公式サイトの画像を利用。canvas、編集対象ページ、Content editor roleであることが分かるUI。Legacy Editorの古い下部バーだけの画像は避ける。 |
 | B-13 | P0 | `b-13-official-content-editor-panels.png` | 公式画像: Pages / CMS / Assets / Settingsの入口 | `02-editor/14-official-content-editor-image-reference.md`, `02-editor/13-latest-content-editor-screen-guide.md` | Webflow公式Help CenterのContent editor role説明画像を利用。各panelの入口と位置関係が分かる画像にする。 |
@@ -247,3 +248,31 @@
 - F-06: `work-04-edit-seo-settings.png`
 - F-07: `work-05-check-forms-submissions.png`
 - G-04: `g-04-maintenance-request-example.png`
+
+## 2026-06-05 反映状況
+
+`/Users/das/Downloads/マニュアルv3` で受領した19枚のPNGは `src/assets/captures/manual/` に保存し、該当本文へ反映済みです。
+
+反映済み画像:
+
+- `b-02-content-editor-first-check.png`
+- `b-10-open-in-new-tab-setting.png`
+- `b-11-anchor-link-url-field.png`
+- `c-05-multi-reference-categories.png`
+- `c-11-rich-text-image-size-menu.png`
+- `c-22-body-image-alt-settings.png`
+- `c-22-thumbnail-alt-settings.png`
+- `d-05-asset-panel-replace-image.png`
+- `d-05-asset-delete-used-on-pages.png`
+- `d-10-favicon-webclip-settings.png`
+- `d-11-page-duplicate-menu.png`
+- `f-03-open-graph-image-setting.png`
+- `f-06-form-submissions-export-all.png`
+- `f-07-form-submissions-export-all.png`
+- `f-08-form-field-settings.png`
+- `f-10-page-indexing-settings.png`
+- `f-11-page-indexing-settings.png`
+- `g-00-settings-troubleshooting-check.png`
+- `work-02-cms-items-full-list.png`
+
+今回の追加画像に含まれない `d-05-clean-up-assets-menu.png` と `f-09-invite-member-role-modal.png` は未撮影です。

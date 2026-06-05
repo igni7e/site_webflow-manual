@@ -49,9 +49,9 @@ Webflow上で保存しても、Google検索結果やSNSのプレビューはす�
 6. ページ下部の <strong>Save Changes</strong> をクリック
 7. <strong>Designer モードを開いて Publish</strong> することで、サイトに反映されます
 
-:::note[キャプチャー差し込み位置]
-Project Settings > General の `Favicon & Webclip` セクションをここに追加します。保存ファイル名は `src/assets/captures/manual/d-10-favicon-webclip-settings.png`。Favicon（32×32px）とWebclip（256×256px）のUploadボタンが見える状態で撮影してください。
-:::
+![FaviconとWebclipのUpload設定](../../../assets/captures/manual/d-10-favicon-webclip-settings.png)
+
+*実画面例: FaviconとWebclipは、Project SettingsのGeneral内でそれぞれアップロードします。*
 
 ## 4. 反映確認
 

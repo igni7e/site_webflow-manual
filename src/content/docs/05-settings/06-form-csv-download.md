@@ -44,9 +44,9 @@ Webflowのフォームから送信されたデータは、管理画面で個別�
 
     ![Forms一覧・Submissions](../../../assets/captures/manual/f-02-forms-list-and-submissions.png)
 
-    :::note[キャプチャー指示]
-    Forms > Contact form > Submissions 画面で `Export all` が見える状態を撮影してください。保存ファイル名は `src/assets/captures/manual/f-06-form-submissions-export-all.png`。送信者の氏名、メールアドレス、問い合わせ本文が写らないようにし、Export all / Report spam / Delete の位置関係が分かる画角にしてください。
-    :::
+    ![Submissions画面のExport allボタン](../../../assets/captures/manual/f-07-form-submissions-export-all.png)
+
+    *実画面例: `Export all` から、フォーム送信データをCSVでまとめてダウンロードできます。*
 
 
 6.  ダウンロードの開始:

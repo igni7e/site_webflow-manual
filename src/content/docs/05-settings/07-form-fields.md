@@ -52,6 +52,10 @@ sidebar:
 5. 必要に応じて <strong>Required（必須）</strong> をONに
 6. <strong>Publish</strong> して公開
 
+![フォーム項目のField設定](../../../assets/captures/manual/f-08-form-field-settings.png)
+
+*実画面例: フォーム項目を選択すると、Field nameやRequiredなどの設定を確認できます。*
+
 ## 4. 項目を削除する手順
 
 1. Designer でフォーム内の削除したい入力欄をクリック

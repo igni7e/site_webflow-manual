@@ -45,7 +45,7 @@ Webflowでは、Workspace roleとSite roleによってできることが変わ�
    ![メンバーと役割の一覧](../../../assets/captures/manual/f-04-members-and-roles.png)
 
    :::note[キャプチャー指示]
-   既存画像と重複しないよう、Invite member / Invite client の招待モーダル、SeatとSite roleで `Content editor` を選ぶ画面、または `Can publish` トグルが見える画面を撮影してください。保存ファイル名は `src/assets/captures/manual/f-08-invite-member-role-modal.png`。メールアドレスなどの個人情報は写さないでください。
+   既存画像と重複しないよう、Invite member / Invite client の招待モーダル、SeatとSite roleで `Content editor` を選ぶ画面、または `Can publish` トグルが見える画面を撮影してください。保存ファイル名は `src/assets/captures/manual/f-09-invite-member-role-modal.png`。メールアドレスなどの個人情報は写さないでください。
    :::
 
 3. 招待相手のメールアドレスを入力します。

@@ -42,6 +42,10 @@ sidebar:
 
     ![Form通知メール設定](../../../assets/captures/manual/f-03-email-notification-settings.png)
 
+    ![フォーム通知先メールアドレス設定](../../../assets/captures/manual/f-06-form-submissions-export-all.png)
+
+    *実画面例: `Send form submissions to` の欄で、フォーム送信通知を受け取るメールアドレスを確認します。*
+
 6.  <strong>メールアドレスを編集:</strong>
     -   既存のメールアドレスを削除したい場合は、そのメールアドレスの右側にある「×」アイコンをクリックします。
     -   新しいメールアドレスを追加したい場合は、「<strong>Add email address</strong>」ボタンをクリックし、表示された入力欄に新しいメールアドレスを入力します。

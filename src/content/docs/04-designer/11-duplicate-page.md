@@ -34,9 +34,9 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 7. 必要箇所をテキスト・画像差し替えで編集
 8. <strong>Publish</strong> で公開
 
-:::note[キャプチャー差し込み位置]
-Pagesパネルで対象ページを右クリックし、`Duplicate` が表示されている画面をここに追加します。保存ファイル名は `src/assets/captures/manual/d-11-page-duplicate-menu.png`。複製を実行する前のメニュー表示状態で撮影してください。
-:::
+![PagesパネルのDuplicateメニュー](../../../assets/captures/manual/d-11-page-duplicate-menu.png)
+
+*実画面例: 対象ページのメニューから `Duplicate` を選ぶと、既存ページを複製できます。*
 
 ## 3. 複製後にやるべきこと
 

@@ -32,9 +32,9 @@ Designerはサイト全体の見た目や構造を変更できる画面です。
 
 ![Asset Panelまたはロゴ画像選択](../../../assets/captures/manual/d-03-assets-and-logo.png)
 
-:::note[キャプチャー指示]
-Navigatorから画像を選び、Image settingsで `Replace Image` が見える状態を撮影してください。保存ファイル名は `src/assets/captures/manual/d-05-asset-panel-replace-image.png`。左側のAssets Panel、対象画像、Replace Imageの入口が分かる画角にし、未公開画像や個人情報は写さないでください。
-:::
+![Image settingsでReplace Imageが見える状態](../../../assets/captures/manual/d-05-asset-panel-replace-image.png)
+
+*実画面例: 画像を選択すると、Settingsパネルから `Replace Image` を使って差し替えできます。*
 
 クリックすると、画面の左側にアセットパネルが開き、アップロード済みの画像などが一覧で表示されます。
 
@@ -60,9 +60,9 @@ Navigatorから画像を選び、Image settingsで `Replace Image` が見える�
 2. <strong>Used on X pages</strong> を確認し、使用中のページがないかを見ます。
 3. 使われていない画像だけ、赤い <strong>Delete</strong> ボタンで削除します。
 
-:::note[キャプチャー差し込み位置]
-画像の設定アイコンから `Used on X pages` と赤い `Delete` ボタンが見える画面をここに追加します。保存ファイル名は `src/assets/captures/manual/d-05-asset-delete-used-on-pages.png`。削除対象が実際に不要な画像か確認した上で、削除実行前の状態を撮影してください。
-:::
+![AssetのUsed on確認とDeleteボタン](../../../assets/captures/manual/d-05-asset-delete-used-on-pages.png)
+
+*実画面例: 削除前に `Used on` の表示を確認し、使用中の画像を消さないようにします。*
 
 ### 一括クリーンアップ機能
 

@@ -40,9 +40,9 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 2. 表示される設定パネルの <strong>「Alt text」</strong> または <strong>「代替テキスト」</strong> 欄に説明を入力
 3. Save をクリック
 
-:::note[キャプチャー差し込み位置]
-本文に挿入した画像の `Alt text` 入力欄をここに追加します。保存ファイル名は `src/assets/captures/manual/c-22-body-image-alt-settings.png`。本文エディタ内の画像を選択し、Alt text欄が表示されている状態で撮影してください。
-:::
+![本文画像のAlt text入力欄](../../../assets/captures/manual/c-22-body-image-alt-settings.png)
+
+*実画面例: 本文内の画像を選択し、画像の内容を説明するAlt textを入力します。*
 
 ### アイキャッチ画像（サムネイル）の場合
 
@@ -50,9 +50,9 @@ CMS記事は、いきなり公開せず下書き状態でタイトル、本文�
 2. <strong>「Alt text」</strong> 欄に説明を入力
 3. 記事を保存（Save Draft または Publish）
 
-:::note[キャプチャー差し込み位置]
-アイキャッチ画像（サムネイル）の `Alt text` 入力欄をここに追加します。保存ファイル名は `src/assets/captures/manual/c-22-thumbnail-alt-settings.png`。CMS itemのアイキャッチ画像フィールドを開き、Alt text欄が表示されている状態で撮影してください。
-:::
+![サムネイル画像のAlt text入力欄](../../../assets/captures/manual/c-22-thumbnail-alt-settings.png)
+
+*実画面例: アイキャッチ画像にも、画像の目的が分かる短いAlt textを設定します。*
 
 ## 4. 良い alt の書き方
 

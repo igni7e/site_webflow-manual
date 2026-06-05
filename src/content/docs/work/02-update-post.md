@@ -33,9 +33,9 @@ CMSは「決まった項目に入力して記事を作る場所」です。ペ�
 
 ![記事を探すCMSアイテム一覧](../../../assets/captures/manual/c-18-cms-items-status-list.png)
 
-:::note[キャプチャー指示]
-CMS Collections（Blog）の記事一覧が画面全体で見える状態を撮影してください。保存ファイル名は `src/assets/captures/manual/work-02-cms-items-full-list.png`。撮影直前の状態は、Blog CollectionのItems一覧を開き、テーブルの見出し・記事行・左メニューが表示されている状態です。Loading、スピナー、個人情報、未公開の詳細本文は写さないでください。
-:::
+![CMS Collectionsの記事一覧画面](../../../assets/captures/manual/work-02-cms-items-full-list.png)
+
+*実画面例: Blog CollectionのItems一覧で、記事のステータスや更新対象を確認します。*
 
 5. タイトル、Slug、本文、画像、カテゴリーを入力します。
 6. 下書き保存して内容を確認します。

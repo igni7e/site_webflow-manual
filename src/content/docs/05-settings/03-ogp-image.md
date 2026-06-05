@@ -40,9 +40,9 @@ OGP画像は、ページ設定またはCMS itemの <strong>Open Graph Settings</
 3.  ページ一覧が表示されるので、設定を変更したいページにカーソルを合わせ、表示される<strong>歯車アイコン（Settings）</strong>をクリックします。
 4.  ページ設定パネルが開きます。その中の<strong>「Open Graph Settings」</strong>というセクションに<strong>「Open Graph Image」</strong>という項目があります。ここが設定場所です。
 
-:::note[キャプチャー差し込み位置]
-Page Settings内の `Open Graph Settings` と `Open Graph Image` 項目をここに追加します。保存ファイル名は `src/assets/captures/manual/f-03-open-graph-image-setting.png`。ページ名、Open Graph Image欄、Uploadまたは画像選択の入口が分かる状態で撮影してください。
-:::
+![Open Graph Imageの設定欄](../../../assets/captures/manual/f-03-open-graph-image-setting.png)
+
+*実画面例: Page SettingsのOpen Graph Settingsで、SNS表示用の画像を設定します。*
 
 ### CMSページ（ブログ記事、お知らせなど）の場合
 
